@@ -126,7 +126,7 @@ export async function buildApp(options = {}) {
             }
             catch (error) {
                 app.log.error({ err: error }, 'Tất toán sự kiện LOCAL chưa hoàn tất; sẽ thử lại.');
-            } }, 10000); timer.unref(); });
+            } }, 30000); timer.unref(); });
             app.addHook('onClose', async () => { if (timer)
                 clearInterval(timer); });
         }
@@ -137,7 +137,7 @@ export async function buildApp(options = {}) {
             }
             catch (error) {
                 app.log.error({ err: error }, 'Worker Aether chưa kết toán; giữ nguyên dữ liệu.');
-            } }, 1000); timer.unref(); });
+            } }, 15000); timer.unref(); });
             app.addHook('onClose', async () => { if (timer)
                 clearInterval(timer); });
         }

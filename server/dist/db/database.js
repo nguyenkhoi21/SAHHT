@@ -38,8 +38,19 @@ export async function flushTursoWrites() {
             }
             catch (err) {
                 console.error('Turso async batch sync error:', err?.message ?? err);
-                pendingWrites.unshift(...batch);
-                break;
+                if (batch.length > 1) {
+                    for (const stmt of batch) {
+                        try {
+                            await client.execute(stmt);
+                        }
+                        catch (singleErr) {
+                            console.error('Turso skipped failing stmt:', singleErr?.message ?? singleErr);
+                        }
+                    }
+                }
+                else {
+                    break;
+                }
             }
         }
     })();
@@ -68,7 +79,7 @@ export function openDatabase(path) {
         syncDb.close();
         syncedPaths.add(path);
         if (!flushTimer) {
-            flushTimer = setInterval(() => { void flushTursoWrites(); }, 2000);
+            flushTimer = setInterval(() => { void flushTursoWrites(); }, 5000);
             flushTimer.unref?.();
         }
     }
@@ -93,12 +104,13 @@ export function openDatabase(path) {
         const enqueue = (sql, args = []) => {
             if (!isMutatingSql(sql))
                 return;
+            const cleanArgs = args.map(v => v === undefined ? null : v);
             if (db.isTransaction) {
                 txBuffer ??= [];
-                txBuffer.push({ sql, args });
+                txBuffer.push({ sql, args: cleanArgs });
             }
             else {
-                pendingWrites.push({ sql, args });
+                pendingWrites.push({ sql, args: cleanArgs });
             }
         };
         const origPrepare = db.prepare.bind(db);
