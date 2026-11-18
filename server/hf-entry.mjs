@@ -1,9 +1,7 @@
 import { buildApp } from './dist/app.js';
 import { runtimeConfig } from './dist/system/runtime.js';
-import { upgradeOffline } from './upgrade-offline.mjs';
 
 const runtime = runtimeConfig();
-await upgradeOffline(runtime.database);
 
 const port = Number(process.env.PORT ?? 7860);
 const app = await buildApp({
