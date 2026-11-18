@@ -1,0 +1,29 @@
+{
+  "revision": "phase31-vn-combat-v1",
+  "visualTransitions": [
+    {
+      "heroId": 84500,
+      "skinId": 442000,
+      "model": "vegettopf",
+      "sourceSlot": 5,
+      "skillId": 77070,
+      "scripts": [
+        "vegetto_s7",
+        "vegettopf_s7"
+      ],
+      "state": 1,
+      "source": {
+        "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegettopf/vegettopf_s7.lua",
+        "sha256": "790e8a012b0d2c391c5ca97fc29c2747c03b3743db9a4646eb6b4d94afcc1aa3"
+      },
+      "requiredRebirthForAttributes": 7,
+      "notice": "Lua đặt aniState1 khi skill5 Siêu mở; mốc CS7 chỉ điều khiển hiệu ứng tăng cường, không tự thêm gate visual."
+    }
+  ],
+  "persistentPlaybackScripts": [
+    "beijita.beijita_s8",
+    "beijita2.beijita2_s8",
+    "vegettopf.vegetto_s7",
+    "vegettopf.vegettopf_s7"
+  ]
+}

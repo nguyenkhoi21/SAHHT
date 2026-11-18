@@ -1,0 +1,10 @@
+{
+  "source": "VN runtime, chỉ dùng môi trường local",
+  "files": {
+    "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccb/ui_vip_2.ccbi": "d787eb1f7422775ced4ef3ad1ff28b5b294851c4bf18ee21c7cc76dd73061ed8",
+    "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccb/ui_game_gacha4.ccbi": "5ca70d66ef14a2c9f8512d8d507801c051302ed5b0632527093a1ae5fcd2982b",
+    "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccbResources/ui_vip.plist": "f8c2f510b3772061ac98396a99fb521bef4fdb68f57dbba7fa099ee6144014bb",
+    "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccbResources/ui_vip-hd.pvr.ccz": "5908d7dac899a0d5c4169e7dc3e705f0db31d20439b8f9950d57a0de8acab98f",
+    "work/runtime-content/lua/game_ui/game_vip_shop.lua": "1939b01295677ad5fe5e628c5381fa842a5b376ca86f0464eff1416e28e166ec"
+  }
+}

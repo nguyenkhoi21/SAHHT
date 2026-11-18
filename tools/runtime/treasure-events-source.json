@@ -1,0 +1,37 @@
+{
+  "one_piece": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/one_piece.config",
+    "sourceSha256": "e3851bc4e0aa64c71baee1c73cc518e6f2b9c20eba7bf4464cd2dc8f64e0449b",
+    "sha256": "d99d802c9b92cf1db7f59ced8dabf1ae6ae71ffcc9e7ff6a46f099033f824c78"
+  },
+  "one_piece_rate": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/one_piece_rate.config",
+    "sourceSha256": "e7a127ac3bb049119958f7a1e7c6d49ee940cf4ebf1c9f838c7bb2187eade33f",
+    "sha256": "d4bf0e2fa1e0b17994073f6f194917f68c476d8f56db711e4385708c17224691"
+  },
+  "one_piece_exchange": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/one_piece_exchange.config",
+    "sourceSha256": "49288d8292ab6fc9aa6a1c31a0ba6920b91d49d8fce4697e446365fc02b194cd",
+    "sha256": "b9067f625b7e9d92a1e5f6ec215ca2d62c7253bfcacc7c7e997737d974eea12b"
+  },
+  "one_piece_rank_reward": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/one_piece_rank_reward.config",
+    "sourceSha256": "f0f0bcd425bca1322dcd28128b42c97e7e9ba694d14cbe6abf735442a34a03f5",
+    "sha256": "a7cacdc63fb8d0443224704c607ecf8c08b6d41b8a84c433856866e9cd50ffc7"
+  },
+  "new_roulette_diamond": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/new_roulette_diamond.config",
+    "sourceSha256": "ce6000eef976cb5378c5593613e9fc0774716d9e9955292c7cfb66787dfcf401",
+    "sha256": "132928bf95d8f5baa7293d186c91299dbf8495c173dd0fe4e84121d7f0ee8ea7"
+  },
+  "new_roulette_item": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/new_roulette_item.config",
+    "sourceSha256": "954a11b85c320e4e29fd550ae5f5765b72edd0bdb71cf72fe4192f4691fe5a3a",
+    "sha256": "2cda2573a185b2796213e61cacf82ff7fd7e8c8487de08731d1dba352400c4d1"
+  },
+  "clone_lane": {
+    "source": "com.kaiqigu.cjyxyn.kvsdk/files/config/clone_lane.config",
+    "sourceSha256": "fd83bbf9b821fcd94331121f0a7656fb0325681c429860bb374206ac9b7149d4",
+    "sha256": "979854f6b5bb4fc25b53ec113922acc8ddfaa57eeb6f226dade67266ef3acba0"
+  }
+}

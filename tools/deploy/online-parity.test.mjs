@@ -1,0 +1,107 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtempSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { buildApp } from '../../server/dist/app.js';
+import { AuthService } from '../../server/dist/auth/auth.service.js';
+import { PlayerService } from '../../server/dist/player/player.service.js';
+import { AdminAuth } from '../../server/dist/admin/admin.auth.js';
+import { installWelfareSchema } from '../../server/dist/welfare/welfare-migration.js';
+import { installRechargeSettings } from '../../server/dist/recharge/recharge-settings.js';
+import { installPlayerSystems } from '../../server/dist/player-systems/player-systems-migration.js';
+import { sourceDefinition } from '../../server/dist/welfare/welfare-source.js';
+import { installRegistrationRateLimit } from '../../server/dist/auth/registration-rate-limit.js';
+import { installRegistrationAccountCapacity } from '../../server/dist/auth/registration-account-capacity.js';
+test('ONLINE: Phúc Lợi/Nạp vé/Siêu Kho/Danh Hiệu; replay, auth, Admin, QA bị khóa và persistence', async () => {
+    const path = join(mkdtempSync(join(tmpdir(), 'sahht-online-parity-')), 'synthetic.db'), auth = new AuthService(path), password = 'Parity_Synthetic_2026';
+    let app;
+    try {
+        installWelfareSchema(auth.db);
+        installRechargeSettings(auth.db);
+        installPlayerSystems(auth.db);
+        installRegistrationRateLimit(auth.db);
+        installRegistrationAccountCapacity(auth.db);
+        const admins = new AdminAuth(auth.db);
+        await admins.create('parity_owner', password);
+        await admins.create('parity_viewer', password, 'VIEWER');
+        await auth.register('qa_welfare_online', password);
+        const login = await auth.login('qa_welfare_online', password), s = auth.session(login.sessionToken), players = new PlayerService(auth.db);
+        await players.ensure(s);
+        auth.db.prepare("UPDATE player_state SET profile=json_set(profile,'$.ticket',30,'$.level',100)").run();
+        auth.db.prepare('INSERT INTO player_items VALUES(?,?,?)').run(s.user_id, 1, 5);
+        auth.db.prepare('INSERT INTO welfare_qa_players VALUES(?,?,?)').run(s.user_id, 100 * 86400000, Date.now());
+        const origin = 'https://103.90.227.23', start = () => buildApp({ localAuth: true, accountDb: path, online: true, onlineUnified: true, publicOrigin: origin, adminOrigin: origin });
+        app = await start();
+        const mk = auth.issueGameToken(s), game = (method, extra = {}) => app.inject('/api/?' + new URLSearchParams({ rans: login.sessionToken, user_token: s.game_uid, mk, method, ...extra }));
+        const signin = async (username) => { const r = await app.inject({ method: 'POST', url: '/admin/api/login', headers: { host: '103.90.227.23', origin }, payload: { username, password } }); assert.equal(r.statusCode, 200, r.body); return { host: '103.90.227.23', origin, cookie: String(r.headers['set-cookie']).split(';')[0], 'x-csrf-token': r.json().csrfToken }; };
+        let owner = await signin('parity_owner');
+        const viewer = await signin('parity_viewer');
+        const get = (url, headers = owner) => app.inject({ url: '/admin/api/' + url, headers });
+        const post = (url, payload, headers = owner) => app.inject({ method: 'POST', url: '/admin/api/' + url, headers, payload });
+        for (const m of ['user.main_page', 'cards.open', 'notify.messages', 'vip_reward.sign_index', 'daily_award.all_reward', 'pay_award.index', 'hot.recharge_info', 'storehouse.index', 'user.title_index', 'active.active_show'])
+            assert.equal((await game(m)).json().status, '0', m);
+        assert.equal((await app.inject('/api/?method=pay_award.index')).statusCode, 403);
+        assert.equal((await game('pay_award.index', { user_token: 'foreign' })).statusCode, 403);
+        const daily = (await game('daily_award.all_reward')).json().data;
+        assert.equal(Object.keys(daily.daily_config).length, 25);
+        assert.equal(daily.server_day, new Date(Date.now() + 7 * 3600000).toISOString().slice(0, 10));
+        const claim = { welfare_schema: '1', reward: '1', request_id: 'online-daily-once' };
+        const [first, retry] = await Promise.all([game('daily_award.get_reward', claim), game('daily_award.get_reward', claim)]);
+        assert.equal(first.json().status, '0', first.body);
+        assert.equal(retry.json().data.replayed, true);
+        assert.notEqual((await game('daily_award.get_reward', { ...claim, request_id: 'online-daily-again' })).json().status, '0');
+        for (const [id, cost, kind] of [['1', '5', 'month'], ['13', '11', 'quarter']]) {
+            const params = { package_id: id, payment_method: 'voucher', sandbox_confirm: '1', price_mode: 'fixed', expected_tickets: cost, request_id: 'online-purchase-' + kind };
+            const bought = await game('hot.recharge_buy', params);
+            assert.equal(bought.json().status, '0', bought.body);
+            assert.equal(bought.json().data.recharge.consumedTickets, Number(cost));
+            assert.equal((await game('hot.recharge_buy', params)).json().data.replayed, true);
+            const card = (await game('pay_award.index')).json().data[kind + '_award'];
+            assert.equal(card.active, true);
+            assert.equal(Object.keys(card.reward).length, kind === 'month' ? 21 : 90);
+            const params2 = { welfare_schema: '1', tp: kind, request_id: 'online-card-' + kind };
+            const reward = await game('pay_award.get_award', params2);
+            assert.equal(reward.json().status, '0', reward.body);
+            assert.equal((await game('pay_award.get_award', params2)).json().data.replayed, true);
+            assert.notEqual((await game('pay_award.get_award', { ...params2, request_id: 'online-card-twice-' + kind })).json().status, '0');
+        }
+        assert.equal(players.profile(s, {}).ticket, 14);
+        assert.notEqual((await game('hot.recharge_buy', { package_id: '3', payment_method: 'sandbox', sandbox_confirm: '1', request_id: 'online-forged-free' })).json().status, '0');
+        assert.equal(players.profile(s, {}).ticket, 14);
+        const stored = { item_id: '1', num: '2', request_id: 'online-store-once' };
+        assert.equal((await game('storehouse.store_item', stored)).json().status, '0');
+        assert.equal((await game('storehouse.store_item', stored)).json().data.replayed, true);
+        assert.equal((await game('storehouse.index')).json().data.storehouse.items['1'], 2);
+        assert.equal((await post('player-systems/players/' + s.user_id + '/title', { confirmed: true, titleId: 1, expiresAt: -1, revoke: false })).statusCode, 200);
+        assert.equal((await game('user.use_title', { title_id: '1', request_id: 'online-use-title' })).json().data.cur_title, 1);
+        assert.match((await game('user.main_page')).json().user_status.public_id, /^vn\d{8}$/);
+        for (const endpoint of ['welfare/overview', 'welfare/configs', 'welfare/history', 'hot/calendar', 'hot/cards', 'hot/ticket-prices', 'registration-security', 'player-systems/players', 'player-systems/servers'])
+            assert.equal((await get(endpoint)).statusCode, 200, endpoint);
+        assert.equal((await get('welfare/overview', { ...owner, cookie: '' })).statusCode, 401);
+        const draft = { confirmed: true, requestId: 'online-draft-save', definition: sourceDefinition('daily') };
+        assert.equal((await post('welfare/draft', draft, viewer)).statusCode, 403);
+        assert.equal((await post('welfare/draft', draft, { ...owner, 'x-csrf-token': '' })).statusCode, 403);
+        const saved = await post('welfare/draft', draft);
+        assert.equal(saved.statusCode, 200, saved.body);
+        assert.equal((await post('welfare/manage', { confirmed: true, requestId: 'online-config-run', action: 'run', id: saved.json().id, revision: 1 })).statusCode, 200);
+        assert.equal((await game('daily_award.all_reward')).json().data.active_config_id, saved.json().id);
+        assert.equal((await post('welfare/qa', { confirmed: true, requestId: 'online-forbidden-qa', action: 'activate', userId: s.user_id, kind: 'month' })).statusCode, 403);
+        assert.equal((await app.inject('/debug/state')).statusCode, 403);
+        const counts = auth.db.prepare('SELECT COUNT(*) n FROM welfare_claims').get().n;
+        await app.close();
+        app = await start();
+        owner = await signin('parity_owner');
+        assert.equal((await game('pay_award.index')).json().data.month_award.days, 1);
+        assert.equal((await game('storehouse.index')).json().data.storehouse.items['1'], 2);
+        assert.equal((await game('user.title_index')).json().data.cur_title, 1);
+        assert.equal(auth.db.prepare('SELECT COUNT(*) n FROM welfare_claims').get().n, counts);
+        assert.equal((await game('daily_award.get_reward', claim)).json().data.replayed, true);
+        assert.equal(auth.db.prepare('PRAGMA integrity_check').get().integrity_check, 'ok');
+        assert.deepEqual(auth.db.prepare('PRAGMA foreign_key_check').all(), []);
+    }
+    finally {
+        await app?.close();
+        auth.close();
+    }
+});

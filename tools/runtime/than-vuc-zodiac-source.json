@@ -1,0 +1,29 @@
+{
+  "revision": "than-vuc-zodiac-vn-v1",
+  "tables": {
+    "constellationfight_position": {
+      "path": "work/apk/assets/config/constellationfight_position.config",
+      "sha256": "8cef8b2a61e3cc6fb344a341d5061a9f93ea6acbb2c106fe13394d5ccdf37b9c",
+      "parsedPath": "work/than-vuc/configs/constellationfight_position.json",
+      "parsedSha256": "eab01d9215019f9415926a2461a534974043a721cd7738b76b02e08b94202e18",
+      "rows": 720,
+      "status": "SOURCE VERIFIED"
+    },
+    "constellation_boss": {
+      "path": "work/apk/assets/config/constellation_boss.config",
+      "sha256": "d6c1b9b56fb3b5977fa0c2fbe15ef005f63ec6e0fb6dd350970f3425174a59e1",
+      "parsedPath": "work/than-vuc/configs/constellation_boss.json",
+      "parsedSha256": "d16fab3501302ea946df95f5f21227391e889229d621601f95b2bcc8c66bfdb1",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "constellation_reward_daily": {
+      "path": "work/apk/assets/config/constellation_reward_daily.config",
+      "sha256": "ad41b36207a9f68866f5d74cbc843295a282c89c2074552c33bfed12c635d681",
+      "parsedPath": "work/than-vuc/configs/constellation_reward_daily.json",
+      "parsedSha256": "e705caa89c37fca3871771726719991cf95192f92d68990c8945eb8f41ab0405",
+      "rows": 63,
+      "status": "SOURCE VERIFIED"
+    }
+  }
+}

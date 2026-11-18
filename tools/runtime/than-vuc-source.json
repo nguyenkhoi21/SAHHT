@@ -1,0 +1,4133 @@
+{
+  "revision": "than-vuc-vn-v1",
+  "scripts": {
+    "game_config.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_config.lua",
+      "sha256": "2ca2906e0246b378f03571d7fe3b53e42a57ae804921f961687b179ad858d006",
+      "decodedSha256": "962a65a4d64ec61a32406c2334a1419ac0fdfbb4c0fb22f3ae7ae233fd80abf0",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_data.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_data.lua",
+      "sha256": "8d3af87127d5aee79f29cbce61263829ed3aeba1c290f56a858985782898e2a7",
+      "decodedSha256": "9f38edf9630c579122aeefd1d02ebdc15d2aa14cc7514dc072b6ba5d6f4ca7b5",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_pop/game_god_Star_employ.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_Star_employ.lua",
+      "sha256": "4e03b893c98f9667df807dd9c8e093cd617bafdb219f8e9e4765a6a69066e594",
+      "decodedSha256": "4e03b893c98f9667df807dd9c8e093cd617bafdb219f8e9e4765a6a69066e594",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_Star_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_Star_pop.lua",
+      "sha256": "25d19377e53d67d57b3c44d3efe0174b26c05bf4038924ce8ba88854a4722912",
+      "decodedSha256": "25d19377e53d67d57b3c44d3efe0174b26c05bf4038924ce8ba88854a4722912",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_append_soul.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_append_soul.lua",
+      "sha256": "5ede520853189a21f8f7cea3b13bf0ba89f72668dfb9a536040be98e7233d268",
+      "decodedSha256": "5ede520853189a21f8f7cea3b13bf0ba89f72668dfb9a536040be98e7233d268",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_dart_battle_result.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_dart_battle_result.lua",
+      "sha256": "d3d6f1fdaeccd858b84dcfffc0111c67e2dc52f3b07ef0cc7749e595260f603e",
+      "decodedSha256": "d3d6f1fdaeccd858b84dcfffc0111c67e2dc52f3b07ef0cc7749e595260f603e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_enemy_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_enemy_pop.lua",
+      "sha256": "7fbdb0e6f574b2fce141d06cde1b123d5934f402c95c69f8d552b015a2581de4",
+      "decodedSha256": "7fbdb0e6f574b2fce141d06cde1b123d5934f402c95c69f8d552b015a2581de4",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_equip_select_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_equip_select_pop.lua",
+      "sha256": "43c1edaec7dead5e73cde0f3303637d8250839273409f04792681f2187524315",
+      "decodedSha256": "43c1edaec7dead5e73cde0f3303637d8250839273409f04792681f2187524315",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_achieve.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_achieve.lua",
+      "sha256": "ae2b63a01a394c1b1e512f6fe995a70b2737b53e4b69b489526abd2a65c19a3f",
+      "decodedSha256": "ae2b63a01a394c1b1e512f6fe995a70b2737b53e4b69b489526abd2a65c19a3f",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_detail.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_detail.lua",
+      "sha256": "a67c2e6c2ba2e1ab1864d93071b52e6734cc4380e27bd26d432a681c98b35ce1",
+      "decodedSha256": "a67c2e6c2ba2e1ab1864d93071b52e6734cc4380e27bd26d432a681c98b35ce1",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_exchange.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_exchange.lua",
+      "sha256": "30c199d5787e16fb94fb20a452154400c68ef876b8586511eb93d9895da8b68a",
+      "decodedSha256": "30c199d5787e16fb94fb20a452154400c68ef876b8586511eb93d9895da8b68a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_exchange_confirm.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_exchange_confirm.lua",
+      "sha256": "c193eeda137ce88fe329a9ef38ddbf76c17c1d72e12761527aa9c1c5e7354309",
+      "decodedSha256": "c193eeda137ce88fe329a9ef38ddbf76c17c1d72e12761527aa9c1c5e7354309",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_helper.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_helper.lua",
+      "sha256": "47bef51c11e3f640754a405d7b039024f9cff427a6b88a9d2bdd2d86682d5fd9",
+      "decodedSha256": "47bef51c11e3f640754a405d7b039024f9cff427a6b88a9d2bdd2d86682d5fd9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_notice.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_notice.lua",
+      "sha256": "73fa74cf48f743ad835f4fcf494cefebf1a727a9b1977e05a4a09846ba003630",
+      "decodedSha256": "73fa74cf48f743ad835f4fcf494cefebf1a727a9b1977e05a4a09846ba003630",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_power_change.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_power_change.lua",
+      "sha256": "236988efbdcba3ee3b19528f161b58f48cb473434a5faa3c2688e0b80bd0b1e9",
+      "decodedSha256": "236988efbdcba3ee3b19528f161b58f48cb473434a5faa3c2688e0b80bd0b1e9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_rank.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_rank.lua",
+      "sha256": "e4a4f0f8cd04ada4a9f9e7e786050d051581f19905de1a7140c9675f87dc3eb9",
+      "decodedSha256": "e4a4f0f8cd04ada4a9f9e7e786050d051581f19905de1a7140c9675f87dc3eb9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_shop_buy.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_shop_buy.lua",
+      "sha256": "f664906f1f646385c42130bcbcbde191ce843a36fbc25c597373c26e36d71e9d",
+      "decodedSha256": "f664906f1f646385c42130bcbcbde191ce843a36fbc25c597373c26e36d71e9d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_spaceRoute.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_spaceRoute.lua",
+      "sha256": "b524be8e406d1f4f8a65c66f150cab0a00eb50b57b1acf3fc81f2cfd2bf5aa10",
+      "decodedSha256": "b524be8e406d1f4f8a65c66f150cab0a00eb50b57b1acf3fc81f2cfd2bf5aa10",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_voyagePre.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_voyagePre.lua",
+      "sha256": "7b6f6ed71314e68fab1abf2c960e22222932000306498b65230a55344ef51f28",
+      "decodedSha256": "7b6f6ed71314e68fab1abf2c960e22222932000306498b65230a55344ef51f28",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_voyagePreAssist.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_voyagePreAssist.lua",
+      "sha256": "a646ffad87bd00bbbed599fe6a78f66c6976bd964f98a0531bb9dfc38a367ebc",
+      "decodedSha256": "a646ffad87bd00bbbed599fe6a78f66c6976bd964f98a0531bb9dfc38a367ebc",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_voyageRest.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_voyageRest.lua",
+      "sha256": "0d302040ab0fd7bd0aca9806051a54ef07b00bf0c45b36f4da25aa5c77739ff8",
+      "decodedSha256": "0d302040ab0fd7bd0aca9806051a54ef07b00bf0c45b36f4da25aa5c77739ff8",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_voyageReward.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_voyageReward.lua",
+      "sha256": "bb2e31f6578cddc5bfb6c3204f007a9f05599437db727fb564b398472e40190a",
+      "decodedSha256": "bb2e31f6578cddc5bfb6c3204f007a9f05599437db727fb564b398472e40190a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_escort_voyageSprint.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_escort_voyageSprint.lua",
+      "sha256": "fb1dafe8d5534971d4804fa39d0455f97b8d268191a9581554b29dd560233343",
+      "decodedSha256": "fb1dafe8d5534971d4804fa39d0455f97b8d268191a9581554b29dd560233343",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_hero_select_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_hero_select_pop.lua",
+      "sha256": "6592857fad56fd37b58bc81c4c0e232c44f3eac3d9577679a18ea7b4184ca19a",
+      "decodedSha256": "6592857fad56fd37b58bc81c4c0e232c44f3eac3d9577679a18ea7b4184ca19a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_magic_select_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_magic_select_pop.lua",
+      "sha256": "42850c726b43157ca9c22d2a74d7a83187fb6e5f7789d5f89198835ce371fce2",
+      "decodedSha256": "42850c726b43157ca9c22d2a74d7a83187fb6e5f7789d5f89198835ce371fce2",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_medal_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_medal_pop.lua",
+      "sha256": "307c9c4f08e2a2410634dabc4985caad67be63efeb9638445abb2d581c15e522",
+      "decodedSha256": "307c9c4f08e2a2410634dabc4985caad67be63efeb9638445abb2d581c15e522",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_palace_battle_log.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_palace_battle_log.lua",
+      "sha256": "5e9cdf6a6cfe1265aefcfbed186659c45d5693d8778e3f6e43ef5fd2dba087b8",
+      "decodedSha256": "5e9cdf6a6cfe1265aefcfbed186659c45d5693d8778e3f6e43ef5fd2dba087b8",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_god_pvp_hero_sel_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_god_pvp_hero_sel_pop.lua",
+      "sha256": "a79513c6fef59892b4838c119e598e2960b9b688c5c90d9f468917d8d5029c03",
+      "decodedSha256": "a79513c6fef59892b4838c119e598e2960b9b688c5c90d9f468917d8d5029c03",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_Star_shippop.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_pop/game_godfield_Star_shippop.lua",
+      "sha256": "c7157cfb80abd4bda327e3921976b5aa8ed40c44cee27064762a714203881ba2",
+      "decodedSha256": "d1209a125b484060c913dd1b5ed27e570617a2f6b8498b41df9e65c1e607ed75",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_pop/game_godfield_Star_zhenxing.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_Star_zhenxing.lua",
+      "sha256": "78855bc2c624495a25460e70dafd89991e60358f3c69935ab1dc4b11ef8e865b",
+      "decodedSha256": "78855bc2c624495a25460e70dafd89991e60358f3c69935ab1dc4b11ef8e865b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_arean_enemy_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_arean_enemy_pop.lua",
+      "sha256": "3326154acd955891b6eae4d3d37a60e481a5bee31e2e4330a4e96f63d5372dfb",
+      "decodedSha256": "3326154acd955891b6eae4d3d37a60e481a5bee31e2e4330a4e96f63d5372dfb",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_arena_success.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_arena_success.lua",
+      "sha256": "4f4cfe7201c736412ab71d7f8ef4512b95d14274e460433abe22f7602f29a840",
+      "decodedSha256": "4f4cfe7201c736412ab71d7f8ef4512b95d14274e460433abe22f7602f29a840",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_arena_up.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_arena_up.lua",
+      "sha256": "d90b5ad8efa8995f5c77944275db961690c3d286bd07c100f637ef34ded4a2dc",
+      "decodedSha256": "d90b5ad8efa8995f5c77944275db961690c3d286bd07c100f637ef34ded4a2dc",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_battleNews.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_battleNews.lua",
+      "sha256": "fe389cbd857c8568570dccef89fa30f074a53a3df35e7c770f32e32b104739ee",
+      "decodedSha256": "fe389cbd857c8568570dccef89fa30f074a53a3df35e7c770f32e32b104739ee",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_des_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_des_pop.lua",
+      "sha256": "9da0a872eb8ebc6864518e42a1af84a94f5868ed6e19cff7c7ce23c17d3eb305",
+      "decodedSha256": "9da0a872eb8ebc6864518e42a1af84a94f5868ed6e19cff7c7ce23c17d3eb305",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_hire_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_hire_pop.lua",
+      "sha256": "fb8245e2d93d567206099d4b775f453667be9bb266ceec8a17c1ae5079ecab9e",
+      "decodedSha256": "fb8245e2d93d567206099d4b775f453667be9bb266ceec8a17c1ae5079ecab9e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_log.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_log.lua",
+      "sha256": "53a9fad5f2ec5872c3bfd443b1d7b08fb826712c5f587b41d2380dc0c056c9fb",
+      "decodedSha256": "53a9fad5f2ec5872c3bfd443b1d7b08fb826712c5f587b41d2380dc0c056c9fb",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_msgpop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_msgpop.lua",
+      "sha256": "3ffe1c2377e09722f85eb5449afa6dbf4ca5d1a25d40dd161471df2a195d8d79",
+      "decodedSha256": "3ffe1c2377e09722f85eb5449afa6dbf4ca5d1a25d40dd161471df2a195d8d79",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_pop.lua",
+      "sha256": "a14db310b3b2be310c2025fdaf86b5ae79c605dd34354bfe7c2a640cac2c4047",
+      "decodedSha256": "a14db310b3b2be310c2025fdaf86b5ae79c605dd34354bfe7c2a640cac2c4047",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_dart_result.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_dart_result.lua",
+      "sha256": "febc4ad595ec41403f3a115e3d5f3fc36586a5977727945f8ee8d385d763291f",
+      "decodedSha256": "febc4ad595ec41403f3a115e3d5f3fc36586a5977727945f8ee8d385d763291f",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_despop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_despop.lua",
+      "sha256": "93861955e1cc25b8217a0b95856e92b6cecefeefa9aa34a4cbc8da64553cb24b",
+      "decodedSha256": "93861955e1cc25b8217a0b95856e92b6cecefeefa9aa34a4cbc8da64553cb24b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_detail_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_detail_pop.lua",
+      "sha256": "08db49eef88927b8e1ed96d870d09050fcc998dcf6c80397881987da92614526",
+      "decodedSha256": "08db49eef88927b8e1ed96d870d09050fcc998dcf6c80397881987da92614526",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_fengzheng_battleRank.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_fengzheng_battleRank.lua",
+      "sha256": "18710afd5d4f56106d9f36b7a7a1e4d33f58fd25bdd93408db7819ee328db0ef",
+      "decodedSha256": "18710afd5d4f56106d9f36b7a7a1e4d33f58fd25bdd93408db7819ee328db0ef",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_fenzhengEnemy_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_fenzhengEnemy_pop.lua",
+      "sha256": "3ab2f6e16a55613cb3dd95d2897607cecf0331b6c622e53edf4bb7a8017a5219",
+      "decodedSha256": "3ab2f6e16a55613cb3dd95d2897607cecf0331b6c622e53edf4bb7a8017a5219",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_fenzhengxiagu_rank.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_fenzhengxiagu_rank.lua",
+      "sha256": "4aab3cc69b67f08bd4c8de6d4dce103ef269c2a44ccf835a52c93b1a3707b3bc",
+      "decodedSha256": "4aab3cc69b67f08bd4c8de6d4dce103ef269c2a44ccf835a52c93b1a3707b3bc",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_fenzhengzhenxing_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "sha256": "e8d00abc6126ed303c0de53a31e639899ff7f2ec693b1d2e09019889333dff21",
+      "decodedSha256": "e8d00abc6126ed303c0de53a31e639899ff7f2ec693b1d2e09019889333dff21",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_base_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "sha256": "02464b293ea680960f5cd5730ebea8fd50589a8a75a3aa77000822a273315562",
+      "decodedSha256": "02464b293ea680960f5cd5730ebea8fd50589a8a75a3aa77000822a273315562",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "sha256": "47fac7236a00fa89cdccf937a1f636b975a01d755c3be7f84de30b05832e4e3b",
+      "decodedSha256": "47fac7236a00fa89cdccf937a1f636b975a01d755c3be7f84de30b05832e4e3b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_battle_report_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_battle_report_pop.lua",
+      "sha256": "ed149d0cac46470d5ecae95c30b168726fbadeb49b0da04c019d0d6b25d2104a",
+      "decodedSha256": "ed149d0cac46470d5ecae95c30b168726fbadeb49b0da04c019d0d6b25d2104a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_box_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_box_pop.lua",
+      "sha256": "408b1e7171fabda18cae8c02f7103c2afeb363d2541dbdbbd9b440acf7060dda",
+      "decodedSha256": "408b1e7171fabda18cae8c02f7103c2afeb363d2541dbdbbd9b440acf7060dda",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_buff_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_buff_pop.lua",
+      "sha256": "b1a12a9a7c10d4eb854060107a2ef8bd0bb857d4128eeae5ec7e5f1288f2c91a",
+      "decodedSha256": "b1a12a9a7c10d4eb854060107a2ef8bd0bb857d4128eeae5ec7e5f1288f2c91a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_chance_end_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_chance_end_pop.lua",
+      "sha256": "9ce87dee723b37ed255fedcb0d839b181d119e90a90ef92d477955811bf5e2c1",
+      "decodedSha256": "9ce87dee723b37ed255fedcb0d839b181d119e90a90ef92d477955811bf5e2c1",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_chance_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "sha256": "a088b77ed2395cb6f4cb9cd9963f09c5ea3f744100fdc744a164347b6179cd21",
+      "decodedSha256": "a088b77ed2395cb6f4cb9cd9963f09c5ea3f744100fdc744a164347b6179cd21",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_formation_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_formation_pop.lua",
+      "sha256": "079aefc1eee80310beeb7934f2a5839d9c3612f8cf0505869cb8e5ade54d6798",
+      "decodedSha256": "079aefc1eee80310beeb7934f2a5839d9c3612f8cf0505869cb8e5ade54d6798",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_front_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "sha256": "9ab44c9b219b42c756eb007286eaae280def385468c8ab08b1841017c7288447",
+      "decodedSha256": "9ab44c9b219b42c756eb007286eaae280def385468c8ab08b1841017c7288447",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_keji_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_keji_pop.lua",
+      "sha256": "7fd796daccf678418ca29b9c819f46b89e35488183841e3ab1fe574ec483ba13",
+      "decodedSha256": "7fd796daccf678418ca29b9c819f46b89e35488183841e3ab1fe574ec483ba13",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_keji_rank_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_keji_rank_pop.lua",
+      "sha256": "40b5f430db54ca8d7d1e60e16c6cee20776c26b58108289adfb0bc48ac9780fa",
+      "decodedSha256": "40b5f430db54ca8d7d1e60e16c6cee20776c26b58108289adfb0bc48ac9780fa",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_miling_give_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "sha256": "a9ed46eedb28d8afdb9b628a4b1b7182a2c018823a3ddfdf1783e55610ee14a9",
+      "decodedSha256": "a9ed46eedb28d8afdb9b628a4b1b7182a2c018823a3ddfdf1783e55610ee14a9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_miling_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "sha256": "963accec762d162d6f2f31bd728a89b6e1e6f3eff1dd8e53e775d478ecbefee7",
+      "decodedSha256": "963accec762d162d6f2f31bd728a89b6e1e6f3eff1dd8e53e775d478ecbefee7",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_player_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_player_pop.lua",
+      "sha256": "430b58de158480c867f7f90ee0ddf303c53a40a154bed8219a03400dc5344270",
+      "decodedSha256": "430b58de158480c867f7f90ee0ddf303c53a40a154bed8219a03400dc5344270",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_rank_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "sha256": "d69125f33563e95f3991229d0327e463f776fcf62b9bba406c4b6ef49afd0bc2",
+      "decodedSha256": "d69125f33563e95f3991229d0327e463f776fcf62b9bba406c4b6ef49afd0bc2",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_report_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_report_pop.lua",
+      "sha256": "a04967b2f63da4a5423a83aaffb9b6e566f2de6e0e78deaa29820c992d46f595",
+      "decodedSha256": "a04967b2f63da4a5423a83aaffb9b6e566f2de6e0e78deaa29820c992d46f595",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_res_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "sha256": "6f39e0bb78f053791d173c4ab7108d24696552f58abcf3b3f55ce89855e6c909",
+      "decodedSha256": "6f39e0bb78f053791d173c4ab7108d24696552f58abcf3b3f55ce89855e6c909",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_reward_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "sha256": "75ad83c8352702b07cc254cac074e4c1f3ddc304177ad192c8c96a0100dbd4ea",
+      "decodedSha256": "75ad83c8352702b07cc254cac074e4c1f3ddc304177ad192c8c96a0100dbd4ea",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_public_detail.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_public_detail.lua",
+      "sha256": "f71fbd08b0e0ca5272a7d09ab4d7ef4ca0f8d00bf61c8d05c56bed22b5fdb7de",
+      "decodedSha256": "f71fbd08b0e0ca5272a7d09ab4d7ef4ca0f8d00bf61c8d05c56bed22b5fdb7de",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_battle.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_battle.lua",
+      "sha256": "c7889f430d5db360dc7499248b9bfdff1f9a0b6b083907635fba97bbdd2aca0e",
+      "decodedSha256": "c7889f430d5db360dc7499248b9bfdff1f9a0b6b083907635fba97bbdd2aca0e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_battleMsg.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_battleMsg.lua",
+      "sha256": "3355a791d8c297a51c11940becb2472b839d4fe0108b59c6c695b473994a0e1a",
+      "decodedSha256": "3355a791d8c297a51c11940becb2472b839d4fe0108b59c6c695b473994a0e1a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_battle_result.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_battle_result.lua",
+      "sha256": "7bbcb03cfea158c66e21286136d29c71edf07cfe0a4faa3e1ce6d6968ca3fff3",
+      "decodedSha256": "7bbcb03cfea158c66e21286136d29c71edf07cfe0a4faa3e1ce6d6968ca3fff3",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_rank.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_rank.lua",
+      "sha256": "1d8ecb41301f0fb99a2fa167d824c84ac2b369383aed9480901741e24a8918e9",
+      "decodedSha256": "1d8ecb41301f0fb99a2fa167d824c84ac2b369383aed9480901741e24a8918e9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_rank_rew.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_rank_rew.lua",
+      "sha256": "154deaae627ac6973d2f9a02818175badc8f42750e973b6776db4ce050d2812d",
+      "decodedSha256": "154deaae627ac6973d2f9a02818175badc8f42750e973b6776db4ce050d2812d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_score_rew.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_score_rew.lua",
+      "sha256": "898f96063a092991376b06f5d84b856e9e8d4c85b93394ab6c07d46713a53273",
+      "decodedSha256": "898f96063a092991376b06f5d84b856e9e8d4c85b93394ab6c07d46713a53273",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_new_shop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_new_shop.lua",
+      "sha256": "d3efab243280d353de1d5cd1f74a5e2c6652e6cc900cf092f791a857fb388709",
+      "decodedSha256": "d3efab243280d353de1d5cd1f74a5e2c6652e6cc900cf092f791a857fb388709",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_pvp_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_pvp_pop.lua",
+      "sha256": "6302d7d5acfc0a58ed039d35e48b9682a5c13c7d643f959d4b75f7d935b64c25",
+      "decodedSha256": "6302d7d5acfc0a58ed039d35e48b9682a5c13c7d643f959d4b75f7d935b64c25",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godtemple_kuangdian.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godtemple_kuangdian.lua",
+      "sha256": "224bd1a4c948694d4ac9313bb5a54bb66532cb5e710c1189cd39cc06406f9eef",
+      "decodedSha256": "224bd1a4c948694d4ac9313bb5a54bb66532cb5e710c1189cd39cc06406f9eef",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godtemple_revenge_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godtemple_revenge_pop.lua",
+      "sha256": "feb948d58bffc88143b44cf5d95cc994aac0b306f65c78c7b204ef56b4a50ca3",
+      "decodedSha256": "feb948d58bffc88143b44cf5d95cc994aac0b306f65c78c7b204ef56b4a50ca3",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_Star_adjustment.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_Star_adjustment.lua",
+      "sha256": "e03ad38b9fd7bbe285191dd0302961341678857dfb35f1a26238707b50f796f2",
+      "decodedSha256": "e03ad38b9fd7bbe285191dd0302961341678857dfb35f1a26238707b50f796f2",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_adjust_formation.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_adjust_formation.lua",
+      "sha256": "b59c820d96bcc965bec7fd6282ffdb3dc212eca83f9a6ca2a61272dcb958943c",
+      "decodedSha256": "b59c820d96bcc965bec7fd6282ffdb3dc212eca83f9a6ca2a61272dcb958943c",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_adjustment.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_god_adjustment.lua",
+      "sha256": "0b568bcd559e45cb8a2c31436960b215b562420a968ec7f6c9aecfeb221b3302",
+      "decodedSha256": "4e01cba85c2c1f34b88a6ff66c7c6dbe25f9ba04fbda462e1cf383ffc3ca8fe8",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_god_adjustment_formation.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_adjustment_formation.lua",
+      "sha256": "be689f28e4f9f85af90f3ee3a1fb5faeda158f7ddf888191a320069b948bee3d",
+      "decodedSha256": "be689f28e4f9f85af90f3ee3a1fb5faeda158f7ddf888191a320069b948bee3d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_escort_bet.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_escort_bet.lua",
+      "sha256": "c4eb49dae27f87f0e3cb9d9e03dc914618d8b799a6bbcebf4a498dca8446ba35",
+      "decodedSha256": "c4eb49dae27f87f0e3cb9d9e03dc914618d8b799a6bbcebf4a498dca8446ba35",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_escort_exchange_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_escort_exchange_shop.lua",
+      "sha256": "15c6d7d992844d91acf7a47ef4c57a94a170de5ab17e3187bd21b32c8df18f4a",
+      "decodedSha256": "15c6d7d992844d91acf7a47ef4c57a94a170de5ab17e3187bd21b32c8df18f4a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_escort_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_escort_shop.lua",
+      "sha256": "0e84f4b6534b29310c9285599f9154724c859c1b407e509fd4137166098b1caf",
+      "decodedSha256": "0e84f4b6534b29310c9285599f9154724c859c1b407e509fd4137166098b1caf",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_escort_universe.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_escort_universe.lua",
+      "sha256": "77014f783a9eeb3495c190ea504dda16cefa33c45f905f0f7864d83b2087968d",
+      "decodedSha256": "77014f783a9eeb3495c190ea504dda16cefa33c45f905f0f7864d83b2087968d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_escort_universeRun.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_escort_universeRun.lua",
+      "sha256": "288d7229eabdcf4a6a36a1151aeadc1944148f011405a5b639e97df83ef1564d",
+      "decodedSha256": "288d7229eabdcf4a6a36a1151aeadc1944148f011405a5b639e97df83ef1564d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_palace_adjustment.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_god_palace_adjustment.lua",
+      "sha256": "2fa9448e53015c39dfafad8622912108624bdcdabdffcc5605493527ae6ef2a9",
+      "decodedSha256": "1c273d48980e434a2ee43afdbe745c21b0e9011a453024a6cb42ad5d0d775a3d",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_god_pyramid_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_pyramid_main.lua",
+      "sha256": "8a40d339775522b5402e5e49584537fdcca4c32e75dac19d2cbcb2be1acef676",
+      "decodedSha256": "8a40d339775522b5402e5e49584537fdcca4c32e75dac19d2cbcb2be1acef676",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_god_pyramid_palace.lua": {
+      "path": "work/decrypted/lua/game_ui/game_god_pyramid_palace.lua",
+      "sha256": "0a41071528d486894335cde4282e5c914b441399f0ece256f7cc889a05cff6fd",
+      "decodedSha256": "0a41071528d486894335cde4282e5c914b441399f0ece256f7cc889a05cff6fd",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_Star_enemy_list.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_Star_enemy_list.lua",
+      "sha256": "7b04fc511f4930dd1c2c2bbac92cb2ee5f6814365e547e2b933969808816be57",
+      "decodedSha256": "7b04fc511f4930dd1c2c2bbac92cb2ee5f6814365e547e2b933969808816be57",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_arean.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_arean.lua",
+      "sha256": "a100adb82d09b2020ac8530f2c60e35e41b4ab2ea4f7e0673e629c8275608818",
+      "decodedSha256": "a100adb82d09b2020ac8530f2c60e35e41b4ab2ea4f7e0673e629c8275608818",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_arena_rank.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_arena_rank.lua",
+      "sha256": "ae2f71a2ef2ca83873f7b3f4f5b3fdd06c5897c839bc21ecc7ec0177d9002552",
+      "decodedSha256": "ae2f71a2ef2ca83873f7b3f4f5b3fdd06c5897c839bc21ecc7ec0177d9002552",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_battle_big.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_battle_big.lua",
+      "sha256": "57534ea083d8421c3c6a516cba99b4d87ce4c4cdbd11dce839c429f69d512af9",
+      "decodedSha256": "57534ea083d8421c3c6a516cba99b4d87ce4c4cdbd11dce839c429f69d512af9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_battle_result.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_battle_result.lua",
+      "sha256": "14d5825aeb98b31328e27fd8c0bc98523e3df6572c23065ac6788704baf22006",
+      "decodedSha256": "14d5825aeb98b31328e27fd8c0bc98523e3df6572c23065ac6788704baf22006",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_calendar_pop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_calendar_pop.lua",
+      "sha256": "da19c67780b48f48adb5526579778ab133cdddab6181101fa1c3a74d7bd01457",
+      "decodedSha256": "da19c67780b48f48adb5526579778ab133cdddab6181101fa1c3a74d7bd01457",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_Shipsel.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_Shipsel.lua",
+      "sha256": "b7e984a78ff2bb8e5633e9a2cc0d7882b2a6c9dbc99a72b68e5286ff6f3fa995",
+      "decodedSha256": "b7e984a78ff2bb8e5633e9a2cc0d7882b2a6c9dbc99a72b68e5286ff6f3fa995",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_main.lua",
+      "sha256": "8cdb9e99b6451df634bd7432d31cb413bcd4c366c2d2b7a2f57414042cdaba66",
+      "decodedSha256": "8cdb9e99b6451df634bd7432d31cb413bcd4c366c2d2b7a2f57414042cdaba66",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_route.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_route.lua",
+      "sha256": "ed63d87ce1efd325fbacabad7feb36e4638a338ed58575ab75108e743d90f70b",
+      "decodedSha256": "ed63d87ce1efd325fbacabad7feb36e4638a338ed58575ab75108e743d90f70b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_routeslist.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_routeslist.lua",
+      "sha256": "5ea3d7d5a69c978237769341579690eb63258c68275f1307b34017464adecc7d",
+      "decodedSha256": "5ea3d7d5a69c978237769341579690eb63258c68275f1307b34017464adecc7d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_shop.lua",
+      "sha256": "7c3df2f4c5033264dce474f118f619d7e751f3dfcc9a9fd21c9347899852d7cd",
+      "decodedSha256": "7c3df2f4c5033264dce474f118f619d7e751f3dfcc9a9fd21c9347899852d7cd",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_tavern.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_tavern.lua",
+      "sha256": "b97df13f58546eb563980180c48c7f262cab0efabb1089314b2b2bc503c28dc8",
+      "decodedSha256": "b97df13f58546eb563980180c48c7f262cab0efabb1089314b2b2bc503c28dc8",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_tavern_info.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_tavern_info.lua",
+      "sha256": "41ae36408a299e955ccc33d5b5644f05c1dc3a1d80627a078d78542c18d37893",
+      "decodedSha256": "41ae36408a299e955ccc33d5b5644f05c1dc3a1d80627a078d78542c18d37893",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_dart_team_recruitment.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_dart_team_recruitment.lua",
+      "sha256": "d5f3d559e114f80873d2fa52f685f628d2395b95e9ac615e1613dce4d73c560f",
+      "decodedSha256": "d5f3d559e114f80873d2fa52f685f628d2395b95e9ac615e1613dce4d73c560f",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_fenzheng.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_fenzheng.lua",
+      "sha256": "6f5ee28ba40dd93f589b2979baa5820d346bcc818b852a77fbbcf82dff0ff5cb",
+      "decodedSha256": "6f5ee28ba40dd93f589b2979baa5820d346bcc818b852a77fbbcf82dff0ff5cb",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_fenzhengRank.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_fenzhengRank.lua",
+      "sha256": "1915ec4da0b4d1f2c5098db49a7d58afd42671441844fea009da4c2d0b9de39c",
+      "decodedSha256": "1915ec4da0b4d1f2c5098db49a7d58afd42671441844fea009da4c2d0b9de39c",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_employ_guild_index.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "sha256": "aae62d8713a8df34ab7b6fee0dd5bcc11b9292dc7307cfb2216ccb9b1da8f7ea",
+      "decodedSha256": "aae62d8713a8df34ab7b6fee0dd5bcc11b9292dc7307cfb2216ccb9b1da8f7ea",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_employ_index.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "sha256": "22a3e665bfc5854ec12e22e369664c707456d5b247351c974cc213e9bab3c40b",
+      "decodedSha256": "22a3e665bfc5854ec12e22e369664c707456d5b247351c974cc213e9bab3c40b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_items_scene.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_items_scene.lua",
+      "sha256": "f07386301b8088a4796fb056b7ef31ce825bacb7339312c348089bf8c6066d25",
+      "decodedSha256": "f07386301b8088a4796fb056b7ef31ce825bacb7339312c348089bf8c6066d25",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_keji.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_keji.lua",
+      "sha256": "ce05c52016b8e053697b2ffcf2bd972594b40798020ca8621e8eb2187377a829",
+      "decodedSha256": "ce05c52016b8e053697b2ffcf2bd972594b40798020ca8621e8eb2187377a829",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_main.lua",
+      "sha256": "283c07878db6757d984a1e5bd031fc1daaaf358437bd76545983443912831873",
+      "decodedSha256": "283c07878db6757d984a1e5bd031fc1daaaf358437bd76545983443912831873",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_map.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_map.lua",
+      "sha256": "7444e8d14f4e183e954659633a8907605ed1c8c6da71b2177c3ef652eacc3d3e",
+      "decodedSha256": "7444e8d14f4e183e954659633a8907605ed1c8c6da71b2177c3ef652eacc3d3e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_shop.lua",
+      "sha256": "6dcdf51db365893ac1732ac42d8f5598c5312414049b19cdb6397460fe1fc2be",
+      "decodedSha256": "6dcdf51db365893ac1732ac42d8f5598c5312414049b19cdb6397460fe1fc2be",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_main.lua",
+      "sha256": "a23a274bb618db76dded400cdca73abb87cdd830689dea0940af96bc447a6e85",
+      "decodedSha256": "a23a274bb618db76dded400cdca73abb87cdd830689dea0940af96bc447a6e85",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_mainBig.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_godfield_mainBig.lua",
+      "sha256": "49c0a408c143f9b918e0880ae95a3897b4dbc139c863c49ebd424e09f741a756",
+      "decodedSha256": "a58a337e1c56e70d686f4fe956895e69818268ac2271e8231599a3db11914773",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_godfield_main_rank.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_main_rank.lua",
+      "sha256": "52ad7829e431d10a1d3335179960fcf8c97d84e6fe81da67558d7171034a268d",
+      "decodedSha256": "52ad7829e431d10a1d3335179960fcf8c97d84e6fe81da67558d7171034a268d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_newFenzheng.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_newFenzheng.lua",
+      "sha256": "ab7d1c2801e6e26e9fada225e802d40c4409b41a6948bbfe7d4d9ee366da7e71",
+      "decodedSha256": "ab7d1c2801e6e26e9fada225e802d40c4409b41a6948bbfe7d4d9ee366da7e71",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_pvp.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_godfield_pvp.lua",
+      "sha256": "b1832c3999cdea8b7b02ed2884f4ac0662b9f5b19decf39e06cfbbeb657613ed",
+      "decodedSha256": "754ad984b07f9dde526966bbbdb3e10fa271cb2b4a2955be1bd1273a345330ab",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_godfield_pvp_new.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_pvp_new.lua",
+      "sha256": "d9d4acd635bfa16ab44e1a56e331e09931b2c261302e854cde3887a0a802fa0c",
+      "decodedSha256": "d9d4acd635bfa16ab44e1a56e331e09931b2c261302e854cde3887a0a802fa0c",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_pvp_new_adjust.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_godfield_pvp_new_adjust.lua",
+      "sha256": "a4be4bbd6c150d7f912cdfa5e9922046b300509a97995cce4e7e46a95bc9bda7",
+      "decodedSha256": "0703d0ce8edd80590cc864cf691a11f4fe6ceae0a83e0745ad26abd5e1d8be57",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_godfield_pvp_new_hero.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_pvp_new_hero.lua",
+      "sha256": "62d53895a7ad8220d1cea63eb6720a57f408efa8c32bfc18ae7c74469dd8ba1a",
+      "decodedSha256": "62d53895a7ad8220d1cea63eb6720a57f408efa8c32bfc18ae7c74469dd8ba1a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_pvp_new_sec.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_pvp_new_sec.lua",
+      "sha256": "9a5d5209a82408326c72a80cb2c1e585f723a12651c95c270ac05edfe8f1637d",
+      "decodedSha256": "9a5d5209a82408326c72a80cb2c1e585f723a12651c95c270ac05edfe8f1637d",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_pvp_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_pvp_shop.lua",
+      "sha256": "e1cc2386ef33b293599f55c191112dcd0eabab294443fabd637e6612722d9337",
+      "decodedSha256": "e1cc2386ef33b293599f55c191112dcd0eabab294443fabd637e6612722d9337",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_rank.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_rank.lua",
+      "sha256": "4bb6eaa51c602848919b86f3235860f2057c102cf30f246c54ec6fe2b49ff9fa",
+      "decodedSha256": "4bb6eaa51c602848919b86f3235860f2057c102cf30f246c54ec6fe2b49ff9fa",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_shop.lua",
+      "sha256": "11a3d813aec3ddab755f08044e49005610c223a256a53c6a33ab2920944ef252",
+      "decodedSha256": "11a3d813aec3ddab755f08044e49005610c223a256a53c6a33ab2920944ef252",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godtemple_getTeam.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godtemple_getTeam.lua",
+      "sha256": "ba5e00b5b68425e3edf620f4a6e58b60e74df5fd6344f8d16ca7545ddcfbef41",
+      "decodedSha256": "ba5e00b5b68425e3edf620f4a6e58b60e74df5fd6344f8d16ca7545ddcfbef41",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godtemple_goTeam.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godtemple_goTeam.lua",
+      "sha256": "b8c8715b3c70b7646c60144db29a4af7ee258310616a722387c5eb5b21828eae",
+      "decodedSha256": "b8c8715b3c70b7646c60144db29a4af7ee258310616a722387c5eb5b21828eae",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godtemple_heroList.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godtemple_heroList.lua",
+      "sha256": "e928eb6e4b52d644345a40f88d1df1be13cdc3591c92dc84f2bef91537642271",
+      "decodedSha256": "e928eb6e4b52d644345a40f88d1df1be13cdc3591c92dc84f2bef91537642271",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godtemple_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godtemple_main.lua",
+      "sha256": "ba9accde22bd5fe1ac6b9855c1a3c6d89e1898c65428c8c4e14889ab33ee1c81",
+      "decodedSha256": "ba9accde22bd5fe1ac6b9855c1a3c6d89e1898c65428c8c4e14889ab33ee1c81",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godtemple_revenge.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godtemple_revenge.lua",
+      "sha256": "fb14891e3f594cb109fede5b0c5dc30b20c7de259bba20264742fffa164832ff",
+      "decodedSha256": "fb14891e3f594cb109fede5b0c5dc30b20c7de259bba20264742fffa164832ff",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_main_scene.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/game_main_scene.lua",
+      "sha256": "019995d42627aa35b13a4f5b33c4a03f056f83586befcbbe96f4af3b65cf286b",
+      "decodedSha256": "89ceb7a1c61166e33f1fa4668e17cc1e580b07797146bd9926976bfcb067c006",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_pagoda_scene.lua": {
+      "path": "work/decrypted/lua/game_ui/game_pagoda_scene.lua",
+      "sha256": "51ad503c7cf56da3fbc4123b95a0859885be27938abc9cca8ad24117c83838fa",
+      "decodedSha256": "51ad503c7cf56da3fbc4123b95a0859885be27938abc9cca8ad24117c83838fa",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_url_config.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_url_config.lua",
+      "sha256": "12f0d8f1590b12530c716238e92bc2a47bb0e2be129ae3ad29c36546e9972e19",
+      "decodedSha256": "8851b3dc42e6548f6e5f7fa436502aca70b6ddb63f2fc9a71b8f8dd10ecbd484",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_util.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_util.lua",
+      "sha256": "65d9827496d36c37a23da26644869f83fd16fb020c7ce71be618235526537161",
+      "decodedSha256": "917738e0b60d81dcbf936df86644bd445cf962be9f49422f82ff281bcbd3a1bd",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "game_ui/game_pop_up_box.lua": {
+      "path": "work/decrypted/lua/game_ui/game_pop_up_box.lua",
+      "sha256": "f7465f7b2b445d7fe9245808925dbf8a30bc79b09e834edbe9df79718114fc3e",
+      "decodedSha256": "f7465f7b2b445d7fe9245808925dbf8a30bc79b09e834edbe9df79718114fc3e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "like_oo/oo_controlBase.lua": {
+      "path": "work/decrypted/lua/like_oo/oo_controlBase.lua",
+      "sha256": "1155e94f2eb80674b5dc99dc87eb8b351052513a32b172b4c4e75938c1daee86",
+      "decodedSha256": "1155e94f2eb80674b5dc99dc87eb8b351052513a32b172b4c4e75938c1daee86",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "building_offset.lua": {
+      "path": "work/decrypted/lua/building_offset.lua",
+      "sha256": "96f4e75079fd90bc7774764ea4fb110d08c2549cc3d8a222917b1dd085bf8e67",
+      "decodedSha256": "96f4e75079fd90bc7774764ea4fb110d08c2549cc3d8a222917b1dd085bf8e67",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/cosmicMgr.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/game_ui/cosmicMgr.lua",
+      "sha256": "69d86e3dac904a91d4812434a1750d2c9ba5043bf855d9696dd54598f182ea90",
+      "decodedSha256": "fd7c5ec3c9f1a107ef4ce833f30c56d7f18db40435fcb3ebdedeeec3604b762a",
+      "matchesIndexed": false,
+      "source": "VN_RUNTIME"
+    },
+    "like_oo/oo_stack.lua": {
+      "path": "work/decrypted/lua/like_oo/oo_stack.lua",
+      "sha256": "303b2bc34ce90fcd95aef1676bbb54929bebb31cb73870fb41a876ce2f8c8111",
+      "decodedSha256": "303b2bc34ce90fcd95aef1676bbb54929bebb31cb73870fb41a876ce2f8c8111",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "like_oo/oo_msgList.lua": {
+      "path": "work/decrypted/lua/like_oo/oo_msgList.lua",
+      "sha256": "b37601e9fc5dfbfc0874cffde17600b641b7b04edaa5e9dbb212775b5e75e5e1",
+      "decodedSha256": "b37601e9fc5dfbfc0874cffde17600b641b7b04edaa5e9dbb212775b5e75e5e1",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    }
+  },
+  "tables": {
+    "adver_pk": {
+      "status": "SOURCE BLOCKED"
+    },
+    "assistant": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/assistant.config",
+      "sha256": "f0575ebd3a59c7ec3c941e9b98105b7ffecd63e63961eb0b6da7c0c13350d9f5",
+      "parsedPath": "work/than-vuc/configs/assistant.json",
+      "parsedSha256": "03b8a5713330838e4fe418dbc0f2f669e4ee624b15a1c76262f5f46621edec9e",
+      "rows": 9,
+      "status": "SOURCE VERIFIED"
+    },
+    "badge": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/badge.config",
+      "sha256": "33ab34255992cc30084df72920453682117fa8cfb403c49bc085abf1009a9c2e",
+      "parsedPath": "work/than-vuc/configs/badge.json",
+      "parsedSha256": "a5535be5cf0e1c31aa595af347fb2d4fc0aba7e2f5e088b828c8c1b4a603942d",
+      "rows": 112,
+      "status": "SOURCE VERIFIED"
+    },
+    "badge_skill_combination": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/badge_skill_combination.config",
+      "sha256": "d47dfa02ba92703f344c1076b7f16f1b045a8e873fc4a0cfdbb7e539f728f641",
+      "parsedPath": "work/than-vuc/configs/badge_skill_combination.json",
+      "parsedSha256": "54c285af80cb942db631be3960711121c504442b6026dc8f3ac350cbd6c033cb",
+      "rows": 9,
+      "status": "SOURCE VERIFIED"
+    },
+    "chain": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/chain.config",
+      "sha256": "74910404100f93d3b057afc6b56bf9880d72e33b50358f6073daf45bb354ffc2",
+      "parsedPath": "work/than-vuc/configs/chain.json",
+      "parsedSha256": "39538255b3ba7d237cbc65908813c4750d2f812ffea0d0048035997134765e8e",
+      "rows": 1363,
+      "status": "SOURCE VERIFIED"
+    },
+    "chain_equip": {
+      "status": "SOURCE BLOCKED"
+    },
+    "character_detail": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/character_detail.config",
+      "sha256": "cd4bbe34064f2dc395dc1bf37e5abb6180423d73d77e9d4924cf27879ed993ad",
+      "parsedPath": "work/than-vuc/configs/character_detail.json",
+      "parsedSha256": "93f7fcf0e7dc559714386b6a1d989a14c1c2ce8350e63288095b9f8db9d57856",
+      "rows": 721,
+      "status": "SOURCE VERIFIED"
+    },
+    "charge": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/charge.config",
+      "sha256": "13e34a3ccc8faabcf2a4da3b496fe22312f2f292d58f41970a6efc2338719158",
+      "parsedPath": "work/than-vuc/configs/charge.json",
+      "parsedSha256": "bfaf62477eb05a3b69feb4e72b00b7f3a8ad803b2483ba7f0e322e002988f8f5",
+      "rows": 22,
+      "status": "SOURCE VERIFIED"
+    },
+    "constellation_detail": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/constellation_detail.config",
+      "sha256": "75e95827b67052093d5a1a2c25a0d026b02c2855b62ab5066389c3fbae5a12ab",
+      "parsedPath": "work/than-vuc/configs/constellation_detail.json",
+      "parsedSha256": "2cc7fe6a2169098d2d47ca2220f173ff646b0b2ea745d468321cb0a4175344b6",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "constellation_enemy": {
+      "path": "work/apk/assets/config/constellation_enemy.config",
+      "sha256": "d46ec7945d29376f62b7fd0d0d1fbb4cf9bb3ed513133797a61d5a7aff456036",
+      "parsedPath": "work/than-vuc/configs/constellation_enemy.json",
+      "parsedSha256": "b4fdb41b6c249cc3b8c5d0bdf8cd9a070d01e604a4a663e90bae9b294f5e51a8",
+      "rows": 75,
+      "status": "SOURCE VERIFIED"
+    },
+    "constellation_reward": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/constellation_reward.config",
+      "sha256": "f3265f30685ebff9ebe0caff549f9dab84ac5dcb56ed39a5849e4e5d53340399",
+      "parsedPath": "work/than-vuc/configs/constellation_reward.json",
+      "parsedSha256": "214f0aad7819e55a4f37c8619e00b0e4b8675ef3bd9e4d9935ea395efcbb26b0",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war.config",
+      "sha256": "9855b520804cbec58f5b76c70bf98e59759b3f8870b9d3d658bdde8ca73d1d13",
+      "parsedPath": "work/than-vuc/configs/cosmic_war.json",
+      "parsedSha256": "15eace6e78612c1f105610bd7bd3606509fd215eb48b57a6a543a5c611e2f630",
+      "rows": 45,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_city": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_city.config",
+      "sha256": "b7a1a937595fb928400831f334a05d7ec550ca85e75796b1dab56439c6034e44",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_city.json",
+      "parsedSha256": "39372162d22604db7a687082d9f565f48bf4845b0a6bad9f9af1c5afb7000352",
+      "rows": 40,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_group": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_group.config",
+      "sha256": "840f58ad0404dcc37ab1c010ee03806348b74d543dd681bca62df44bddecfb41",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_group.json",
+      "parsedSha256": "b959c5827defb30c5abfc332f59410a42b919a4ca4cc29e4858bbd82571461cb",
+      "rows": 2143,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_reward": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_reward.config",
+      "sha256": "461760502781ce3ec91fc6be41fe86fbb57524f00908d5c62a89a2b9a838eb4c",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_reward.json",
+      "parsedSha256": "bc04219b7c197409fceea64464842830c9c6d5605f5157c7aa13f90776b22a83",
+      "rows": 135,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_reward_attack": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_reward_attack.config",
+      "sha256": "af963c299893f520652ed1e5486ba898e712916da5707fbe82d7c42a0633b8c6",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_reward_attack.json",
+      "parsedSha256": "bcec49467756ce798aa0cfbd51172df41b00708b6d4eb9f1d2347875e9484ace",
+      "rows": 4,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_reward_personal": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_reward_personal.config",
+      "sha256": "66d21bf03938b2dcefb3b6163df4c680b8cf281522a21f119847c35f0c6928af",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_reward_personal.json",
+      "parsedSha256": "62042004588c61c99501a9310f659282536aacdf61fc7746bfb6cdf2f41566ed",
+      "rows": 205,
+      "status": "SOURCE VERIFIED"
+    },
+    "cosmic_war_txt": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/cosmic_war_txt.config",
+      "sha256": "215bf12062a22b0d9c89679c37359b5acea43a48e1236c80709b53b9875df18e",
+      "parsedPath": "work/than-vuc/configs/cosmic_war_txt.json",
+      "parsedSha256": "168af57dad38a29d7183dfe21064d414982196134135138238f1992af5337749",
+      "rows": 23,
+      "status": "SOURCE VERIFIED"
+    },
+    "destiny": {
+      "path": "work/apk/assets/config/destiny.config",
+      "sha256": "2420902edfcc40cd44fc0c92b32d44ec66b87e6f5640b18ecdcb97691a21fc5b",
+      "parsedPath": "work/than-vuc/configs/destiny.json",
+      "parsedSha256": "84fc573c107a074f345858e89c4ce43427943437fdd64521397fe5d94fb2dcaf",
+      "rows": 9,
+      "status": "SOURCE VERIFIED"
+    },
+    "enemy_all": {
+      "status": "SOURCE BLOCKED"
+    },
+    "equip": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/equip.config",
+      "sha256": "12c7fca0ef82c69429c1f9e0c6569b5b1bf25438b79d441640d3bb8d4ed22f21",
+      "parsedPath": "work/than-vuc/configs/equip.json",
+      "parsedSha256": "c6b57d7b83f6631caede48d5b4fe2f0f84f27326103de0c93d5b6c4ee1a78229",
+      "rows": 4390,
+      "status": "SOURCE VERIFIED"
+    },
+    "equip_set_random": {
+      "path": "work/apk/assets/config/equip_set_random.config",
+      "sha256": "801c9d67a764e5b43b06fa0fc7af0d040b386f8f72f4529b51228f2627ff2810",
+      "parsedPath": "work/than-vuc/configs/equip_set_random.json",
+      "parsedSha256": "b530034adbcaddf30ae14922d3514652b8870330644270a56228cfd3658c888a",
+      "rows": 288,
+      "status": "SOURCE VERIFIED"
+    },
+    "equip_strongthen": {
+      "path": "work/apk/assets/config/equip_strongthen.config",
+      "sha256": "0bb5fd7456490afdc302b80ada4d2a259665f88fdb93cb463838a75fecf70728",
+      "parsedPath": "work/than-vuc/configs/equip_strongthen.json",
+      "parsedSha256": "b8a4911198d1cb84a98dc02202815cd4ad15dbc201118b9a41d1c6079de4595b",
+      "rows": 251,
+      "status": "SOURCE VERIFIED"
+    },
+    "field": {
+      "status": "SOURCE BLOCKED"
+    },
+    "formation": {
+      "path": "work/apk/assets/config/formation.config",
+      "sha256": "208961971c423e118fe54e42a0408b6861986732539716fac824f89f94b4c736",
+      "parsedPath": "work/than-vuc/configs/formation.json",
+      "parsedSha256": "40acc6598fae779615ff944b296133e1ff8dc7be45685d9f52c81c7e6df5e395",
+      "rows": 6,
+      "status": "SOURCE VERIFIED"
+    },
+    "gem": {
+      "path": "work/apk/assets/config/gem.config",
+      "sha256": "97adf77fdf5dd6f208e1475c20a3351600f4be489f2ba224725b7404ea9c1e74",
+      "parsedPath": "work/than-vuc/configs/gem.json",
+      "parsedSha256": "db527af9c645009dd3dcea342916ba4e2866248ffd9d7a9a8a473c57c8bfe774",
+      "rows": 120,
+      "status": "SOURCE VERIFIED"
+    },
+    "god_field_exchange": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/god_field_exchange.config",
+      "sha256": "a1f55ebce099791201bec613e23817f206789882c8baac35bd33372107624a9b",
+      "parsedPath": "work/than-vuc/configs/god_field_exchange.json",
+      "parsedSha256": "97d32fc5c43de354ab9defdda03d9c0e75d38da27c8d6f89a075c5db9e7c019f",
+      "rows": 26,
+      "status": "SOURCE VERIFIED"
+    },
+    "god_field_time": {
+      "path": "work/apk/assets/config/god_field_time.config",
+      "sha256": "acc87ad1a48183ac2969b6905c2ede3f24dac11ecf848953a14f518c19d025e8",
+      "parsedPath": "work/than-vuc/configs/god_field_time.json",
+      "parsedSha256": "7f60df077fb39e71520b14a3541d1984dd54193e59bc9fbef275bb9560dd0331",
+      "rows": 1,
+      "status": "SOURCE VERIFIED"
+    },
+    "godfield_arena_reward": {
+      "path": "work/apk/assets/config/godfield_arena_reward.config",
+      "sha256": "5a1fc27a74a88d62782f41cd8cfe01852b26e72d241ea3dff51501c739628456",
+      "parsedPath": "work/than-vuc/configs/godfield_arena_reward.json",
+      "parsedSha256": "8c34cbd415ec330cf17de1b3439d424156744ea00b7dba49e54d82a0e42348b0",
+      "rows": 6,
+      "status": "SOURCE VERIFIED"
+    },
+    "godfield_arena_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/godfield_arena_shop.config",
+      "sha256": "dade223a45c2ad3b7c50efaec563ff6d4016ef345a50f99b542df2d870e754d3",
+      "parsedPath": "work/than-vuc/configs/godfield_arena_shop.json",
+      "parsedSha256": "adca32b96c18c9d562bf4f0abbc3f25e3ed2637c8c466a320622ec795922c0a3",
+      "rows": 13,
+      "status": "SOURCE VERIFIED"
+    },
+    "godfieldescort_buff": {
+      "path": "work/apk/assets/config/godfieldescort_buff.config",
+      "sha256": "9f3c5d19d4cce428968889eccbb95f4319e7abec79629ffbcd80d31493d99a74",
+      "parsedPath": "work/than-vuc/configs/godfieldescort_buff.json",
+      "parsedSha256": "1fb807b16616ad4d0a258505dd80ea627f1d63218115b5746e17d7a5d8201a41",
+      "rows": 5,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_employ": {
+      "path": "work/apk/assets/config/guild_employ.config",
+      "sha256": "7d47590ed079870ff3b5f9fd9a20a5f89d790d6b0c22385f8c6657421371e770",
+      "parsedPath": "work/than-vuc/configs/guild_employ.json",
+      "parsedSha256": "5e5e75300faae069bac626686357bf2130464a1dbbb4faeaaa9a93416cfdc974",
+      "rows": 3,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_base": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_base.config",
+      "sha256": "6751dd0da47497613066d71e0c394ebedf0c8f1888828722141b318f6891a524",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_base.json",
+      "parsedSha256": "24eafa833fa2fa89b3be21680da2f54c435b02a3fd2da477ee3f473115e58c7c",
+      "rows": 36,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_box": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_box.config",
+      "sha256": "5532178675e62975f9dea9d05a8294f67826e50e47e526c236c559a1202aa9ea",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_box.json",
+      "parsedSha256": "5a0d1ffaf1f29b39f6b99b75f8817d99460a9a0e44bd44a77f5026fdf587fb2b",
+      "rows": 4,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_build": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_build.config",
+      "sha256": "2ac56073f446d1f3373bb710e747cd0443d88a0b12aa28d14451d5629b46bb5d",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_build.json",
+      "parsedSha256": "ad58cb66edf121d9206ee8b537814f2edf52ccebf8707c6ac4c5780fe5967d00",
+      "rows": 49,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_card": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_card.config",
+      "sha256": "2b20e27ccc5444ffcfd778b60f3f7c5756f6e7a710d5cda29777820568a6b28d",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_card.json",
+      "parsedSha256": "e865a4f36ed4b1d7a903f89bb92df611dc21fcfa2a1d7f1656125e2f3526970f",
+      "rows": 144,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_fate": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_fate.config",
+      "sha256": "4d413e8d31fc26711bce45c0b5abb9274e1558cdeb2f04de33863ff21d44538c",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_fate.json",
+      "parsedSha256": "b12dd5b0802ee6f010404a353a24202b62fb35b779afc01eee5ecf329d0abcec",
+      "rows": 24,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_group": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_group.config",
+      "sha256": "bc1f3e67d13b7bd9e6d60d6c5f62a4aef581b5adb72481e15b815d483def4560",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_group.json",
+      "parsedSha256": "9c7875302e0bfd0ce5a0e9fc0654746fcae65f6b8aefaff9b795eb0d6d742a75",
+      "rows": 277,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_open": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_open.config",
+      "sha256": "4514bf578ef42e0ed9e8501603b305c4b3b2bb461b31440a42624b604decece7",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_open.json",
+      "parsedSha256": "996c57d6c693311845c70459e1398731aceed8469c2cc99faa990482fdcfa903",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_pic": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_pic.config",
+      "sha256": "76db5efec6fe08dbd81e23725dbd6e61824951f851959c4e48f40c8f3596aaea",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_pic.json",
+      "parsedSha256": "95629c5ea5924e9357f6c5f91c99f0b81d3f9c43036f457531224b89e77b9beb",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_product": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_product.config",
+      "sha256": "06f991c428c1daaab93c30c4e8af96b4a63d07b6947b247dad60c22a0022ce34",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_product.json",
+      "parsedSha256": "db65c43038c8772c747f15027330e3a47683fcaeb67f3903a47998d3a3338189",
+      "rows": 5,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_reward_person": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_reward_person.config",
+      "sha256": "eceaef3dbf7ac12ad4618898d14c042ed2ab60321e5f8f3ef37e80e53e7e6802",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_reward_person.json",
+      "parsedSha256": "fb698450a2098c081e5e5506c3ac6dd0bf3f61723b8f0a5223b8e0092e463a14",
+      "rows": 7,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_reward_season": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_reward_season.config",
+      "sha256": "128a845ff7eee7e0056c56a3046854a8d2bb54fd50f125cd315a8368a31d4692",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_reward_season.json",
+      "parsedSha256": "fac12bf3fe59055bd84a5d9ad3a100170376343c3b93035b8b0b1dbe957932b5",
+      "rows": 11,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_science": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_science.config",
+      "sha256": "72845146f91797cb0d22b1c206ea44b9d2d901898b9bb07e73edefe4d2245735",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_science.json",
+      "parsedSha256": "469c685fc59cd77d57624080aafcc6f93f0577717c432ffbbd8d3f20f486f12b",
+      "rows": 10,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_sciencestar": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_sciencestar.config",
+      "sha256": "9ca46c04ed8ba74c1019bcc830bcd669a3a698c5304ae4e71a224dd5b961bea0",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_sciencestar.json",
+      "parsedSha256": "383ac2e3f2c976a3629a8e5789fd628e14b9abad83c9aa4f1a7d6c10714afba9",
+      "rows": 14,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_shop.config",
+      "sha256": "76b08597d9a2120b4cf762ca4682948c1bd9cba8c2e760c8ae33794bc3800806",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_shop.json",
+      "parsedSha256": "1e1ada759f1bb97747726ddfa0483f34de138106d9173679349ef07d31cc6e42",
+      "rows": 128,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_text": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_text.config",
+      "sha256": "28c07d7ae2d4fe6d1def694a3ba145e3eb7a7a3a5593186495be0e859f51e9ee",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_text.json",
+      "parsedSha256": "b7e5970621877ea12b75845c1bbf2df4580e1c4610e88d746d30aa4c57099ec3",
+      "rows": 58,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_word": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_word.config",
+      "sha256": "d85093231f0d6743c4afe29d56e516f35da977e65fce45157c1db9d78f584a19",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_word.json",
+      "parsedSha256": "31702fac19d8c670af6c541a0b95ca350061a7f13e88d516f8cc5bc4dc401d51",
+      "rows": 30,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_lack": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_lack.config",
+      "sha256": "d341270c0b372082a4d30aa205d1f3e2810c63b420bcc6be04399d5d6e644ab6",
+      "parsedPath": "work/than-vuc/configs/highway_lack.json",
+      "parsedSha256": "357e94403a917040545e8c5552c01700d6ca71580a66df134a47dcb278a7b74e",
+      "rows": 1,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_num": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_num.config",
+      "sha256": "7d487ac4a7daab18839ce03354081fd71dca2a0b67b5c4665cca426ee6a73496",
+      "parsedPath": "work/than-vuc/configs/highway_num.json",
+      "parsedSha256": "665ee177606221bb5569e2244e18d1c5fad0a9484234e10a3720d7a660293f40",
+      "rows": 3,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_reward": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_reward.config",
+      "sha256": "e267073ac5778f3df2821b62ff24d9753a4843a580973317d7d20020e73cc5ab",
+      "parsedPath": "work/than-vuc/configs/highway_reward.json",
+      "parsedSha256": "c5161b653a18b531883ef424e8921aa61cb3cd9059242b9289c2dda9b773e95a",
+      "rows": 17,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_ship": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_ship.config",
+      "sha256": "956cafeb59f203c1346e6200bdcb978ff76556e6c609e17ec7146632a0333384",
+      "parsedPath": "work/than-vuc/configs/highway_ship.json",
+      "parsedSha256": "c95df10ca45398e142054bfb6a7e595205f2dd2b3b47dbd642380d7f640d5db6",
+      "rows": 5,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_shop.config",
+      "sha256": "7ea9add641a51e2a3c23893f66267889e42a068dbda19a0434b5a96c8cba4cfc",
+      "parsedPath": "work/than-vuc/configs/highway_shop.json",
+      "parsedSha256": "04c9b359a23ae91a2f773d69adb91de9950f6c5e42fd97bbc8c3040c5d90a5c9",
+      "rows": 50,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_task": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_task.config",
+      "sha256": "586f110e25569d58290d19210ad5702701f028c56a017669ef04ecd596223ae6",
+      "parsedPath": "work/than-vuc/configs/highway_task.json",
+      "parsedSha256": "b0f6048c8645f69dbefab4aacc1d07093002d8e4226158b7517efdf8cf2d45a6",
+      "rows": 26,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_time": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_time.config",
+      "sha256": "591100cefb21672efe36e83e2a0d0edeb0e2a5b9966b121310831471a5e4118a",
+      "parsedPath": "work/than-vuc/configs/highway_time.json",
+      "parsedSha256": "df23f2377838a6b434db0ec42d410fd11a2ad29d07dd6330703a96cee29065bf",
+      "rows": 10,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_trans": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_trans.config",
+      "sha256": "f318f92fc13ef5d905092088855d9a95f84bbcc8425b247b102dc02626a2ca24",
+      "parsedPath": "work/than-vuc/configs/highway_trans.json",
+      "parsedSha256": "a3e8e7d64b1c44598380cb9a0f04b15411c99a03a74497175067aa17e9385e21",
+      "rows": 3,
+      "status": "SOURCE VERIFIED"
+    },
+    "highway_txt": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/highway_txt.config",
+      "sha256": "361f9172e754bf35d5e3656aa95aea70f1262507a14508e748048afb25c55bb5",
+      "parsedPath": "work/than-vuc/configs/highway_txt.json",
+      "parsedSha256": "0b64f36b999d237e785b57baceb84859c13681ba4ce63a561525131c1f06ebc1",
+      "rows": 67,
+      "status": "SOURCE VERIFIED"
+    },
+    "item": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+      "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+      "parsedPath": "work/than-vuc/configs/item.json",
+      "parsedSha256": "ba8a9ec8cb86a16f7e9e7bb822fcf7933f5da6aab224370ecf404d69cd52ee06",
+      "rows": 3719,
+      "status": "SOURCE VERIFIED"
+    },
+    "lantern_reward": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/lantern_reward.config",
+      "sha256": "f03a8ae7d75278d9b714474d8788f058ed54e084da8aeb5a9878fc0f52e4a673",
+      "parsedPath": "work/than-vuc/configs/lantern_reward.json",
+      "parsedSha256": "aca37a8345a529c22419c6c665d91dce52ba81dc288df1ba703ee6bb4bce149b",
+      "rows": 32,
+      "status": "SOURCE VERIFIED"
+    },
+    "loading": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/loading.config",
+      "sha256": "82765adfec878f5aad90145ec9a7a2b177733b011b2aa1a52addc908cb5f90cf",
+      "parsedPath": "work/than-vuc/configs/loading.json",
+      "parsedSha256": "025de70b8cf3f67a8b5ee7402a7f3bba3a7d68170920fcd47472b81d6411fe55",
+      "rows": 250,
+      "status": "SOURCE VERIFIED"
+    },
+    "maze_top_reward": {
+      "path": "work/apk/assets/config/maze_top_reward.config",
+      "sha256": "181f572564cfd675c97a1ef304b2fe4139303386621d13bd0687b9b287163e3c",
+      "parsedPath": "work/than-vuc/configs/maze_top_reward.json",
+      "parsedSha256": "f3d4f393aea58d34b596c67d3e8fd9ba84e05ee36e1f533a23cd34c756f30705",
+      "rows": 100,
+      "status": "SOURCE VERIFIED"
+    },
+    "medal": {
+      "path": "work/apk/assets/config/medal.config",
+      "sha256": "ba761d97368239bc9567622878dafcf4a560d6988260450f9f9b4be2fd329873",
+      "parsedPath": "work/than-vuc/configs/medal.json",
+      "parsedSha256": "66a5992e2eafa1650a5fb5a85248bd157fa59fc19d0a5a55daafda30c4e2ea27",
+      "rows": 9,
+      "status": "SOURCE VERIFIED"
+    },
+    "new_fight_enemy": {
+      "path": "work/apk/assets/config/new_fight_enemy.config",
+      "sha256": "1db0449bf161feb36a71a7ea90aff937780744f404e2cbcb60762981785fe559",
+      "parsedPath": "work/than-vuc/configs/new_fight_enemy.json",
+      "parsedSha256": "2abe6f75e7903dbf51c408cb7ce1371493a14ae9ca47aa1d20a2e39dabddaf8b",
+      "rows": 225,
+      "status": "SOURCE VERIFIED"
+    },
+    "notice_active": {
+      "path": "work/apk/assets/config/notice_active.config",
+      "sha256": "bc3712be1db19cd8db022e0b5e5a5e080dacd56f3d2b1003fadd74ac821cb8d4",
+      "parsedPath": "work/than-vuc/configs/notice_active.json",
+      "parsedSha256": "c901aeeda267250efb727810b53bada712e2aff4ad843b6280edd5fd5044e735",
+      "rows": 72,
+      "status": "SOURCE VERIFIED"
+    },
+    "occupation": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/occupation.config",
+      "sha256": "cfa8ba11532c760b3939a09a60ccbf13bd24a6c990f152b529678828c8a92a7e",
+      "parsedPath": "work/than-vuc/configs/occupation.json",
+      "parsedSha256": "6140e7c8a7e5f2830310a32592e9bb3f2b29b6f35314fa33702559313324f7a8",
+      "rows": 330,
+      "status": "SOURCE VERIFIED"
+    },
+    "pagoda": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/pagoda.config",
+      "sha256": "a6e93a70e93be7156e66f84ff2c9966083134e7da3587a687d9d758def2c9c09",
+      "parsedPath": "work/than-vuc/configs/pagoda.json",
+      "parsedSha256": "ed0d7864aa97a59ee9eea27ab47b32ed9c9236a9b0ab0f6ebb81eac2cdf22982",
+      "rows": 32,
+      "status": "SOURCE VERIFIED"
+    },
+    "pagoda_reward": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/pagoda_reward.config",
+      "sha256": "3d06e14313ec4c75d09acc2ae21b548fff9ea9c38189f0b16dfa459109441b97",
+      "parsedPath": "work/than-vuc/configs/pagoda_reward.json",
+      "parsedSha256": "f3724e645c1477f4f181d1c536e268e9920b5872afdc76b7fc112b178a16a1bc",
+      "rows": 32,
+      "status": "SOURCE VERIFIED"
+    },
+    "pay": {
+      "path": "work/apk/assets/config/pay.config",
+      "sha256": "ef01c9c1a2ca74f31606ad80b006e6ec481210180b3e5fc1ce0529c1b4be3ea5",
+      "parsedPath": "work/than-vuc/configs/pay.json",
+      "parsedSha256": "1bfde32700356853461fe4b644539e3eb47eee9bab1968f8e5ef554c98eb989a",
+      "rows": 42,
+      "status": "SOURCE VERIFIED"
+    },
+    "position": {
+      "path": "work/apk/assets/config/position.config",
+      "sha256": "3958dde0aa8f40eb481f54a3c9c03ee7a250407f2e03488587456bd7bc9177b7",
+      "parsedPath": "work/than-vuc/configs/position.json",
+      "parsedSha256": "f63907f22a37bc7d9f589837b17bbc39f8dffcc9031f3ebcb72a402cfac55fea",
+      "rows": 6,
+      "status": "SOURCE VERIFIED"
+    },
+    "race": {
+      "path": "work/apk/assets/config/race.config",
+      "sha256": "56de05718b0e51073cbf5023e44e81fa5aae9fd67cff665818384ed9dc5369e4",
+      "parsedPath": "work/than-vuc/configs/race.json",
+      "parsedSha256": "2d88cf8ba6cd9d02613761ac6f3d6178cdecd7cb7a32e557213bcfaccd323c0b",
+      "rows": 6,
+      "status": "SOURCE VERIFIED"
+    },
+    "role_detail": {
+      "path": "work/apk/assets/config/role_detail.config",
+      "sha256": "82b247311439512accf666d548f141a55477886e1821940fe34a36722a7f3994",
+      "parsedPath": "work/than-vuc/configs/role_detail.json",
+      "parsedSha256": "140a864185de81235dd09ed66b24a24c54672a9ddc22bd379298ef1eaafc7865",
+      "rows": 5,
+      "status": "SOURCE VERIFIED"
+    },
+    "server_pk_power": {
+      "status": "SOURCE BLOCKED"
+    },
+    "server_pk_reward": {
+      "path": "work/apk/assets/config/server_pk_reward.config",
+      "sha256": "f80eec8b2129f51521c43758e9e974c5554ac60f2a1da97a4bef714983f194aa",
+      "parsedPath": "work/than-vuc/configs/server_pk_reward.json",
+      "parsedSha256": "608acfcf6f632e38adc4c5e2d8d0696ded809abb8a4ca5da39b494d9a4336b18",
+      "rows": 2,
+      "status": "SOURCE VERIFIED"
+    },
+    "server_pk_time": {
+      "path": "work/apk/assets/config/server_pk_time.config",
+      "sha256": "dc583ca18bb65ca0398e36bc6b2e9f04e1bc21e70da6850b8920609324f1f59d",
+      "parsedPath": "work/than-vuc/configs/server_pk_time.json",
+      "parsedSha256": "9cc9a56d7e67aee27f9e2e654697ea5807841a8f06c400470146c2d1f23c4015",
+      "rows": 1,
+      "status": "SOURCE VERIFIED"
+    },
+    "soul_detail": {
+      "path": "work/apk/assets/config/soul_detail.config",
+      "sha256": "c61f4ee2ac06eb6098db3308afbe17a19b05beb37fda4dec6c80ad14345d4356",
+      "parsedPath": "work/than-vuc/configs/soul_detail.json",
+      "parsedSha256": "616bd001adee852352f3fe10a247fa719ce2a5b0a8f03cba36e5456e69cb383d",
+      "rows": 63,
+      "status": "SOURCE VERIFIED"
+    },
+    "talisman": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/talisman.config",
+      "sha256": "30858f39d5474bced3b8aecc96c71df1c343f7f6bb62d931e70725188d1bbb92",
+      "parsedPath": "work/than-vuc/configs/talisman.json",
+      "parsedSha256": "71a46c901d332b82198e50c8f7f53ebb8895f41ca5222f18e1d51b9892935424",
+      "rows": 414,
+      "status": "SOURCE VERIFIED"
+    },
+    "temple_number": {
+      "status": "SOURCE BLOCKED"
+    },
+    "temple_robot": {
+      "status": "SOURCE BLOCKED"
+    },
+    "universe_arena": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/universe_arena.config",
+      "sha256": "6b4142b023a239861dd706de5eb6eede3a8e90f5d58ed1cc76dbfb5b05c07fd9",
+      "parsedPath": "work/than-vuc/configs/universe_arena.json",
+      "parsedSha256": "ccd01372054ec955658109c6c4361e90a678e6198aba5b398b6567ef0faa44a5",
+      "rows": 15,
+      "status": "SOURCE VERIFIED"
+    },
+    "universe_arena_grade": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/universe_arena_grade.config",
+      "sha256": "6eb9809faddfc693945e9951c761dfff71e95aed17047348fe8efb959a39a8c3",
+      "parsedPath": "work/than-vuc/configs/universe_arena_grade.json",
+      "parsedSha256": "a0a9cc21c8eaea444376ce10315551d77d7f8971c90e7c2f001c174e617211d3",
+      "rows": 15,
+      "status": "SOURCE VERIFIED"
+    },
+    "universe_arena_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/universe_arena_shop.config",
+      "sha256": "43ea5c144668da816567dab08edc3534fac84bf4bd1ef0a72c652ce37fd169aa",
+      "parsedPath": "work/than-vuc/configs/universe_arena_shop.json",
+      "parsedSha256": "00a9b62983c8a35a7aa200dfd47c79614d179f99af76a3d842cb46adbfdc10a9",
+      "rows": 39,
+      "status": "SOURCE VERIFIED"
+    },
+    "vip": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/vip.config",
+      "sha256": "75f922c073b730f04183fc0d63aa64a3ef231cc2b5a50d44e04fc63d66c3964a",
+      "parsedPath": "work/than-vuc/configs/vip.json",
+      "parsedSha256": "11ec527df8a9e76cdc4b56480e6c19604a66509c13741a875a0d0c50313c3bcd",
+      "rows": 18,
+      "status": "SOURCE VERIFIED"
+    }
+  },
+  "slotMasks": {
+    "open10": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "open11": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "open12": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "open13": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "open20": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "open21": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "open22": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "open23": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "open30": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "open31": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "open32": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "open33": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "open40": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "open41": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "open42": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "open43": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "open50": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "open51": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "open52": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "open53": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "calls": [
+    {
+      "controller": "game_pop/game_god_Star_employ.lua",
+      "line": 73,
+      "key": "zodiac_fight_boss",
+      "route": "/api/?method=zodiac.fight_boss"
+    },
+    {
+      "controller": "game_pop/game_god_Star_employ.lua",
+      "line": 93,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_pop/game_god_append_soul.lua",
+      "line": 129,
+      "key": "soul_all_soul",
+      "route": "/api/?method=soul.all_soul"
+    },
+    {
+      "controller": "game_pop/game_god_dart_battle_result.lua",
+      "line": 133,
+      "key": "god_field_escort_battle_replay",
+      "route": "/api/?method=god_field_escort.battle_replay"
+    },
+    {
+      "controller": "game_pop/game_god_enemy_pop.lua",
+      "line": 135,
+      "key": "enemy_info",
+      "route": "/api/?method=zodiac.enemy_info"
+    },
+    {
+      "controller": "game_pop/game_god_escort_exchange_confirm.lua",
+      "line": 24,
+      "key": "highway_trans",
+      "route": "/api/?method=highway.trans"
+    },
+    {
+      "controller": "game_pop/game_god_medal_pop.lua",
+      "line": 194,
+      "key": "medal_index",
+      "route": "/api/?method=medal.index"
+    },
+    {
+      "controller": "game_pop/game_god_palace_battle_log.lua",
+      "line": 120,
+      "key": "zodiac_battle_replay",
+      "route": "/api/?method=zodiac.zodiac_battle_replay"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_shippop.lua",
+      "line": 36,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_shippop.lua",
+      "line": 54,
+      "key": "zodiac_god_field_ids",
+      "route": "/api/?method=zodiac.god_field_ids"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_shippop.lua",
+      "line": 73,
+      "key": "zodiac_remove_floor_pos2",
+      "route": "/api/?method=zodiac.remove_floor_pos2"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 39,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 94,
+      "key": "zodiac_battle",
+      "route": "/api/?method=zodiac.zodiac_battle"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 106,
+      "key": "zodiac_employ_ground",
+      "route": "/api/?method=zodiac.employ_ground"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 169,
+      "key": "zodiac_get_adjustment",
+      "route": "/api/?method=zodiac.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 199,
+      "key": "zodiac_remove_floor_pos",
+      "route": "/api/?method=zodiac.remove_floor_pos"
+    },
+    {
+      "controller": "game_pop/game_godfield_Star_zhenxing.lua",
+      "line": 273,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_arean_enemy_pop.lua",
+      "line": 129,
+      "key": "god_field_god_field_battle",
+      "route": "/api/?method=god_field.god_field_battle"
+    },
+    {
+      "controller": "game_pop/game_godfield_arean_enemy_pop.lua",
+      "line": 322,
+      "key": "god_field_update_battle_order",
+      "route": "/api/?method=god_field.update_battle_order"
+    },
+    {
+      "controller": "game_pop/game_godfield_arean_enemy_pop.lua",
+      "line": 356,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_arena_success.lua",
+      "line": 38,
+      "key": "god_arena_receive_stage_up_reward",
+      "route": "/api/?method=god_arena.receive_stage_up_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_arena_up.lua",
+      "line": 51,
+      "key": "god_arena_stage_up_battle",
+      "route": "/api/?method=god_arena.stage_up_battle"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_des_pop.lua",
+      "line": 27,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_log.lua",
+      "line": 121,
+      "key": "god_field_escort_battle_log",
+      "route": "/api/?method=god_field_escort.battle_log"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_msgpop.lua",
+      "line": 69,
+      "key": "god_field_escort_employ_ground",
+      "route": "/api/?method=god_field_escort.employ_ground"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_pop.lua",
+      "line": 70,
+      "key": "god_field_escort_map_index",
+      "route": "/api/?method=god_field_escort.map_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_pop.lua",
+      "line": 74,
+      "key": "god_field_escort_start_sail",
+      "route": "/api/?method=god_field_escort.start_sail"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_pop.lua",
+      "line": 84,
+      "key": "god_field_escort_rob",
+      "route": "/api/?method=god_field_escort.rob"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_pop.lua",
+      "line": 103,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_result.lua",
+      "line": 65,
+      "key": "god_field_escort_all_map",
+      "route": "/api/?method=god_field_escort.all_map"
+    },
+    {
+      "controller": "game_pop/game_godfield_dart_result.lua",
+      "line": 140,
+      "key": "god_field_escort_battle_replay",
+      "route": "/api/?method=god_field_escort.battle_replay"
+    },
+    {
+      "controller": "game_pop/game_godfield_despop.lua",
+      "line": 22,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengEnemy_pop.lua",
+      "line": 61,
+      "key": "team_pk_boss_battle_v3",
+      "route": "/api/?method=team_pk_new.team_pk_boss_battle_v3"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 82,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 87,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 92,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 118,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 126,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_pop/game_godfield_fenzhengzhenxing_pop.lua",
+      "line": 401,
+      "key": "team_pk_new_team_pk_formation",
+      "route": "/api/?method=team_pk_new.team_pk_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 86,
+      "key": "guild_high_war_declare_war",
+      "route": "/api/?method=guild_high_war.declare_war"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 97,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 103,
+      "key": "guild_high_war_explore_index",
+      "route": "/api/?method=guild_high_war.explore_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 114,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 122,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 130,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 144,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 149,
+      "key": "guild_high_war_get_city_record",
+      "route": "/api/?method=guild_high_war.get_city_record"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "line": 169,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "line": 204,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_chance_end_pop.lua",
+      "line": 54,
+      "key": "guild_high_war_get_fate_reward",
+      "route": "/api/?method=guild_high_war.get_fate_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 187,
+      "key": "guild_high_war_explore",
+      "route": "/api/?method=guild_high_war.explore"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 237,
+      "key": "guild_high_war_explore_index",
+      "route": "/api/?method=guild_high_war.explore_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 248,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_formation_pop.lua",
+      "line": 121,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 292,
+      "key": "guild_high_war_set_first_alignment",
+      "route": "/api/?method=guild_high_war.set_first_alignment"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 352,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 386,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_keji_rank_pop.lua",
+      "line": 193,
+      "key": "guild_high_war_get_science_star",
+      "route": "/api/?method=guild_high_war.get_science_star"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "line": 151,
+      "key": "guild_high_war_player_index",
+      "route": "/api/?method=guild_high_war.player_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "line": 233,
+      "key": "guild_high_war_send_war_card",
+      "route": "/api/?method=guild_high_war.send_war_card"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 72,
+      "key": "guild_high_war_auto_get_war_reward",
+      "route": "/api/?method=guild_high_war.auto_get_war_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 88,
+      "key": "guild_high_war_player_index",
+      "route": "/api/?method=guild_high_war.player_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 164,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 544,
+      "key": "guild_high_war_get_war_reward",
+      "route": "/api/?method=guild_high_war.get_war_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 45,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 52,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 236,
+      "key": "guild_high_war_dolike",
+      "route": "/api/?method=guild_high_war.dolike"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_report_pop.lua",
+      "line": 112,
+      "key": "guild_high_war_record",
+      "route": "/api/?method=guild_high_war.record"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 128,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 168,
+      "key": "guild_high_war_down_alignment_source",
+      "route": "/api/?method=guild_high_war.down_alignment_source"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 176,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 254,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 291,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 352,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 51,
+      "key": "guild_high_war_box_index",
+      "route": "/api/?method=guild_high_war.box_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 57,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 63,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 451,
+      "key": "guild_high_war_select_reward",
+      "route": "/api/?method=guild_high_war.select_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_new_battleMsg.lua",
+      "line": 77,
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_new_battleMsg.lua",
+      "line": 153,
+      "key": "universe_arena_get_battle_logs",
+      "route": "/api/?method=universe_arena.get_battle_logs"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_new_battle_result.lua",
+      "line": 24,
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_new_score_rew.lua",
+      "line": 112,
+      "key": "universe_arena_get_reward",
+      "route": "/api/?method=universe_arena.get_reward"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_new_shop.lua",
+      "line": 110,
+      "key": "universe_arena_buy_goods",
+      "route": "/api/?method=universe_arena.buy_goods"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_pop.lua",
+      "line": 118,
+      "key": "god_arena_battle",
+      "route": "/api/?method=god_arena.battle"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_pop.lua",
+      "line": 258,
+      "key": "god_field_update_battle_order",
+      "route": "/api/?method=god_field.update_battle_order"
+    },
+    {
+      "controller": "game_pop/game_godfield_pvp_pop.lua",
+      "line": 293,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_pop/game_godtemple_kuangdian.lua",
+      "line": 61,
+      "key": "god_field_temple_select_enemies",
+      "route": "/api/?method=god_field_temple.select_enemies"
+    },
+    {
+      "controller": "game_pop/game_godtemple_kuangdian.lua",
+      "line": 83,
+      "key": "god_field_temple_contend_temple",
+      "route": "/api/?method=god_field_temple.contend_temple"
+    },
+    {
+      "controller": "game_pop/game_godtemple_revenge_pop.lua",
+      "line": 23,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_pop/game_godtemple_revenge_pop.lua",
+      "line": 56,
+      "key": "god_field_temple_contend_temple",
+      "route": "/api/?method=god_field_temple.contend_temple"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 282,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 288,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 294,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 305,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 318,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 323,
+      "key": "new_fight_forever_index",
+      "route": "/api/?method=new_fight_forever.index"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 328,
+      "key": "nightmare_tower_index",
+      "route": "/api/?method=nightmare_tower.index"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 333,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 339,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 353,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_god_Star_adjustment.lua",
+      "line": 497,
+      "key": "god_field_set_god_field",
+      "route": "/api/?method=god_field.set_god_field"
+    },
+    {
+      "controller": "game_ui/game_god_adjust_formation.lua",
+      "line": 259,
+      "key": "association_employ_boss_fight",
+      "route": "/api/?method=association.employ_boss_fight"
+    },
+    {
+      "controller": "game_ui/game_god_adjust_formation.lua",
+      "line": 324,
+      "key": "association_employ_ground",
+      "route": "/api/?method=association.employ_ground"
+    },
+    {
+      "controller": "game_ui/game_god_adjust_formation.lua",
+      "line": 3062,
+      "key": "cards_activate_assistant",
+      "route": "/api/?method=cards.activate_assistant"
+    },
+    {
+      "controller": "game_ui/game_god_adjust_formation.lua",
+      "line": 3605,
+      "key": "cards_activate_destiny",
+      "route": "/api/?method=cards.activate_destiny"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 312,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 318,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 324,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 335,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 348,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 353,
+      "key": "new_fight_forever_index",
+      "route": "/api/?method=new_fight_forever.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 358,
+      "key": "nightmare_tower_index",
+      "route": "/api/?method=nightmare_tower.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 363,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 369,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 378,
+      "key": "zodiac_god_field_ids",
+      "route": "/api/?method=zodiac.god_field_ids"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 384,
+      "key": "new_guild_fight_battlefield_overview",
+      "route": "/api/?method=new_guild_fight.battlefield_overview"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 399,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 405,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 417,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 637,
+      "key": "god_field_set_god_field",
+      "route": "/api/?method=god_field.set_god_field"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 1003,
+      "key": "badge_set_badge",
+      "route": "/api/?method=badge.set_badge"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment.lua",
+      "line": 1010,
+      "key": "badge_down_badge",
+      "route": "/api/?method=badge.down_badge"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 186,
+      "key": "private_city_open",
+      "route": "/api/?method=private_city.open"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 208,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 217,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 342,
+      "key": "zodiac_fight_boss",
+      "route": "/api/?method=zodiac.fight_boss"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 357,
+      "key": "god_field_escort_map_index",
+      "route": "/api/?method=god_field_escort.map_index"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 361,
+      "key": "god_field_escort_start_sail",
+      "route": "/api/?method=god_field_escort.start_sail"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 371,
+      "key": "god_field_escort_rob",
+      "route": "/api/?method=god_field_escort.rob"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 432,
+      "key": "zodiac_employ_ground",
+      "route": "/api/?method=zodiac.employ_ground"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 442,
+      "key": "god_field_escort_employ_ground",
+      "route": "/api/?method=god_field_escort.employ_ground"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 3164,
+      "key": "cards_activate_assistant",
+      "route": "/api/?method=cards.activate_assistant"
+    },
+    {
+      "controller": "game_ui/game_god_adjustment_formation.lua",
+      "line": 3707,
+      "key": "cards_activate_destiny",
+      "route": "/api/?method=cards.activate_destiny"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 30,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 40,
+      "key": "highway_task_index",
+      "route": "/api/?method=highway.task_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 48,
+      "key": "highway_shop_index",
+      "route": "/api/?method=highway.shop_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 55,
+      "key": "highway_trans_index",
+      "route": "/api/?method=highway.trans_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 79,
+      "key": "highway_all_area_index",
+      "route": "/api/?method=highway.all_area_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_bet.lua",
+      "line": 635,
+      "key": "highway_index",
+      "route": "/api/?method=highway.index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_exchange_shop.lua",
+      "line": 19,
+      "key": "highway_index",
+      "route": "/api/?method=highway.index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_shop.lua",
+      "line": 22,
+      "key": "highway_index",
+      "route": "/api/?method=highway.index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_shop.lua",
+      "line": 355,
+      "key": "highway_shop_index",
+      "route": "/api/?method=highway.shop_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_universe.lua",
+      "line": 27,
+      "key": "highway_index",
+      "route": "/api/?method=highway.index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_universe.lua",
+      "line": 48,
+      "key": "highway_area_index",
+      "route": "/api/?method=highway.area_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_universe.lua",
+      "line": 157,
+      "key": "highway_all_area_index",
+      "route": "/api/?method=highway.all_area_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_universeRun.lua",
+      "line": 37,
+      "key": "highway_all_area_index",
+      "route": "/api/?method=highway.all_area_index"
+    },
+    {
+      "controller": "game_ui/game_god_escort_universeRun.lua",
+      "line": 197,
+      "key": "highway_area_index",
+      "route": "/api/?method=highway.area_index"
+    },
+    {
+      "controller": "game_ui/game_god_palace_adjustment.lua",
+      "line": 265,
+      "key": "zodiac_god_field_ids",
+      "route": "/api/?method=zodiac.god_field_ids"
+    },
+    {
+      "controller": "game_ui/game_god_palace_adjustment.lua",
+      "line": 271,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_god_palace_adjustment.lua",
+      "line": 413,
+      "key": "zodiac_set_adjustment",
+      "route": "/api/?method=zodiac.update_field"
+    },
+    {
+      "controller": "game_ui/game_god_palace_adjustment.lua",
+      "line": 602,
+      "key": "badge_set_badge",
+      "route": "/api/?method=badge.set_badge"
+    },
+    {
+      "controller": "game_ui/game_god_palace_adjustment.lua",
+      "line": 609,
+      "key": "badge_down_badge",
+      "route": "/api/?method=badge.down_badge"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 27,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 44,
+      "key": "zodiac_battle_log",
+      "route": "/api/?method=zodiac.zodiac_battle_log"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 51,
+      "key": "enemy_index",
+      "route": "/api/?method=zodiac.enemy_index"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 62,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 67,
+      "key": "zodiac_wanted_index",
+      "route": "/api/?method=zodiac.zodiac_wanted_index"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_main.lua",
+      "line": 320,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_palace.lua",
+      "line": 58,
+      "key": "zodiac_index",
+      "route": "/api/?method=zodiac.index"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_palace.lua",
+      "line": 91,
+      "key": "zodiac_god_field_ids",
+      "route": "/api/?method=zodiac.god_field_ids"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_palace.lua",
+      "line": 266,
+      "key": "zodiac_user_info",
+      "route": "/api/?method=zodiac.user_info"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_palace.lua",
+      "line": 375,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_ui/game_god_pyramid_palace.lua",
+      "line": 458,
+      "key": "zodiac_go_fight",
+      "route": "/api/?method=zodiac.go_fight"
+    },
+    {
+      "controller": "game_ui/game_godfield_Star_enemy_list.lua",
+      "line": 131,
+      "key": "enemy_info",
+      "route": "/api/?method=zodiac.enemy_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 118,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 136,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 143,
+      "key": "god_field_exchange_index",
+      "route": "/api/?method=god_field.exchange_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 148,
+      "key": "god_field_get_own_logs",
+      "route": "/api/?method=god_field.get_own_logs"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 157,
+      "key": "god_field_god_integration_rank",
+      "route": "/api/?method=god_field.god_integration_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 178,
+      "key": "god_field_buy_ship_ticket",
+      "route": "/api/?method=god_field.buy_ship_ticket"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 444,
+      "key": "god_field_see_enemy_info",
+      "route": "/api/?method=god_field.see_enemy_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 452,
+      "key": "god_field_see_enemy_info",
+      "route": "/api/?method=god_field.see_enemy_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 467,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_arean.lua",
+      "line": 504,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_arena_rank.lua",
+      "line": 60,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_arena_rank.lua",
+      "line": 115,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_arena_rank.lua",
+      "line": 239,
+      "key": "god_arena_top",
+      "route": "/api/?method=god_arena.top"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 49,
+      "key": "god_field_see_final_log",
+      "route": "/api/?method=god_field.see_final_log"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 56,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 68,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 73,
+      "key": "new_fight_forever_index",
+      "route": "/api/?method=new_fight_forever.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 78,
+      "key": "nightmare_tower_index",
+      "route": "/api/?method=nightmare_tower.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 83,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 166,
+      "key": "new_fight_forever_back_battle",
+      "route": "/api/?method=new_fight_forever.back_battle"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 168,
+      "key": "nightmare_tower_fight_back_battle",
+      "route": "/api/?method=nightmare_tower.back_battle"
+    },
+    {
+      "controller": "game_ui/game_godfield_battle_result.lua",
+      "line": 170,
+      "key": "god_field_back_battle",
+      "route": "/api/?method=god_field.back_battle"
+    },
+    {
+      "controller": "game_ui/game_godfield_calendar_pop.lua",
+      "line": 34,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_calendar_pop.lua",
+      "line": 161,
+      "key": "god_field_final_battle_log",
+      "route": "/api/?method=god_field.final_battle_log"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_Shipsel.lua",
+      "line": 38,
+      "key": "god_field_escort_shop_index",
+      "route": "/api/?method=god_field_escort.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_Shipsel.lua",
+      "line": 58,
+      "key": "god_field_escort_employ_ground",
+      "route": "/api/?method=god_field_escort.employ_ground"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_main.lua",
+      "line": 57,
+      "key": "god_field_escort_all_map",
+      "route": "/api/?method=god_field_escort.all_map"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_main.lua",
+      "line": 69,
+      "key": "god_field_escort_shop_index",
+      "route": "/api/?method=god_field_escort.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_route.lua",
+      "line": 47,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_route.lua",
+      "line": 72,
+      "key": "god_field_escort_all_map",
+      "route": "/api/?method=god_field_escort.all_map"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_route.lua",
+      "line": 86,
+      "key": "god_field_escort_map_index",
+      "route": "/api/?method=god_field_escort.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_routeslist.lua",
+      "line": 46,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_routeslist.lua",
+      "line": 65,
+      "key": "god_field_escort_battle_message",
+      "route": "/api/?method=god_field_escort.battle_message"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_routeslist.lua",
+      "line": 70,
+      "key": "god_field_escort_all_map",
+      "route": "/api/?method=god_field_escort.all_map"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_routeslist.lua",
+      "line": 89,
+      "key": "god_field_escort_map_index",
+      "route": "/api/?method=god_field_escort.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 37,
+      "key": "god_dart_mian",
+      "route": "/api/?method=god_field_escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 57,
+      "key": "god_field_escort_coin_shop_fresh",
+      "route": "/api/?method=god_field_escort.coin_shop_fresh"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 64,
+      "key": "escort_my_goods",
+      "route": "/api/?method=escort.my_goods"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 80,
+      "key": "god_field_choice_escort",
+      "route": "/api/?method=god_field_escort.choice_escort"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 133,
+      "key": "god_field_escort_buy_goods",
+      "route": "/api/?method=god_field_escort.buy_goods"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_shop.lua",
+      "line": 199,
+      "key": "god_field_escort_my_goods",
+      "route": "/api/?method=god_field_escort.my_goods"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 30,
+      "key": "escort_index",
+      "route": "/api/?method=escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 49,
+      "key": "escort_create_rob_team",
+      "route": "/api/?method=escort.create_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 54,
+      "key": "escort_check_my_rob_team",
+      "route": "/api/?method=escort.check_my_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 63,
+      "key": "escort_rob_index",
+      "route": "/api/?method=escort.rob_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 102,
+      "key": "escort_check_my_rob_team",
+      "route": "/api/?method=escort.check_my_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern.lua",
+      "line": 110,
+      "key": "escort_join_rob_team",
+      "route": "/api/?method=escort.join_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 48,
+      "key": "escort_index",
+      "route": "/api/?method=escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 67,
+      "key": "escort_index",
+      "route": "/api/?method=escort.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 82,
+      "key": "escort_map_index",
+      "route": "/api/?method=escort.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 91,
+      "key": "escort_quit_rob_team",
+      "route": "/api/?method=escort.quit_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 239,
+      "key": "escort_kick_rob_team",
+      "route": "/api/?method=escort.kick_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 374,
+      "key": "escort_map_index",
+      "route": "/api/?method=escort.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_tavern_info.lua",
+      "line": 396,
+      "key": "escort_check_my_rob_team",
+      "route": "/api/?method=escort.check_my_rob_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 30,
+      "key": "escort_shop_index",
+      "route": "/api/?method=escort.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 56,
+      "key": "escort_create_goods_team",
+      "route": "/api/?method=escort.create_goods_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 64,
+      "key": "escort_check_my_team",
+      "route": "/api/?method=escort.check_my_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 73,
+      "key": "escort_team_index",
+      "route": "/api/?method=escort.team_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 116,
+      "key": "escort_check_my_team",
+      "route": "/api/?method=escort.check_my_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_dart_team_recruitment.lua",
+      "line": 128,
+      "key": "escort_join_goods_team",
+      "route": "/api/?method=escort.join_goods_team"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzheng.lua",
+      "line": 88,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzheng.lua",
+      "line": 112,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzheng.lua",
+      "line": 120,
+      "key": "team_pk_exchange_index",
+      "route": "/api/?method=team_pk_new.exchange_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzhengRank.lua",
+      "line": 57,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzhengRank.lua",
+      "line": 99,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_fenzhengRank.lua",
+      "line": 212,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 28,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 216,
+      "key": "guild_high_war_employ_refuse",
+      "route": "/api/?method=guild_high_war.employ_refuse"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 230,
+      "key": "guild_high_war_employ_agree",
+      "route": "/api/?method=guild_high_war.employ_agree"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 248,
+      "key": "guild_high_war_employ_remove",
+      "route": "/api/?method=guild_high_war.employ_remove"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 28,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 193,
+      "key": "guild_high_war_employ_index",
+      "route": "/api/?method=guild_high_war.employ_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 267,
+      "key": "guild_high_war_employ_join",
+      "route": "/api/?method=guild_high_war.employ_join"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 285,
+      "key": "guild_high_war_employ_quit",
+      "route": "/api/?method=guild_high_war.employ_quit"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_items_scene.lua",
+      "line": 43,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_items_scene.lua",
+      "line": 185,
+      "key": "item_use",
+      "route": "/api/?method=item.use"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 23,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 69,
+      "key": "guild_high_war_contribute",
+      "route": "/api/?method=guild_high_war.contribute"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 76,
+      "key": "guild_high_war_science_rank",
+      "route": "/api/?method=guild_high_war.science_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 28,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 53,
+      "key": "guild_high_war_get_guild_record",
+      "route": "/api/?method=guild_high_war.get_guild_record"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 58,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 63,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 69,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 75,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 103,
+      "key": "guild_high_war_employ_guild_index",
+      "route": "/api/?method=guild_high_war.employ_guild_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 127,
+      "key": "guild_high_war_employ_index",
+      "route": "/api/?method=guild_high_war.employ_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 211,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 216,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 144,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 171,
+      "key": "guild_high_war_get_guild_record",
+      "route": "/api/?method=guild_high_war.get_guild_record"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 176,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 181,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 190,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 200,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 205,
+      "key": "guild_high_war_box_index",
+      "route": "/api/?method=guild_high_war.box_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 213,
+      "key": "guild_high_war_science_index",
+      "route": "/api/?method=guild_high_war.science_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 293,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 442,
+      "key": "guild_high_war_shop_index",
+      "route": "/api/?method=guild_high_war.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 455,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 465,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_shop.lua",
+      "line": 51,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_guild_high_war_shop.lua",
+      "line": 183,
+      "key": "guild_high_war_buy",
+      "route": "/api/?method=guild_high_war.buy"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 43,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 77,
+      "key": "god_field_buy_ship_ticket",
+      "route": "/api/?method=god_field.buy_ship_ticket"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 94,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 101,
+      "key": "god_field_exchange_index",
+      "route": "/api/?method=god_field.exchange_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 127,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 131,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 139,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_main.lua",
+      "line": 149,
+      "key": "god_field_see_final_log",
+      "route": "/api/?method=god_field.see_final_log"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 67,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 70,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 81,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 102,
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 129,
+      "key": "cosmic_war_index",
+      "route": "/api/?method=cosmic_war.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 158,
+      "key": "highway_index",
+      "route": "/api/?method=highway.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 164,
+      "key": "zodiac_index",
+      "route": "/api/?method=zodiac.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 171,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_mainBig.lua",
+      "line": 178,
+      "key": "god_field_get_combat_rank",
+      "route": "/api/?method=god_field.get_combat_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_main_rank.lua",
+      "line": 192,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 55,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 84,
+      "key": "team_pk_new_cool_down_boss_battle_attack",
+      "route": "/api/?method=team_pk_new.cool_down_boss_battle_attack"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 101,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 115,
+      "key": "god_field_upload_god_formation",
+      "route": "/api/?method=god_field.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 152,
+      "key": "team_pk_new_recover_morale",
+      "route": "/api/?method=team_pk_new.recover_morale"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 377,
+      "key": "team_pk_boss_battle_v3",
+      "route": "/api/?method=team_pk_new.team_pk_boss_battle_v3"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 395,
+      "key": "team_pk_boss_battle_v3",
+      "route": "/api/?method=team_pk_new.team_pk_boss_battle_v3"
+    },
+    {
+      "controller": "game_ui/game_godfield_newFenzheng.lua",
+      "line": 427,
+      "key": "team_pk_new_foothold_info",
+      "route": "/api/?method=team_pk_new.foothold_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 95,
+      "key": "homeland_index",
+      "route": "/api/?method=homeland.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 127,
+      "key": "god_arena_get_own_logs",
+      "route": "/api/?method=god_arena.get_own_logs"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 137,
+      "key": "god_arena_shop_index",
+      "route": "/api/?method=god_arena.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 148,
+      "key": "god_arena_top",
+      "route": "/api/?method=god_arena.top"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 162,
+      "key": "god_arena_leisure_match",
+      "route": "/api/?method=god_arena.leisure_match"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 181,
+      "key": "god_arena_leisure_match",
+      "route": "/api/?method=god_arena.leisure_match"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 197,
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 213,
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 229,
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 239,
+      "key": "god_arena_show_stage_up_enemy",
+      "route": "/api/?method=god_arena.show_stage_up_enemy"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 268,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp.lua",
+      "line": 271,
+      "key": "god_arena_buy_count",
+      "route": "/api/?method=god_arena.buy_count"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 93,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 113,
+      "key": "universe_arena_hero_rank",
+      "route": "/api/?method=universe_arena.hero_rank"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 118,
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 124,
+      "key": "universe_arena_shop_index",
+      "route": "/api/?method=universe_arena.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 129,
+      "key": "universe_arena_upload_god_formation",
+      "route": "/api/?method=universe_arena.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 135,
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new.lua",
+      "line": 140,
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 285,
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 290,
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 296,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 493,
+      "key": "universe_arena_set_god_field",
+      "route": "/api/?method=universe_arena.set_god_field"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 860,
+      "key": "badge_set_badge",
+      "route": "/api/?method=badge.set_badge"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 867,
+      "key": "badge_down_badge",
+      "route": "/api/?method=badge.down_badge"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_hero.lua",
+      "line": 93,
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 63,
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 102,
+      "key": "universe_arena_upload_god_formation",
+      "route": "/api/?method=universe_arena.upload_god_formation"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 108,
+      "key": "universe_arena_shop_index",
+      "route": "/api/?method=universe_arena.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 113,
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 119,
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 124,
+      "key": "universe_arena_secore_reward_index",
+      "route": "/api/?method=universe_arena.secore_reward_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 129,
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 207,
+      "key": "universe_arena_universe_arena_battle",
+      "route": "/api/?method=universe_arena.universe_arena_battle"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 295,
+      "key": "universe_arena_universe_arena_battle",
+      "route": "/api/?method=universe_arena.universe_arena_battle"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 50,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 55,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 60,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 66,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 71,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 90,
+      "key": "god_field_exchange_index",
+      "route": "/api/?method=god_field.exchange_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 176,
+      "key": "god_arena_exchange",
+      "route": "/api/?method=god_arena.exchange"
+    },
+    {
+      "controller": "game_ui/game_godfield_rank.lua",
+      "line": 60,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_rank.lua",
+      "line": 102,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_rank.lua",
+      "line": 215,
+      "key": "user_info",
+      "route": "/api/?method=user.info"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 47,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 52,
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 57,
+      "key": "team_pk_new_index",
+      "route": "/api/?method=team_pk_new.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 64,
+      "key": "god_field_index",
+      "route": "/api/?method=god_field.index"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 89,
+      "key": "god_arena_shop_index",
+      "route": "/api/?method=god_arena.shop_index"
+    },
+    {
+      "controller": "game_ui/game_godfield_shop.lua",
+      "line": 153,
+      "key": "god_field_exchange",
+      "route": "/api/?method=god_field.exchange"
+    },
+    {
+      "controller": "game_ui/game_godtemple_getTeam.lua",
+      "line": 97,
+      "key": "god_field_temple_leave_temple",
+      "route": "/api/?method=god_field_temple.leave_temple"
+    },
+    {
+      "controller": "game_ui/game_godtemple_goTeam.lua",
+      "line": 59,
+      "key": "god_field_temple_select_enemies",
+      "route": "/api/?method=god_field_temple.select_enemies"
+    },
+    {
+      "controller": "game_ui/game_godtemple_heroList.lua",
+      "line": 90,
+      "key": "god_field_temple_set_farmer_team_formation",
+      "route": "/api/?method=god_field_temple.set_farmer_team_formation"
+    },
+    {
+      "controller": "game_ui/game_godtemple_heroList.lua",
+      "line": 92,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_godtemple_heroList.lua",
+      "line": 94,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_godtemple_main.lua",
+      "line": 38,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_godtemple_main.lua",
+      "line": 52,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_godtemple_main.lua",
+      "line": 59,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_godtemple_revenge.lua",
+      "line": 34,
+      "key": "god_field_temple_index",
+      "route": "/api/?method=god_field_temple.index"
+    },
+    {
+      "controller": "game_ui/game_pagoda_scene.lua",
+      "line": 181,
+      "key": "pagoda_get_floor_reward",
+      "route": "/api/?method=pagoda.get_floor_reward"
+    },
+    {
+      "controller": "game_ui/game_pagoda_scene.lua",
+      "line": 304,
+      "key": "pagoda_lantern",
+      "route": "/api/?method=pagoda.lantern"
+    },
+    {
+      "controller": "game_ui/game_pagoda_scene.lua",
+      "line": 322,
+      "key": "active_active_show",
+      "route": "/api/?method=active.active_show"
+    },
+    {
+      "controller": "game_ui/game_pagoda_scene.lua",
+      "line": 346,
+      "key": "pagoda_pagoda_index",
+      "route": "/api/?method=pagoda.pagoda_index"
+    }
+  ],
+  "ccb": [
+    "ccb/ui_Star_enemy_list.ccbi",
+    "ccb/ui_active_limit_rank_item2.ccbi",
+    "ccb/ui_adjustment_fate_item.ccbi",
+    "ccb/ui_adjustment_formation_god.ccbi",
+    "ccb/ui_adjustment_formation_god_escort.ccbi",
+    "ccb/ui_adjustment_formation_guild.ccbi",
+    "ccb/ui_dart_battle_result.ccbi",
+    "ccb/ui_dart_battle_result_item.ccbi",
+    "ccb/ui_dart_goods_pop_item.ccbi",
+    "ccb/ui_dart_log_item.ccbi",
+    "ccb/ui_dart_log_pop.ccbi",
+    "ccb/ui_dart_main_item.ccbi",
+    "ccb/ui_dart_tavern.ccbi",
+    "ccb/ui_dart_tavern_info1.ccbi",
+    "ccb/ui_dart_tavern_info_item.ccbi",
+    "ccb/ui_dart_team_recruitment.ccbi",
+    "ccb/ui_enemy_list.ccbi",
+    "ccb/ui_equipBloodSc.ccbi",
+    "ccb/ui_equip_list_item.ccbi",
+    "ccb/ui_game_pop.ccbi",
+    "ccb/ui_god_Star_pos_item.ccbi",
+    "ccb/ui_god_Star_rank_item.ccbi",
+    "ccb/ui_god_Star_shipLayer.ccbi",
+    "ccb/ui_god_escort_achieve.ccbi",
+    "ccb/ui_god_escort_achieveItem.ccbi",
+    "ccb/ui_god_escort_bet.ccbi",
+    "ccb/ui_god_escort_exchange.ccbi",
+    "ccb/ui_god_escort_exchange_confirm.ccbi",
+    "ccb/ui_god_escort_exchange_shop.ccbi",
+    "ccb/ui_god_escort_gnlcbItem.ccbi",
+    "ccb/ui_god_escort_lzcjlItem.ccbi",
+    "ccb/ui_god_escort_my_bet_item.ccbi",
+    "ccb/ui_god_escort_notice.ccbi",
+    "ccb/ui_god_escort_power_change.ccbi",
+    "ccb/ui_god_escort_rank.ccbi",
+    "ccb/ui_god_escort_rankItem.ccbi",
+    "ccb/ui_god_escort_shipItem.ccbi",
+    "ccb/ui_god_escort_shop.ccbi",
+    "ccb/ui_god_escort_shopItem.ccbi",
+    "ccb/ui_god_escort_shop_buy.ccbi",
+    "ccb/ui_god_escort_universe.ccbi",
+    "ccb/ui_god_escort_universeRun.ccbi",
+    "ccb/ui_god_escort_universe_state_item.ccbi",
+    "ccb/ui_god_escort_voyagePre.ccbi",
+    "ccb/ui_god_escort_voyagePreAssist.ccbi",
+    "ccb/ui_god_escort_voyageRest.ccbi",
+    "ccb/ui_god_escort_voyageReward.ccbi",
+    "ccb/ui_god_escort_voyageSprint.ccbi",
+    "ccb/ui_god_escort_yhpmItem.ccbi",
+    "ccb/ui_godfield_Arena.ccbi",
+    "ccb/ui_godfield_Arena_new.ccbi",
+    "ccb/ui_godfield_Arena_new_battle.ccbi",
+    "ccb/ui_godfield_Arena_new_battleResult.ccbi",
+    "ccb/ui_godfield_Arena_new_detail.ccbi",
+    "ccb/ui_godfield_Arena_new_hero.ccbi",
+    "ccb/ui_godfield_Arena_new_rank.ccbi",
+    "ccb/ui_godfield_Arena_new_rankItem.ccbi",
+    "ccb/ui_godfield_Arena_new_rank_rew.ccbi",
+    "ccb/ui_godfield_Arena_new_rank_rew_Item.ccbi",
+    "ccb/ui_godfield_Arena_new_score.ccbi",
+    "ccb/ui_godfield_Arena_new_score_item.ccbi",
+    "ccb/ui_godfield_Arena_new_score_rew.ccbi",
+    "ccb/ui_godfield_Arena_new_score_rew_Item.ccbi",
+    "ccb/ui_godfield_Arena_new_sec.ccbi",
+    "ccb/ui_godfield_Arena_new_shop.ccbi",
+    "ccb/ui_godfield_Arena_new_shop_item.ccbi",
+    "ccb/ui_godfield_Arena_pop.ccbi",
+    "ccb/ui_godfield_Star_enemy_list_item.ccbi",
+    "ccb/ui_godfield_Star_item.ccbi",
+    "ccb/ui_godfield_Star_palace.ccbi",
+    "ccb/ui_godfield_Star_palaceL.ccbi",
+    "ccb/ui_godfield_Star_select_pop.ccbi",
+    "ccb/ui_godfield_Star_ship_Item.ccbi",
+    "ccb/ui_godfield_Star_ship_pop.ccbi",
+    "ccb/ui_godfield_arean.ccbi",
+    "ccb/ui_godfield_arena_bat_sel.ccbi",
+    "ccb/ui_godfield_arena_jinji.ccbi",
+    "ccb/ui_godfield_battleNews_item.ccbi",
+    "ccb/ui_godfield_battle_big.ccbi",
+    "ccb/ui_godfield_battle_big2.ccbi",
+    "ccb/ui_godfield_battle_info.ccbi",
+    "ccb/ui_godfield_battle_news.ccbi",
+    "ccb/ui_godfield_battle_result.ccbi",
+    "ccb/ui_godfield_battle_result2.ccbi",
+    "ccb/ui_godfield_battle_result_item.ccbi",
+    "ccb/ui_godfield_buy_item.ccbi",
+    "ccb/ui_godfield_calendar.ccbi",
+    "ccb/ui_godfield_calendar_item.ccbi",
+    "ccb/ui_godfield_dart_des_pop.ccbi",
+    "ccb/ui_godfield_dart_doubtful_icon_.ccbi",
+    "ccb/ui_godfield_dart_doubtful_item.ccbi",
+    "ccb/ui_godfield_dart_doubtful_pop.ccbi",
+    "ccb/ui_godfield_dart_list_item.ccbi",
+    "ccb/ui_godfield_dart_main.ccbi",
+    "ccb/ui_godfield_dart_plist_item.ccbi",
+    "ccb/ui_godfield_dart_shipTestItem.ccbi",
+    "ccb/ui_godfield_dart_ship_item.ccbi",
+    "ccb/ui_godfield_dart_ship_pop.ccbi",
+    "ccb/ui_godfield_dart_shiplist.ccbi",
+    "ccb/ui_godfield_dart_shipsele.ccbi",
+    "ccb/ui_godfield_dart_shop.ccbi",
+    "ccb/ui_godfield_dart_shop_item.ccbi",
+    "ccb/ui_godfield_dart_universemap.ccbi",
+    "ccb/ui_godfield_dart_zhenrong_item.ccbi",
+    "ccb/ui_godfield_detail.ccbi",
+    "ccb/ui_godfield_enemy.ccbi",
+    "ccb/ui_godfield_fenzheng_battleRank.ccbi",
+    "ccb/ui_godfield_fenzheng_enemy_pop.ccbi",
+    "ccb/ui_godfield_fenzheng_new.ccbi",
+    "ccb/ui_godfield_fenzheng_zhenxinginfo2.ccbi",
+    "ccb/ui_godfield_fenzhengxiagu.ccbi",
+    "ccb/ui_godfield_fenzhengxiagu_rank.ccbi",
+    "ccb/ui_godfield_fenzhengzhenxing_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_base_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_battle_detail.ccbi",
+    "ccb/ui_godfield_guild_high_war_battle_detail_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_battle_report_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_battle_report_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_box_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_buff_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_chance_end_pop1.ccbi",
+    "ccb/ui_godfield_guild_high_war_chance_end_pop2.ccbi",
+    "ccb/ui_godfield_guild_high_war_chance_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_guild_index.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_index.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_waiterItem.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_waiterLeftItem.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_zcGuildItem.ccbi",
+    "ccb/ui_godfield_guild_high_war_employ_zcItem.ccbi",
+    "ccb/ui_godfield_guild_high_war_formation_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_formation_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_front_item1.ccbi",
+    "ccb/ui_godfield_guild_high_war_front_item2.ccbi",
+    "ccb/ui_godfield_guild_high_war_front_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_keji.ccbi",
+    "ccb/ui_godfield_guild_high_war_keji_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_main.ccbi",
+    "ccb/ui_godfield_guild_high_war_map.ccbi",
+    "ccb/ui_godfield_guild_high_war_miling_give_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_miling_give_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_miling_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_miling_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_player_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_rank.ccbi",
+    "ccb/ui_godfield_guild_high_war_rank_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_rank_item1.ccbi",
+    "ccb/ui_godfield_guild_high_war_report_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_report_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_res_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_res_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_reward_item1.ccbi",
+    "ccb/ui_godfield_guild_high_war_reward_item2.ccbi",
+    "ccb/ui_godfield_guild_high_war_reward_item3.ccbi",
+    "ccb/ui_godfield_guild_high_war_reward_pop.ccbi",
+    "ccb/ui_godfield_guild_high_war_shop.ccbi",
+    "ccb/ui_godfield_guild_high_war_team_item.ccbi",
+    "ccb/ui_godfield_guild_high_war_yiji_item.ccbi",
+    "ccb/ui_godfield_main.ccbi",
+    "ccb/ui_godfield_mainBig001.ccbi",
+    "ccb/ui_godfield_main_rank.ccbi",
+    "ccb/ui_godfield_shop.ccbi",
+    "ccb/ui_godfield_star_zhenxingitem.ccbi",
+    "ccb/ui_godfiled_rank.ccbi",
+    "ccb/ui_godtemple_enemy_item.ccbi",
+    "ccb/ui_godtemple_getTeam.ccbi",
+    "ccb/ui_godtemple_hero_list_new.ccbi",
+    "ccb/ui_godtemple_kuangdian.ccbi",
+    "ccb/ui_godtemple_main.ccbi",
+    "ccb/ui_godtemple_revenge_pop.ccbi",
+    "ccb/ui_godtemple_teamInfo2.ccbi",
+    "ccb/ui_hero_list.ccbi",
+    "ccb/ui_items_item.ccbi",
+    "ccb/ui_medal_scene_main.ccbi",
+    "ccb/ui_pagoda_choose_item.ccbi",
+    "ccb/ui_pagoda_main.ccbi",
+    "ccb/ui_soul_scene_main.ccbi",
+    "ccb/ui_space_rank_item.ccbi",
+    "ccb/ui_space_rank_item2.ccbi"
+  ]
+}

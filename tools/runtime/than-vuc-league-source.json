@@ -1,0 +1,33 @@
+{
+  "revision": "than-vuc-league-v1",
+  "tables": {
+    "god_field_team": {
+      "path": "work/apk/assets/config/god_field_team.config",
+      "sha256": "969bc0b13f24fd2147bc3ee6f7f7c3a2a6c8d8bd9699ab5169e1202cde8da80c",
+      "parsedPath": "work/than-vuc/configs/god_field_team.json",
+      "parsedSha256": "0d098197728d7b973230f31b55f2c7fcac8b25d758e723fca4fe65ff642b4e4c",
+      "rows": 13,
+      "status": "SOURCE VERIFIED"
+    },
+    "god_field_fight_time": {
+      "path": "work/apk/assets/config/god_field_fight_time.config",
+      "sha256": "e415524a20cee4141fb2d0ebd09ccf4c28d7cabc13c13b2a59c73d279a9a4065",
+      "parsedPath": "work/than-vuc/configs/god_field_fight_time.json",
+      "parsedSha256": "96297cb535e27928fbd3f1f279e9eecf8c327f373ad5300644d757ef5c62e04f",
+      "rows": 1,
+      "status": "SOURCE VERIFIED"
+    },
+    "god_field_rank_reward": {
+      "path": "work/apk/assets/config/god_field_rank_reward.config",
+      "sha256": "72a57146b3e96d7b9594f6a69a30a546d792ab7683379877180847bc347a4c86",
+      "parsedPath": "work/than-vuc/configs/god_field_rank_reward.json",
+      "parsedSha256": "02b92d42f130fdaf296b1babaab9acbff29997cd443ed3c629fb87eed0e55b90",
+      "rows": 6,
+      "status": "SOURCE VERIFIED"
+    }
+  },
+  "localAdapters": {
+    "groups": "Xếp theo lực chiến Thần Vực, nhóm tối đa11 tài khoản thật; user cho phép29/10/2026.",
+    "winScore": "combat_int theo ngưỡng lực chiến đối thủ; user cho phép29/10/2026, chưa xác minh thuật toán server gốc."
+  }
+}

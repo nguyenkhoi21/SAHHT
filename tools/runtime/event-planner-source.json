@@ -1,0 +1,33 @@
+{
+  "provenance": "VN runtime files/config, đối chiếu inventory đã phục hồi; APK chứa một số phiên bản VN cũ",
+  "tables": {
+    "bandit": {
+      "path": "work/runtime-content/configs/bandit.json",
+      "sha256": "77851660231d618e8dcc96a485e8d7d9b82ea8c0cd20433efc3f0becd2a81a93",
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/bandit.config",
+      "sourceSha256": "58dd9a600e1ca013b9a882bf996daf29ce8358663f998afd22f3627fe4d679e9",
+      "apkJsonMatches": false
+    },
+    "server_bandit": {
+      "path": "work/runtime-content/configs/server_bandit.json",
+      "sha256": "5402d00317b61f529b6123d917b86015a36e64bdc8bbcee638cbd42e11706308",
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/server_bandit.config",
+      "sourceSha256": "fb355ccf167e343f83a5ca95d3b3b1774dd3d641a5a456bb7030bfd642b3a123",
+      "apkJsonMatches": true
+    },
+    "server_inreview": {
+      "path": "work/runtime-content/configs/server_inreview.json",
+      "sha256": "1a49f946e6055123b7ad2a203f77029d0853fdd28ca9b78f9df8a0a1dc5ee8fa",
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/server_inreview.config",
+      "sourceSha256": "bedddee4400af641e6c140e46cba432bcf09c1a4ee26137274cf1ff16cd9c789",
+      "apkJsonMatches": false
+    },
+    "active_inreview": {
+      "path": "work/runtime-content/configs/active_inreview.json",
+      "sha256": "1c9b66bd89ab8d2e064df7321f9ec937aa078b741135d77010cfca43ebe3ef7f",
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/active_inreview.config",
+      "sourceSha256": "223337a90b067b1d96cfdeee3bcb4b9327115fa8b48542f219963a945bc767ea",
+      "apkJsonMatches": false
+    }
+  }
+}

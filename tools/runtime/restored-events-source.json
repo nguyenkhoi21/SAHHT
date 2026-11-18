@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "tables": {
+    "gringotts": {
+      "path": "work/runtime-content/configs/gringotts.json",
+      "sha256": "53eb5d1ce34e0794eb6a5c1fdd09965168157a50f3c83975f1b52aaaa8a31d4f",
+      "runtimeSource": "com.kaiqigu.cjyxyn.kvsdk/files/config/gringotts.config",
+      "runtimeSha256": "339e01a4dba28c7fb46c81d9aa96c73e3c04e99deb889e728c1c8af70eab213c"
+    },
+    "gringotts_rate": {
+      "path": "work/runtime-content/configs/gringotts_rate.json",
+      "sha256": "a9139ec977e1faf70663d0ac95415ef914e094fd50bcad79c3e6bade32631539",
+      "runtimeSource": "com.kaiqigu.cjyxyn.kvsdk/files/config/gringotts_rate.config",
+      "runtimeSha256": "1bc449b5ce57a2986b9e4d27d862a5107284a563c7091b411335969aabefc1e7"
+    },
+    "gringotts_VIP": {
+      "path": "work/extracted-data/configs/gringotts_VIP.json",
+      "sha256": "75610f78aa74d0982b0a89c6c0824032b72a3b08c1fab3356a5b1e1f2ae88795"
+    },
+    "chuzheng_version": {
+      "path": "work/runtime-content/configs/chuzheng_version.json",
+      "sha256": "cddd2cddf33612abc689de181390361ce8c664820c5df0044b163367a1fd5502",
+      "runtimeSource": "com.kaiqigu.cjyxyn.kvsdk/files/config/chuzheng_version.config",
+      "runtimeSha256": "8435a8cf2cce9d2767bb73a5985fb19631d8cc1358656d81bdd1444953f8dbbf"
+    },
+    "chuzheng_task": {
+      "path": "work/runtime-content/configs/chuzheng_task.json",
+      "sha256": "37f60960b90d9ac5d7234de9fc5c361b9b44b6f566d259aacec0dbce14956583",
+      "runtimeSource": "com.kaiqigu.cjyxyn.kvsdk/files/config/chuzheng_task.config",
+      "runtimeSha256": "03716fe7927b14a49d23460a867426f2e92cde484d1bda0984f2f363d79397e7"
+    }
+  },
+  "policy": "Nguồn Việt Nam. Cổ Linh Các bốc thưởng LOCAL có cấu hình do chủ dự án cho phép; Xuất Chinh6lượt/ngày và tỷ trọng LOCAL chỉnh Admin. Không dùng lịch cũ làm lịch hiện hành; hết lịch tất toán Thư đúng hạn theo xác nhận user."
+}

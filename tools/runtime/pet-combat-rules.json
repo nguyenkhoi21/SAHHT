@@ -1,0 +1,69 @@
+{
+  "version": "pet-local-effects-v2",
+  "scope": "LOCAL_ONLY",
+  "notice": "Hệ số/đích/mốc sao từ cấu hình Việt Nam; các mặc định dưới đây do chủ dự án chốt hoặc cho phép chọn cho LOCAL ngày31/10/2026, không phải thuật toán server gốc.",
+  "element": {
+    "mode": "add_to_skill",
+    "formula": "max(0,attack-same_element_defense)",
+    "skillBonusOncePerTarget": true
+  },
+  "random": {
+    "range": "uniform_integer_per_cast",
+    "targets": "without_replacement",
+    "branches": "uniform"
+  },
+  "preBattle": {
+    "duration": "battle",
+    "sameSkillStacks": false
+  },
+  "status": {
+    "blindHitPointReduction": 5,
+    "weakAttackPercent": 5,
+    "burnMaxHpPercent": 5,
+    "fear": "skip_turn",
+    "unspecifiedActiveTurns": 1
+  },
+  "rabbit": {
+    "healDefenseTargets": "all_allies",
+    "defenseTurns": 1,
+    "elementGuardTargets": "lowest_hp_ratio_ally",
+    "guardTurns": 1
+  },
+  "hpBoost": "ratio*(target_max_hp+pet_hp)",
+  "deerAttack": "ratio*(target_attack+pet_same_attack)",
+  "kirara": {
+    "cover": "burn_enemy_attacker",
+    "coverStacks": 1,
+    "healBonusPercent": 5,
+    "returnBurnTurns": 1
+  },
+  "kyukimon": {
+    "bleedDamageMultiplier": 2,
+    "bleedTurns": 1,
+    "attackBoostTurns": 1
+  },
+  "damageReduction": {
+    "decrease": "percentage_points",
+    "minimum": 0
+  },
+  "haoHealing": {
+    "normalBonus": 30,
+    "lowHpThreshold": 30,
+    "lowHpBonus": 50,
+    "lowHpReplacesNormal": true
+  },
+  "evidence": [
+    "User: Công thuộc tính cộng vào điểm sát thương skill; chấp thuận riêng LOCAL công trừ thủ cùng hệ.",
+    "User: bốc ngẫu nhiên mỗi lần tung chiêu; đồng ý số nguyên đồng đều/đích không trùng và tiền chiến không cộng dồn cùng chiêu.",
+    "User cho phép tự chọn cách Mù/Hư Nhược/Cháy/Sợ sau khi đề xuất mặc định5%; các lựa chọn cụ thể ghi trong status.",
+    "User: Ngọc Thố cả đội1hiệp; HP ba PET dùng phần trăm nhân tổng HP; Lộc tăng công dùng công PET.",
+    "User: lửa phủ Kirara đốt kẻ địch đánh đồng đội; tụt máu Kyukimon1hiệp.",
+    "User đồng ý LOCAL trừ điểm% Giảm Thương về tối thiểu0 và Hao dùng50% thay30% dưới30%HP.",
+    "Mặc định LOCAL còn thiếu số riêng: tầng lửa Kirara tăng5% hiệu quả hồi phục và phản cháy1hiệp; hiệu ứng chủ động không ghi thời hạn dùng1hiệp, cùng chiêu không cộng dồn.",
+    "User chấp thuận riêng LOCAL Kirara tăng5% hồi phục và bạo kích×2."
+  ],
+  "critical": {
+    "multiplier": 2,
+    "rateUnit": "percentage_points"
+  }
+}

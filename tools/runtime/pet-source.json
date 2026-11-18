@@ -1,0 +1,1331 @@
+{
+  "revision": "pet-vn-v2",
+  "baseline": "SAHHT-phase37-v5-test.apk",
+  "tables": {
+    "pet_detail": {
+      "path": "work/pet/source/pet_detail.json",
+      "sha256": "aa223e361b37d9f463d5568a1d47c9c50db45bc017b8eba13f53500358e67695",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/pet_detail.config",
+      "count": 18
+    },
+    "pet_skill_detail": {
+      "path": "work/pet/source/pet_skill_detail.json",
+      "sha256": "c79281ab7c437b527f722b3723d6b61abcb62367a5e629868c3e35d8190fd3c1",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/pet_skill_detail.config",
+      "count": 95
+    },
+    "pet_base": {
+      "path": "work/pet/source/pet_base.json",
+      "sha256": "62068684e7b664142c80df730c47f737da06b074934c80d5a801845a6f423a54",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 50
+    },
+    "pet_evolution": {
+      "path": "work/pet/source/pet_evolution.json",
+      "sha256": "39e61b69bd66ded9f727fa5fee4a040b8f9d18047db36c092e88b543717dc35e",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 5
+    },
+    "pet_strengthen": {
+      "path": "work/pet/source/pet_strengthen.json",
+      "sha256": "9f40c1b93e01d313a4e2c42234339b47c7b91fb1759d8d745e1afb85b410629c",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 20
+    },
+    "pet_corral": {
+      "path": "work/pet/source/pet_corral.json",
+      "sha256": "f7a5eda3244aad9cb18a00b5eebc67b66119b275350ce6d467aff9b869a6bf15",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 9
+    },
+    "pet_follow": {
+      "path": "work/pet/source/pet_follow.json",
+      "sha256": "5c1e9d5d92944c4d00063b72d64e4d06d18d3db4477571c45b79185e27f5e1fe",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 8
+    },
+    "pet_refresh": {
+      "path": "work/pet/source/pet_refresh.json",
+      "sha256": "036bb7e7d2595f53e4cf5d63515823d0291af0ead2c5a792fbf287846ed51878",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 4
+    },
+    "pet_skill_levelup": {
+      "path": "work/pet/source/pet_skill_levelup.json",
+      "sha256": "86968e81b32bb535684d8d3f8d07fffd9dd6458bae72e938e7f5176b3353779a",
+      "origin": "ANDROID_LOCAL_V5",
+      "count": 30
+    },
+    "item": {
+      "path": "work/pet/source/item.json",
+      "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+      "count": 3719
+    },
+    "exchange": {
+      "path": "work/pet/source/exchange.json",
+      "sha256": "89307e8180eb3684f01df95602d1e2c197e1b2558ab360efc4acb90abbc0dee2",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/exchange.config",
+      "count": 422
+    },
+    "box": {
+      "path": "work/pet/source/box.json",
+      "sha256": "c26f98bf3cef2a632d266fa8d28fe0486e94d8b66d79125618fefbb102ece5ef",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/box.config",
+      "count": 1977
+    }
+  },
+  "scripts": {
+    "game_pop/game_pet_adduct_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_adduct_pop.lua",
+      "sha256": "8626d6718d9f58b987694c1fad004943c6f4a4e70855a05b58dd8cb66dbf3742"
+    },
+    "game_pop/game_pet_info_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_info_pop.lua",
+      "sha256": "7311047a52c0f2b23a30b49ed5d6120191ac61c5a290afee3ef934e38e949eac"
+    },
+    "game_pop/game_pet_open_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_open_pop.lua",
+      "sha256": "efe37685568acacc0c05a93b2765c266eb260d656f079d5451787c9ee201a575"
+    },
+    "game_pop/game_pet_rebirth_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_rebirth_pop.lua",
+      "sha256": "fd541db18f5f1bc242a6a2cdb21d47d7c05f1b46df8dd198a24c58fca6c384e1"
+    },
+    "game_pop/game_pet_select_scene.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_select_scene.lua",
+      "sha256": "c737ba673baa95bab3c5e759ea8a53be62a0eec99c79aa43725b54e1e068677d"
+    },
+    "game_pop/game_pet_skill_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_skill_pop.lua",
+      "sha256": "23cf79e4f9ca0252debfcda553fc789c686fb76acc3f44805c3e22324e52b863"
+    },
+    "game_pop/game_pet_strengthen_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_strengthen_pop.lua",
+      "sha256": "088b77d5e20f1a1ee8d0aaa12428e089b3e270589728fd33b3e02e889241e3d0"
+    },
+    "game_pop/game_pet_upgrade_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_upgrade_pop.lua",
+      "sha256": "eafe199a1873c536e2039885536a1be1bc080c524d2c4bfd244e18c5b200d212"
+    },
+    "game_pop/game_pet_upstar_pop.lua": {
+      "path": "work/pet/source/lua/game_pop/game_pet_upstar_pop.lua",
+      "sha256": "890a51af62a0c3135ebbeb486dbfe7c73891714c62a0d0cca864e3d087793781"
+    },
+    "game_ui/game_pet_adjustment_scene.lua": {
+      "path": "work/pet/source/lua/game_ui/game_pet_adjustment_scene.lua",
+      "sha256": "b77806997ada0f41581e0c89f4750c01c0e0e20cafd327aab7a7a3f4d1cb1dc2"
+    },
+    "game_ui/game_pet_adjustment_scene_new.lua": {
+      "path": "work/pet/source/lua/game_ui/game_pet_adjustment_scene_new.lua",
+      "sha256": "9ad2df3091b45941dcd337a8717c6471a2b73ba3e1017b382698e08e58a5d0f3"
+    },
+    "game_ui/game_pet_list_scene.lua": {
+      "path": "work/pet/source/lua/game_ui/game_pet_list_scene.lua",
+      "sha256": "502393c025e608343a448ab9d34e5c5a07fe6825c1a033177f6f23666fe4f37e"
+    },
+    "skill_effect/game_battle_skill_pets.lua": {
+      "path": "work/pet/source/lua/skill_effect/game_battle_skill_pets.lua",
+      "sha256": "35bc97d144c26252a2d757ca62ee8a475dcdee4de8cd4caafa14c2641972ac14"
+    }
+  },
+  "assets": {
+    "assets/iphonehd/anim/chongwu1-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu1-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "fab5ddc64d97b1bb164eece045020d80f37f8d7b7216934239dde06d8a13d6c7"
+    },
+    "assets/iphonehd/anim/chongwu1.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu1.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "93676ed4546e1638c00098b8019bf837b7da5f76e92a4a5f00c64bac64a5b139"
+    },
+    "assets/iphonehd/anim/chongwu1.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu1.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "3b7b4b4b06c519eb4f3762329d410ebdddddf1b294141051f0e212c474be679d"
+    },
+    "assets/iphonehd/anim/chongwu17.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu17.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6edaae422f2af9732f60f5be23ae6bf4e79dae3277b633cf3088b427d4726182"
+    },
+    "assets/iphonehd/anim/chongwu17.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu17.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "b619ed598245635f52657fd8757b9a22d15322e5a48f4d992acf095af2f79066"
+    },
+    "assets/iphonehd/anim/chongwu17.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu17.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "36c41b383184a1a53d1108452c823029ba3215ae2dcacb8820564590b92772e9"
+    },
+    "assets/iphonehd/anim/chongwu18.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu18.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "24936d18fdf866ab4bcef114e7dde4f170d6d44b08c4baef2b90308098cc3902"
+    },
+    "assets/iphonehd/anim/chongwu18.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu18.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "92e7e1e5b1a81d55a1f5e0613402cbc644eaadff0284793b91b1f2da75222f2d"
+    },
+    "assets/iphonehd/anim/chongwu18.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu18.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d3e077e0f7e38bc6e3cf2cf05fc9627c2a37b386154994dfb2be7bc31a14d0f9"
+    },
+    "assets/iphonehd/anim/chongwu19.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu19.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "28379d9134ee78898d0a3351051ffa6883b01de71fc5e50e3051c32d4926c65a"
+    },
+    "assets/iphonehd/anim/chongwu19.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu19.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2124bdfa485a22ccd48116c51520d03b45230fe9688da676a0070ff098421f51"
+    },
+    "assets/iphonehd/anim/chongwu19.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu19.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d97b62f91cba31f82b179d02835988ccf4c299bd45e739bdb70f48857434828b"
+    },
+    "assets/iphonehd/anim/chongwu2-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu2-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "08494f6d0196b10a9e0c51b57f8a1a70182355863e23a314ba62fe2c1868ef46"
+    },
+    "assets/iphonehd/anim/chongwu2.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu2.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "93e01f36f1b83f466d9747c5e05b802d9dc037a4a050891271f477be35ef280a"
+    },
+    "assets/iphonehd/anim/chongwu2.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu2.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8d747c02d06cde7a5970962a7b1c5a2f6683eca846c75c01055141bc4e96b32a"
+    },
+    "assets/iphonehd/anim/chongwu20.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu20.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "dc890123097dcd52d265fa12fe05d79bd1f05aa234962a60cff4fc1c73d3d0cc"
+    },
+    "assets/iphonehd/anim/chongwu20.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu20.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7bb8327494441753408cc4c039ce089bc63281a6ac8e50e52f2f3a834e42a2ab"
+    },
+    "assets/iphonehd/anim/chongwu20.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu20.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "58d7618b25979dc0842ce7471c6b3a95a344bdd4e63f24da6ec64a7b9aadb8f9"
+    },
+    "assets/iphonehd/anim/chongwu21-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu21-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5cde036f61e98fed8846d842ffa8fba95157b037b4936123bb64b8ccf44646d3"
+    },
+    "assets/iphonehd/anim/chongwu21.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu21.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2a9d9633ea77de2cd9a0e58734c541a9ab9de5c610cfa54394e151bca1e2100c"
+    },
+    "assets/iphonehd/anim/chongwu21.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu21.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "9d823ac26f4e3bd15e097827aa05c2739386af9eb226348174450ec58f27d545"
+    },
+    "assets/iphonehd/anim/chongwu22-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu22-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "1131594b6806ab90b23928070f4c9f65cfe8fe7d1d7e71c586ce49d5e6b2c4be"
+    },
+    "assets/iphonehd/anim/chongwu22.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu22.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ab460808090b232cca550338b7f3f1fdba9206e4106c85113ea018c653a08b08"
+    },
+    "assets/iphonehd/anim/chongwu22.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu22.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f3a8f0ce691d06856ecfad8b0977c760aab8b00a7ec65978911bb2868f75f2d4"
+    },
+    "assets/iphonehd/anim/chongwu23-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu23-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2abb3c7df5419aa929bba6fb8df4ae06bc71154dc068ececbe21105b4267ca62"
+    },
+    "assets/iphonehd/anim/chongwu23.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu23.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "21c973328d8c3d722686fb27cde3865cc5213e2c6a943d8490e25e1ea9ebb19f"
+    },
+    "assets/iphonehd/anim/chongwu23.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu23.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "0616d7ec41919a624c70e3bb5a4ece5b98d649d5e3cf31f7a9ba5608f11ae42c"
+    },
+    "assets/iphonehd/anim/chongwu24-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu24-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "45f56c7c79700e543852c6df9b3c8194e45e9075b9f22aa4d6d9ab7e34b89a27"
+    },
+    "assets/iphonehd/anim/chongwu24.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu24.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "01d02cafec260943bf6f33c8e73917e714c9d31cd28bf546145c91b821816e5c"
+    },
+    "assets/iphonehd/anim/chongwu24.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu24.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "39672ddb0fb0ed178b37660b57d3c55337a8eed09ca79f5027b06d642b236a9a"
+    },
+    "assets/iphonehd/anim/chongwu3-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu3-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "c42e8c8b515528e50da913b41ecbbb8b2f61f0d3e4fcd16c7076530810c451c6"
+    },
+    "assets/iphonehd/anim/chongwu3.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu3.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6b0d5af1bced5dd762447c2f1b50f8c96f2faa20e7e6288f139909cbc1126baa"
+    },
+    "assets/iphonehd/anim/chongwu3.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu3.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "cb5afa0abdbc9f1e911c3c2e6a11444b6af7a2624cb358e074e97ae6ba32685d"
+    },
+    "assets/iphonehd/anim/chongwu4-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu4-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "43d28cee729cc11c8cd9ca0cf4d11872fa8be5fa391895671e94674ec742b10c"
+    },
+    "assets/iphonehd/anim/chongwu4.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu4.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2607e1d82a13ee5f48b11fe59c58a410eb7c6d49792736cf4bcb5e3c4af879e1"
+    },
+    "assets/iphonehd/anim/chongwu4.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu4.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "761904418321dfcedf109ad007f228eb06928cb3e4b1a69f69e31ab3b6bcc9e5"
+    },
+    "assets/iphonehd/anim/chongwu5-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu5-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "99b67c368be06b7e6188ffc3dd60e1fdb886adc1905b184629ea18f1e03679bb"
+    },
+    "assets/iphonehd/anim/chongwu5.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu5.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "be5ed262d62b37dc7c8bdcc31d7cffdd62be4d4a01ad9a98df9560105a81ac93"
+    },
+    "assets/iphonehd/anim/chongwu5.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu5.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "449ba40344e5f1e6ebd251031e188343f671d26ae5aef04a9f4b1dd72a98be15"
+    },
+    "assets/iphonehd/anim/chongwu6-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu6-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f85b81f280a41d0d6442755e49209523d2d7e21c758bd5795dccbf3f783e3a04"
+    },
+    "assets/iphonehd/anim/chongwu6.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu6.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ef1ddbafa836e8124440760d82b990e270152e95631d9a80f5593fbb9a4c8576"
+    },
+    "assets/iphonehd/anim/chongwu6.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu6.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "25146b5904f5fd91d4018b44d154ace70e1a37ccf796e9367f8f75386db8eccf"
+    },
+    "assets/iphonehd/anim/chongwu7-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu7-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f097d5ebf2970d8f217a28f9d02e18b2d881325acc665b97f1860338eb6a1ba2"
+    },
+    "assets/iphonehd/anim/chongwu7.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu7.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "431f54a431d0f5e80c87c89ddc7c65511715b41e969d81f45e854deeda98d7ad"
+    },
+    "assets/iphonehd/anim/chongwu7.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu7.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "bfa33d77d07579fb9ce615199d373877fe2305fefa9fc91b3daab914135c585b"
+    },
+    "assets/iphonehd/anim/chongwu8-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu8-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "9fc24bdb4e121139be63f51d16bf73ab64184c8094bdc571eeb1e9d6121eba17"
+    },
+    "assets/iphonehd/anim/chongwu8.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu8.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8368ba0d6436aef5f50c2726d90546d28e3b8dfcdb246317b89d5e1698adf2b2"
+    },
+    "assets/iphonehd/anim/chongwu8.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu8.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6d325bc51502d4659d03fbf5a06be4d4a101e55513f98d7b37b4743510557b65"
+    },
+    "assets/iphonehd/anim/chongwu9-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu9-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "36ee9fbe2e42866debd85eec748b8bfb05029fd20c6c86fa5c2bb8fc8243540d"
+    },
+    "assets/iphonehd/anim/chongwu9.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu9.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "798f306b44101e08c065a7727b549677306394d53198e6dcbc357c231f08ba11"
+    },
+    "assets/iphonehd/anim/chongwu9.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/chongwu9.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "c22f590319a6631b8a9cdc06c53784b49b0f04f0b83477090155d1fef586a8ca"
+    },
+    "assets/iphonehd/anim/qingyanbailong.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/qingyanbailong.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "1f25f11b10340f89a24062d44ea5f9b18c3c0e0d029f307a19d3b1ecd3eb1bb5"
+    },
+    "assets/iphonehd/anim/qingyanbailong.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/qingyanbailong.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "118a5b22d95e3a17a03c054c5e033888c9c8e0d519f32a6ba8b104069cd772a3"
+    },
+    "assets/iphonehd/anim/qingyanbailong.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim/qingyanbailong.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "026737e7133d54f9a45bd046921083b308c71e9d62226ac814ef761556508aec"
+    },
+    "assets/iphonehd/anim_effects/penxue.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim_effects/penxue.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "49a3f5fe6f8f3a63395abd88f855e8366c78f6a50fe961f22574ce7ce498a34f"
+    },
+    "assets/iphonehd/anim_effects/penxue.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim_effects/penxue.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4ba3d3ce3c6819a5690f4a4bce0fc1359092b7b36efc9e0366cf0273cff88cd7"
+    },
+    "assets/iphonehd/anim_effects/penxue.swf.sam": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/anim_effects/penxue.swf.sam",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "0e0ed0354c1d8f4b4e4469610fedb47ad3ab413a07ca777165eafc217cba6081"
+    },
+    "assets/iphonehd/ccb/ui_hero_list.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_hero_list.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "b74d2540ede3c6954e32d84290dc4d14c933473c6d3933767745ec3228067434"
+    },
+    "assets/iphonehd/ccb/ui_pet_adduct_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_adduct_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5b4b80e72dd717ca3dba95c4f53165c77e4ce1f5cde28fc56302071478a72417"
+    },
+    "assets/iphonehd/ccb/ui_pet_adjustment_scene.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_adjustment_scene.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2298dde169dfd5828df32c46a3cff0b1123a3607bb16cf103d987ca0f116c5b3"
+    },
+    "assets/iphonehd/ccb/ui_pet_adjustment_scene_new.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_adjustment_scene_new.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5384b0b5715cc9680d8bb364c78caaea88285700ba4b44ddaa4f71ac60447712"
+    },
+    "assets/iphonehd/ccb/ui_pet_info_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_info_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2e0fea5351e563f4db7d303adbc6b1f97812c4862980d01408a93ffcb6af7378"
+    },
+    "assets/iphonehd/ccb/ui_pet_item.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_item.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7587cbba8ac8246c25f3a0959013e7205e8a4be6a30681c8374eb5d67353d8a7"
+    },
+    "assets/iphonehd/ccb/ui_pet_open_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_open_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5f671eb48cc6419f7b51bb6596be7e229f05b21b8a7a0d5f33667eb16afe331c"
+    },
+    "assets/iphonehd/ccb/ui_pet_scene.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_scene.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "daca29eb105d6457e8ddaeae7d0e1a7b27c3ec2803a3a132661d44e2e3bf8191"
+    },
+    "assets/iphonehd/ccb/ui_pet_skill_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_skill_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f423dde4c7eeb503371ad5eb6807467f30a4b369ad86b925c69fb5424741f5ee"
+    },
+    "assets/iphonehd/ccb/ui_pet_strengthen_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_strengthen_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "97046afa59690774344421cc055ef5d0135b0243720a9652e39fcbec7c59b38f"
+    },
+    "assets/iphonehd/ccb/ui_pet_upgrade_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_upgrade_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5390f6edae34bf0987dfd2fd0e99a4fe1947d3f398d50a69111954b4f35bdd50"
+    },
+    "assets/iphonehd/ccb/ui_pet_upstar_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_pet_upstar_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6618c33b4b6ab3fea43ef5c121f0883df3dc8ab06ca5026563fa93b89b288e33"
+    },
+    "assets/iphonehd/ccb/ui_wanning_pop.ccbi": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_wanning_pop.ccbi",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "96561dae70ab5fc3a8f31c5ee31c7beeddde594ae6a180829a265287c5b72d70"
+    },
+    "assets/iphonehd/ccbResources/new_main_add_res-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccbResources/new_main_add_res-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "3b78b5bec752c05b8d81f8df3c679271fc1906ad3e5c77eaf13f8aadaf4778a5"
+    },
+    "assets/iphonehd/ccbResources/new_main_add_res.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccbResources/new_main_add_res.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6a2c89735398c9bdf442a68c038906349255d0ada5671c24153c8ed34a2a392a"
+    },
+    "assets/iphonehd/ccbResources/public_res-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccbResources/public_res-hd.pvr.ccz",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "04bf4ce41b68ba6b5c21774cb0e31096eff3e7b665f7d3b4e7fb467a52908cf6"
+    },
+    "assets/iphonehd/ccbResources/public_res.plist": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/ccbResources/public_res.plist",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "70ad4c51f6162ef49c36a5dd9e3a7e2a6cd08d192327edb00e49324707e06cac"
+    },
+    "assets/iphonehd/icon/e_w_huojianpao2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/e_w_huojianpao2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "73d91c88385058bcb47be1c11eea7f044aecb929255b8953f3033da17eb37abe"
+    },
+    "assets/iphonehd/icon/hou31.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/hou31.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ed9e76692437cb6b965c6447de8baa501a6fcd2199037486a7777f2997b2afe5"
+    },
+    "assets/iphonehd/icon/hou32.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/hou32.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d5ac146fe448baaea0fa7a7a4bb89ccfbc9d479a2503c460fd1ec61c49980838"
+    },
+    "assets/iphonehd/icon/icon_capsule2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_capsule2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2763630fc3e5272bb7f1587846daaa5615d970279f10309dd00209ae71ff058d"
+    },
+    "assets/iphonehd/icon/icon_chongwu1.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu1.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "eb5331c76fcfe744c63e1f9f16e14eef84f044691fe05ffc1b38ee96999c7bb7"
+    },
+    "assets/iphonehd/icon/icon_chongwu17.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu17.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "44fd7013aa1ded5eed8a4b19d4475e7bc2b5bcaa74cea193434e71533cda15b5"
+    },
+    "assets/iphonehd/icon/icon_chongwu18.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu18.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "48434c3cf2d195e97bd529d54a9b1be6055bd4c5fa8aad3856ce52d7ab21ae6c"
+    },
+    "assets/iphonehd/icon/icon_chongwu19.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu19.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "188b3fcb2cfa852f8a691e7b00e95a15d93b85e9577f20c240fca7dab20702a7"
+    },
+    "assets/iphonehd/icon/icon_chongwu2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "bd180cd3216a8e0159ba394ed01ca52c99976f11fc8caa5190405d2720f7de23"
+    },
+    "assets/iphonehd/icon/icon_chongwu20.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu20.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ca0eae4d19fc1e33394caf148341f7d9c4002eac155fb60a240b1fec2ee8ef86"
+    },
+    "assets/iphonehd/icon/icon_chongwu21.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu21.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "02a9ec8b3369911639b3a24ec1a8369934115ec6c58c2fdfe14c2d1e7a2cec6e"
+    },
+    "assets/iphonehd/icon/icon_chongwu22.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu22.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "164af186b19728292026c3e8c4cefc07995579b52a93da941f63cea003dd7582"
+    },
+    "assets/iphonehd/icon/icon_chongwu23.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu23.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "aa785cec17286539ca4a75771d44a17c8a88d5ca31ae213aaf94e7c86a013cff"
+    },
+    "assets/iphonehd/icon/icon_chongwu24.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu24.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5afdc8692e45b95c20bc9dddef3b8b0dbc7ee1999b97956a65a4b9924f05bbda"
+    },
+    "assets/iphonehd/icon/icon_chongwu3.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu3.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "a9454330c9ff452dbbf5fe7fc17acdf04672ac8a68a9d3453d1db9075dccfdf2"
+    },
+    "assets/iphonehd/icon/icon_chongwu4.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu4.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f96d22abd6e967c8d18ef261c4bab0d000c2e61346abe800fc901b039df9012b"
+    },
+    "assets/iphonehd/icon/icon_chongwu5.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu5.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "b6b98132cfa00ad7e2b94488acbe6d5269642e4c3ce15a80ade5c034d0f10b12"
+    },
+    "assets/iphonehd/icon/icon_chongwu6.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu6.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "96b0320ec835ca66a1bca1b8fdc4320ab54d2a5896e11350ac07d005edd0bdd0"
+    },
+    "assets/iphonehd/icon/icon_chongwu7.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu7.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "3c0ca5c0fc43641307d37abcbb7da33102de7b7e0f76513ac587eb62b4542c8f"
+    },
+    "assets/iphonehd/icon/icon_chongwu8.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu8.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d88c998d454645cf8bc079f5a7cc2676eb498feac56620732c4182e67440c100"
+    },
+    "assets/iphonehd/icon/icon_chongwu9.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_chongwu9.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "1fcea36984a9c8c56d2ec7c630d0c2ac045f74d43cb75097b4ec454e899e44c1"
+    },
+    "assets/iphonehd/icon/icon_crystle2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_crystle2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "faadb5fe79ce786b81b9d74f0c1b7bf0b0bdc468339292777cbf83730ebe0097"
+    },
+    "assets/iphonehd/icon/icon_maze_defend.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_maze_defend.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "a06448ee40baf1859dc66730e03cf565c6221e592eaaec5dba94b2d81f05ce86"
+    },
+    "assets/iphonehd/icon/icon_maze_sub.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_maze_sub.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2d4e9ed6ab46715a1e390ca97b3ebf382a5fd95d94bb85c209702692b3610a88"
+    },
+    "assets/iphonehd/icon/icon_maze_unbending.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_maze_unbending.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "993a0ad2b98c9ba4c47bd7808be8c99817044404f08ca46e4be805ebc11e9de7"
+    },
+    "assets/iphonehd/icon/icon_pet_stone2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_pet_stone2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "69c6709af200b5e9b5ae27f32b3858430a4965d652c42655d4d9fad875e5f65d"
+    },
+    "assets/iphonehd/icon/icon_qingyanbailong.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/icon_qingyanbailong.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "b1993f2f9bd519868840103745201fc86a37b813ae60b4c7067ce22842482fdd"
+    },
+    "assets/iphonehd/icon/jiuwei_cure.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/jiuwei_cure.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "784331577f857224181f4bcbe4d10989d5078a5f015fae88881196fa717d6c2f"
+    },
+    "assets/iphonehd/icon/jiuwei_hurt.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/jiuwei_hurt.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "cb6ec633913fd14e9a3663a53312436c05dac62ded2ff12e8220b0d697e015be"
+    },
+    "assets/iphonehd/icon/public_shade_2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/public_shade_2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7fd8f8101a5a4c58f3a0fcc05548fefc16d610abf2648688cd81db228dbc1893"
+    },
+    "assets/iphonehd/icon/s_Natsu_gz.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_Natsu_gz.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "1bceba6afe1825c97b3091ce2e30096cef017412884599997004ce919f131b22"
+    },
+    "assets/iphonehd/icon/s_Natsu_hlbyr.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_Natsu_hlbyr.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "13b14c22cd62816951a5d4895b01a95232a3cf86e7e883183ac53c7e26d104ea"
+    },
+    "assets/iphonehd/icon/s_bingdudaji.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_bingdudaji.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7271ca38f8bdf15dbf3d148a51d1fe8345feed59609c9952b562dad1a33c963f"
+    },
+    "assets/iphonehd/icon/s_bingheshiji.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_bingheshiji.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d9b91c5b7199063ced7198138814961a79dc1ca09fad2056b96ecae673bdff8d"
+    },
+    "assets/iphonehd/icon/s_dachui_hurt.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_dachui_hurt.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2ce1e48b9a8efc3ea0f16714e841f0cfa6418dd79223f4a8f17dce04abf6f4d5"
+    },
+    "assets/iphonehd/icon/s_dianji.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_dianji.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "c917784abca0a1c24781c3321c0c75cf09e24d15c686dd31ffb69f85fd5d435d"
+    },
+    "assets/iphonehd/icon/s_dibaotianxing.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_dibaotianxing.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f37176814cc020e73b7b8517c2738463e8bfaab4a9cac7da8822bed7c536a445"
+    },
+    "assets/iphonehd/icon/s_elinghongzha.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_elinghongzha.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "69cc2d1fef6dea8e2850adc43c8c84c6f7c496075c7847311a2e3ed5258191a1"
+    },
+    "assets/iphonehd/icon/s_fanghupingzhang.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_fanghupingzhang.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8de21b7c98bd36fbbd119abf1a86eb9b96eac1af24f5c962baea5d3bfd4b5c60"
+    },
+    "assets/iphonehd/icon/s_heshang_injure.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_heshang_injure.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "21453b4bb58d8cd8123d6385b25aa886ce9d4e84a41fa46a7820cbfe5cc1d99a"
+    },
+    "assets/iphonehd/icon/s_huoyanzhidun.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_huoyanzhidun.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "77a77e47715f07570180695600f8d3b8787f140afa4fdb0f80ed6fe37343da64"
+    },
+    "assets/iphonehd/icon/s_kuangluannianya.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_kuangluannianya.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "18b4662d678cc6acd226196d249ff8835efc9b43f03c46dde0ab3f04eb625721"
+    },
+    "assets/iphonehd/icon/s_laoshuyao.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_laoshuyao.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "135a907419ec9bf57f6e22569c37b8d49cfcca8e97c7eaf7987dd2687f19c47e"
+    },
+    "assets/iphonehd/icon/s_petskill_2210.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_petskill_2210.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "b65008528dc0cfe0cafeaba746fb0418c602491a259a47d9a9d679b28de68a90"
+    },
+    "assets/iphonehd/icon/s_petskill_2220.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_petskill_2220.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5dc21ac97637ac70a995a871f3497df726fa643b72ed1f8c9efbe29950a5f822"
+    },
+    "assets/iphonehd/icon/s_petskill_2310.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_petskill_2310.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7e6cb750c58b5067804e2ae61c6d0a5c8cdb17a2556ff6bc1265fb0035d07e44"
+    },
+    "assets/iphonehd/icon/s_petskill_2320.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_petskill_2320.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "15838e8b93b182e81634898a4a93c1935cf525cfefdecbcb31c7f74b72e03fa9"
+    },
+    "assets/iphonehd/icon/s_qingyanbailong_s1.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_qingyanbailong_s1.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4cd7ac1ddc43f8e189a43d63407b41034bd7e1acca5fddc0c153193da9c68e39"
+    },
+    "assets/iphonehd/icon/s_qingyanbailong_s2.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_qingyanbailong_s2.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6bb96c705f44806cbda3216a86654b901f036db3b3c82e666c3b427192521115"
+    },
+    "assets/iphonehd/icon/s_qizha.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_qizha.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "882b195c222a3528e70293b787c0512271b63c1224bbfb91cd5f1a5d8439e13e"
+    },
+    "assets/iphonehd/icon/s_quntidaji.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_quntidaji.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "dc415fddd184a2c8233f5002e48a198279ba912ba8be04e9c7423991f0a5ea01"
+    },
+    "assets/iphonehd/icon/s_ssw_cure.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_ssw_cure.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "de096f301a7f803271c173ea3b289cd4b704eb0eba985d7e6db4716e26c2530e"
+    },
+    "assets/iphonehd/icon/s_xiewangyanshaheilongbo.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_xiewangyanshaheilongbo.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8e350e69c5ea8f54ef536b6284b70f4327054e370edb81522faedd7a8b3f0e8e"
+    },
+    "assets/iphonehd/icon/s_yingyan_klz.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_yingyan_klz.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f93315269891319a52d80a4fd7e3501c534d37ce34507c397b0b534e1ba6d02a"
+    },
+    "assets/iphonehd/icon/s_youhunzhan.png": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/iphonehd/icon/s_youhunzhan.png",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "36b2a2b6a59a170fddf96438a2c603013072ca1e77138b09fdb931853570e88f"
+    },
+    "assets/lua/skill_effect/chongwu1/chongwu1_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu1/chongwu1_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "9ffa212ea6ed3ea7d81cba34e071d9cabce0e2d50a94fcc960e1a88c58026d29"
+    },
+    "assets/lua/skill_effect/chongwu1/chongwu1_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu1/chongwu1_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "202ac8ddf7ef45b264a1c3ca5be5acfbb41f399caebea5ce82cf531025adacee"
+    },
+    "assets/lua/skill_effect/chongwu1/chongwu1_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu1/chongwu1_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "6fea378b395ae59cf09da4013157f6a76eaea57af5808695c1f13fd64e7bc52b"
+    },
+    "assets/lua/skill_effect/chongwu17/chongwu17_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu17/chongwu17_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4e4ac009076254fd7e72461c7a4bad7d2635cf92b2881fe141c00e05c6d76706"
+    },
+    "assets/lua/skill_effect/chongwu17/chongwu17_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu17/chongwu17_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "5755274459330fa0a1fd8057bf29c9392254dd6fa3a67d77bbb0ab2ebae8a506"
+    },
+    "assets/lua/skill_effect/chongwu17/chongwu17_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu17/chongwu17_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "23c053c66b9527fdccbc56cea33d90ec3d40e2095cdd83dc7f1db84f5ecb20ef"
+    },
+    "assets/lua/skill_effect/chongwu17/skill1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu17/skill1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "07b42c8527e0c34a5172ede38b69241bde7a343a06b1ff20cbdfce6f607de2dd"
+    },
+    "assets/lua/skill_effect/chongwu18/chongwu18_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu18/chongwu18_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f0d96f761d65f4e6edf7f530571a677eefbff8d2e80d245ba361fc51ceab98b2"
+    },
+    "assets/lua/skill_effect/chongwu18/chongwu18_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu18/chongwu18_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "2b811f1c04f138dfacf7cdb8a1ac2db0a7b53407292541d19ea074b3f53ad357"
+    },
+    "assets/lua/skill_effect/chongwu18/skill1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu18/skill1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7eae8ca00b9ef6285dbd716604c38914a9a29ccd25c999021c08ccc3ecaf5f33"
+    },
+    "assets/lua/skill_effect/chongwu19/chongwu19_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu19/chongwu19_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "68d6ef6999b5a8027965a9839a583af1696f580dbf0e877ac45800bfcded6083"
+    },
+    "assets/lua/skill_effect/chongwu19/chongwu19_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu19/chongwu19_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "eafecc2e27ba186dba1b830ab25f614e56ff3cc66797c9e9127a033d2036ebcf"
+    },
+    "assets/lua/skill_effect/chongwu2/chongwu2_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu2/chongwu2_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "88b1beb81b96425fa5b8a7395abf71e655958ae12ffab6684b9ff75dbfa9b3f1"
+    },
+    "assets/lua/skill_effect/chongwu2/chongwu2_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu2/chongwu2_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "f9b458c44a40b5eaccc3d94e963c8770bbc374acbb1ae2112228198314c83f72"
+    },
+    "assets/lua/skill_effect/chongwu2/chongwu2_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu2/chongwu2_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "7035cc51d6a820cbf61ad20dce3e90b7553bc4bb3756018019d4749b8575f1ae"
+    },
+    "assets/lua/skill_effect/chongwu20/chongwu20_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu20/chongwu20_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "976fa8a914a3aad3975f1f584eea55d884dee99a2a42ce51faddfbc0edf2e457"
+    },
+    "assets/lua/skill_effect/chongwu20/chongwu20_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu20/chongwu20_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d18dae977ffbe58e11a61490d0547ee3666d009aff617c6a4e015356ca81ee27"
+    },
+    "assets/lua/skill_effect/chongwu20/chongwu20_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu20/chongwu20_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ec25f01d9a01cda9c4aaca34d22f2183864eaf4cf1811d30a9a988828f9ed301"
+    },
+    "assets/lua/skill_effect/chongwu21/chongwu21_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu21/chongwu21_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e2fab0670a9d85be21b58186c81a43a0565fac7b7855901b706fc374f06aad04"
+    },
+    "assets/lua/skill_effect/chongwu21/chongwu21_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu21/chongwu21_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e448f0e1890cf9246e68653771879f9e1beaa72172d9ea5f028397a4944c00f4"
+    },
+    "assets/lua/skill_effect/chongwu21/skill1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu21/skill1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "54670de36eb30a25b3703b71d57115a15ff3274272a173f9eee73fce3a35aec5"
+    },
+    "assets/lua/skill_effect/chongwu22/chongwu22_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu22/chongwu22_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8c20b27c74b417eb1029bf2630a92b53b5db5a44c62bbc7755ef27adad537ea3"
+    },
+    "assets/lua/skill_effect/chongwu22/chongwu22_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu22/chongwu22_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "68b19efcbd5d6822f6c744ecd5fc4350b445a6755160e396cf52273ee02dad4f"
+    },
+    "assets/lua/skill_effect/chongwu22/chongwu22_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu22/chongwu22_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "45b8f748cc06e7b3e5af42f2a44784afb63f3c954d72308ea862f1ba37c68142"
+    },
+    "assets/lua/skill_effect/chongwu23/chongwu23_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu23/chongwu23_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "380c4c16be1c0fed9c685b20f48da5950647e31b541c8a8da77b401506c9a9ca"
+    },
+    "assets/lua/skill_effect/chongwu23/chongwu23_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu23/chongwu23_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d4f38f03610e201a34e3219f435e038adb541542750d6147e24fb00183221358"
+    },
+    "assets/lua/skill_effect/chongwu24/chongwu24_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu24/chongwu24_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4cf00a1b7247277a1f509e20f4a051cb1b9c3d4f726098a98e64188aa9a9c6b6"
+    },
+    "assets/lua/skill_effect/chongwu24/chongwu24_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu24/chongwu24_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "3e78855bc4e6f584475751ebec3658d21be60f2004bf9e1e2b899cc37fd69657"
+    },
+    "assets/lua/skill_effect/chongwu3/chongwu3_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu3/chongwu3_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "fec417f68d8ee9e38479f249ab899eccc0f693235807a766e9a90fdf3843936b"
+    },
+    "assets/lua/skill_effect/chongwu3/chongwu3_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu3/chongwu3_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "92a5508795a0fa125653f06a8647d2f7cecb6de9708d73c7906fddae633be084"
+    },
+    "assets/lua/skill_effect/chongwu3/chongwu3_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu3/chongwu3_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "92a5508795a0fa125653f06a8647d2f7cecb6de9708d73c7906fddae633be084"
+    },
+    "assets/lua/skill_effect/chongwu4/chongwu4_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu4/chongwu4_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "81abe38063669567d224bcc661e14a55443569277d223ebb54d36b2ac7f3fe43"
+    },
+    "assets/lua/skill_effect/chongwu4/chongwu4_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu4/chongwu4_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "291c56e434a067b51d75971d1923b13d6e61c079c03547e782668d64e043b365"
+    },
+    "assets/lua/skill_effect/chongwu4/chongwu4_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu4/chongwu4_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "240e891b759b1147ea5dd7a4834b49b29fbe959daa60a473268855aebf6f77e7"
+    },
+    "assets/lua/skill_effect/chongwu5/chongwu5_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu5/chongwu5_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "68d0226a53504913b38b32ed9132cd3ede0ba401512df40ca0f68d086d281e13"
+    },
+    "assets/lua/skill_effect/chongwu5/chongwu5_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu5/chongwu5_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "8ee05eb2ce2adf4e50730f0a53c3f8dfa05624d5a47e063a3ff5710ca2324457"
+    },
+    "assets/lua/skill_effect/chongwu5/chongwu5_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu5/chongwu5_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "29e319d221026528acc7388c979797f28f1cb65d1d1a5781ed0b6837051ea7fe"
+    },
+    "assets/lua/skill_effect/chongwu6/chongwu6_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu6/chongwu6_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e2c29c9f14605b6b4835d8d046d734428efb007851facd8e4399907b8b165aeb"
+    },
+    "assets/lua/skill_effect/chongwu6/chongwu6_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu6/chongwu6_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "89e135acc9f52d1d11dfa8a625fda0752582969a5ca0105e221a8b01601ba8cd"
+    },
+    "assets/lua/skill_effect/chongwu6/chongwu6_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu6/chongwu6_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4b4b20b9a350c5dd1707f61f765979421dbcf08f50975a127efe57066c91f8b6"
+    },
+    "assets/lua/skill_effect/chongwu7/chongwu7_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu7/chongwu7_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ec931ab665f517f665a27a18375f9393047046f52bb69f618bb2709102a73611"
+    },
+    "assets/lua/skill_effect/chongwu7/chongwu7_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu7/chongwu7_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "42b6332a4f2922280f5c67f9a22dc9800f0f8f461e06d5c7feaadf64b3166ac0"
+    },
+    "assets/lua/skill_effect/chongwu7/chongwu7_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu7/chongwu7_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e7641c25a8e4feb09b6e3544cdc167bd82f4926d405c7f2480de5b695aad071b"
+    },
+    "assets/lua/skill_effect/chongwu8/chongwu8_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu8/chongwu8_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e6711dc5291e0eeda32f1f11a029a4a7cf49a9b1cffa1bec82287e389fc1165c"
+    },
+    "assets/lua/skill_effect/chongwu8/chongwu8_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu8/chongwu8_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "d69789bd8af47d646b0abb3d9888a8d6d304444e6dea477cc3067ce81d99f499"
+    },
+    "assets/lua/skill_effect/chongwu8/chongwu8_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu8/chongwu8_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "3d82421045914db6025bc342383191fb96fce0292cb2e32c1743da06c977e005"
+    },
+    "assets/lua/skill_effect/chongwu9/chongwu9_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu9/chongwu9_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "4d7a6aa54e130defddd5c7f68a0372a734ff633fa10db1aff06489aa5bce25a2"
+    },
+    "assets/lua/skill_effect/chongwu9/chongwu9_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu9/chongwu9_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "e2759100c2d76b6765d139fe211e19e7bc7cde410d1ed2561ddf1fc63132b216"
+    },
+    "assets/lua/skill_effect/chongwu9/chongwu9_s3.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/chongwu9/chongwu9_s3.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "1df41e6010ca227866284d4880b22db0162bb4a65be86c80d59ed440729d3eaa"
+    },
+    "assets/lua/skill_effect/qingyanbailong/qingyanbailong_s1.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/qingyanbailong/qingyanbailong_s1.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "ed08442a7e4acd549dcd245a22a6f3d43103ea56461ac9ded18ec2b74214b910"
+    },
+    "assets/lua/skill_effect/qingyanbailong/qingyanbailong_s2.lua": {
+      "archive": "work/build/SAHHT-phase37-v5-test.apk",
+      "entry": "assets/lua/skill_effect/qingyanbailong/qingyanbailong_s2.lua",
+      "origin": "LOCAL_VN_V5",
+      "sha256": "171fa575d4fbb314d0f67e873227e35b577b8f975287dd4310d86c4b84ff37a8"
+    }
+  },
+  "rules": {
+    "cultureCost": "remaining_exp_capsules",
+    "evolutionCost": "next_star_exp_fragments",
+    "skillCost": "stone_cost_one_level",
+    "evidence": "31/10/2026: chủ dự án xác nhận cả ba quy tắc hỏi; mỗi thao tác lên thẳng một cấp, chi phí theo bảng VN."
+  },
+  "blockers": [
+    "Tẩy tỷ lệ đi theo thiếu thuật toán chọn khoảng/áp giá trị; không tự bốc số.",
+    "Tái Sinh PET: Lua tham chiếu thẻ #3013 nhưng cả config VN/runtime và baseline đều thiếu ID này; công thức hoàn/trạng thái reset chưa có nguồn. Không dùng quy tắc Thần Thú.",
+    "Trang bị PET từ nhánh nguồn khác chưa được xác minh tương thích, không nhập.",
+    "Rương PET có chọn/ngẫu nhiên: thiếu hợp đồng chọn quà/xác suất; chỉ mở gói chắc chắn #204/#205/#206."
+  ],
+  "recipes": [
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033
+  ],
+  "materialItems": [
+    204,
+    205,
+    206
+  ],
+  "missingAssets": [],
+  "adminIcons": {
+    "800": {
+      "path": "work/pet/icons/800.png",
+      "sha256": "3c0ca5c0fc43641307d37abcbb7da33102de7b7e0f76513ac587eb62b4542c8f"
+    },
+    "400": {
+      "path": "work/pet/icons/400.png",
+      "sha256": "f96d22abd6e967c8d18ef261c4bab0d000c2e61346abe800fc901b039df9012b"
+    },
+    "700": {
+      "path": "work/pet/icons/700.png",
+      "sha256": "1fcea36984a9c8c56d2ec7c630d0c2ac045f74d43cb75097b4ec454e899e44c1"
+    },
+    "100": {
+      "path": "work/pet/icons/100.png",
+      "sha256": "eb5331c76fcfe744c63e1f9f16e14eef84f044691fe05ffc1b38ee96999c7bb7"
+    },
+    "2200": {
+      "path": "work/pet/icons/2200.png",
+      "sha256": "164af186b19728292026c3e8c4cefc07995579b52a93da941f63cea003dd7582"
+    },
+    "200": {
+      "path": "work/pet/icons/200.png",
+      "sha256": "a9454330c9ff452dbbf5fe7fc17acdf04672ac8a68a9d3453d1db9075dccfdf2"
+    },
+    "1900": {
+      "path": "work/pet/icons/1900.png",
+      "sha256": "188b3fcb2cfa852f8a691e7b00e95a15d93b85e9577f20c240fca7dab20702a7"
+    },
+    "300": {
+      "path": "work/pet/icons/300.png",
+      "sha256": "bd180cd3216a8e0159ba394ed01ca52c99976f11fc8caa5190405d2720f7de23"
+    },
+    "2000": {
+      "path": "work/pet/icons/2000.png",
+      "sha256": "ca0eae4d19fc1e33394caf148341f7d9c4002eac155fb60a240b1fec2ee8ef86"
+    },
+    "1800": {
+      "path": "work/pet/icons/1800.png",
+      "sha256": "48434c3cf2d195e97bd529d54a9b1be6055bd4c5fa8aad3856ce52d7ab21ae6c"
+    },
+    "1700": {
+      "path": "work/pet/icons/1700.png",
+      "sha256": "44fd7013aa1ded5eed8a4b19d4475e7bc2b5bcaa74cea193434e71533cda15b5"
+    },
+    "500": {
+      "path": "work/pet/icons/500.png",
+      "sha256": "96b0320ec835ca66a1bca1b8fdc4320ab54d2a5896e11350ac07d005edd0bdd0"
+    },
+    "600": {
+      "path": "work/pet/icons/600.png",
+      "sha256": "b6b98132cfa00ad7e2b94488acbe6d5269642e4c3ce15a80ade5c034d0f10b12"
+    },
+    "2500": {
+      "path": "work/pet/icons/2500.png",
+      "sha256": "b1993f2f9bd519868840103745201fc86a37b813ae60b4c7067ce22842482fdd"
+    },
+    "900": {
+      "path": "work/pet/icons/900.png",
+      "sha256": "d88c998d454645cf8bc079f5a7cc2676eb498feac56620732c4182e67440c100"
+    },
+    "2300": {
+      "path": "work/pet/icons/2300.png",
+      "sha256": "aa785cec17286539ca4a75771d44a17c8a88d5ca31ae213aaf94e7c86a013cff"
+    },
+    "2400": {
+      "path": "work/pet/icons/2400.png",
+      "sha256": "5afdc8692e45b95c20bc9dddef3b8b0dbc7ee1999b97956a65a4b9924f05bbda"
+    },
+    "2100": {
+      "path": "work/pet/icons/2100.png",
+      "sha256": "02a9ec8b3369911639b3a24ec1a8369934115ec6c58c2fdfe14c2d1e7a2cec6e"
+    }
+  },
+  "combatRules": {
+    "path": "tools/runtime/pet-combat-rules.json",
+    "sha256": "272db4e09252ad0262bbaf145cbd5267ceacd0b5d99fed5cf8d29c1bb5dfa952",
+    "status": "LOCAL_USER_APPROVED"
+  }
+}

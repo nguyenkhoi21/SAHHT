@@ -1,0 +1,496 @@
+{
+  "revision": "phase36-beasts-vn-runtime-v1",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "configs": {
+    "combiner": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/combiner.config",
+      "sha256": "956507a84a0fe3dfae0dbc6f3f91c8f95ffe1b7134356d09df012efc2607ecc0",
+      "records": 7
+    },
+    "combiner_base": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/combiner_base.config",
+      "sha256": "aef636e9864e7e0179bcf650a7504950b1f73e88b0701e15e26e518227ce5fbc",
+      "records": 120
+    },
+    "combiner_evo": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/combiner_evo.config",
+      "sha256": "c597dade999ad54c14058535ca445b4f5629374d6599759e9a919f41d6907c63",
+      "records": 28
+    },
+    "combiner_advanced": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/combiner_advanced.config",
+      "sha256": "96011d9d54ab7501d3c2d11f3359f6f3abb404e6a0677faaee6648dae92ecdaa",
+      "records": 49
+    },
+    "combiner_skill_detail": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/combiner_skill_detail.config",
+      "sha256": "8d4433177df323ddf6d550c82a056d6132784b8580a8d11cb3f7bdded1eb0742",
+      "records": 28
+    }
+  },
+  "assets": {
+    "assets/iphonehd/ccbResources/Monster_Summoning.plist": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccbResources/Monster_Summoning.plist",
+      "sha256": "b9f5852c7988e6573c23d06c90503d8b14aa15c977b5c306d692dfbfa2a6283b",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/ccbResources/Monster_Summoning-hd.pvr.ccz": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/ccbResources/Monster_Summoning-hd.pvr.ccz",
+      "sha256": "a7b140b81bd717cf375d4b9bcc2b12119d938a77b5e1dbde0f6baefdb7a4b09c",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/anim/long.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/long.swf.sam",
+      "sha256": "b01b40244f93ce6a894d222e1de499443e9a380e57a692a6df7c98170326d953",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/long.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/long.plist",
+      "sha256": "0fcab5024971aedf1944ec3bd6774709c12fd5601e2e97eba6de00c2bb7c70b9",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/long-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/long-hd.pvr.ccz",
+      "sha256": "d2658f5135203e41e1436fe2ab1f9aca6ed330512e2a984cb67e5988f7133b21",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/long.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/long.png",
+      "sha256": "25cfcda40f4eb254b14b6937fc729c36eeffe47556b5b94eabf58032dd4e6193",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/long_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/long_icon.png",
+      "sha256": "0728b141194e2313ed8cbc9e24bce15ab59a9a513e33348e063085d7944f463e",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/long/long_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/long/long_s1.lua",
+      "sha256": "e32804891d0cd1c03d30f782e20b3e36131ef5aa0bbf107232a9d51d52abbebd",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/chaoziran.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/chaoziran.png",
+      "sha256": "cedc283367f747a8a7e301199e2c7f98efaede4f9df6f168f4181cb0de7fa2d3",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/long/long_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/long/long_s2.lua",
+      "sha256": "838a1588736e8722eac020764b459bf2cc5dbba956de23914eb2b74ec4650c04",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/xuyuan.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/xuyuan.png",
+      "sha256": "1199c3efb82762500c3ce0e0de188b1b6e52b8de375d7aef9fd5cef7389ebda1",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/ma.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/ma.swf.sam",
+      "sha256": "d566bbdeeb749f3e10468de4bb144a1c6b87dc1c8289adb95e30686de95fef57",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/ma.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/ma.plist",
+      "sha256": "ea8464d9e3e4e3dd5701e65672ab814851c8c65a3d733054b8d9fe3ffd0c818e",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/ma-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/ma-hd.pvr.ccz",
+      "sha256": "cd2e494e540b890df180124303cef5508e0b6a0bdbc4f3f8196c925834a78995",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/ma.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/ma.png",
+      "sha256": "877083f30fde9ece3af8ffa866c3bfa3429d54962f69ada3473b7b8f063d3693",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/ma_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/ma_icon.png",
+      "sha256": "c288932d6288c090e62bb84cdf47d635e26921f599501c4e78cc884b8375b099",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/ma/ma_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/ma/ma_s1.lua",
+      "sha256": "62bc6cd19e2565cd7beed765915eeb4a4ecee8e9f9aa389e5f06ca7fb58fd755",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/dachangtui.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/dachangtui.png",
+      "sha256": "9d7213dc6070667afb7058b4f9f261987e20e69b2ba1aec589274d845002b597",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/ma/ma_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/ma/ma_s2.lua",
+      "sha256": "bf7caf46d72113f3cca1951d98b63db587e17271a67e7ab226609023720d4355",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/luoxuanjiao.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/luoxuanjiao.png",
+      "sha256": "3b500b45a40550cd8714a466449901cbe4d26ea52aab5cecb29c941af4dc0a3d",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/zhuque.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/zhuque.swf.sam",
+      "sha256": "6672c46a4a4dfc4a01a8763c7d2933ba5a27c3d5ab98f5575f473d13a0531408",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/zhuque.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/zhuque.plist",
+      "sha256": "17140abe1051a750fa1ba2f3ee2340456959f9e9fcdb8f3a5955bef780f461f9",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/zhuque-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/zhuque-hd.pvr.ccz",
+      "sha256": "43c77236360014eaf9f2af6b273b70d7a3933ed1f0e13f6477f5168054265fd9",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/zhuque.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/zhuque.png",
+      "sha256": "e647780010c1aa1ca3efaede843df79cfde9707e72b8af5f0f92ca255e4e54c4",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/zhuque_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/zhuque_icon.png",
+      "sha256": "3d8a1e8d52582f6af48a8ee6d80c3e68d06f26619607af6b0d9ef1e758c1b397",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/zhuque/zhuque_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/zhuque/zhuque_s1.lua",
+      "sha256": "62bc6cd19e2565cd7beed765915eeb4a4ecee8e9f9aa389e5f06ca7fb58fd755",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/lieyanyuyi.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/lieyanyuyi.png",
+      "sha256": "d77f838e05b656bba4fd0b358bf1c272f963d1a04ed2aedf587643f42d932c54",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/zhuque/zhuque_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/zhuque/zhuque_s2.lua",
+      "sha256": "5c1d87ef811d50d10dcf27c00d0b7cc94849b25fe6376057874eb4f318bbabe8",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/shenniaozhinu.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/shenniaozhinu.png",
+      "sha256": "99c64f0f5855741d772d65ce04a5b27af2e64eb19782f4ecff97985815cac943",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/lang.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/lang.swf.sam",
+      "sha256": "850d97004ef6e1b65a482cbc31854152fe4b27f88d948f288c5ec6e682884530",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/lang.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/lang.plist",
+      "sha256": "3fc4701af67b5aece20194f352f32f6ef50f99dca549fdc08903be656037d706",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/lang-hd.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/lang-hd.pvr.ccz",
+      "sha256": "5716ce4d9ffd263d28946b449a4b8ad80b655dfec531444860ebe5750e1a7a9c",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/lang.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/lang.png",
+      "sha256": "207fc21dd49d44c06b4d0d9d4cd554eadbc29399d12bd82584b0f608d031b60c",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/lang_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/lang_icon.png",
+      "sha256": "1ab848eed2043a0a8c18e951c12961c6be765d953a781c50e604e79056ab5e18",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/lang/lang_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/lang/lang_s1.lua",
+      "sha256": "445a68a809d73cd9871084d853d32b540e4f9f11f3e91acccb757c3d3fc6115f",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/hanbinglichi.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/hanbinglichi.png",
+      "sha256": "03864892b7130f85e4ab80affc1e0bb58929193adc3829c488e8125eb2c5b942",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/lang/lang_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/lang/lang_s2.lua",
+      "sha256": "7607da1531d905938c9cbdfc3f5eecba39c1a2aaa742382c1fe0145c66c86bd0",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/tieshanyishi.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/tieshanyishi.png",
+      "sha256": "90242bad2538f7467afe5577d850e272db6eaa0e62a564d1613ef3f45e74b4ed",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/tiankonglong.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/tiankonglong.swf.sam",
+      "sha256": "d262b4da2f73c44aeba1a15c8e8ccfda689325d6f4765fb7224f1dee4a8101a6",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/tiankonglong.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/tiankonglong.plist",
+      "sha256": "8d3c2288c20d176c067a2041ef20da38bded2ff20ae84c2ee56f6f600973ef80",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/tiankonglong.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/tiankonglong.pvr.ccz",
+      "sha256": "7eeadded0927c9fc409e2fec2aebb503e49ebe9b43e4dc139cefbb3eebf35c37",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/tiankonglong.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/tiankonglong.png",
+      "sha256": "be5877e967dd5698148cddf96c5045764c104629fe53404351f4343311624ebf",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/tiankonglong_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/tiankonglong_icon.png",
+      "sha256": "8a21f6d0e264da27e1e23cd75deb34f99c9fc58052ffb2316c0c7018bd067ccf",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/tiankonglong/tiankonglong_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/tiankonglong/tiankonglong_s1.lua",
+      "sha256": "21097783d99038dc8f7a93b5ec8bc1382c2f23fa99d6d095bac031c84a32ea8a",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/tiankonglong_s1.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/tiankonglong_s1.png",
+      "sha256": "aef1b8a8d4ce7421493ba014e34ffdf61a0c6a1e95266fd335a797e41f32b52c",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/tiankonglong/tiankonglong_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/tiankonglong/tiankonglong_s2.lua",
+      "sha256": "12b1e88b50bd8f801e7d18a3950a7d289037cc09942c8400049385fdf9161b47",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/tiankonglong_s2.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/tiankonglong_s2.png",
+      "sha256": "d6eb417c9db6c87c0b6b2c2421e893dfdfbefc693b8618403955040cd825b0af",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/aerzhousi.swf.sam": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/aerzhousi.swf.sam",
+      "sha256": "c26de01afb0d189bb545ffe5e9d5bc60e601280bc4833908f92656800373d53e",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/aerzhousi.plist": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/aerzhousi.plist",
+      "sha256": "20f3ac831ff23a10a1f77e14d462c85e3d50848a3e1d76bcd29180bf5955a2c3",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/aerzhousi.pvr.ccz": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/anim/aerzhousi.pvr.ccz",
+      "sha256": "7c32a08761a474efd9916b482576784d30d150956e606e03435d83979cfb7ccd",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/img/aerzhousi.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/img/aerzhousi.png",
+      "sha256": "1699556cb36ec65977e1ee79b6271796190f98d788062beec1d0ecff1fa083d6",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/aerzhousi_icon.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/aerzhousi_icon.png",
+      "sha256": "ca146d3bbba583f5bc03c57cda88569c796af7b7b804abe88a62e404229deea1",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/aerzhousi/aerzhousi_s1.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/aerzhousi/aerzhousi_s1.lua",
+      "sha256": "bdb8954072f2f7bfbcaf0e984892dfb9966534636a76a69df267c37c31821096",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/aerzhousi_s1.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/aerzhousi_s1.png",
+      "sha256": "b6e17e1435b266d14afb6e5375dd93c20baa61bf932a52f8274ffe43ed6c15c3",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/lua/skill_effect/aerzhousi/aerzhousi_s2.lua": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/lua/skill_effect/aerzhousi/aerzhousi_s2.lua",
+      "sha256": "8c3fd551ddf327e1fc24bee0debbf1135c614de13c986123244331c81dba9052",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/icon/aerzhousi_s2.png": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/iphonehd/icon/aerzhousi_s2.png",
+      "sha256": "0eacb236cee540d5c01693bd2cfacda4f21c24a2604f1cd4ddf339963f02173a",
+      "origin": "VN_LOCAL_V12"
+    },
+    "assets/iphonehd/anim/chuhaoji.swf.sam": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/chuhaoji.swf.sam",
+      "sha256": "cfe6d58d5119107033dc412be645f02d2d22a9ef72d249e0b0c16a0b67b559f0",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/anim/chuhaoji.plist": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/chuhaoji.plist",
+      "sha256": "612c197ee00d81d549ccfe1bcffefbb1f89a2fbebca31d2fcec5af21cba2ac5c",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/anim/chuhaoji.pvr.ccz": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/chuhaoji.pvr.ccz",
+      "sha256": "9676daad87cfac7e975b1953c4f078a9027475ab58bd03611a8e410e43664ef8",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/img/chuhaoji.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/img/chuhaoji.png",
+      "sha256": "6ef04f6755e5f9b5f0fcbcc03d8169d1417301c98370e2754cf822386fa5f420",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/icon/chuhaoji_icon.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/chuhaoji_icon.png",
+      "sha256": "de3a2deb4164ff45fffce3f208ed9b4e69ff3bf93d4ec7008250bc758e044d0e",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/lua/skill_effect/chuhaoji/chuhaoji_s1.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/chuhaoji/chuhaoji_s1.lua",
+      "sha256": "d93bf7d972276a15491945a9aaabfffcafd1f377ef0fdf743e11ac83ca80836d",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/icon/chuhaoji_s1.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/chuhaoji_s1.png",
+      "sha256": "9ce500280f9c2f4237655a6564453e3b8c9b12134ae9aba0f84166762b6df87d",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/lua/skill_effect/chuhaoji/chuhaoji_s2.lua": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/chuhaoji/chuhaoji_s2.lua",
+      "sha256": "25392ef02ef0779dbd7f882e57c308d5f9cf8aa30fbc95f3059970724904f5ba",
+      "origin": "VN_RUNTIME"
+    },
+    "assets/iphonehd/icon/chuhaoji_s2.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/chuhaoji_s2.png",
+      "sha256": "465c8bcb18e0a3417a28f7aa0c3c89470aa3d84a05cc1cc21d9f78166e9c7f41",
+      "origin": "VN_RUNTIME"
+    }
+  },
+  "userConfirmedRules": {
+    "hpSkillFirstRound": 1,
+    "hpSkillEveryRound": true,
+    "evidence": "User xác nhận 30/10/2026: Osiris/Arceus/Eva từ hiệp1 và mỗi hiệp.",
+    "buffDurationRounds": 1,
+    "buffStacking": false,
+    "willeTarget": "allEnemies",
+    "advancedSkillEvidence": "Người chơi xác nhận: buff 1 hiệp/không cộng dồn; WILLE cả đội địch.",
+    "rebirthLevelOnly": true,
+    "rebirthPreservesQuality": true,
+    "rebirthPreservesMaterialGods": true,
+    "rebirthRefundCardId": 56,
+    "rebirthRefundPercent": 80,
+    "rebirthRounding": "floor",
+    "rebirthEvidence": "31/10/2026: người chơi xác nhận hoàn80% phần nânglevel thànhthẻ56, làmtrònxuống; giữtiếncấp."
+  },
+  "fragmentRecovery": {
+    "itemId": 1907,
+    "exchangeId": 907,
+    "materialCardId": 59,
+    "sources": {
+      "item": {
+        "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+        "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+        "key": "1907",
+        "recordSha256": "334298e5fef10d999e27a3da56bdddc65015bcc0c27c6a9a3342a0c12985067e"
+      },
+      "exchange": {
+        "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/exchange.config",
+        "sha256": "89307e8180eb3684f01df95602d1e2c197e1b2558ab360efc4acb90abbc0dee2",
+        "key": "907",
+        "recordSha256": "32a729e05b0a00cc5a99d44954f4b5d0a19135cc50ac3464be653bda5247da39"
+      },
+      "character_detail": {
+        "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/character_detail.config",
+        "sha256": "cd4bbe34064f2dc395dc1bf37e5abb6180423d73d77e9d4924cf27879ed993ad",
+        "key": "59",
+        "recordSha256": "1c4a7ff052e59e5802fbc84a9ff639e6569b885908685383023dc52b52f02354"
+      }
+    }
+  },
+  "expMaterial": {
+    "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/character_detail.config",
+    "sha256": "cd4bbe34064f2dc395dc1bf37e5abb6180423d73d77e9d4924cf27879ed993ad",
+    "key": "56",
+    "recordSha256": "527466a0cb7e801a033ecef817b7de3a1947d2d15b132bbfece294fd88704990",
+    "allowedTextFields": [
+      "name",
+      "short_story",
+      "story"
+    ],
+    "baselineText": {
+      "story": "转世的灵魂进阶时使用的特殊的灵魂",
+      "name": "",
+      "short_story": "转世的灵魂进阶时使用的特殊的灵魂"
+    }
+  },
+  "combatRules": {
+    "skillsPerCampPerRound": 1,
+    "evidence": {
+      "archive": "work/build/SAHHT-than-vuc-v12-test.apk",
+      "entry": "assets/config/notice_active.config",
+      "sha256": "bc3712be1db19cd8db022e0b5e5a5e080dacd56f3d2b1003fadd74ac821cb8d4",
+      "record": 176,
+      "recordSha256": "590aa23558016270cb9b8d1b82dbe224df85ceb7a98091ade5fad8d2a8677161"
+    }
+  },
+  "verifiedEffectDependencies": [
+    "long_s1",
+    "long_s2",
+    "ma_s1",
+    "ma_s2",
+    "zhuque_s1",
+    "zhuque_s2",
+    "lang_s1",
+    "lang_s2",
+    "tiankonglong_s1",
+    "tiankonglong_s2",
+    "aerzhousi_s1",
+    "aerzhousi_s2",
+    "chuhaoji_s1",
+    "chuhaoji_s2"
+  ]
+}

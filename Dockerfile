@@ -7,6 +7,7 @@ RUN cd /app/server && npm ci --omit=dev
 
 COPY admin ./admin
 COPY com.kaiqigu.cjyxyn.kvsdk ./com.kaiqigu.cjyxyn.kvsdk
+COPY tools ./tools
 COPY work ./work
 COPY server ./server
 

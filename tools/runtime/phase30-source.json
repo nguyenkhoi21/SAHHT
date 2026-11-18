@@ -1,0 +1,15 @@
+{
+  "revision": "phase30-vn-source-v1",
+  "tables": {
+    "tree_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/tree_shop.config",
+      "sha256": "9291f8cae7243c3a95c1c5a2396a23aae0ce2c0192d7cffbb1d4dddddbc5276d",
+      "rows": 39
+    },
+    "shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/shop.config",
+      "sha256": "f4c36273970ba9fa72d660f89b6b10ec74839ea6cc337a6cb108c24f0c08b2ad",
+      "rows": 85
+    }
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "revision": "phase38-vn-v1",
+  "baseline": "SAHHT-pet-v2-test.apk",
+  "tables": {
+    "active_show": {
+      "path": "work/phase38/source/active_show.json",
+      "sha256": "49edfb29fa09746e9f508f10a812366c9fdf18896c378bd82aac91f92fa2ba2d",
+      "origin": "work/extracted-data/configs/active_show.json",
+      "vnRuntimeMatch": false,
+      "count": 6
+    },
+    "active_recharge": {
+      "path": "work/phase38/source/active_recharge.json",
+      "sha256": "3a5371ecf6b9cf40a4726bc4d4f53269fa051f609b2f1cca562cf95dc3507754",
+      "origin": "work/runtime-content/configs/active_recharge.json",
+      "vnRuntimeMatch": true,
+      "count": 2540
+    },
+    "active_consume": {
+      "path": "work/phase38/source/active_consume.json",
+      "sha256": "03562c387762e52ba3c4075d8e178077cfb7b5bcc63f6dcb48c0c79e173cce81",
+      "origin": "work/runtime-content/configs/active_consume.json",
+      "vnRuntimeMatch": true,
+      "count": 1428
+    },
+    "omni_exchange": {
+      "path": "work/phase38/source/omni_exchange.json",
+      "sha256": "ee963961cf3dda7d1a02c602b1e54a68035b1c3f04a0ee31d9826ba23e87e336",
+      "origin": "work/runtime-content/configs/omni_exchange.json",
+      "vnRuntimeMatch": true,
+      "count": 1893
+    },
+    "charge": {
+      "path": "work/phase38/source/charge.json",
+      "sha256": "f9c175f428bb378db1fefe43f09263e56fde6bab9b88baab7c239429521704ff",
+      "origin": "work/runtime-content/configs/charge.json",
+      "vnRuntimeMatch": true,
+      "count": 22
+    },
+    "vip": {
+      "path": "work/phase38/source/vip.json",
+      "sha256": "492209f0b9848d71a6f8ab38a7c909c82cb710827b6975255d5f3aabf1e90be1",
+      "origin": "work/runtime-content/configs/vip.json",
+      "vnRuntimeMatch": true,
+      "count": 18
+    },
+    "item": {
+      "path": "work/phase38/source/item.json",
+      "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+      "vnRuntimeMatch": true,
+      "count": 3719
+    },
+    "exchange": {
+      "path": "work/phase38/source/exchange.json",
+      "sha256": "89307e8180eb3684f01df95602d1e2c197e1b2558ab360efc4acb90abbc0dee2",
+      "origin": "com.kaiqigu.cjyxyn.kvsdk/files/config/exchange.config",
+      "vnRuntimeMatch": true,
+      "count": 422
+    }
+  },
+  "scripts": {
+    "game_ui/ui_vip.lua": {
+      "path": "work/phase38/source/lua/game_ui/ui_vip.lua",
+      "sha256": "551cc277ba52dfd418fd25f34238bb257d7a178b76670bbafbea3cd8a72b7103",
+      "origin": "LOCAL_VN_PETV2"
+    },
+    "game_ui/game_charge_active.lua": {
+      "path": "work/phase38/source/lua/game_ui/game_charge_active.lua",
+      "sha256": "f4fa8d627eb62b0ad538868c590390d76d266bedfba66e9319d747f778f75bbe",
+      "origin": "LOCAL_VN_PETV2"
+    },
+    "shared/native_helper.lua": {
+      "path": "work/phase38/source/lua/shared/native_helper.lua",
+      "sha256": "613fd543b7ecbb832c494802c06edca780f0aa6e5b0fd45e5e1e689da815560e",
+      "origin": "LOCAL_VN_PETV2"
+    },
+    "shared/network.lua": {
+      "path": "work/phase38/source/lua/shared/network.lua",
+      "sha256": "8acf209fe14410485f3f5146d3a8735874f27ad5eff35ccf8ebf312b34593f20",
+      "origin": "LOCAL_VN_PETV2"
+    },
+    "game_url_config.lua": {
+      "path": "work/phase38/source/lua/game_url_config.lua",
+      "sha256": "8a6221255c63f443cc955ad3f01eb8c6e3832d93c71a43d8bfd3ec8e0ecaddaf",
+      "origin": "LOCAL_VN_PETV2"
+    }
+  },
+  "blockers": [],
+  "supplementalItems": [
+    92681,
+    9101629,
+    9101630,
+    9101625,
+    9102019,
+    9101763,
+    9102473,
+    9102118,
+    9101644,
+    9101643,
+    9102526,
+    9102524,
+    9102520,
+    9102191,
+    9102606,
+    9102605,
+    9102604,
+    1438,
+    1439,
+    1431,
+    1434,
+    1428,
+    1442,
+    9102359,
+    1435,
+    1432,
+    1436,
+    1437,
+    1440,
+    9102523,
+    9102031,
+    9102022,
+    9102023,
+    9102024,
+    9102025,
+    9102032,
+    9102026,
+    9102027,
+    9102028,
+    9102029,
+    9102397,
+    9102389,
+    9102390,
+    9102391,
+    9102392,
+    9102398,
+    9102393,
+    9102394,
+    9102395,
+    9102396,
+    9102419,
+    9102411,
+    9102412,
+    9102413,
+    9102414,
+    9102420,
+    9102415,
+    9102416,
+    9102417,
+    9102418,
+    9102375,
+    9102372,
+    9102371,
+    9102374,
+    9102367,
+    9102369,
+    9102370,
+    9101980,
+    9102368,
+    9102127,
+    9102513,
+    9102485,
+    9102476,
+    9102479,
+    9102475,
+    9102478,
+    9102484,
+    9102474,
+    9102477,
+    9102483,
+    9102480,
+    9102481,
+    9102482,
+    9102408,
+    9102400,
+    9102401,
+    9102402,
+    9102403,
+    9102409,
+    9102404,
+    9102405,
+    9102406,
+    9102407,
+    9102508,
+    9102499,
+    9102502,
+    9102498,
+    9102501,
+    9102507,
+    9102497,
+    9102500,
+    9102506,
+    9102503,
+    9102504,
+    9102505,
+    9102509,
+    9102516,
+    9102517,
+    9102518,
+    9102519,
+    9102521,
+    9102525,
+    9102522,
+    9102265,
+    9102597,
+    9102600,
+    9102596,
+    9102599,
+    9102595,
+    9102598,
+    9102601,
+    9102602,
+    9102603
+  ],
+  "assets": {
+    "assets/iphonehd/icon/chocolate_red3.png": {
+      "baseline": true,
+      "sha256": "4c760c367394b0fbfb959cb6df5337cc2a3ea544f453d4c25641956b910b3543",
+      "servedPath": "work/phase38/icons/chocolate_red3.png"
+    },
+    "assets/iphonehd/icon/icon_yujinxiang.png": {
+      "baseline": true,
+      "sha256": "25e658aea8332b3e74a79fa06e7843fd6b065c5f57ba37c3e3019c725bb1230e",
+      "servedPath": "work/phase38/icons/icon_yujinxiang.png"
+    },
+    "assets/iphonehd/icon/e_shenshixiang_sward.png": {
+      "baseline": true,
+      "sha256": "3bdbcc90ebd45d5137fdac5ee0d5a54c3787604325e41d1a0d5e9df188209fbb",
+      "servedPath": "work/phase38/icons/e_shenshixiang_sward.png"
+    },
+    "assets/iphonehd/icon/icon_anying.png": {
+      "baseline": true,
+      "sha256": "baf92355a73e9005d95d58a16ce5b4541c87ff81d48600c1c7b9b349c70795b3",
+      "servedPath": "work/phase38/icons/icon_anying.png"
+    },
+    "assets/iphonehd/icon/icon_XWukong.png": {
+      "baseline": true,
+      "sha256": "ab0bee1162bf68a0dd07a6ac1218ada6594a571011bddf3e7418f42135104db6",
+      "servedPath": "work/phase38/icons/icon_XWukong.png"
+    },
+    "assets/iphonehd/icon/icon_meipulu.png": {
+      "baseline": true,
+      "sha256": "5bcc54045f12e21326bbb29b15b34dab1f712fc73c8f88300bb30c9a0e8fc67e",
+      "servedPath": "work/phase38/icons/icon_meipulu.png"
+    },
+    "assets/iphonehd/icon/icon_tu_yuebing.png": {
+      "baseline": true,
+      "sha256": "c9c1ea6eb6946092a0aebb34439e5226adcdf6418d297a7deef52906347ddd7f",
+      "servedPath": "work/phase38/icons/icon_tu_yuebing.png"
+    },
+    "assets/iphonehd/icon/icon_xiangguo.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_xiangguo.png",
+      "sha256": "9f42ec91ef3e16005af5bff71e7c42d913c8f7e891435f3926686e780538ab4e",
+      "servedPath": "work/phase38/icons/icon_xiangguo.png"
+    },
+    "assets/iphonehd/icon/icon_boxzi.png": {
+      "baseline": true,
+      "sha256": "e2d10e7246a94da3cadaf1751aa7ecce3d21cf6a6f6f629721b6df09adc389c5",
+      "servedPath": "work/phase38/icons/icon_boxzi.png"
+    },
+    "assets/iphonehd/icon/icon_box8.png": {
+      "baseline": true,
+      "sha256": "eed464ac7a4624428b75137a39777b4e019485eb0a4d1c01af8d7b990d52897d",
+      "servedPath": "work/phase38/icons/icon_box8.png"
+    },
+    "assets/iphonehd/icon/icon_hudieren.png": {
+      "baseline": true,
+      "sha256": "e764e9a2b9115e09c93aab420005ad4a259542d89d31c474f5ce81597422e02d",
+      "servedPath": "work/phase38/icons/icon_hudieren.png"
+    },
+    "assets/iphonehd/icon/icon_xzuozhu.png": {
+      "baseline": true,
+      "sha256": "c0d5cb036d5e56df661d11a012a99c7a133f71974bc7036e8ffce7b29bf7fb06",
+      "servedPath": "work/phase38/icons/icon_xzuozhu.png"
+    },
+    "assets/iphonehd/icon/icon_peien.png": {
+      "baseline": true,
+      "sha256": "56076ef9fa61bbfa1ec278fe43aeb9c15d4dc66b4d07dc9d5a518477a1e61555",
+      "servedPath": "work/phase38/icons/icon_peien.png"
+    },
+    "assets/iphonehd/icon/icon_dieqi.png": {
+      "baseline": true,
+      "sha256": "f6fcbb27b4f5ccb88870ad76d979a836caf8dcd1fd015860f6a8e478c1c1ed80",
+      "servedPath": "work/phase38/icons/icon_dieqi.png"
+    },
+    "assets/iphonehd/icon/icon_vegetto.png": {
+      "baseline": true,
+      "sha256": "919eb796e64a4b1c98d861bf52b183a2d107cc1707c55db03b336dfb41e1c561",
+      "servedPath": "work/phase38/icons/icon_vegetto.png"
+    },
+    "assets/iphonehd/icon/chenghao_bagicon.png": {
+      "baseline": true,
+      "sha256": "16cfef861c4f046302edce9a31bbf00922fd545d02836acdee1e08d289d5e9e0",
+      "servedPath": "work/phase38/icons/chenghao_bagicon.png"
+    },
+    "assets/iphonehd/icon/icon_yileina.png": {
+      "baseline": true,
+      "sha256": "19d8fd3a41fe95ff8a3947a6a0fce157aec8363ecb5ccf96378cdc7aae80e53e",
+      "servedPath": "work/phase38/icons/icon_yileina.png"
+    },
+    "assets/iphonehd/icon/icon_telankesi.png": {
+      "baseline": true,
+      "sha256": "eb565f2347a46f1f7925fd5d2af29d37bee7874a51e7e20dae2d24d00e498d2b",
+      "servedPath": "work/phase38/icons/icon_telankesi.png"
+    },
+    "assets/iphonehd/icon/icon_beijita.png": {
+      "baseline": true,
+      "sha256": "e293ac77cbf5de4e290237ce224aeb143d341765c7f9e5be795d425ea1bf705c",
+      "servedPath": "work/phase38/icons/icon_beijita.png"
+    },
+    "assets/iphonehd/icon/icon_xsjsuolong.png": {
+      "baseline": true,
+      "sha256": "f2a431202eedcbc25fa5167b32e6363250a7719bb07cc0901bc4f779367b3691",
+      "servedPath": "work/phase38/icons/icon_xsjsuolong.png"
+    },
+    "assets/iphonehd/icon/icon_mlads.png": {
+      "baseline": true,
+      "sha256": "442235634b64d0997b199a696e6dc610efa93a78f0223926972b7f2507e8dec8",
+      "servedPath": "work/phase38/icons/icon_mlads.png"
+    },
+    "assets/iphonehd/icon/wanshengjie_nangua.png": {
+      "baseline": true,
+      "sha256": "38d76cfa65b85f17c37982455a66a71fd7c3849db1b24b170df9be7e70929df0",
+      "servedPath": "work/phase38/icons/wanshengjie_nangua.png"
+    },
+    "assets/iphonehd/icon/icon_box1.png": {
+      "baseline": true,
+      "sha256": "dfa4d9f4747b2823fe53448ecc4a8fcdba842e0189cba9df7ce6a3e912dba07b",
+      "servedPath": "work/phase38/icons/icon_box1.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_tuan.png": {
+      "baseline": true,
+      "sha256": "38154f55295af485024fb9ba97e833d46643cf0214019b961ed2b16492e41a32",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_tuan.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_gou.png": {
+      "baseline": true,
+      "sha256": "1734dd359f32e670c3d05be539f00a104484d93f93ddb2dff358bd918e3922a0",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_gou.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_kuang.png": {
+      "baseline": true,
+      "sha256": "d62900830942196feaa1f43d424d678078406195eb0a73d79094425e744fb803",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_kuang.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_huan.png": {
+      "baseline": true,
+      "sha256": "89ca519d9d4fbd97972aa51d1a1abcf1508e4fe5a634c5378df6df065ad1943e",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_huan.png"
+    },
+    "assets/iphonehd/icon/icon_box2.png": {
+      "baseline": true,
+      "sha256": "1b9061cded77e93fb6afb241e1e3485816947509ddf70fda8ee0fe758c72451a",
+      "servedPath": "work/phase38/icons/icon_box2.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_chao.png": {
+      "baseline": true,
+      "sha256": "4011f17c82fe9bf0bad1192c979a39487c1d1317f2d227e9d30aa5439b16bf40",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_chao.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_zhi.png": {
+      "baseline": true,
+      "sha256": "79b1fae5c5fbec97bfdac853d6f68a16ac08b13550398667442607459fe2994e",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_zhi.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_dui.png": {
+      "baseline": true,
+      "sha256": "af559e93a078343d50f2b9de96535ebe9446264658b85976780abb39a715bb95",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_dui.png"
+    },
+    "assets/iphonehd/icon/icon_zhongqiu_huan2.png": {
+      "baseline": true,
+      "sha256": "aff481dbe3e18aeccd7586b17e70c35d135f717aa40258be4965a3eaa22dcada",
+      "servedPath": "work/phase38/icons/icon_zhongqiu_huan2.png"
+    },
+    "assets/iphonehd/icon/icon_box3.png": {
+      "baseline": true,
+      "sha256": "75e41a13dea82ade45f3310b86630459932d3ea4318d7655c05c53c0d1aac484",
+      "servedPath": "work/phase38/icons/icon_box3.png"
+    },
+    "assets/iphonehd/icon/icon_moon_xi.png": {
+      "baseline": true,
+      "sha256": "e8c16a6eef8153d4aa89a9607bffee2eb07c9bb07f0351f77d9dd7549ce7143e",
+      "servedPath": "work/phase38/icons/icon_moon_xi.png"
+    },
+    "assets/iphonehd/icon/icon_moon_ying.png": {
+      "baseline": true,
+      "sha256": "abb45e32026d83c4526276affb5ae42e20f8516e5e048736316fe1d89bfabf32",
+      "servedPath": "work/phase38/icons/icon_moon_ying.png"
+    },
+    "assets/iphonehd/icon/icon_moon_jia.png": {
+      "baseline": true,
+      "sha256": "b9aa60a531535ac22b5ae3bb7011223d7e75efedb07ce69698479466708e4fbe",
+      "servedPath": "work/phase38/icons/icon_moon_jia.png"
+    },
+    "assets/iphonehd/icon/icon_moon_jie.png": {
+      "baseline": true,
+      "sha256": "7e96e20d3e5fec9ac70bdb30eab75c5a92c9eadb8bbf1884f3fa16d3f197b5d2",
+      "servedPath": "work/phase38/icons/icon_moon_jie.png"
+    },
+    "assets/iphonehd/icon/icon_box4.png": {
+      "baseline": true,
+      "sha256": "1906dafa3446e7425abb6ef091e0a84dea567592e47b99ec141d0a6c0bf32f80",
+      "servedPath": "work/phase38/icons/icon_box4.png"
+    },
+    "assets/iphonehd/icon/icon_moon_ming.png": {
+      "baseline": true,
+      "sha256": "feaf227c8a7f689be8def8ca6aea2b34d3ca5a16c7ecad5fb52c9e3ddd59a9d7",
+      "servedPath": "work/phase38/icons/icon_moon_ming.png"
+    },
+    "assets/iphonehd/icon/icon_moon_yue.png": {
+      "baseline": true,
+      "sha256": "8623a7020b57d7dd17c61faf307326f2546abfd53c71274623d7af6ce69b5cad",
+      "servedPath": "work/phase38/icons/icon_moon_yue.png"
+    },
+    "assets/iphonehd/icon/icon_moon_ji.png": {
+      "baseline": true,
+      "sha256": "38cf56c3b02e2f5520960f41a7b4b14e3f03bb3dff98bd3401344c8f705f3992",
+      "servedPath": "work/phase38/icons/icon_moon_ji.png"
+    },
+    "assets/iphonehd/icon/icon_moon_li.png": {
+      "baseline": true,
+      "sha256": "9015802d3e95ee348c256396bd246eedc8f7a011f0aa27028aac3dec913aa113",
+      "servedPath": "work/phase38/icons/icon_moon_li.png"
+    },
+    "assets/iphonehd/icon/jinqiangyu.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/jinqiangyu.png",
+      "sha256": "4e2e10fe5057640772d755e26e18d81c0a1172923fe1d372aa25bf453fc7e5c3",
+      "servedPath": "work/phase38/icons/jinqiangyu.png"
+    },
+    "assets/iphonehd/icon/shuicao.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/shuicao.png",
+      "sha256": "3773a4e94868a8f631455bf84256a8e2d928cdf7b7b03fab77bc765f7fb523b9",
+      "servedPath": "work/phase38/icons/shuicao.png"
+    },
+    "assets/iphonehd/icon/shuimu.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/shuimu.png",
+      "sha256": "b009b7f467f6cabcadb7522c0717b33d3e617e4bfb482dc9b6221182dd08c01f",
+      "servedPath": "work/phase38/icons/shuimu.png"
+    },
+    "assets/iphonehd/icon/nianyu.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/nianyu.png",
+      "sha256": "1cedf02ca0b87fcbd8f37a1473bc4497e819a9ec9e48a28758c21ee0188b6923",
+      "servedPath": "work/phase38/icons/nianyu.png"
+    },
+    "assets/iphonehd/icon/diaogan.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/diaogan.png",
+      "sha256": "35e46b5bc6383fb14b0a09715b838a6ca6c074bf2bec106c572c95147f58e983",
+      "servedPath": "work/phase38/icons/diaogan.png"
+    },
+    "assets/iphonehd/icon/hehua.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hehua.png",
+      "sha256": "295ed408ec9334f21dcff23527b0e79914a9b1031586e6154617a9154c12ecf1",
+      "servedPath": "work/phase38/icons/hehua.png"
+    },
+    "assets/iphonehd/icon/hexia.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hexia.png",
+      "sha256": "2613095fa11fc1bf889605ea3fdcadb8291219132060cb01cae87ceb0d71c883",
+      "servedPath": "work/phase38/icons/hexia.png"
+    },
+    "assets/iphonehd/icon/icon_huizhang.png": {
+      "baseline": true,
+      "sha256": "f29efe84fe7d94d324be6c222a352109072369dcd88a22eb1d94a6c60c9e5081",
+      "servedPath": "work/phase38/icons/icon_huizhang.png"
+    },
+    "assets/iphonehd/icon/caoyu.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/caoyu.png",
+      "sha256": "a2f512b7b2d5321e883c586935ff76f58becd76eaeb789e72316902192a814ad",
+      "servedPath": "work/phase38/icons/caoyu.png"
+    },
+    "assets/iphonehd/icon/lvzuanshi.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/lvzuanshi.png",
+      "sha256": "4cb16b0bee04b04b9f6ce394a5234fbe152a03517330c915f478a0da8eb71963",
+      "servedPath": "work/phase38/icons/lvzuanshi.png"
+    },
+    "assets/iphonehd/icon/js_suipian.png": {
+      "baseline": true,
+      "sha256": "f4c08a0b44fbcfbc1a7a43b1b8e77f25a7e75a123a552d25f2d1ec4eb0cdeea1",
+      "servedPath": "work/phase38/icons/js_suipian.png"
+    },
+    "assets/iphonehd/icon/roses.png": {
+      "baseline": true,
+      "sha256": "ef948def2710064ba3cf19c40f4599a3ac50b1826d05cf790249db38626071fd",
+      "servedPath": "work/phase38/icons/roses.png"
+    },
+    "assets/iphonehd/icon/icon_huasheng.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_huasheng.png",
+      "sha256": "05c6e2823a3e5171d5a1cce5ee551bb0ef2ac8b4019c1e8c80d71a2d8ff685e7",
+      "servedPath": "work/phase38/icons/icon_huasheng.png"
+    },
+    "assets/iphonehd/icon/icon_huangdou.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_huangdou.png",
+      "sha256": "3997ce94d4871c8d0a47d849788f22d3c21413673442338bb0ea8a974342a36e",
+      "servedPath": "work/phase38/icons/icon_huangdou.png"
+    },
+    "assets/iphonehd/icon/icon_yumi.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_yumi.png",
+      "sha256": "36a3448bf8122899b9659376f4c2bc43ccd80fa0aa90318bed01c9b4ac7cf60c",
+      "servedPath": "work/phase38/icons/icon_yumi.png"
+    },
+    "assets/iphonehd/icon/icon_pugongying.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_pugongying.png",
+      "sha256": "00d8f63f6a2d737bc8f0a7ae31fa3af57b0d8092cefb8d7e2644725f15f8e500",
+      "servedPath": "work/phase38/icons/icon_pugongying.png"
+    },
+    "assets/iphonehd/icon/icon_caotuan.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_caotuan.png",
+      "sha256": "5cd0406ea4c4e0c1717520a6e287315ba8047831ccd42d58ae6039c53c48b881",
+      "servedPath": "work/phase38/icons/icon_caotuan.png"
+    },
+    "assets/iphonehd/icon/icon_songshubox.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_songshubox.png",
+      "sha256": "17016419fefa82ebed67f9bf6be39582bd21f8d0a45dd10c10e621711b3dc09c",
+      "servedPath": "work/phase38/icons/icon_songshubox.png"
+    },
+    "assets/iphonehd/icon/icon_songshu.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_songshu.png",
+      "sha256": "6f658592cdf8c0e367635db18f54a98c09ba7b0e90895ee02a630881ea0a68d2",
+      "servedPath": "work/phase38/icons/icon_songshu.png"
+    },
+    "assets/iphonehd/icon/ios_android.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/ios_android.png",
+      "sha256": "c9cd8d2ceebde18fa42bcd49148b41a5dcaddfcf4977fe2a62450a8ed7a290dc",
+      "servedPath": "work/phase38/icons/ios_android.png"
+    }
+  },
+  "missingItemDefinitions": [
+    91369,
+    55026
+  ],
+  "missingIcons": [],
+  "supplementalExchangeIds": [
+    428,
+    431,
+    432,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    442
+  ]
+}

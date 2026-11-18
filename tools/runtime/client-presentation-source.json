@@ -1,0 +1,167 @@
+{
+  "baselineApkSha256": "f59b730f78cf2c720bba46fa342aa696e5a436e3052c97a02e2fc7d02d4c1e5d",
+  "tables": {
+    "inviter_open": {
+      "path": "work/extracted-data/configs/inviter_open.json",
+      "sha256": "cd36ebae3162b7ca098f00b25cff3db03977c410ef591e30c9ff7681af0e3e93"
+    },
+    "inviter_text": {
+      "path": "work/extracted-data/configs/inviter_text.json",
+      "sha256": "8ca774c528ff059f3a2ff01150275d9661bf744171e42adbc447b3e8899240a5"
+    },
+    "reward_list": {
+      "path": "work/extracted-data/configs/reward_list.json",
+      "sha256": "f3b661f4483e48f711d2336a5691061c1837d40393703e5fba4f7fc3ea892b10"
+    },
+    "loadingtips": {
+      "path": "work/extracted-data/configs/loadingtips.json",
+      "sha256": "13a923bde60ee283c48da73dbc1cfe29684e0a3ffc01faf91eb0994b14da5ee8"
+    },
+    "loading": {
+      "path": "work/runtime-content/configs/loading.json",
+      "sha256": "b37959768be1055d390526eb6748f6eb3eb0ccdd3234222e18100dd6e4c77d0a",
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/loading.config",
+      "sourceSha256": "82765adfec878f5aad90145ec9a7a2b177733b011b2aa1a52addc908cb5f90cf"
+    }
+  },
+  "animations": [
+    {
+      "id": "Buluoli",
+      "samSha256": "2b19522b713b74e3b7f1b933c2eac1f677fa211480dd9098800872ec5bfacb2e",
+      "plistSha256": "3e1b75e7b92b65dc7fa20397bfe6e9e815fcdad298c546b648c123f7c41bc4e1",
+      "texture": "Buluoli.pvr.ccz"
+    },
+    {
+      "id": "Buluoli_2",
+      "samSha256": "2a1d153c1ef0d1a2d39f407707a56db7c79bb6322c48ad61088545516869af4f",
+      "plistSha256": "d3bc6274926b3070a9630e6fe8864133d6693ca71dda4a476cc26ccc0e40b15b",
+      "texture": "Buluoli_2.pvr.ccz"
+    },
+    {
+      "id": "NIKAlufei",
+      "samSha256": "5e1d89013e0147880379f8e19536d82c3e5fc41778d89721534faf1679295f8f",
+      "plistSha256": "96a0601b60acdcc0c6f3e21e54ad2aabd4f9168399b83144f6c55ae1a18650e1",
+      "texture": "NIKAlufei.pvr.ccz"
+    },
+    {
+      "id": "XWukong",
+      "samSha256": "365c7caa321e8e95c8116e3598fe2bf14153ebd2b14db3619dffd0fe3f8f74db",
+      "plistSha256": "ab68681dd20da607ff9a438eaed4237c7b3662cb5789f9ca52ff0229251a4498",
+      "texture": "XWukong.pvr.ccz"
+    },
+    {
+      "id": "XWukong2",
+      "samSha256": "3753ce28430ba0b5a6c1a214413218c1c167717ce9fc84084352507d2a117c35",
+      "plistSha256": "2e750633198e3a2108de35beb386fb611c903b1f126f327611911b4a1dbfdc87",
+      "texture": "XWukong2.pvr.ccz"
+    },
+    {
+      "id": "Xlufei",
+      "samSha256": "100eccb0592cb9aa0fe8633a11dbf93422d7a80c2adb4261e025782d0bdc7e5d",
+      "plistSha256": "4566a518eeac4f162f54e9f97698608d86b2c29abc13ed7aa7c5868c1997e99b",
+      "texture": "Xlufei.pvr.ccz"
+    },
+    {
+      "id": "Xlufei2",
+      "samSha256": "e37d35d3dd3ce1d8bad6278b43c90df094a3669da2b235a1025777427a6f521a",
+      "plistSha256": "0876dded7cf6daefff8a2d20734c3000fc3af5bcbf8125c53acdc0c7f0aa7095",
+      "texture": "Xlufei2.pvr.ccz"
+    },
+    {
+      "id": "ailisi",
+      "samSha256": "eb5d99b3034c7b8e923cf4263940d9653ab597a14b9183f8ede23ee1de70e013",
+      "plistSha256": "4159774094943f78e12af4dd8b538f59be44bf9c6067d7ee735ca9385ff2eee4",
+      "texture": "ailisi.pvr.ccz"
+    },
+    {
+      "id": "bike",
+      "samSha256": "c0fb5515ff8b32afb10a0173f6f4d1452f7e0ee64d08cf2a61ba63c779730f36",
+      "plistSha256": "b31ace9f0d811d8b4125914495fbd8f40740717aaffa797b808501e7cf8b1bdf",
+      "texture": "bike.pvr.ccz"
+    },
+    {
+      "id": "ironman",
+      "samSha256": "4525f9e1788d76f33587abdb1f2f9fc5579d9a93cf6185d1b61590b664dae414",
+      "plistSha256": "8df1ad3102974c75ec456eac750fe640c18b779878572609ecb709b9f50fde31",
+      "texture": "ironman-hd.pvr.ccz"
+    },
+    {
+      "id": "jiegeng",
+      "samSha256": "03b36a56e1f0f6f46591408fd47948b6058fc46e950eef2a9614e6a4a7807546",
+      "plistSha256": "3327e0680e902f0280fdf37a64bca6a4669c9cebba2b0ece10c7f28c78534b5d",
+      "texture": "jiegeng.pvr.ccz"
+    },
+    {
+      "id": "luffy",
+      "samSha256": "22f13efe855fe16d545c2bae701e631d6c4cec86e2026d1e05699da4533c0d3c",
+      "plistSha256": "8552a1a819e5f46a22ebde93a2d81bb7fb2083a57a58d037cea12de868b46d25",
+      "texture": "luffy-hd.pvr.ccz"
+    },
+    {
+      "id": "madara",
+      "samSha256": "bff25c457f44c2c1e94d63deca04a02cf18f61e147995bcc5389746f85c81473",
+      "plistSha256": "ea6972d2d6a601f8b74dd33da80e1066bbe8122150bf04594f8ae51d54107682",
+      "texture": "madara-hd.pvr.ccz"
+    },
+    {
+      "id": "meipulu",
+      "samSha256": "7f0fc94d5f8a438d1c24d54073d046a764916d822d9e1d879461a91658f95045",
+      "plistSha256": "eb680371d2a6cad6c0c2a7d8afdc5b89d6b95fa81756d3120378edf595d4c58d",
+      "texture": "meipulu.pvr.ccz"
+    },
+    {
+      "id": "meipulu2",
+      "samSha256": "dbf6067281b2217437bf2eceddb8fa22b8eb1d971ce1c066a3bdd70ff88d78bd",
+      "plistSha256": "48d8fa77fc5c9d9ad0d27d25878fb1b5324fcb6c7ca299f403235e60177637f7",
+      "texture": "meipulu2.pvr.ccz"
+    },
+    {
+      "id": "monkey",
+      "samSha256": "5e5d7b91dfde4531b0697bc671c24784e9c1eb07409dee102bb1de3161ea7141",
+      "plistSha256": "db5370bfb8eeb6b9d11ee8a11e99e7a6188fae1bc4eae729ecf2c665f11c2bd7",
+      "texture": "monkey-hd.pvr.ccz"
+    },
+    {
+      "id": "sasuke",
+      "samSha256": "b777b399cef02fa52afc36f4ea9e3895800f77d20df21294a44ec7d9068129cd",
+      "plistSha256": "bc10818cf00b549420e31036871fe70ebcf40d8b846ac54b69b084f0c3cb4606",
+      "texture": "sasuke-hd.pvr.ccz"
+    },
+    {
+      "id": "tanzhilang",
+      "samSha256": "b6840486a82d1bb42569440f2b894a6d172251e1eb6bfd8dff93b1dc0270ade9",
+      "plistSha256": "d967aee105752e361299ef4951da1aa62944367638456c93ac7cc60a405fb67a",
+      "texture": "tanzhilang.pvr.ccz"
+    },
+    {
+      "id": "tanzhilang2",
+      "samSha256": "bf042e1d86ba4a6e7dec3e0c25adfd93c37376c1762d0e89dba7751e5a9c471e",
+      "plistSha256": "442e2a26f7d2e87b9edc1782e396f12088e1121030c3ec82c22f2fb61fe0b694",
+      "texture": "tanzhilang2.pvr.ccz"
+    },
+    {
+      "id": "vegeta",
+      "samSha256": "490312a6a458e1e72f1a5bb2afcf1e47621186fa3a3c115a2785a375041c7160",
+      "plistSha256": "b4bd666cd3c106de9809697c069ed368c9caa936ed88c606fa341c5cf9969c51",
+      "texture": "vegeta-hd.pvr.ccz"
+    },
+    {
+      "id": "wutiaowu",
+      "samSha256": "f027f9067c51cf3d221ab7fccc98bb1b2f1846d622ed3282b0be31f6e16ece9a",
+      "plistSha256": "dc6598c938167d5724fd56014ed7af0f9ea06862628cd56d7d15553710ce3526",
+      "texture": "wutiaowu.pvr.ccz"
+    },
+    {
+      "id": "wutiaowu2",
+      "samSha256": "78bf971d44b0ce7e11d265e32e37e4eee38a262115dd2fc3934be9114b1898bd",
+      "plistSha256": "b62653a15ce0253aba2350dabd79ee655afd4fd90224f0ad348cf4b5890b1f36",
+      "texture": "wutiaowu2.pvr.ccz"
+    },
+    {
+      "id": "xiatiya_2",
+      "samSha256": "6124ea23f4388bd3d7b9e887f7d1c5914e733884dc0973375b24701f2eb2f0a3",
+      "plistSha256": "71e4f34a1450001c6ad04de0e7d6b3b5409e25c628fbb924231e857fe3bc109e",
+      "texture": "xiatiya_2.pvr.ccz"
+    }
+  ]
+}

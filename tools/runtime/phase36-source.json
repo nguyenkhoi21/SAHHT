@@ -1,0 +1,1315 @@
+{
+  "revision": "phase36-vn-v1",
+  "baseline": "ANDROID_ONLINE_V11",
+  "apkSha256": "c89140d7361562addc2b249e45d4d71ceea263cd9ee3e6fff042c8cd38057f70",
+  "files": {
+    "config/combiner.config": {
+      "archivePath": "assets/config/combiner.config",
+      "path": "work/phase36/source/config/combiner.config",
+      "sha256": "b9e6d2df9d5a6692629d85301523f92e91bbb802e0242026c0932aa1a4f90203",
+      "decodedSha256": "b9e6d2df9d5a6692629d85301523f92e91bbb802e0242026c0932aa1a4f90203"
+    },
+    "config/combiner_advanced.config": {
+      "archivePath": "assets/config/combiner_advanced.config",
+      "path": "work/phase36/source/config/combiner_advanced.config",
+      "sha256": "37588c8bc06c9a188eb8827a7341576be0c7a9ce478f2f932c59544b2e01dbe9",
+      "decodedSha256": "37588c8bc06c9a188eb8827a7341576be0c7a9ce478f2f932c59544b2e01dbe9"
+    },
+    "config/combiner_base.config": {
+      "archivePath": "assets/config/combiner_base.config",
+      "path": "work/phase36/source/config/combiner_base.config",
+      "sha256": "c8da0f1f46fe9b30dd1e6405cbdf0dfe83bf5fd50987e115b7f15706c7632ed9",
+      "decodedSha256": "c8da0f1f46fe9b30dd1e6405cbdf0dfe83bf5fd50987e115b7f15706c7632ed9"
+    },
+    "config/combiner_evo.config": {
+      "archivePath": "assets/config/combiner_evo.config",
+      "path": "work/phase36/source/config/combiner_evo.config",
+      "sha256": "7997dea4b7a186625329e2620422ccbaa475207126fd256fba0e5366060010fa",
+      "decodedSha256": "7997dea4b7a186625329e2620422ccbaa475207126fd256fba0e5366060010fa"
+    },
+    "config/combiner_skill_detail.config": {
+      "archivePath": "assets/config/combiner_skill_detail.config",
+      "path": "work/phase36/source/config/combiner_skill_detail.config",
+      "sha256": "8aa9bd57aa4a223d917c61fd29e9cc1736a4e8f729f472cc3d202a75ba684b82",
+      "decodedSha256": "8aa9bd57aa4a223d917c61fd29e9cc1736a4e8f729f472cc3d202a75ba684b82"
+    },
+    "config/farm_open.config": {
+      "archivePath": "assets/config/farm_open.config",
+      "path": "work/phase36/source/config/farm_open.config",
+      "sha256": "9754f385759d2fbdf800de3610371a128a42005b2c90e863a86aa573e765f543",
+      "decodedSha256": "9754f385759d2fbdf800de3610371a128a42005b2c90e863a86aa573e765f543"
+    },
+    "config/guide.config": {
+      "archivePath": "assets/config/guide.config",
+      "path": "work/phase36/source/config/guide.config",
+      "sha256": "bd9f1f1377d5efbefc14d94aa590128b42aaf834d4c81e16f0a22b419ff713bf",
+      "decodedSha256": "bd9f1f1377d5efbefc14d94aa590128b42aaf834d4c81e16f0a22b419ff713bf"
+    },
+    "config/guild_GVGhome.config": {
+      "archivePath": "assets/config/guild_GVGhome.config",
+      "path": "work/phase36/source/config/guild_GVGhome.config",
+      "sha256": "35eeaa4c6f9cfcddf39a40612f5e1035746ef8503b6acbb1306e2e6d96d65644",
+      "decodedSha256": "35eeaa4c6f9cfcddf39a40612f5e1035746ef8503b6acbb1306e2e6d96d65644"
+    },
+    "config/guild_GVGmonster.config": {
+      "archivePath": "assets/config/guild_GVGmonster.config",
+      "path": "work/phase36/source/config/guild_GVGmonster.config",
+      "sha256": "6d27dfbac52bfb64656fa071403959a93868776ce0417684ac5b5ddeafc691e5",
+      "decodedSha256": "6d27dfbac52bfb64656fa071403959a93868776ce0417684ac5b5ddeafc691e5"
+    },
+    "config/guild_GVGplayer.config": {
+      "archivePath": "assets/config/guild_GVGplayer.config",
+      "path": "work/phase36/source/config/guild_GVGplayer.config",
+      "sha256": "02bed035930d924774ebfb452798b3c3d9fa11ae2215f4202cee250c56829280",
+      "decodedSha256": "02bed035930d924774ebfb452798b3c3d9fa11ae2215f4202cee250c56829280"
+    },
+    "config/guild_boss.config": {
+      "archivePath": "assets/config/guild_boss.config",
+      "path": "work/phase36/source/config/guild_boss.config",
+      "sha256": "b23866d21f146ccf12ba6e7b532a326ffc0a73aea5d4fd984d1772104ff0cff4",
+      "decodedSha256": "b23866d21f146ccf12ba6e7b532a326ffc0a73aea5d4fd984d1772104ff0cff4"
+    },
+    "config/guild_bossplayer.config": {
+      "archivePath": "assets/config/guild_bossplayer.config",
+      "path": "work/phase36/source/config/guild_bossplayer.config",
+      "sha256": "5dea002853f4c1406b2dc99a4d05dc993a07fb4277d53e2faea4a6103c279970",
+      "decodedSha256": "5dea002853f4c1406b2dc99a4d05dc993a07fb4277d53e2faea4a6103c279970"
+    },
+    "config/guild_employ.config": {
+      "archivePath": "assets/config/guild_employ.config",
+      "path": "work/phase36/source/config/guild_employ.config",
+      "sha256": "7d47590ed079870ff3b5f9fd9a20a5f89d790d6b0c22385f8c6657421371e770",
+      "decodedSha256": "7d47590ed079870ff3b5f9fd9a20a5f89d790d6b0c22385f8c6657421371e770"
+    },
+    "config/guild_employ_boss.config": {
+      "archivePath": "assets/config/guild_employ_boss.config",
+      "path": "work/phase36/source/config/guild_employ_boss.config",
+      "sha256": "abbb34f2bd5141ea0a27c8cbdf3c1b39eb2360e589837d108829b337da651512",
+      "decodedSha256": "abbb34f2bd5141ea0a27c8cbdf3c1b39eb2360e589837d108829b337da651512"
+    },
+    "config/guild_employ_enemy.config": {
+      "archivePath": "assets/config/guild_employ_enemy.config",
+      "path": "work/phase36/source/config/guild_employ_enemy.config",
+      "sha256": "cb5ba7e4464097d3e3ba05ec84eea81408bfcc11e8e7ecac26178bde4174fc18",
+      "decodedSha256": "cb5ba7e4464097d3e3ba05ec84eea81408bfcc11e8e7ecac26178bde4174fc18"
+    },
+    "config/guild_employ_position.config": {
+      "archivePath": "assets/config/guild_employ_position.config",
+      "path": "work/phase36/source/config/guild_employ_position.config",
+      "sha256": "bddcbb6d85b03e07b5f24d6c4cad41f0e03f9711d004c73031d0bc7f6ffc7a9e",
+      "decodedSha256": "bddcbb6d85b03e07b5f24d6c4cad41f0e03f9711d004c73031d0bc7f6ffc7a9e"
+    },
+    "config/guild_fight.config": {
+      "archivePath": "assets/config/guild_fight.config",
+      "path": "work/phase36/source/config/guild_fight.config",
+      "sha256": "3ea8dfa1f40c326d4bf4b768a737f5aae0314e1074babeb44c6c3429de7f9b38",
+      "decodedSha256": "3ea8dfa1f40c326d4bf4b768a737f5aae0314e1074babeb44c6c3429de7f9b38"
+    },
+    "config/guild_fight_buy.config": {
+      "archivePath": "assets/config/guild_fight_buy.config",
+      "path": "work/phase36/source/config/guild_fight_buy.config",
+      "sha256": "43a0f3ea3a2c104298c29cbd3a4cb27249d7c3452ff9c5a589dc1e9fc1bc7df6",
+      "decodedSha256": "43a0f3ea3a2c104298c29cbd3a4cb27249d7c3452ff9c5a589dc1e9fc1bc7df6"
+    },
+    "config/guild_funtion.config": {
+      "archivePath": "assets/config/guild_funtion.config",
+      "path": "work/phase36/source/config/guild_funtion.config",
+      "sha256": "c9d42d107928a157d68ea12e7aa5f7f18687044bc081abe6fdd4088af744ccb1",
+      "decodedSha256": "c9d42d107928a157d68ea12e7aa5f7f18687044bc081abe6fdd4088af744ccb1"
+    },
+    "config/guild_high_war_base.config": {
+      "archivePath": "assets/config/guild_high_war_base.config",
+      "path": "work/phase36/source/config/guild_high_war_base.config",
+      "sha256": "6751dd0da47497613066d71e0c394ebedf0c8f1888828722141b318f6891a524",
+      "decodedSha256": "6751dd0da47497613066d71e0c394ebedf0c8f1888828722141b318f6891a524"
+    },
+    "config/guild_level.config": {
+      "archivePath": "assets/config/guild_level.config",
+      "path": "work/phase36/source/config/guild_level.config",
+      "sha256": "1b629f1bb62b28c87ee8d5c0d02bb888a8b7b6a8957ff479f9c86572b032aa39",
+      "decodedSha256": "1b629f1bb62b28c87ee8d5c0d02bb888a8b7b6a8957ff479f9c86572b032aa39"
+    },
+    "config/guild_middleplayer.config": {
+      "archivePath": "assets/config/guild_middleplayer.config",
+      "path": "work/phase36/source/config/guild_middleplayer.config",
+      "sha256": "5dea002853f4c1406b2dc99a4d05dc993a07fb4277d53e2faea4a6103c279970",
+      "decodedSha256": "5dea002853f4c1406b2dc99a4d05dc993a07fb4277d53e2faea4a6103c279970"
+    },
+    "config/guild_shop.config": {
+      "archivePath": "assets/config/guild_shop.config",
+      "path": "work/phase36/source/config/guild_shop.config",
+      "sha256": "852c33720e55e88de38c5362ca271cb274b0fe466a45af35db3366b111cb407a",
+      "decodedSha256": "852c33720e55e88de38c5362ca271cb274b0fe466a45af35db3366b111cb407a"
+    },
+    "config/guild_shop_item.config": {
+      "archivePath": "assets/config/guild_shop_item.config",
+      "path": "work/phase36/source/config/guild_shop_item.config",
+      "sha256": "2daf3d0fdbeaa3b04a53357a43556c6534a48cc77f0eb8e2feaac1dbefe0b8ba",
+      "decodedSha256": "2daf3d0fdbeaa3b04a53357a43556c6534a48cc77f0eb8e2feaac1dbefe0b8ba"
+    },
+    "config/guild_tech.config": {
+      "archivePath": "assets/config/guild_tech.config",
+      "path": "work/phase36/source/config/guild_tech.config",
+      "sha256": "b3bd983be31e79163dcb52975d6e2a0b7533d9fc46bb96607694d3d7802f680b",
+      "decodedSha256": "b3bd983be31e79163dcb52975d6e2a0b7533d9fc46bb96607694d3d7802f680b"
+    },
+    "config/homeland_adorn.config": {
+      "archivePath": "assets/config/homeland_adorn.config",
+      "path": "work/phase36/source/config/homeland_adorn.config",
+      "sha256": "1dcd4fc23eab10bd3cbdf13736472a8688de68299e6e17a3c8d8194173140b93",
+      "decodedSha256": "1dcd4fc23eab10bd3cbdf13736472a8688de68299e6e17a3c8d8194173140b93"
+    },
+    "config/homeland_evo.config": {
+      "archivePath": "assets/config/homeland_evo.config",
+      "path": "work/phase36/source/config/homeland_evo.config",
+      "sha256": "11c07e4db063478dfac68af3af405d936d09c8f829bc0716999c0ff6900da21a",
+      "decodedSha256": "11c07e4db063478dfac68af3af405d936d09c8f829bc0716999c0ff6900da21a"
+    },
+    "config/homeland_grow.config": {
+      "archivePath": "assets/config/homeland_grow.config",
+      "path": "work/phase36/source/config/homeland_grow.config",
+      "sha256": "539c2e0dd52a30d49bc843ffe979a526e298f98d62185bd7bf2511d97095d50f",
+      "decodedSha256": "539c2e0dd52a30d49bc843ffe979a526e298f98d62185bd7bf2511d97095d50f"
+    },
+    "config/homeland_reward.config": {
+      "archivePath": "assets/config/homeland_reward.config",
+      "path": "work/phase36/source/config/homeland_reward.config",
+      "sha256": "89be5d056d26e73484c9a1130255e3550b900a9362f0727e1882588f7797f085",
+      "decodedSha256": "89be5d056d26e73484c9a1130255e3550b900a9362f0727e1882588f7797f085"
+    },
+    "config/homeland_roulette.config": {
+      "archivePath": "assets/config/homeland_roulette.config",
+      "path": "work/phase36/source/config/homeland_roulette.config",
+      "sha256": "6c29e9cac92d7e7c85d30c76c63951c52224d43ae745cb7eb906c02152aae6fe",
+      "decodedSha256": "6c29e9cac92d7e7c85d30c76c63951c52224d43ae745cb7eb906c02152aae6fe"
+    },
+    "config/homeland_shop.config": {
+      "archivePath": "assets/config/homeland_shop.config",
+      "path": "work/phase36/source/config/homeland_shop.config",
+      "sha256": "c93b9e48f3148b1751d9692d0540d548f6610addfb6ceb6d9e4e2961a82769ad",
+      "decodedSha256": "c93b9e48f3148b1751d9692d0540d548f6610addfb6ceb6d9e4e2961a82769ad"
+    },
+    "config/notice_active.config": {
+      "archivePath": "assets/config/notice_active.config",
+      "path": "work/phase36/source/config/notice_active.config",
+      "sha256": "bc3712be1db19cd8db022e0b5e5a5e080dacd56f3d2b1003fadd74ac821cb8d4",
+      "decodedSha256": "bc3712be1db19cd8db022e0b5e5a5e080dacd56f3d2b1003fadd74ac821cb8d4"
+    },
+    "config/pet_base.config": {
+      "archivePath": "assets/config/pet_base.config",
+      "path": "work/phase36/source/config/pet_base.config",
+      "sha256": "62068684e7b664142c80df730c47f737da06b074934c80d5a801845a6f423a54",
+      "decodedSha256": "62068684e7b664142c80df730c47f737da06b074934c80d5a801845a6f423a54"
+    },
+    "config/pet_corral.config": {
+      "archivePath": "assets/config/pet_corral.config",
+      "path": "work/phase36/source/config/pet_corral.config",
+      "sha256": "f7a5eda3244aad9cb18a00b5eebc67b66119b275350ce6d467aff9b869a6bf15",
+      "decodedSha256": "f7a5eda3244aad9cb18a00b5eebc67b66119b275350ce6d467aff9b869a6bf15"
+    },
+    "config/pet_detail.config": {
+      "archivePath": "assets/config/pet_detail.config",
+      "path": "work/phase36/source/config/pet_detail.config",
+      "sha256": "bc15a81d79505d60e8eee22a4685937d62591a4fbaafe395a3ed371877f67583",
+      "decodedSha256": "bc15a81d79505d60e8eee22a4685937d62591a4fbaafe395a3ed371877f67583"
+    },
+    "config/pet_evolution.config": {
+      "archivePath": "assets/config/pet_evolution.config",
+      "path": "work/phase36/source/config/pet_evolution.config",
+      "sha256": "39e61b69bd66ded9f727fa5fee4a040b8f9d18047db36c092e88b543717dc35e",
+      "decodedSha256": "39e61b69bd66ded9f727fa5fee4a040b8f9d18047db36c092e88b543717dc35e"
+    },
+    "config/pet_follow.config": {
+      "archivePath": "assets/config/pet_follow.config",
+      "path": "work/phase36/source/config/pet_follow.config",
+      "sha256": "5c1e9d5d92944c4d00063b72d64e4d06d18d3db4477571c45b79185e27f5e1fe",
+      "decodedSha256": "5c1e9d5d92944c4d00063b72d64e4d06d18d3db4477571c45b79185e27f5e1fe"
+    },
+    "config/pet_refresh.config": {
+      "archivePath": "assets/config/pet_refresh.config",
+      "path": "work/phase36/source/config/pet_refresh.config",
+      "sha256": "036bb7e7d2595f53e4cf5d63515823d0291af0ead2c5a792fbf287846ed51878",
+      "decodedSha256": "036bb7e7d2595f53e4cf5d63515823d0291af0ead2c5a792fbf287846ed51878"
+    },
+    "config/pet_skill_detail.config": {
+      "archivePath": "assets/config/pet_skill_detail.config",
+      "path": "work/phase36/source/config/pet_skill_detail.config",
+      "sha256": "f5b8a17a71e72416d26df2757f319c2b38b4a8cfa15e3069d10547fc0ddb3309",
+      "decodedSha256": "f5b8a17a71e72416d26df2757f319c2b38b4a8cfa15e3069d10547fc0ddb3309"
+    },
+    "config/pet_skill_levelup.config": {
+      "archivePath": "assets/config/pet_skill_levelup.config",
+      "path": "work/phase36/source/config/pet_skill_levelup.config",
+      "sha256": "86968e81b32bb535684d8d3f8d07fffd9dd6458bae72e938e7f5176b3353779a",
+      "decodedSha256": "86968e81b32bb535684d8d3f8d07fffd9dd6458bae72e938e7f5176b3353779a"
+    },
+    "config/pet_strengthen.config": {
+      "archivePath": "assets/config/pet_strengthen.config",
+      "path": "work/phase36/source/config/pet_strengthen.config",
+      "sha256": "9f40c1b93e01d313a4e2c42234339b47c7b91fb1759d8d745e1afb85b410629c",
+      "decodedSha256": "9f40c1b93e01d313a4e2c42234339b47c7b91fb1759d8d745e1afb85b410629c"
+    },
+    "config/seed.config": {
+      "archivePath": "assets/config/seed.config",
+      "path": "work/phase36/source/config/seed.config",
+      "sha256": "dbad1eb2cfb20108839be88f4244034c6fff1d43f0eff94efca93a5b64d34cf3",
+      "decodedSha256": "dbad1eb2cfb20108839be88f4244034c6fff1d43f0eff94efca93a5b64d34cf3"
+    },
+    "iphonehd/ccb/pop_guild_donate.ccbi": {
+      "archivePath": "assets/iphonehd/ccb/pop_guild_donate.ccbi",
+      "path": "work/phase36/source/iphonehd/ccb/pop_guild_donate.ccbi",
+      "sha256": "9178108c862d492030d72e0d66674c6532a04558292637b0bd8e54208b8c7282",
+      "decodedSha256": "9178108c862d492030d72e0d66674c6532a04558292637b0bd8e54208b8c7282"
+    },
+    "iphonehd/ccb/pop_new_guild_create.ccbi": {
+      "archivePath": "assets/iphonehd/ccb/pop_new_guild_create.ccbi",
+      "path": "work/phase36/source/iphonehd/ccb/pop_new_guild_create.ccbi",
+      "sha256": "c4a97e6772711337e1361662d747da22b6c0bdf073cfa74f1d6d129dcd7c32fc",
+      "decodedSha256": "c4a97e6772711337e1361662d747da22b6c0bdf073cfa74f1d6d129dcd7c32fc"
+    },
+    "iphonehd/ccbResources/ui_guild_donate_res-hd.pvr.ccz": {
+      "archivePath": "assets/iphonehd/ccbResources/ui_guild_donate_res-hd.pvr.ccz",
+      "path": "work/phase36/source/iphonehd/ccbResources/ui_guild_donate_res-hd.pvr.ccz",
+      "sha256": "9e95546ce9508f75d419f0907e750c876a383e35da9165943c8a313a8da5d806",
+      "decodedSha256": "9e95546ce9508f75d419f0907e750c876a383e35da9165943c8a313a8da5d806"
+    },
+    "iphonehd/ccbResources/ui_guild_donate_res.plist": {
+      "archivePath": "assets/iphonehd/ccbResources/ui_guild_donate_res.plist",
+      "path": "work/phase36/source/iphonehd/ccbResources/ui_guild_donate_res.plist",
+      "sha256": "2d97e0ec3907838f59201f8c38d18e00bcbc029e7866f2e47c62b552e2d93dd9",
+      "decodedSha256": "2d97e0ec3907838f59201f8c38d18e00bcbc029e7866f2e47c62b552e2d93dd9"
+    },
+    "lua/game_data.lua": {
+      "archivePath": "assets/lua/game_data.lua",
+      "path": "work/phase36/source/lua/game_data.lua",
+      "sha256": "08aef70b2b886fac596e87b345b049de1d8563647bb7ef30691c6544d0badd28",
+      "decodedSha256": "54b9b22728cfc9216e44ecdc49285f487e274da3edf28e24ee2387a091764935"
+    },
+    "lua/game_pop/game_combiner_advancement.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_advancement.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_advancement.lua",
+      "sha256": "25edb38c01d13712e9f5ac6f0111fc948e81658b0373e1d05d437944e0895eed",
+      "decodedSha256": "650d1970943f22d676923b3b321ed8c3b8828e56e77c23ce8c8820c7bf8828eb"
+    },
+    "lua/game_pop/game_combiner_gobattle.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_gobattle.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_gobattle.lua",
+      "sha256": "6a6785176c954511e29ac905c1ba944125a1867c8081056e3d3004b79b0f8a06",
+      "decodedSha256": "1ce418aea905dde7c57760dfd496130dd5d5b18f501c7066728edc6b43128af4"
+    },
+    "lua/game_pop/game_combiner_heroup.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_heroup.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_heroup.lua",
+      "sha256": "e826008a8b5487cbdf247040bf5d7283e709f9c65507e5b4286bbe7056c9f74e",
+      "decodedSha256": "512ac0bb601a6a88f38ead2d37362985bc844bd378c2a8d9c471adaf8e4921c8"
+    },
+    "lua/game_pop/game_combiner_rebirth_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_rebirth_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_rebirth_pop.lua",
+      "sha256": "6e60fb76872e44d13785855de5b245fe7dd93e3d1fe2a0cda13f698f497067af",
+      "decodedSha256": "433207833c3091906dcc02b7b5b04757157af346071b3a7a8dff4704b058872f"
+    },
+    "lua/game_pop/game_combiner_skill_info_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_skill_info_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_skill_info_pop.lua",
+      "sha256": "3d37a59d1c67914f2f23f7da2a8ee485afa33272d1100a7768bd030e4a018b76",
+      "decodedSha256": "0e45c2d4224089d3bca054986edc9202b5874ef01488811fb4213fbc7dcb370c"
+    },
+    "lua/game_pop/game_combiner_up.lua": {
+      "archivePath": "assets/lua/game_pop/game_combiner_up.lua",
+      "path": "work/phase36/source/lua/game_pop/game_combiner_up.lua",
+      "sha256": "d37d09933d8ebaf0513859bbd00773d3f7d2ddf61ce55e5adee4d40eb0185f58",
+      "decodedSha256": "8a45e491a0fc230f9cfe22dfc577815bf57052386ec77aed265126cb55f75b45"
+    },
+    "lua/game_pop/game_function_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_function_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_function_pop.lua",
+      "sha256": "acedc216eaccf27971bf002c46495d14d361fddfb0afc8b23643c6ae3305075b",
+      "decodedSha256": "84c1a6a417d7f2d9f1ec47ab254af71c4d2cf6304721d65686321035195f2163"
+    },
+    "lua/game_pop/game_guild_Star_zhenxing.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_Star_zhenxing.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_Star_zhenxing.lua",
+      "sha256": "4cfa3a261324cd7635aa855c639312c161581c21121fbdd482ba26a1af20d35d",
+      "decodedSha256": "ce540ff704de07e312eaa2d8949d1cb67a7bfd38fbfc18f188b29916e2821d02"
+    },
+    "lua/game_pop/game_guild_audit_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_audit_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_audit_pop.lua",
+      "sha256": "649e6a6e8a58a633056e5b56fb91e4a5cbe6d13dcd0a5033f60f7b512feebfb7",
+      "decodedSha256": "5936727a3e082a0a738a8cbf630129c06729fe4d8cd157faef04eda6f6e7c14a"
+    },
+    "lua/game_pop/game_guild_before_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_before_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_before_pop.lua",
+      "sha256": "5d0f8e000d864dd7829bb08d040f83c6707d2e840c22cc80df37b1c3d75d5df4",
+      "decodedSha256": "04e16e309f2941d71b7310f528cd044157b2b07c7a95306300d930659277ef7a"
+    },
+    "lua/game_pop/game_guild_choose_boss_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_choose_boss_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_choose_boss_pop.lua",
+      "sha256": "f96e3d0a2c0fe5d92b9516c55f41d86d764bef70d360c0f6f1db2b8ffe5beb3a",
+      "decodedSha256": "65cf0c305e4722f85c2da75e1091bbfba379ef56f025894f6a55c180cd4fd852"
+    },
+    "lua/game_pop/game_guild_choose_employ_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_choose_employ_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_choose_employ_pop.lua",
+      "sha256": "1d7fa8c69aa2979e2e69f96f420ee51e250067525276a0033a2a04229b80a8eb",
+      "decodedSha256": "e6195cc0edcff59e65d4f3b1fc5e8b0a5f0c3008925169bab10cb44cddf0c143"
+    },
+    "lua/game_pop/game_guild_employ_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_employ_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_employ_pop.lua",
+      "sha256": "1772165cac73a58af027827e883a4c9a83f0fc02c7beec9d157e2ce95f4280d2",
+      "decodedSha256": "5283171ec23a7fd723a4c40dcee55f2452bec645d3f040a943413f804f551dc2"
+    },
+    "lua/game_pop/game_guild_find_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_find_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_find_pop.lua",
+      "sha256": "5bc69d7d309467f078d44d07a1b1216daef505fa0f8284cc34f2434cf681fdaf",
+      "decodedSha256": "b35e97cde7983f92bd245afd3d64befe7efea1eb212adc989df1bf4ef3b47ade"
+    },
+    "lua/game_pop/game_guild_fuben_battleLog_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_fuben_battleLog_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_fuben_battleLog_pop.lua",
+      "sha256": "eedd7b767ff34443be5b3a97d9cd09c196c39601ddd8372b3704b2b9ec090246",
+      "decodedSha256": "b0231cef2c3dd3fd23be2c0fb52e925100ef09197b8c532eb631f5baf03b952d"
+    },
+    "lua/game_pop/game_guild_help_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_help_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_help_pop.lua",
+      "sha256": "0ee5008ee8c7d920e5001ba7dea9512133d3efedcb980c326634a4403c1a3f7d",
+      "decodedSha256": "2e3eac082a4428051366dfb4c090afdf29a7dce99e55ae5d05b5764eeb6bf38b"
+    },
+    "lua/game_pop/game_guild_info_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_info_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_info_pop.lua",
+      "sha256": "94f1db5e1a4e2c2448b71c10be9b816084f7b4facae2fbb88cec32eb7380483e",
+      "decodedSha256": "51ae90b470f38c190a493addede29f4d57f8b1c2eddbed3ecad8d57e1c0e736c"
+    },
+    "lua/game_pop/game_guild_message_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_message_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_message_pop.lua",
+      "sha256": "7339025478e976b272da01f775ce89b3b5ad72a924319e2ec7c520a884b6fede",
+      "decodedSha256": "265705abac97ac83361dec60522156aec2c6a75999f40ef8aec4dd64bf3ef51b"
+    },
+    "lua/game_pop/game_guild_post_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_guild_post_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_guild_post_pop.lua",
+      "sha256": "6861e9106ae2d41f092bc622df6a33dd2f992841cb58e763176086d83200229b",
+      "decodedSha256": "2dc682fdc2cb753247af5800e26164be323a86cc436bb1fc625c67624c0c5bb0"
+    },
+    "lua/game_pop/game_homeLand_farm_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_homeLand_farm_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_homeLand_farm_pop.lua",
+      "sha256": "339b57267b8235a5935b63e3ed46cfb513d82bfe941ca5ec204bf5f7f08da6cc",
+      "decodedSha256": "eb00e02ac7046633361c806e366633fbb1512268a267e76a085bab09a618eb03"
+    },
+    "lua/game_pop/game_homeLand_luckyTurn_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_homeLand_luckyTurn_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_homeLand_luckyTurn_pop.lua",
+      "sha256": "2f3aea9c88cdc2edad846c58e18988dc5ae1ae1fa71306e461f43b364e806c67",
+      "decodedSha256": "7ff494b2da6d0a1eaa620b22878f28558631db7bcb02c36da4d297d1cc445c8a"
+    },
+    "lua/game_pop/game_homeLand_plant_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_homeLand_plant_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_homeLand_plant_pop.lua",
+      "sha256": "d26169aa089714f79cf53a0bfaee769beeee4648edc9ce480406c16d2d106f1b",
+      "decodedSha256": "fc77e981f4af262a91c1cdc6f4d9ee5f798fbd169e60411b98cae94a341786c8"
+    },
+    "lua/game_pop/game_homeLand_shop_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_homeLand_shop_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_homeLand_shop_pop.lua",
+      "sha256": "b1ccf5fa296bedf6731c02aa6d2b97f24151a403c19fcffd9fd011b03c081e81",
+      "decodedSha256": "d4d812c7bfd39326461e1655e8acfa68bbab822d13e72a7cd36838a8af2083da"
+    },
+    "lua/game_pop/game_homeLand_visit_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_homeLand_visit_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_homeLand_visit_pop.lua",
+      "sha256": "93a672bbfa34a57c4f62e93a03535dddd0a8bca75c46281c6098ddaedc094b44",
+      "decodedSha256": "8996c6c5c0a5c0230d8a4a9bccf2abef817ec8b380588750467d712936e1c0bb"
+    },
+    "lua/game_pop/game_pet_adduct_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_adduct_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_adduct_pop.lua",
+      "sha256": "ad4ec8e23b6c39ca18ab3a5f5fc4a1a604ddfff9fc2a25018f4827339cb2eef9",
+      "decodedSha256": "8626d6718d9f58b987694c1fad004943c6f4a4e70855a05b58dd8cb66dbf3742"
+    },
+    "lua/game_pop/game_pet_info_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_info_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_info_pop.lua",
+      "sha256": "cf45608a165cc9c59759b9c974a63299572843c6089e109b482bb4e9702aecc4",
+      "decodedSha256": "7311047a52c0f2b23a30b49ed5d6120191ac61c5a290afee3ef934e38e949eac"
+    },
+    "lua/game_pop/game_pet_open_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_open_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_open_pop.lua",
+      "sha256": "7ae5b97eb808cd6bf053871477e457d700164f444f7260b955bd8adb69dc4365",
+      "decodedSha256": "efe37685568acacc0c05a93b2765c266eb260d656f079d5451787c9ee201a575"
+    },
+    "lua/game_pop/game_pet_rebirth_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_rebirth_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_rebirth_pop.lua",
+      "sha256": "c0673c97c49918bd1991d31a456d292d0d6c2204f091d3df79e8a084b8b44f13",
+      "decodedSha256": "fd541db18f5f1bc242a6a2cdb21d47d7c05f1b46df8dd198a24c58fca6c384e1"
+    },
+    "lua/game_pop/game_pet_select_scene.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_select_scene.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_select_scene.lua",
+      "sha256": "d03932f8c43a2b5c0c239558b88a3498cd50f6e4536266acfb0f282e3f0a3453",
+      "decodedSha256": "c737ba673baa95bab3c5e759ea8a53be62a0eec99c79aa43725b54e1e068677d"
+    },
+    "lua/game_pop/game_pet_skill_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_skill_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_skill_pop.lua",
+      "sha256": "288cb88ee81c574e65daa686f5de698c95a97838dd320036e1e4298f54cd1c6d",
+      "decodedSha256": "23cf79e4f9ca0252debfcda553fc789c686fb76acc3f44805c3e22324e52b863"
+    },
+    "lua/game_pop/game_pet_strengthen_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_strengthen_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_strengthen_pop.lua",
+      "sha256": "7ededa365bc6b79a6d715c5da8cdc48b72275f4e310ab2b703240999b62f6859",
+      "decodedSha256": "088b77d5e20f1a1ee8d0aaa12428e089b3e270589728fd33b3e02e889241e3d0"
+    },
+    "lua/game_pop/game_pet_upgrade_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_upgrade_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_upgrade_pop.lua",
+      "sha256": "c22e1de523caa23f0517e7fb6b3cd04edc96d8d712246c4dd8a5a9b50d9b004c",
+      "decodedSha256": "eafe199a1873c536e2039885536a1be1bc080c524d2c4bfd244e18c5b200d212"
+    },
+    "lua/game_pop/game_pet_upstar_pop.lua": {
+      "archivePath": "assets/lua/game_pop/game_pet_upstar_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/game_pet_upstar_pop.lua",
+      "sha256": "c3560fddedf0048f6b2852500921e76a34c24b3b604de003cea9edaaaf0648dc",
+      "decodedSha256": "890a51af62a0c3135ebbeb486dbfe7c73891714c62a0d0cca864e3d087793781"
+    },
+    "lua/game_pop/ui_homeLand_caiquan_pop.lua": {
+      "archivePath": "assets/lua/game_pop/ui_homeLand_caiquan_pop.lua",
+      "path": "work/phase36/source/lua/game_pop/ui_homeLand_caiquan_pop.lua",
+      "sha256": "37d983fc330cdfa18ce38505ce9d2c3ac4860f0c88817269a7d49d3397b908d9",
+      "decodedSha256": "7fc752fe732ea0ae6dacf7f7b28f39f001f3adaf9d76270bfd5d2cdcb73a4946"
+    },
+    "lua/game_qucik_entry.lua": {
+      "archivePath": "assets/lua/game_qucik_entry.lua",
+      "path": "work/phase36/source/lua/game_qucik_entry.lua",
+      "sha256": "30456daf3cea49e6e8541582bfaca52b053fdd40f6dfbdd201b4b5a510edcf56",
+      "decodedSha256": "ffda6eade00ac8a552592f0fd8d986455e9acb5dfa05250cb4080c539c5ad575"
+    },
+    "lua/game_scene.lua": {
+      "archivePath": "assets/lua/game_scene.lua",
+      "path": "work/phase36/source/lua/game_scene.lua",
+      "sha256": "7e5f0a7fbf75b97bea7f6b7903c15ac6c19505a9aec3d99334e49aca61ecd8c4",
+      "decodedSha256": "7e9d33f0e6273e858a41e1e0fb8288dd23d28e73e2d101567f5e1afdbf29c4e4"
+    },
+    "lua/game_ui/game_battle_scene.lua": {
+      "archivePath": "assets/lua/game_ui/game_battle_scene.lua",
+      "path": "work/phase36/source/lua/game_ui/game_battle_scene.lua",
+      "sha256": "0267201d5b03f62cab2a732ae54c46bc55aacf742b858ff5d99f170dbaaaa462",
+      "decodedSha256": "6ded5154fbc354ae6ab5036f828f728d9e4406e373602126394135911a553cc8"
+    },
+    "lua/game_ui/game_combiner_detail.lua": {
+      "archivePath": "assets/lua/game_ui/game_combiner_detail.lua",
+      "path": "work/phase36/source/lua/game_ui/game_combiner_detail.lua",
+      "sha256": "51e5c7c67ca63497c4c7bda2b63e544e56b4b9d80e219339b4929aab2dad31aa",
+      "decodedSha256": "7508d7ee206a5ee8f5a1ebf46f0b0985795d638e97a2f8d8b12b88f873713aca"
+    },
+    "lua/game_ui/game_combiner_main.lua": {
+      "archivePath": "assets/lua/game_ui/game_combiner_main.lua",
+      "path": "work/phase36/source/lua/game_ui/game_combiner_main.lua",
+      "sha256": "06418fd1ba268ca766d9e8a4b1fa9087f6da658a2a6746a88c0b566e71842423",
+      "decodedSha256": "8b1101a8a1e6ef3aa1449ea15455cbc98e62fb9eb8778b069db421b361b1d779"
+    },
+    "lua/game_ui/game_combiner_summon.lua": {
+      "archivePath": "assets/lua/game_ui/game_combiner_summon.lua",
+      "path": "work/phase36/source/lua/game_ui/game_combiner_summon.lua",
+      "sha256": "84ed213ce0aa39087b4d9e0a9076c5b570ec40bf21dd06fb3b2936a6e341af97",
+      "decodedSha256": "dd5aa97bc6749eb76dc978fb4f9754bcf0cea4bb88f6c65cd1002b8ca513a8f8"
+    },
+    "lua/game_ui/game_guild_adjustment_formation.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_adjustment_formation.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_adjustment_formation.lua",
+      "sha256": "534eaa722194c42479a1d35d9a8545dbf1f4b1331bb637d316264bcfaf7f04d7",
+      "decodedSha256": "450760cf908ac9068d4a2c36efd96bf50b8b1188bd1fe1ae7ee80c52d90bac59"
+    },
+    "lua/game_ui/game_guild_application.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_application.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_application.lua",
+      "sha256": "3dbce18b31260c66038170c5ad42a96eaccc32e0e26017cd4b371547398704e7",
+      "decodedSha256": "5f761882293f7e44ee5e6401dcd8df8b9f0635f2c7d7f99739337c2a059e21a3"
+    },
+    "lua/game_ui/game_guild_audit.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_audit.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_audit.lua",
+      "sha256": "06d833a5d18e42a38a858b429b562a1778fb6fed13653db292b1a64fd1e97d47",
+      "decodedSha256": "15c73e9b750b667a8dc95cbe3f8a199ea455658bfe40d029a1a1e36f59f4ca2c"
+    },
+    "lua/game_ui/game_guild_boss.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_boss.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_boss.lua",
+      "sha256": "348f67cb563abb37847a4de19e6c40abe2c20a2959a4f1ebc3ef8f0ef2a3721e",
+      "decodedSha256": "e830abf297da04476599927643afa96a6d0dda53d10a9ec69c66a3198d94c732"
+    },
+    "lua/game_ui/game_guild_conversion.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_conversion.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_conversion.lua",
+      "sha256": "1a2a217c315703e47eafaa19de224bde0730ab6f172cd197e9e4ec350c35ca3b",
+      "decodedSha256": "248d32b3eb259c685dab923086f64e99c06db8b0c3e000c25e841f275f26696c"
+    },
+    "lua/game_ui/game_guild_develop.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_develop.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_develop.lua",
+      "sha256": "8ef8f9dd8d1eb70515d3a9efd7137dc2fdc91aec85b432b143c44682d215c340",
+      "decodedSha256": "d4b1336997a85745c67914f605e2951e1bc035c3d4b57a13d2b98a470938d02a"
+    },
+    "lua/game_ui/game_guild_main.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_main.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_main.lua",
+      "sha256": "d3e4011dde037f2711907a69b062e8ee39dedb9bf5aefc690f5a683d284c578f",
+      "decodedSha256": "c5e931377b1b3c8d0b832bb960348dc2076c960c4fb369fb4efafdf0b782289b"
+    },
+    "lua/game_ui/game_guild_post.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_post.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_post.lua",
+      "sha256": "9ec26b8dbf8097ea347f58233d2ff1645c1486c22970dd109943c4e6bbfdd2f0",
+      "decodedSha256": "3bf7dc437f9cbd0dd93cc14d1e153e4663ca41e74694dea3e176f6d4d5e09646"
+    },
+    "lua/game_ui/game_guild_ranking.lua": {
+      "archivePath": "assets/lua/game_ui/game_guild_ranking.lua",
+      "path": "work/phase36/source/lua/game_ui/game_guild_ranking.lua",
+      "sha256": "7da37df6cfe8c01f274f791aa9703bb678b512413d27ae9c5b7b3e3adc829b7b",
+      "decodedSha256": "f4610191d783472960fecce9887bc32a6704b06a74ba356f0bd8800d4ac2b03c"
+    },
+    "lua/game_ui/game_homeLand_main.lua": {
+      "archivePath": "assets/lua/game_ui/game_homeLand_main.lua",
+      "path": "work/phase36/source/lua/game_ui/game_homeLand_main.lua",
+      "sha256": "5887e5ee80c6ef143a93aa4d423e705e8263d26450bedbcf12ef3fed2af73718",
+      "decodedSha256": "887ed8e868e24d1c38c44ebdf334aaba773f6fa24e6759042cc60706bc5cad9b"
+    },
+    "lua/game_ui/game_pet_adjustment_scene.lua": {
+      "archivePath": "assets/lua/game_ui/game_pet_adjustment_scene.lua",
+      "path": "work/phase36/source/lua/game_ui/game_pet_adjustment_scene.lua",
+      "sha256": "de39c661cd4c6e53c26a0fae21aed3ec1549d29cfd9254b864eeec298a8fb21f",
+      "decodedSha256": "b77806997ada0f41581e0c89f4750c01c0e0e20cafd327aab7a7a3f4d1cb1dc2"
+    },
+    "lua/game_ui/game_pet_adjustment_scene_new.lua": {
+      "archivePath": "assets/lua/game_ui/game_pet_adjustment_scene_new.lua",
+      "path": "work/phase36/source/lua/game_ui/game_pet_adjustment_scene_new.lua",
+      "sha256": "61ef52b6c2822808790728282f849a97010c2fb48d7223d9662953084f19cab2",
+      "decodedSha256": "9ad2df3091b45941dcd337a8717c6471a2b73ba3e1017b382698e08e58a5d0f3"
+    },
+    "lua/game_ui/game_pet_list_scene.lua": {
+      "archivePath": "assets/lua/game_ui/game_pet_list_scene.lua",
+      "path": "work/phase36/source/lua/game_ui/game_pet_list_scene.lua",
+      "sha256": "0ebd456142197de2aee59478ffea43a01c23215d594d4bf20eb62d0bddae43c5",
+      "decodedSha256": "502393c025e608343a448ab9d34e5c5a07fe6825c1a033177f6f23666fe4f37e"
+    },
+    "lua/game_url_config.lua": {
+      "archivePath": "assets/lua/game_url_config.lua",
+      "path": "work/phase36/source/lua/game_url_config.lua",
+      "sha256": "1df264878bedf96e166c8376baa06f596a9bfb86db6b1366f03082c283feb309",
+      "decodedSha256": "8a6221255c63f443cc955ad3f01eb8c6e3832d93c71a43d8bfd3ec8e0ecaddaf"
+    },
+    "lua/game_util.lua": {
+      "archivePath": "assets/lua/game_util.lua",
+      "path": "work/phase36/source/lua/game_util.lua",
+      "sha256": "8d5e7c5f769394eead4525005eab49529b79abff8d80822db95d5824d13d6677",
+      "decodedSha256": "29163b098e85c5dc5166747f0f240547c52854621830f4550cfab1ed4a8b5fa5"
+    },
+    "lua/skill_effect/game_battle_skill.lua": {
+      "archivePath": "assets/lua/skill_effect/game_battle_skill.lua",
+      "path": "work/phase36/source/lua/skill_effect/game_battle_skill.lua",
+      "sha256": "e3b69b4d266e45571b9da9889efbcd31a34331fbfbf0d330a8b1f5f65cb2bd8c",
+      "decodedSha256": "c883ed418551635d0ecd400252e37770e416f31125bd318c42c86fbefc672240"
+    },
+    "lua/skill_effect/game_battle_skill_pets.lua": {
+      "archivePath": "assets/lua/skill_effect/game_battle_skill_pets.lua",
+      "path": "work/phase36/source/lua/skill_effect/game_battle_skill_pets.lua",
+      "sha256": "98ec00b25a117d1208461be0380420a8e06a1e0d6bfa61a3baff3357f7d6e364",
+      "decodedSha256": "35bc97d144c26252a2d757ca62ee8a475dcdee4de8cd4caafa14c2641972ac14"
+    },
+    "lua/skill_effect/ma/ma_s1.lua": {
+      "archivePath": "assets/lua/skill_effect/ma/ma_s1.lua",
+      "path": "work/phase36/source/lua/skill_effect/ma/ma_s1.lua",
+      "sha256": "62bc6cd19e2565cd7beed765915eeb4a4ecee8e9f9aa389e5f06ca7fb58fd755",
+      "decodedSha256": "2f90d98abc5c7d2c2ea5cc4c10ceb90d0049f0a16a136a5596502d79d14e4143"
+    },
+    "lua/ui/guild/control.lua": {
+      "archivePath": "assets/lua/ui/guild/control.lua",
+      "path": "work/phase36/source/lua/ui/guild/control.lua",
+      "sha256": "431712008ea141d5a602cfffe4bef90a7f3e24ba0da3fb61379288b77779d1c5",
+      "decodedSha256": "79ab838aceae07d87ef204a41efc1d5b64f6d907974974eb3e8960ce9655647b"
+    },
+    "lua/ui/guild/model.lua": {
+      "archivePath": "assets/lua/ui/guild/model.lua",
+      "path": "work/phase36/source/lua/ui/guild/model.lua",
+      "sha256": "c48ccf7d0bb222c64e812c72c64ed31147f4edfdd39be938df7c952dd0a93d7e",
+      "decodedSha256": "e07705d18de62350e19fc45fecd5aa6ea57f577ad190c593919d5a866c967c23"
+    },
+    "lua/ui/guild/view.lua": {
+      "archivePath": "assets/lua/ui/guild/view.lua",
+      "path": "work/phase36/source/lua/ui/guild/view.lua",
+      "sha256": "6e2de48d94aee37975373b3cce085d215421d947b9fa89e93bacb320e23826d2",
+      "decodedSha256": "5560ea9b42ee6637392b895c9f55d3a24d0804dc37fc439b391696e08665165a"
+    },
+    "lua/ui/guild_chat/control.lua": {
+      "archivePath": "assets/lua/ui/guild_chat/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat/control.lua",
+      "sha256": "0d3d7647b6e4630e6c37d4ec756eda8be6714e0791aa9c331b500bf1daf870b2",
+      "decodedSha256": "cdd8f49846232f8b74605390087b1060867d12ae328807243f931c5bb16e5e73"
+    },
+    "lua/ui/guild_chat/model.lua": {
+      "archivePath": "assets/lua/ui/guild_chat/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat/model.lua",
+      "sha256": "a88106b9a4c2f30a5a56545539d8ad35c2faa5bbe66c8f15ad77f57e4133fd1c",
+      "decodedSha256": "2d854ee98de6a51c3dab9f7a8e9503332ac170897c3135d37de162d44bffd5dd"
+    },
+    "lua/ui/guild_chat/view.lua": {
+      "archivePath": "assets/lua/ui/guild_chat/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat/view.lua",
+      "sha256": "0321b61b24b7117343c62a9cc18e3e8e9f1d6cc44c6011c7e68bf3713255dab3",
+      "decodedSha256": "f67e275580abcbebc9c62e43afcac3e038015b42d2ddca73185cc1df316bd0fe"
+    },
+    "lua/ui/guild_chat_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_chat_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat_pop/control.lua",
+      "sha256": "ac733b4eb1e4d3842a04fd3f773a934e8d5ef899ddc8fb1b56bfb67ffbb7b5a0",
+      "decodedSha256": "1457b784b00fa189211f48247ae063ef7b76a8fd82ba4370683d827dee4454f4"
+    },
+    "lua/ui/guild_chat_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_chat_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat_pop/model.lua",
+      "sha256": "5522aeaf37f33c9e5ccf70f4ac2a63bf09cbb1445009b06a079fe7b25fb38fc8",
+      "decodedSha256": "239fe00bcfa86387a34ea1cda475cc7252885b53e75cd54b2c1b676cabafeb1f"
+    },
+    "lua/ui/guild_chat_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_chat_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_chat_pop/view.lua",
+      "sha256": "16f635c3970f6bae06e72bff923e692ea0a65536bd37e2a36785e1a8033b9120",
+      "decodedSha256": "f10678cccecf71c0337dfff97140bb2e1246ef0d00d0f117975ddc5155f58d62"
+    },
+    "lua/ui/guild_create_ok/control.lua": {
+      "archivePath": "assets/lua/ui/guild_create_ok/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_ok/control.lua",
+      "sha256": "5144f9612f5f2a050566ef27705ef82852c1d553f93a40315a73674d9dc1d176",
+      "decodedSha256": "035aad4e751cac607a3fc760d5f961e2269b8cccc040f8e98c5d8cf27d10bb71"
+    },
+    "lua/ui/guild_create_ok/model.lua": {
+      "archivePath": "assets/lua/ui/guild_create_ok/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_ok/model.lua",
+      "sha256": "56384cf2b300c10794fe082191d6143c5fc3309847450e856f46a74ea79aee4e",
+      "decodedSha256": "9cbbe193c48ecaaafbcf7e1973ee43fae8f669ca93909f91523088a803ee0678"
+    },
+    "lua/ui/guild_create_ok/view.lua": {
+      "archivePath": "assets/lua/ui/guild_create_ok/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_ok/view.lua",
+      "sha256": "5c217c0d13d2ee7e195ba4031dd08ada256ad6cd6c0f9a9dc507152eef819fd0",
+      "decodedSha256": "4e9cf3b1963dd025660391dd5f6cfa21fb522e6d0441d0f72e06870cd10e3191"
+    },
+    "lua/ui/guild_create_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_create_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_pop/control.lua",
+      "sha256": "458b7a4c52e46a6f43d05ece5559cb30495a28ea89ce06f2ae45a0d5125aa902",
+      "decodedSha256": "1f8f0493acca750c5ce9b0761a689b50fb9bbc4b9c11643e154b7a4b8b851858"
+    },
+    "lua/ui/guild_create_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_create_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_pop/model.lua",
+      "sha256": "62bcccb0c0cc08765b1ee6ae74756dcffaca62aa8ef7202fbda914c960e5c72b",
+      "decodedSha256": "15cded540430c651b62d27dc1783482aba48c60f0e4b97fd957ac9599ff838c2"
+    },
+    "lua/ui/guild_create_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_create_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_create_pop/view.lua",
+      "sha256": "1c62d96c6b181b38cc20a81329f24732e75319ff4ef918c3a7669178b36071cd",
+      "decodedSha256": "04a9c9cb63c6ef3a5fe3cf8c475e2bbf8832a3f6919b9c1f0dc07931e6cb44c8"
+    },
+    "lua/ui/guild_detail_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_detail_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_detail_pop/control.lua",
+      "sha256": "8a2055e95eb8a85beb8ac5cece29da384148c764f242a79933aa7d664fedd4b0",
+      "decodedSha256": "e2f2c344919f147a97886b531fbc9a4a0deee300330457b67d87d3ab866c9e47"
+    },
+    "lua/ui/guild_detail_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_detail_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_detail_pop/model.lua",
+      "sha256": "d03c00fc19769531279894773213955be12ca54448a02a7b5d533160597dba82",
+      "decodedSha256": "06b912ca80797ab68c986c7f2f74260457410cdb07218235c3846e9cdb15f2d6"
+    },
+    "lua/ui/guild_detail_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_detail_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_detail_pop/view.lua",
+      "sha256": "795093d625d4d5c93d2ebfa1a8c1d0c32f0cbc724204d3123d6e2a3a89e378f8",
+      "decodedSha256": "1cff7f8582da0479203d1e0f2dd81d22e7e56216f84d193ef579f082ea2179c5"
+    },
+    "lua/ui/guild_donate_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_donate_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_donate_pop/control.lua",
+      "sha256": "6749f80ecc1e26828eda6495e8b3c841778ad3c55825726586c7e9519817e1b4",
+      "decodedSha256": "70f4a61b73607e51a3f77bb5d49cdd34eb55dc6f38af5895482c03b1b938e163"
+    },
+    "lua/ui/guild_donate_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_donate_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_donate_pop/model.lua",
+      "sha256": "c9ec036fc9ef18d4ddc502b56bc45dc2d7cf13a71af66fdeaa0a2441c0cfda3d",
+      "decodedSha256": "3ccc7ed6d84f96ea8566cda132603cb0007fd06b68f92b65dae93f9337a5292b"
+    },
+    "lua/ui/guild_donate_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_donate_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_donate_pop/view.lua",
+      "sha256": "824fcb1f8ac798da6d3453949f2921f382f4967e8d8986d7f1cb69f50e134746",
+      "decodedSha256": "a87966a9094ad643bb9fca709686386441541905b4d6a69215d42ae8a04ef80b"
+    },
+    "lua/ui/guild_end_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_end_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_end_pop/control.lua",
+      "sha256": "9f6ff3166f19c68e5e64ed112c24996ba53cc58a6e3bb0fe6a25daa3edc81047",
+      "decodedSha256": "fdefb3e906594da757b2d81b091a506e20d0276723f029f552e0999db7ef3a90"
+    },
+    "lua/ui/guild_end_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_end_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_end_pop/model.lua",
+      "sha256": "4eab3bf188167e21c88591b1d4fc13faa7982b41ede9d28e30172c2951ef77cf",
+      "decodedSha256": "e7482141987c963752db4239f777f54693ddd9806bd0e56263e34a35df769715"
+    },
+    "lua/ui/guild_end_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_end_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_end_pop/view.lua",
+      "sha256": "a57cb5ca675d92e965d9d35d22d0dde281969599e9e0fd382e40f6ebcfbd5447",
+      "decodedSha256": "ebfa1f5602ac69d9ceb39722f2b7970f2013386d3e5cd2cd87fd28fe6fc415c3"
+    },
+    "lua/ui/guild_join/control.lua": {
+      "archivePath": "assets/lua/ui/guild_join/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_join/control.lua",
+      "sha256": "d9aa70612d819612973881f3085457dbd3f6534afea18ea99b3a8fd7a74adae3",
+      "decodedSha256": "71ecf3cbdda9038a5e7df41a317363aa402c8d894966244efadc6e7639b8ec77"
+    },
+    "lua/ui/guild_join/model.lua": {
+      "archivePath": "assets/lua/ui/guild_join/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_join/model.lua",
+      "sha256": "d360de122ad2a88de5667b481719281f93d412c17a76a52d448534446e711eb1",
+      "decodedSha256": "63d06ad8c73f7771202a00a4f0952b75f1656f8005fbb42aa75aa99bb13c0fcb"
+    },
+    "lua/ui/guild_join/view.lua": {
+      "archivePath": "assets/lua/ui/guild_join/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_join/view.lua",
+      "sha256": "7feb476f88fb8a53ee5363f7dae660bee516bc77922975085927832de7a35fe4",
+      "decodedSha256": "07ed0ccadca1da21bc3b5e6bda8eb6e725a353f7e6b57454b4ba967c801079e8"
+    },
+    "lua/ui/guild_join_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_join_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_join_pop/control.lua",
+      "sha256": "071e0f6005dc2f4c105c0cdc2479e416bb4b012fa0c0d0f943a77eb2353cb425",
+      "decodedSha256": "7e1b574509d01deeaebbce226fdd57266704ff51bf5d39590d74fdc5622564a2"
+    },
+    "lua/ui/guild_join_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_join_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_join_pop/model.lua",
+      "sha256": "2fa4cc0b363523971d14a311151f5855d2bf29453d5a98337c90c2e4cc08d766",
+      "decodedSha256": "d9ae0ed93fd63a8a559e8c127ef13cc3948859e88c5787561cc2328f26aed502"
+    },
+    "lua/ui/guild_join_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_join_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_join_pop/view.lua",
+      "sha256": "0e16b18e851b5cd55ccf5c70cb467c2ef6548896c97dc885864d8d7ef3a4b5d9",
+      "decodedSha256": "9fe02b81f283f6d2cbd5abf490f82ccb23bf1cef6f14e05aec8bb25bca5a3ece"
+    },
+    "lua/ui/guild_little_war_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_little_war_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_little_war_pop/control.lua",
+      "sha256": "1c31e9fd42c4bc366783d05f52bf6215491b4976bda4cdcb50968d264cf7042c",
+      "decodedSha256": "8fd99cc57f142f6a73e5361e6368ada49de20246ee84d43615c7a05a890e4542"
+    },
+    "lua/ui/guild_little_war_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_little_war_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_little_war_pop/model.lua",
+      "sha256": "9ffeef98d5c78b4692dfc10e84876215507b0cd37f9bc1eeb53504bf416fd94b",
+      "decodedSha256": "2a95aa6b8422b772855ed532c0cf35ea7a962a2dd860b7958a05f27364203e1c"
+    },
+    "lua/ui/guild_little_war_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_little_war_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_little_war_pop/view.lua",
+      "sha256": "690115fc30574efc26273b309b1278979da7c0ae3db1600d8be6a59b77eafab2",
+      "decodedSha256": "b422dd20a324abe9b44e4f9bf37a711dd5a0011d7f4ce12cfcb226868ce661b5"
+    },
+    "lua/ui/guild_message/control.lua": {
+      "archivePath": "assets/lua/ui/guild_message/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_message/control.lua",
+      "sha256": "30ec5a41616c20ce90cc656f56f74ec3415ca11cd35c7c111d7e7f1048861bdc",
+      "decodedSha256": "55ad2cae14ef6d032dc54ed58cf8c169a5d22d8f29762db6c81a7a0475d7890d"
+    },
+    "lua/ui/guild_message/model.lua": {
+      "archivePath": "assets/lua/ui/guild_message/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_message/model.lua",
+      "sha256": "da939a10cfd63e18e3c4df1f7b01404233c37ce3947c551a8e31984eef49601d",
+      "decodedSha256": "14aeb2dd9051e591606d7455d753cf6076bc3bfca1e6635fd82ab59ac97f448a"
+    },
+    "lua/ui/guild_message/view.lua": {
+      "archivePath": "assets/lua/ui/guild_message/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_message/view.lua",
+      "sha256": "99239e02535d147312b8d26ba785aba13c3d91e0420a99ff6747b4cc4407ba4b",
+      "decodedSha256": "70d024644efa0116ad43b8450abd1cebc259d2cb1f636399039a8aa993df6564"
+    },
+    "lua/ui/guild_message_edit/control.lua": {
+      "archivePath": "assets/lua/ui/guild_message_edit/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_message_edit/control.lua",
+      "sha256": "14a367449b5d2a75180a2b588df93db44da0926eb8cf9160a215c7d7dc166905",
+      "decodedSha256": "779ca0860b33a130c0f73c0a84263b1d0b76c0226bf933f7f09cd69da9774a1a"
+    },
+    "lua/ui/guild_message_edit/model.lua": {
+      "archivePath": "assets/lua/ui/guild_message_edit/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_message_edit/model.lua",
+      "sha256": "23319e83826fe6d4361a258285b3a902d5f5f8ee1d5879deba3b8299c10c94a5",
+      "decodedSha256": "b9f534c05751593f3150878c6bb824daf2a8beffaa356492a963a61c6052799d"
+    },
+    "lua/ui/guild_message_edit/view.lua": {
+      "archivePath": "assets/lua/ui/guild_message_edit/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_message_edit/view.lua",
+      "sha256": "d55b988f3b8ee3041b1669e140b0d15dec5d313f6e7b5d041e794783a8724454",
+      "decodedSha256": "d414cb9931fa278f8c1509f0637523bf634ab80d96bf485151f6d8c9e0c64ba1"
+    },
+    "lua/ui/guild_mini_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_mini_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_mini_pop/control.lua",
+      "sha256": "5edddb4da8f723e3e5022c37746512d5cdf21f6ed827fc6075efc7a809065b35",
+      "decodedSha256": "7f6279fa2f529a650a00351decf6fb7a7c2e2b7bbe40766bc6652345bd95854a"
+    },
+    "lua/ui/guild_mini_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_mini_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_mini_pop/model.lua",
+      "sha256": "849db7d883cf98fd230898755a9ede3e11b57302d91ebaf349ec4c4347a23b28",
+      "decodedSha256": "0cd405de6ca9b877f6378ff55e0f7dd337e4e3928b5c59f7fe627dfd8676cf21"
+    },
+    "lua/ui/guild_mini_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_mini_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_mini_pop/view.lua",
+      "sha256": "7a9d81104d0e2e94c9359b7167ae8426503dadcf66f9592cabc1d2ecb250d8f5",
+      "decodedSha256": "1ac55239bec158c0ec5f62ac4a345f43ca3cacf757fe5be72d09ba5cc41fa15b"
+    },
+    "lua/ui/guild_other/control.lua": {
+      "archivePath": "assets/lua/ui/guild_other/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_other/control.lua",
+      "sha256": "e8a2791f7f15efc9be2b98d287e0c1cc69c2f93198075f13dbf3b2f704a2ee50",
+      "decodedSha256": "7fffed677866917581144fc5452fb7dc741f7b39cf8e6686516b8bb258e63824"
+    },
+    "lua/ui/guild_other/model.lua": {
+      "archivePath": "assets/lua/ui/guild_other/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_other/model.lua",
+      "sha256": "979fa8818ff6d2fdb1c94ae760d352a14c0b77de28390acebf1c050c9a9bdc39",
+      "decodedSha256": "a441726a7799913313f1b6e4d945456165e23488e8237a9d4c81ce7d68909fac"
+    },
+    "lua/ui/guild_other/view.lua": {
+      "archivePath": "assets/lua/ui/guild_other/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_other/view.lua",
+      "sha256": "8fb534606b6c135abb0331ce939c8250cec4491ba885a06db7db696c4857b874",
+      "decodedSha256": "9e7ed5cb5e07f07afe176f55f42b7ba2ca3c6b5e85b1f7380fcc2d6b9c885fa1"
+    },
+    "lua/ui/guild_player_list_option/control.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_option/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_option/control.lua",
+      "sha256": "8cce3bc8c383bd3690e3ea21ebf7d534e9039f72b8c7db2f7a487b7e0c871fe0",
+      "decodedSha256": "05c9047f1ed5d1388080df2f611ee1a888a5284ea8ab8249ed15e58e980f3107"
+    },
+    "lua/ui/guild_player_list_option/model.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_option/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_option/model.lua",
+      "sha256": "61de7a35ad0aeb347d21ebd085dded0554d93e61bc471bb60c06f8e582d8af01",
+      "decodedSha256": "f934795302827995316f3dbd37a85d279250d220f754ce4ed854dcffef944d63"
+    },
+    "lua/ui/guild_player_list_option/view.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_option/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_option/view.lua",
+      "sha256": "94b61a3e0072f2d95147269a2d3ad6ee42473fc8e9eb72a44c89e993dfaabf30",
+      "decodedSha256": "8fed3161e0c1c23bbacbd890a45c36bb87ccdd09e56a3c4ad65955bb0d2ee784"
+    },
+    "lua/ui/guild_player_list_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_pop/control.lua",
+      "sha256": "5f0ab5943eb3f76ed6eb617a5f6240f051d43ea4bc860fb47421b1a6c665a5e3",
+      "decodedSha256": "cc797a9b131728cecd3fb06c263fed8fcc7058ab9a5be522110361f6d74d2c2e"
+    },
+    "lua/ui/guild_player_list_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_pop/model.lua",
+      "sha256": "cab233901b66b6905d1a0cc0fec8193ef552117cbb0e55f560872cc4ee0d7636",
+      "decodedSha256": "c4fd326e10608202772f000c178263333863f1be19e854e30611bc23b92c8012"
+    },
+    "lua/ui/guild_player_list_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_player_list_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_list_pop/view.lua",
+      "sha256": "f760d746ec07e9411278a7aaf7a293a70ec7fec1bed3e0565d0778417c3cb2c7",
+      "decodedSha256": "0779e11c5906d79528d8cac44a2a74cfd6353640f48f0ab475cd4a5afbc9f106"
+    },
+    "lua/ui/guild_player_prop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop/control.lua",
+      "sha256": "8b203eef792ca8c6dbf6602250baca62f173b5b2aba3a7cf315dbac632937121",
+      "decodedSha256": "f6394b61b5f87ed50784d88f268c206cec3852ec3daca53475cd4e65cd1b0673"
+    },
+    "lua/ui/guild_player_prop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop/model.lua",
+      "sha256": "1db19fb1c4a78d942ba63595a75f7d1c480c46c6226759d445a9caf4e78d9608",
+      "decodedSha256": "03b550f2c181358c2cd601d561920f8dad46841b19a376fee61c47157d6047df"
+    },
+    "lua/ui/guild_player_prop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop/view.lua",
+      "sha256": "284b5246f3556c6fefeed9716bcb68f1973178f456f0351b5845ab134f77b375",
+      "decodedSha256": "ef076b5150bcc4816fcfba520e20bd2367afde9f793b9cd252c7cb4d55b0899d"
+    },
+    "lua/ui/guild_player_prop_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop_pop/control.lua",
+      "sha256": "85d246d4e84a4f0be9acaa4bede28287039e48ac872f939bd940109713dc3f61",
+      "decodedSha256": "a1aa68c2f58b06aead00ff38525555b22440dc761233f37ffe760d738ce33564"
+    },
+    "lua/ui/guild_player_prop_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop_pop/model.lua",
+      "sha256": "bbe383d5123b410bcb5bc835d69390c6a9d222619d49bc086cf6fcd40cae0295",
+      "decodedSha256": "f7cfcb73d626970e10c2b8f889039083099f656debe8b025e9675540d8b8aa5e"
+    },
+    "lua/ui/guild_player_prop_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_player_prop_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_player_prop_pop/view.lua",
+      "sha256": "e40861c94eb5e2603cedb3f09c1abe182896ea48164b239fdc0cccdb2e8c6a88",
+      "decodedSha256": "517daf1bb4dd80da6b22e850a20921b539fbae36387ea045a13a6c6a59a8c6ff"
+    },
+    "lua/ui/guild_research_level/control.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level/control.lua",
+      "sha256": "4239245f0a42376298a61181630fe5f2cb21a3b4f70f94b0e6489331ea2baa4e",
+      "decodedSha256": "b962aa28bcb55f7322f28a1750183c7787eb7797b4b4e1677115204e9168c82f"
+    },
+    "lua/ui/guild_research_level/model.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level/model.lua",
+      "sha256": "2fe0ef2fa9ec59ba8ec2a69dbf0641346779ae04f071ea78b4242e02e22d2055",
+      "decodedSha256": "232fce430217fb11e30c87c0a9fa7b28a759906bf2d7688c8cbdd7dfd242e1df"
+    },
+    "lua/ui/guild_research_level/view.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level/view.lua",
+      "sha256": "970e1231808c5cd30b0c284fbc2aa94fd5783d6be945da84cda2630a2b52fab1",
+      "decodedSha256": "7c0350675a165595e41fca9086fce2415b42db6124542e979c4ae921befc9b18"
+    },
+    "lua/ui/guild_research_level_up/control.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level_up/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level_up/control.lua",
+      "sha256": "dc32279bc187f1df851e8b161247f0419850cafc6cc4706be73fc8d710ce3637",
+      "decodedSha256": "8d126367302d83b7e9615caae037f85f2b86a8f8aa22e7e8dccc3b006f9b5f8c"
+    },
+    "lua/ui/guild_research_level_up/model.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level_up/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level_up/model.lua",
+      "sha256": "3bdc65d66b5234c461abf10edd61a418ca49dfe91197b02ede6d5cec9789d65d",
+      "decodedSha256": "aa5d7e2ac3115e91fe786aa2fb6991155342d217d67bb250014147889ae60917"
+    },
+    "lua/ui/guild_research_level_up/view.lua": {
+      "archivePath": "assets/lua/ui/guild_research_level_up/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_level_up/view.lua",
+      "sha256": "992cc2bd2dec1a91c2abe7af70149bab3f243103e0c4992bd74f1e3710bc7cc8",
+      "decodedSha256": "6649a5c5f71a1afd2afdd6982a8eb9732b621d668f8b6a61962ef848a884d23c"
+    },
+    "lua/ui/guild_research_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_research_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_pop/control.lua",
+      "sha256": "d8c326bcb12b0e52ace901c062fb93edf30af3e5af39160e66f0ba0aa76a6df4",
+      "decodedSha256": "6a5fba05cf93890bc9c393c2fa0f24c60757e6af8fa8260ad7134e0cae45765f"
+    },
+    "lua/ui/guild_research_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_research_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_pop/model.lua",
+      "sha256": "ab73e520fee52d20b93c092f0d941b00551ac85b98e1caf810cd91f9971392ac",
+      "decodedSha256": "650dcb5e205c6b2569e93486d9b4711aabad95b7da0688c91af0b5c0b05c5d7b"
+    },
+    "lua/ui/guild_research_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_research_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_research_pop/view.lua",
+      "sha256": "dca627023c14187a7df1d23fd0c3cab2ba27ab4d1af2651f10338d0c7dc575f9",
+      "decodedSha256": "478c0c859a34d1fe4973bcf90af32ef06616c3519b14872182dccc53bb91bb37"
+    },
+    "lua/ui/guild_search_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_search_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_search_pop/control.lua",
+      "sha256": "a525e4f669c7bd1fbd5f2693d7dfb3c0a09b04439a30d605198eecea0bfc148d",
+      "decodedSha256": "030bac172778a16f47c8506ecec68a0d7d87d38de863e1793866c38bb09e731e"
+    },
+    "lua/ui/guild_search_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_search_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_search_pop/model.lua",
+      "sha256": "a6ae1e3cae8664e4b1b7e9dc2811b983f1af6e28077c5096c697f331abc63fa8",
+      "decodedSha256": "d8ba387482abe0db2d6f00d47764e384d1905b0dea4f04cf001480bd71597ef5"
+    },
+    "lua/ui/guild_search_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_search_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_search_pop/view.lua",
+      "sha256": "d1a4d903c54d9a0b5530c7c7aa4d149bf160aa5d614de889fa3767c55c53cf3d",
+      "decodedSha256": "419661ccacae422db5ee23c50c06c5ebfb5b8175468cb4bf556e7f73228a1ffc"
+    },
+    "lua/ui/guild_self/control.lua": {
+      "archivePath": "assets/lua/ui/guild_self/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_self/control.lua",
+      "sha256": "e3d00d8a4cc512bdf8fc6fafc5108ea0bc3f18e6cf04ec6c618ce39489a77cf8",
+      "decodedSha256": "c6b628ca235ab0b1afa2053e65bac10c41fa6d4e9461d1daaa9f9f6470280f85"
+    },
+    "lua/ui/guild_self/model.lua": {
+      "archivePath": "assets/lua/ui/guild_self/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_self/model.lua",
+      "sha256": "f89889cecf9dc8849dc483c55145172275aea08807e5f350750e5d89a1120ba6",
+      "decodedSha256": "6a52c0683b6199bde66f3dada436891b4dab2b484e0ebd8e028accfbe4f35d2d"
+    },
+    "lua/ui/guild_self/view.lua": {
+      "archivePath": "assets/lua/ui/guild_self/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_self/view.lua",
+      "sha256": "7ac93f19a4aea6f5344a577d52bc13fd180a261af524dbd05fe3d7d5feecf066",
+      "decodedSha256": "dd09b047d581af867a40d3cad038453666c4a01a7dd396474f62718de879b3f6"
+    },
+    "lua/ui/guild_shop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_shop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop/control.lua",
+      "sha256": "5b91ac35541e86d5e801b476ed4acb28a644efb5ae8fb3fc42cf86e9bbd73685",
+      "decodedSha256": "6c3b7b1684054aeda77036587b3679018fb1f9a05fedaad956983fb0dd6a5a9a"
+    },
+    "lua/ui/guild_shop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_shop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop/model.lua",
+      "sha256": "4f698bb029d45d78e0534ff92256240e20a43aed12067100b1537406cf050cd6",
+      "decodedSha256": "bdca3a0ee6a50737f8e0bb22cad2382588ab4673d83a7500863141cf444594da"
+    },
+    "lua/ui/guild_shop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_shop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop/view.lua",
+      "sha256": "0da2f53f9bcfc549b8c4a55855ad747fc2ffc503f6b25d82e7620c2ab9da1e4b",
+      "decodedSha256": "c01351198554d84aa5c82e620eae69516374f4638849caf27565db7dcf31a744"
+    },
+    "lua/ui/guild_shop_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_shop_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop_pop/control.lua",
+      "sha256": "54eb7e0e2b07fd2c5f8d0d1088f8ea554c4d807b6fac4ea671ac07557bb51533",
+      "decodedSha256": "adfbc6e68f5dcd4816c330a8b3b4e00726e1e6d27e0c583703977f49688d38da"
+    },
+    "lua/ui/guild_shop_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_shop_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop_pop/model.lua",
+      "sha256": "dada3bbe39f331f09109ea755c215d9c629e97c11b84a09ab618dc8e355086cf",
+      "decodedSha256": "e5e00cb90d09a08aead12ff251f10f20c4700d60138b3d103518f19e338ae9f4"
+    },
+    "lua/ui/guild_shop_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_shop_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_shop_pop/view.lua",
+      "sha256": "1380dbfde5564e0a67c0bc6a92f5487fc882f88d50b30fb44c531efc0205d594",
+      "decodedSha256": "4e4b45b21db66494fc4fd989473f0144310fb49a45aa68e3b3f2517a64658ef6"
+    },
+    "lua/ui/guild_tou1/control.lua": {
+      "archivePath": "assets/lua/ui/guild_tou1/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou1/control.lua",
+      "sha256": "77ee24431d40ccd8186a35a8131f3c10eb6b8ee87a17bc71fe4010879642f529",
+      "decodedSha256": "625f132142305a0760fcd627f6464c5c7e15120be65501f659f946212e7b7192"
+    },
+    "lua/ui/guild_tou1/model.lua": {
+      "archivePath": "assets/lua/ui/guild_tou1/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou1/model.lua",
+      "sha256": "3a77862f092006e5e4047ea2af7650cd4594b02e09c163ca91f1445dfd408166",
+      "decodedSha256": "6edfad24e5480a7294263ca24b87b06b38cf42089ba6f3f42d47d18d91630a8f"
+    },
+    "lua/ui/guild_tou1/view.lua": {
+      "archivePath": "assets/lua/ui/guild_tou1/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou1/view.lua",
+      "sha256": "10f367f8d053d268741da3e71e3dbcb177abe2c4a02c171fa9337ee997f984a0",
+      "decodedSha256": "bd8eb9a148094337fa88b15a6199b4ddf87e3dd54cb619b795faaceb5b4efa6b"
+    },
+    "lua/ui/guild_tou2/control.lua": {
+      "archivePath": "assets/lua/ui/guild_tou2/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou2/control.lua",
+      "sha256": "2714c2b8a83614c7de67ddc1737e4c10c078135077f7bad5e3a62312a8e9eb2d",
+      "decodedSha256": "7740b79a0830986d50f2d253adb1540cf84cea912e961c33ed32930ce2360ffe"
+    },
+    "lua/ui/guild_tou2/model.lua": {
+      "archivePath": "assets/lua/ui/guild_tou2/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou2/model.lua",
+      "sha256": "7058fe6c2b4f11680f55fcf24239dca7ebf4f2b76491278b18c43a1a5ced0881",
+      "decodedSha256": "c0c61cfec5cc6c06ec63db9ac8c1f74c1bdd7d015bb69858d3722f9655e09ac4"
+    },
+    "lua/ui/guild_tou2/view.lua": {
+      "archivePath": "assets/lua/ui/guild_tou2/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou2/view.lua",
+      "sha256": "8aedeb092826d53c73afcd67ca812d99f74db675be9ea54b9c760f359889ec0a",
+      "decodedSha256": "010210f5b2048c8929d6d866af2fb4123436eea5e4ce7a6391545bdd092c76e9"
+    },
+    "lua/ui/guild_tou3/control.lua": {
+      "archivePath": "assets/lua/ui/guild_tou3/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou3/control.lua",
+      "sha256": "64653d960b5e7ae7251465087d2936633e8f36f06dd6fad072f36507d04697bf",
+      "decodedSha256": "2c1d910ccc7f591016a8857207864b04a15175fbbeadc6a10475c1837f77b8bc"
+    },
+    "lua/ui/guild_tou3/model.lua": {
+      "archivePath": "assets/lua/ui/guild_tou3/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou3/model.lua",
+      "sha256": "f435020b5be8d6497cdba5257f71ab56f86caccde1e7a167615f00e49bb6e86b",
+      "decodedSha256": "b09411bdc1cb7065a741a575b76a4269b6193af6b704f1e75ff1074a0391a2e6"
+    },
+    "lua/ui/guild_tou3/view.lua": {
+      "archivePath": "assets/lua/ui/guild_tou3/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_tou3/view.lua",
+      "sha256": "48e4538dbc89f1bdce590775e9d388e7914fddd4a8dfdf08b69a893da70884fb",
+      "decodedSha256": "b6438e6fd955d3c0af106feb08f8417aee14aa5b71172cf7811afa2552325fe6"
+    },
+    "lua/ui/guild_war/control.lua": {
+      "archivePath": "assets/lua/ui/guild_war/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_war/control.lua",
+      "sha256": "efdf27233625d14cfb896d74444ceab6e123c02d4fbb620c71a1983fb68414ce",
+      "decodedSha256": "8e2fbac8ef04abc967bcd2eb817f52c1e83b0e78bff8ee9cecd22860cb86229c"
+    },
+    "lua/ui/guild_war/model.lua": {
+      "archivePath": "assets/lua/ui/guild_war/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_war/model.lua",
+      "sha256": "c651c4bef7535733ea1b02af232a7fcaf0ec90c2df74c53bcee1ad108f974af3",
+      "decodedSha256": "c508410d285e45126e9ecfd9568dca73334e2102c020637a1f58db146fafb1c6"
+    },
+    "lua/ui/guild_war/view.lua": {
+      "archivePath": "assets/lua/ui/guild_war/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_war/view.lua",
+      "sha256": "b828afdcf856bb7845652b8affc3a42a05fbe395f090d16a5a15dc5dd28d129b",
+      "decodedSha256": "bb50db02056242a0128ccb4d86e56faf93652481380dfe3fd5ad1b939ea64420"
+    },
+    "lua/ui/guild_war_click/control.lua": {
+      "archivePath": "assets/lua/ui/guild_war_click/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_war_click/control.lua",
+      "sha256": "7ce9b8758e5ee5d19bef51fb2e610c8e9ef4e29b24bfc2883776ea5cc431e27e",
+      "decodedSha256": "6006f11b7d36de9aad7b2f15d25562afb09eba2dcdb92d4b9c62d7d17a044b81"
+    },
+    "lua/ui/guild_war_click/model.lua": {
+      "archivePath": "assets/lua/ui/guild_war_click/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_war_click/model.lua",
+      "sha256": "0794fb7a9c6858d73bef96d036cf393f0782174f6ee43ec7b72c9c4ae2f33c93",
+      "decodedSha256": "d97aaf57e2202848325e72da7d0964f2899c268f406f541303e0a5d8014824e7"
+    },
+    "lua/ui/guild_war_click/view.lua": {
+      "archivePath": "assets/lua/ui/guild_war_click/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_war_click/view.lua",
+      "sha256": "7e9190a843b565fcf9fad8e24c37b307917de25a85d76865390dc524c51c6640",
+      "decodedSha256": "57db6f8257e9c9afc4f01d4633db2cfbed8cc5d3b5fa3b0d0948911ed9ffd749"
+    },
+    "lua/ui/guild_warf_pop/control.lua": {
+      "archivePath": "assets/lua/ui/guild_warf_pop/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_warf_pop/control.lua",
+      "sha256": "72ebd9376e4ac265cd8943eb052eb6bed7579246118192a422b77e49abf02c26",
+      "decodedSha256": "9c57d97ef9ac7043da2246f7e37fc7c6ee3db883bef93e729045d1caba9b063e"
+    },
+    "lua/ui/guild_warf_pop/model.lua": {
+      "archivePath": "assets/lua/ui/guild_warf_pop/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_warf_pop/model.lua",
+      "sha256": "b05a622b32f76f41b3aa850328a613d34183d949bbb2c002336b40cfce3b0ef7",
+      "decodedSha256": "7a3d31725f8c5657acd3cff8b1bd779836ed30d0c5d67d462bc0b3ac8d86f497"
+    },
+    "lua/ui/guild_warf_pop/view.lua": {
+      "archivePath": "assets/lua/ui/guild_warf_pop/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_warf_pop/view.lua",
+      "sha256": "8c67b0b7dbd25c3caa0a86434349694824e3cbfe610677b73e54bb6212525ad1",
+      "decodedSha256": "9b426f3645288474ac2f99ed5e6fa7400cfe083e1210ff07fdafe761fe5cdfcf"
+    },
+    "lua/ui/guild_world_1/control.lua": {
+      "archivePath": "assets/lua/ui/guild_world_1/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_1/control.lua",
+      "sha256": "aff40e7577e238a9b9bee25b45f14c695a69965efeae426314cc1e329dd2b66b",
+      "decodedSha256": "9d202b0a334180f4ab6d35ebe002b43affc7443a7ca7d895bf18b3b40faeed73"
+    },
+    "lua/ui/guild_world_1/model.lua": {
+      "archivePath": "assets/lua/ui/guild_world_1/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_1/model.lua",
+      "sha256": "a7c11a0b86ca078e7022cdc92ad510f19a57aef7ab2c84b5004553b5154e989f",
+      "decodedSha256": "a926e1ed5a1240dcd4067fc0c198c15c0a15bda6c7a5e790a9b30560bc373c0e"
+    },
+    "lua/ui/guild_world_1/view.lua": {
+      "archivePath": "assets/lua/ui/guild_world_1/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_1/view.lua",
+      "sha256": "b729e105234979e0b8ff20e3eeee290de253dd7757184b8a869b927eb79989b6",
+      "decodedSha256": "c7d3628cf3f445bc0ab50c65de9710f194091efde8955321d32825d0fbe70dcd"
+    },
+    "lua/ui/guild_world_2/control.lua": {
+      "archivePath": "assets/lua/ui/guild_world_2/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_2/control.lua",
+      "sha256": "4309b2b32cacfd74084ed54488557f72870c733d45fde302713859611a5924af",
+      "decodedSha256": "c775b30ebb8115572e7e9ccdb2508335a2c87ccd53aa65b3bc81e0371f432e6e"
+    },
+    "lua/ui/guild_world_2/model.lua": {
+      "archivePath": "assets/lua/ui/guild_world_2/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_2/model.lua",
+      "sha256": "65d2c4bf393ffc16bcda61a6eff0a8df03f50d0a9edb139abf026fea74f0b4aa",
+      "decodedSha256": "36eda2600b9e20616b1b94d12d0999432067ff43dd40c89f557206d9034f9c7d"
+    },
+    "lua/ui/guild_world_2/view.lua": {
+      "archivePath": "assets/lua/ui/guild_world_2/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_2/view.lua",
+      "sha256": "d537e6e64604e00380b68b73c759a84d08763d87638a83ad33a825564ba39073",
+      "decodedSha256": "fb1924352961b5e2401e0be57a7b878f25f2c18e176bde07b30b42b5096f5989"
+    },
+    "lua/ui/guild_world_3/control.lua": {
+      "archivePath": "assets/lua/ui/guild_world_3/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_3/control.lua",
+      "sha256": "eec99a639fac4d63b3f16f92631f4fe7726ced1813892025dca7b11dd73820ab",
+      "decodedSha256": "57ba989053e3059ed2723c2cb0f501f0ce7e66024879d68321a9b2753d482968"
+    },
+    "lua/ui/guild_world_3/model.lua": {
+      "archivePath": "assets/lua/ui/guild_world_3/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_3/model.lua",
+      "sha256": "88f8ca5e83400b2a2965be87497d8e60d1f8082a71e3d432eb91533eff87610d",
+      "decodedSha256": "6008118d60d7b1fedc26d8958460da531b0e568cb2a292db3e34b583c8a002f7"
+    },
+    "lua/ui/guild_world_3/view.lua": {
+      "archivePath": "assets/lua/ui/guild_world_3/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_3/view.lua",
+      "sha256": "58e65b6bc2ae34e953a42c751d92de95b757c0f46641cc39608880588a0c8209",
+      "decodedSha256": "c90f1fd7c9f4f676c86f647dac7e4263daa51e679da1e90531abf8ecebf89ee0"
+    },
+    "lua/ui/guild_world_scene/control.lua": {
+      "archivePath": "assets/lua/ui/guild_world_scene/control.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_scene/control.lua",
+      "sha256": "69e78d76062c523b0a85bd9096a20b5d4e2eef9f05b4c7bf807af8e9d7f76575",
+      "decodedSha256": "ad1eb950ec8afc28b1a23f09d39ce4ec3542bfdba98460c0a56fc43129ec467b"
+    },
+    "lua/ui/guild_world_scene/model.lua": {
+      "archivePath": "assets/lua/ui/guild_world_scene/model.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_scene/model.lua",
+      "sha256": "337e3ea85319cdb622c07798820e0db5cdb8c61909504aad8cb195b16d7303d5",
+      "decodedSha256": "a87da4c192500463ffbc5df81ee93e51a271fa7734acaac5ff209e6bf58f5bef"
+    },
+    "lua/ui/guild_world_scene/view.lua": {
+      "archivePath": "assets/lua/ui/guild_world_scene/view.lua",
+      "path": "work/phase36/source/lua/ui/guild_world_scene/view.lua",
+      "sha256": "86dae3d275fb88efff6311d28c91d7078881cfe0a3eb9fa9bea6544ca7bbfa0f",
+      "decodedSha256": "eb446aebdbc0a5d6b9ff33251e0bfb82d7167b85a4867bded469059928620ed9"
+    }
+  },
+  "rules": {
+    "entryLevel": 10,
+    "creationFood": 20000,
+    "maxViceOwners": 2,
+    "initialGuildLevel": 1,
+    "rejoinCooldownSeconds": 3600,
+    "donation": {
+      "resourcePerPoint": 10,
+      "resourcePerPlayerLevel": 100,
+      "warFlagItem": 18,
+      "warFlagDailyLimit": 100,
+      "warFlagPoints": 100,
+      "warFlagGoods": 20,
+      "resetHourVietnam": 0
+    }
+  },
+  "userConfirmedRules": {
+    "initialGuildLevel": "User xác nhận 30/10/2026; chưa có thuật toán server gốc.",
+    "rejoinCooldownSeconds": "User xác nhận 30/10/2026: chờ 1 giờ sau rời hội; chưa có thuật toán server gốc.",
+    "donationLevelBasis": "User xác nhận 30/10/2026: cấp nhân vật.",
+    "donationReset": "User xác nhận 30/10/2026: 0h giờ Việt Nam."
+  },
+  "donationEvidence": {
+    "atlas": "iphonehd/ccbResources/ui_guild_donate_res-hd.pvr.ccz",
+    "text": [
+      "Mỗi ngày tối đa có thể cống hiến cấp độ x100, mỗi 10 điểm tài nguyên = 1 điểm cống hiến = 1 điểm vật tư Liên minh",
+      "Mỗi ngày tối đa có thể cống hiến 100 cờ chiến, mỗi cờ chiến = 100 điểm cống hiến = 20 vật tư Liên minh"
+    ],
+    "rounding": "Server gốc chưa có; LOCAL chỉ nhận bội số10 tài nguyên, tránh tiêu phần dư không rõ quy tắc."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "revision": "phase25-vn-source-v1",
+  "tables": {
+    "equip_gem_fate_word": {
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/equip_gem_fate_word.config",
+      "sourceHash": "0e9862be2a99ae218c5c3b3af2004844b55febff12cf613568dea68dba48e113",
+      "parsedHash": "de3d42202c7e022017760950081cf05fe8e5bc3cac902708112a29196984c1fb"
+    },
+    "equip_gem_fate_skill": {
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/equip_gem_fate_skill.config",
+      "sourceHash": "b48bdbab4e50228969a2eff00d12711dc1f4f879ee1a6a6ed6888185b23c904c",
+      "parsedHash": "5173ffe6b297b7ec9c415fb9159d1233dff6f762199323c8e447a7f059b8694f"
+    },
+    "equip_gem_fate_txt": {
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/config/equip_gem_fate_txt.config",
+      "sourceHash": "43ea5777d8207140d0ed63aff29b0a5539087962eb496491b8e9e6203995385e",
+      "parsedHash": "c5339578c68cf76ab41917c7d42596876080fe0286a66ed3609b871cf4865e51"
+    }
+  }
+}

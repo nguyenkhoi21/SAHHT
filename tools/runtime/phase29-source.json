@@ -1,0 +1,70 @@
+{
+  "revision": "phase29-vn-source-v1",
+  "tables": {
+    "talisman": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/talisman.config",
+      "sha256": "30858f39d5474bced3b8aecc96c71df1c343f7f6bb62d931e70725188d1bbb92",
+      "rows": 414
+    },
+    "talisman_level": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/talisman_level.config",
+      "sha256": "c9fd12e82cf2a08cee357a9e6220108a3e98f14b827730edc950982e67653ef6",
+      "rows": 30
+    },
+    "talisman_break": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/talisman_break.config",
+      "sha256": "45331e1c111e7b68278a7bf438a0d92de4a3095f2d66712478854ce334641f8c",
+      "rows": 391
+    },
+    "talisman_forging_list": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/talisman_forging_list.config",
+      "sha256": "b2270ba18be5b74caa16a662c404882b16267776995c0ab90742b7afe55b3783",
+      "rows": 23
+    },
+    "gem": {
+      "path": "work/extracted-data/configs/gem.json",
+      "sha256": "ed0ec53793077f4bd2d13d32d1ad80bd06273a2ef04c6cf7179d09a30a54b499",
+      "rows": 120
+    },
+    "gem_evolution": {
+      "path": "work/extracted-data/configs/gem_evolution.json",
+      "sha256": "5022fc8ec8caaee54f94d6e45d3adff1967ea137b033861d28b9553d0fd72701",
+      "rows": 10
+    },
+    "god_stone": {
+      "path": "work/extracted-data/configs/god_stone.json",
+      "sha256": "a92b31f7c49f6e78b99950ce035f00ddaaa32f389938228486bbac55629cdf3b",
+      "rows": 60
+    },
+    "soul_detail": {
+      "path": "work/extracted-data/configs/soul_detail.json",
+      "sha256": "b4c595f21dab196d67db0f9f20411d0be45d2f2b199342b5e924e147c3a30222",
+      "rows": 63
+    },
+    "soul_exp": {
+      "path": "work/extracted-data/configs/soul_exp.json",
+      "sha256": "fd4ca0d5b060dc5c174a036b67ab2df26f5dee9d07f51e39efe595fd64e1649b",
+      "rows": 15
+    },
+    "soul_gacha": {
+      "path": "work/extracted-data/configs/soul_gacha.json",
+      "sha256": "f3141bcc709107c7b906801e15af4e8d9b3d429033d7c9e41cbbbf4f98d3bef5",
+      "rows": 5
+    },
+    "medal": {
+      "path": "work/extracted-data/configs/medal.json",
+      "sha256": "e7e05343b79a71b69a47377bf83386e20feb81817204dd863fb1d9c19b1c58d1",
+      "rows": 9
+    },
+    "material": {
+      "path": "work/extracted-data/configs/material.json",
+      "sha256": "5fb99588cd900fc7a942211c9c7a92b0547221c63d1b006797491681b99a233f",
+      "rows": 90
+    },
+    "fast_material_cost": {
+      "path": "work/extracted-data/configs/fast_material_cost.json",
+      "sha256": "b03e0d23393f3dd4121ac6ad3f71e25b0beb0c02c7bb772494c7f8e0be7740ca",
+      "rows": 9
+    }
+  }
+}

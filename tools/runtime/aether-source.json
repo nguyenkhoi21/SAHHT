@@ -1,0 +1,1933 @@
+{
+  "revision": "phase37-aether-vn-v1",
+  "tables": {
+    "guild_high_war_base": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_base.config",
+      "sha256": "6751dd0da47497613066d71e0c394ebedf0c8f1888828722141b318f6891a524",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_base.json",
+      "parsedSha256": "24eafa833fa2fa89b3be21680da2f54c435b02a3fd2da477ee3f473115e58c7c",
+      "rows": 36,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_box": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_box.config",
+      "sha256": "5532178675e62975f9dea9d05a8294f67826e50e47e526c236c559a1202aa9ea",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_box.json",
+      "parsedSha256": "5a0d1ffaf1f29b39f6b99b75f8817d99460a9a0e44bd44a77f5026fdf587fb2b",
+      "rows": 4,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_build": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_build.config",
+      "sha256": "2ac56073f446d1f3373bb710e747cd0443d88a0b12aa28d14451d5629b46bb5d",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_build.json",
+      "parsedSha256": "ad58cb66edf121d9206ee8b537814f2edf52ccebf8707c6ac4c5780fe5967d00",
+      "rows": 49,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_card": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_card.config",
+      "sha256": "2b20e27ccc5444ffcfd778b60f3f7c5756f6e7a710d5cda29777820568a6b28d",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_card.json",
+      "parsedSha256": "e865a4f36ed4b1d7a903f89bb92df611dc21fcfa2a1d7f1656125e2f3526970f",
+      "rows": 144,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_fate": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_fate.config",
+      "sha256": "4d413e8d31fc26711bce45c0b5abb9274e1558cdeb2f04de33863ff21d44538c",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_fate.json",
+      "parsedSha256": "b12dd5b0802ee6f010404a353a24202b62fb35b779afc01eee5ecf329d0abcec",
+      "rows": 24,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_group": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_group.config",
+      "sha256": "bc1f3e67d13b7bd9e6d60d6c5f62a4aef581b5adb72481e15b815d483def4560",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_group.json",
+      "parsedSha256": "9c7875302e0bfd0ce5a0e9fc0654746fcae65f6b8aefaff9b795eb0d6d742a75",
+      "rows": 277,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_open": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_open.config",
+      "sha256": "4514bf578ef42e0ed9e8501603b305c4b3b2bb461b31440a42624b604decece7",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_open.json",
+      "parsedSha256": "996c57d6c693311845c70459e1398731aceed8469c2cc99faa990482fdcfa903",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_pic": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_pic.config",
+      "sha256": "76db5efec6fe08dbd81e23725dbd6e61824951f851959c4e48f40c8f3596aaea",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_pic.json",
+      "parsedSha256": "95629c5ea5924e9357f6c5f91c99f0b81d3f9c43036f457531224b89e77b9beb",
+      "rows": 12,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_product": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_product.config",
+      "sha256": "06f991c428c1daaab93c30c4e8af96b4a63d07b6947b247dad60c22a0022ce34",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_product.json",
+      "parsedSha256": "db65c43038c8772c747f15027330e3a47683fcaeb67f3903a47998d3a3338189",
+      "rows": 5,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_reward_person": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_reward_person.config",
+      "sha256": "eceaef3dbf7ac12ad4618898d14c042ed2ab60321e5f8f3ef37e80e53e7e6802",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_reward_person.json",
+      "parsedSha256": "fb698450a2098c081e5e5506c3ac6dd0bf3f61723b8f0a5223b8e0092e463a14",
+      "rows": 7,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_reward_season": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_reward_season.config",
+      "sha256": "128a845ff7eee7e0056c56a3046854a8d2bb54fd50f125cd315a8368a31d4692",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_reward_season.json",
+      "parsedSha256": "fac12bf3fe59055bd84a5d9ad3a100170376343c3b93035b8b0b1dbe957932b5",
+      "rows": 11,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_science": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_science.config",
+      "sha256": "72845146f91797cb0d22b1c206ea44b9d2d901898b9bb07e73edefe4d2245735",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_science.json",
+      "parsedSha256": "469c685fc59cd77d57624080aafcc6f93f0577717c432ffbbd8d3f20f486f12b",
+      "rows": 10,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_sciencestar": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_sciencestar.config",
+      "sha256": "9ca46c04ed8ba74c1019bcc830bcd669a3a698c5304ae4e71a224dd5b961bea0",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_sciencestar.json",
+      "parsedSha256": "383ac2e3f2c976a3629a8e5789fd628e14b9abad83c9aa4f1a7d6c10714afba9",
+      "rows": 14,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_shop": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_shop.config",
+      "sha256": "76b08597d9a2120b4cf762ca4682948c1bd9cba8c2e760c8ae33794bc3800806",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_shop.json",
+      "parsedSha256": "1e1ada759f1bb97747726ddfa0483f34de138106d9173679349ef07d31cc6e42",
+      "rows": 128,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_text": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_text.config",
+      "sha256": "28c07d7ae2d4fe6d1def694a3ba145e3eb7a7a3a5593186495be0e859f51e9ee",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_text.json",
+      "parsedSha256": "b7e5970621877ea12b75845c1bbf2df4580e1c4610e88d746d30aa4c57099ec3",
+      "rows": 58,
+      "status": "SOURCE VERIFIED"
+    },
+    "guild_high_war_word": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/guild_high_war_word.config",
+      "sha256": "d85093231f0d6743c4afe29d56e516f35da977e65fce45157c1db9d78f584a19",
+      "parsedPath": "work/than-vuc/configs/guild_high_war_word.json",
+      "parsedSha256": "31702fac19d8c670af6c541a0b95ca350061a7f13e88d516f8cc5bc4dc401d51",
+      "rows": 30,
+      "status": "SOURCE VERIFIED"
+    }
+  },
+  "scripts": {
+    "game_pop/game_godfield_guild_high_war_base_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "sha256": "02464b293ea680960f5cd5730ebea8fd50589a8a75a3aa77000822a273315562",
+      "decodedSha256": "02464b293ea680960f5cd5730ebea8fd50589a8a75a3aa77000822a273315562",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "sha256": "47fac7236a00fa89cdccf937a1f636b975a01d755c3be7f84de30b05832e4e3b",
+      "decodedSha256": "47fac7236a00fa89cdccf937a1f636b975a01d755c3be7f84de30b05832e4e3b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_battle_report_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_battle_report_pop.lua",
+      "sha256": "ed149d0cac46470d5ecae95c30b168726fbadeb49b0da04c019d0d6b25d2104a",
+      "decodedSha256": "ed149d0cac46470d5ecae95c30b168726fbadeb49b0da04c019d0d6b25d2104a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_box_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_box_pop.lua",
+      "sha256": "408b1e7171fabda18cae8c02f7103c2afeb363d2541dbdbbd9b440acf7060dda",
+      "decodedSha256": "408b1e7171fabda18cae8c02f7103c2afeb363d2541dbdbbd9b440acf7060dda",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_buff_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_buff_pop.lua",
+      "sha256": "b1a12a9a7c10d4eb854060107a2ef8bd0bb857d4128eeae5ec7e5f1288f2c91a",
+      "decodedSha256": "b1a12a9a7c10d4eb854060107a2ef8bd0bb857d4128eeae5ec7e5f1288f2c91a",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_chance_end_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_chance_end_pop.lua",
+      "sha256": "9ce87dee723b37ed255fedcb0d839b181d119e90a90ef92d477955811bf5e2c1",
+      "decodedSha256": "9ce87dee723b37ed255fedcb0d839b181d119e90a90ef92d477955811bf5e2c1",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_chance_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "sha256": "a088b77ed2395cb6f4cb9cd9963f09c5ea3f744100fdc744a164347b6179cd21",
+      "decodedSha256": "a088b77ed2395cb6f4cb9cd9963f09c5ea3f744100fdc744a164347b6179cd21",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_formation_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_formation_pop.lua",
+      "sha256": "079aefc1eee80310beeb7934f2a5839d9c3612f8cf0505869cb8e5ade54d6798",
+      "decodedSha256": "079aefc1eee80310beeb7934f2a5839d9c3612f8cf0505869cb8e5ade54d6798",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_front_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "sha256": "9ab44c9b219b42c756eb007286eaae280def385468c8ab08b1841017c7288447",
+      "decodedSha256": "9ab44c9b219b42c756eb007286eaae280def385468c8ab08b1841017c7288447",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_keji_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_keji_pop.lua",
+      "sha256": "7fd796daccf678418ca29b9c819f46b89e35488183841e3ab1fe574ec483ba13",
+      "decodedSha256": "7fd796daccf678418ca29b9c819f46b89e35488183841e3ab1fe574ec483ba13",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_keji_rank_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_keji_rank_pop.lua",
+      "sha256": "40b5f430db54ca8d7d1e60e16c6cee20776c26b58108289adfb0bc48ac9780fa",
+      "decodedSha256": "40b5f430db54ca8d7d1e60e16c6cee20776c26b58108289adfb0bc48ac9780fa",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_miling_give_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "sha256": "a9ed46eedb28d8afdb9b628a4b1b7182a2c018823a3ddfdf1783e55610ee14a9",
+      "decodedSha256": "a9ed46eedb28d8afdb9b628a4b1b7182a2c018823a3ddfdf1783e55610ee14a9",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_miling_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "sha256": "963accec762d162d6f2f31bd728a89b6e1e6f3eff1dd8e53e775d478ecbefee7",
+      "decodedSha256": "963accec762d162d6f2f31bd728a89b6e1e6f3eff1dd8e53e775d478ecbefee7",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_player_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_player_pop.lua",
+      "sha256": "430b58de158480c867f7f90ee0ddf303c53a40a154bed8219a03400dc5344270",
+      "decodedSha256": "430b58de158480c867f7f90ee0ddf303c53a40a154bed8219a03400dc5344270",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_rank_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "sha256": "d69125f33563e95f3991229d0327e463f776fcf62b9bba406c4b6ef49afd0bc2",
+      "decodedSha256": "d69125f33563e95f3991229d0327e463f776fcf62b9bba406c4b6ef49afd0bc2",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_report_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_report_pop.lua",
+      "sha256": "a04967b2f63da4a5423a83aaffb9b6e566f2de6e0e78deaa29820c992d46f595",
+      "decodedSha256": "a04967b2f63da4a5423a83aaffb9b6e566f2de6e0e78deaa29820c992d46f595",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_res_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "sha256": "6f39e0bb78f053791d173c4ab7108d24696552f58abcf3b3f55ce89855e6c909",
+      "decodedSha256": "6f39e0bb78f053791d173c4ab7108d24696552f58abcf3b3f55ce89855e6c909",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_pop/game_godfield_guild_high_war_reward_pop.lua": {
+      "path": "work/decrypted/lua/game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "sha256": "75ad83c8352702b07cc254cac074e4c1f3ddc304177ad192c8c96a0100dbd4ea",
+      "decodedSha256": "75ad83c8352702b07cc254cac074e4c1f3ddc304177ad192c8c96a0100dbd4ea",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_employ_guild_index.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "sha256": "aae62d8713a8df34ab7b6fee0dd5bcc11b9292dc7307cfb2216ccb9b1da8f7ea",
+      "decodedSha256": "aae62d8713a8df34ab7b6fee0dd5bcc11b9292dc7307cfb2216ccb9b1da8f7ea",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_employ_index.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "sha256": "22a3e665bfc5854ec12e22e369664c707456d5b247351c974cc213e9bab3c40b",
+      "decodedSha256": "22a3e665bfc5854ec12e22e369664c707456d5b247351c974cc213e9bab3c40b",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_items_scene.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_items_scene.lua",
+      "sha256": "f07386301b8088a4796fb056b7ef31ce825bacb7339312c348089bf8c6066d25",
+      "decodedSha256": "f07386301b8088a4796fb056b7ef31ce825bacb7339312c348089bf8c6066d25",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_keji.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_keji.lua",
+      "sha256": "ce05c52016b8e053697b2ffcf2bd972594b40798020ca8621e8eb2187377a829",
+      "decodedSha256": "ce05c52016b8e053697b2ffcf2bd972594b40798020ca8621e8eb2187377a829",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_main.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_main.lua",
+      "sha256": "283c07878db6757d984a1e5bd031fc1daaaf358437bd76545983443912831873",
+      "decodedSha256": "283c07878db6757d984a1e5bd031fc1daaaf358437bd76545983443912831873",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_map.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_map.lua",
+      "sha256": "7444e8d14f4e183e954659633a8907605ed1c8c6da71b2177c3ef652eacc3d3e",
+      "decodedSha256": "7444e8d14f4e183e954659633a8907605ed1c8c6da71b2177c3ef652eacc3d3e",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    },
+    "game_ui/game_godfield_guild_high_war_shop.lua": {
+      "path": "work/decrypted/lua/game_ui/game_godfield_guild_high_war_shop.lua",
+      "sha256": "6dcdf51db365893ac1732ac42d8f5598c5312414049b19cdb6397460fe1fc2be",
+      "decodedSha256": "6dcdf51db365893ac1732ac42d8f5598c5312414049b19cdb6397460fe1fc2be",
+      "matchesIndexed": true,
+      "source": "VN_APK_INDEX"
+    }
+  },
+  "assets": {
+    "assets/iphonehd/ccb/ui_godfield_buy_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_buy_item.ccbi",
+      "sha256": "a88afa095f1304e2117179e7687d295b6feac4389e55e3ee8060996d78733b8c"
+    },
+    "assets/iphonehd/ccb/ui_godfield_dart_zhenrong_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_dart_zhenrong_item.ccbi",
+      "sha256": "724451383b468784fbd49cdf28b064d4619bd8ed0aadc3efaba39a2542fe9154"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_base_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_base_pop.ccbi",
+      "sha256": "d593522824661d581b3f0f97a8705cb728da333e34bd8be2b217889c0cec3551"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_detail.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_detail.ccbi",
+      "sha256": "303f965e6efa54dc2811f25cbd9cf14dce11fe53e4b13f1d88dbfe19bd20f61b"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_detail_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_detail_item.ccbi",
+      "sha256": "0ed274e581974b180f93f4658b04fefdd9016742486d858a48a2afe5e73bab5e"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_report_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_report_item.ccbi",
+      "sha256": "191c3a2d183f06e335f7e350c6892810709bd093d42aaa6b27dfba822cc1b567"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_report_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_battle_report_pop.ccbi",
+      "sha256": "6d1e1608699c87d74d8f2b69d7613dd0990b38c7796909c92c5cb8587d2d5508"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_box_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_box_pop.ccbi",
+      "sha256": "5b7ec442f7f49fa93f7f31c46c4edbc4f4abed947dc77a5c62698c6e5689c5fb"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_buff_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_buff_pop.ccbi",
+      "sha256": "cb18bc8b4f3812beea84a472cf56b70d4a1965c5d6dfc70eb7e70f71b29f43cb"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_end_pop1.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_end_pop1.ccbi",
+      "sha256": "a8797ff6def716e52442cc1afb21d86b3638722e2bdfabed2b1181fd3830a644"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_end_pop2.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_end_pop2.ccbi",
+      "sha256": "3a73671982f7f4c723ebe391974e9b6cc80b6e08f022405ec962691755f464b8"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_chance_pop.ccbi",
+      "sha256": "ddddfc66ec4d29a927b659d5035c199c94d2c41bee8987ef877c426c98a0c178"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_guild_index.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_guild_index.ccbi",
+      "sha256": "8ead27085bfe5bc08cef603e8c93e46142158fb87b7ebedc6fa131cc69f55daa"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_index.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_index.ccbi",
+      "sha256": "df18a315f9c85ee9a10556c3c56920fcdbb57689a015cd315b21212fd55387a2"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_waiterItem.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_waiterItem.ccbi",
+      "sha256": "899bce9d2598c6d5e5de58b94140e5d0a96e23265fe96d10f6a13815ea2b7d24"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_waiterLeftItem.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_waiterLeftItem.ccbi",
+      "sha256": "4b6403a5f9c14208f98c9c6acd7c1690f34accc6513148743e3d9a0acc97f299"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_zcGuildItem.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_zcGuildItem.ccbi",
+      "sha256": "00da172411769b6b1c20c09d297fa37c18f711c1214cf1db325f57de685607b1"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_zcItem.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_employ_zcItem.ccbi",
+      "sha256": "4b6403a5f9c14208f98c9c6acd7c1690f34accc6513148743e3d9a0acc97f299"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_formation_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_formation_item.ccbi",
+      "sha256": "5969ab1edfbc6d2d9912b2c0b0f25e36b414ec2acf24fbfc1dd8d9d6ebfac1ed"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_formation_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_formation_pop.ccbi",
+      "sha256": "75cf02b4609d218e134a636bfed2899a3867fee63d972f81f82f1ed4e9301c4a"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_item1.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_item1.ccbi",
+      "sha256": "3431b6701e1d8be13f9b323daa51a333ee0a1e5be0973c311aa2077a6cdaab5b"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_item2.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_item2.ccbi",
+      "sha256": "4a551daa92a92fd364ec817ab36a61aafe9a8e1b0b25250cb2fe28f16aa78ac7"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_front_pop.ccbi",
+      "sha256": "82d02fd1d332b9ae4d41ecd15bb72cc627a0579f4c71b1b7d8b545a515adfa02"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_keji.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_keji.ccbi",
+      "sha256": "fad5ccb43f80cdc7012a944463f5a46f5d6f8cf30212059abf2880661a7091ff"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_keji_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_keji_pop.ccbi",
+      "sha256": "87651fe66d9aff7a9cc31e70c01edd5cd267acdf609f29c41b35ff581ee3079a"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_main.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_main.ccbi",
+      "sha256": "f67fda66ca6d4458c4dadddba27c5f9ef23af6afecc2c20a1f2eecc506d2d618"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_map.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_map.ccbi",
+      "sha256": "55c1723659e0226f8dc4e4cf220f8d16001304abf796a116e4f42339be692e30"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_give_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_give_item.ccbi",
+      "sha256": "a193b1837a89f2b1400c131cc38496b4a2c3130d131850f474f03f6031f41d18"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_give_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_give_pop.ccbi",
+      "sha256": "3ee6e60f102bafdb7fae7ed7c72edfb9bc96994b3c60ba3df8d39fab70a2133e"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_item.ccbi",
+      "sha256": "337727d217f33a45390289f69942a490604d6c49bdcf2d457e664e05d2f760d3"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_miling_pop.ccbi",
+      "sha256": "0399e9f76fdd8b1ee7b9d7dabac9ebcb93c19549118ec49e1559a532b6d666ec"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_player_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_player_pop.ccbi",
+      "sha256": "7ad5bdbdb62d71b1785bafa64541f9c332af6218495b5420fabcf41c37dd2f15"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank.ccbi",
+      "sha256": "d0f5a775473c47f5e6f4da6fe482e6d90732dab3cdf7e3899003f08b38b88dc5"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank_item.ccbi",
+      "sha256": "530dd0f7792f3da2686594c254ea098b3e5f7cad50dae4b0ba67f64953158719"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank_item1.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_rank_item1.ccbi",
+      "sha256": "31e314ba2b5d00d0b78a139c2d68328db4b2065824887aaf84ff8baba732a1c2"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_report_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_report_item.ccbi",
+      "sha256": "e9a1b336b0fc0d7076dcdef355f4ddeab54539a5d750f8ed09c8a04f8daecf5c"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_report_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_report_pop.ccbi",
+      "sha256": "d085e06d3dc882a3621358c60634a742c0466731047250907223a39f5750e848"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_res_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_res_item.ccbi",
+      "sha256": "14b4dfbf3255bf2e0ac31b595a7cacab793c1e822fa3e4881367c99b29213ca9"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_res_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_res_pop.ccbi",
+      "sha256": "20073544b787cd2e2e10ff6c4f60678131c5751ae5f66085599692e981960c3e"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item1.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item1.ccbi",
+      "sha256": "d1491ac0cd912afa1002fd507165dc588e70e08f0a6c9a5a3d123303d3ffcaba"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item2.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item2.ccbi",
+      "sha256": "6b3ad5eced5e0edf57c614271901e25a54f89693464b626b9e88001af686b5b7"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item3.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_item3.ccbi",
+      "sha256": "597410560c4da98fa0ac5201ee7e45dd4c38202f7bbf28b37d960d4b5894b842"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_pop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_reward_pop.ccbi",
+      "sha256": "a72cdea86c3c463adc91ec7471ae1264e507dfbb55ebbae609251fc2a1e2e09a"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_shop.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_shop.ccbi",
+      "sha256": "3e858f4c5156f7e6a812a4c174ca861464fbc00183c9471783e6c5218c30fa45"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_team_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_team_item.ccbi",
+      "sha256": "ddad8439a49e10c3a3e83bb40e3aea096bcfe0094318594b06a612ee0a193349"
+    },
+    "assets/iphonehd/ccb/ui_godfield_guild_high_war_yiji_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_godfield_guild_high_war_yiji_item.ccbi",
+      "sha256": "af1fe124bb210440b958de21151598c87c68bc4e081a96a6373295cfff55a2fc"
+    },
+    "assets/iphonehd/ccb/ui_hero_list.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_hero_list.ccbi",
+      "sha256": "b74d2540ede3c6954e32d84290dc4d14c933473c6d3933767745ec3228067434"
+    },
+    "assets/iphonehd/ccb/ui_items_item.ccbi": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccb/ui_items_item.ccbi",
+      "sha256": "ca94ecc3bccdae589c3d06e76083bb6c85c3f14295a928e0929ad860226f3d88"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/ft_map01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/ft_map01.png",
+      "sha256": "575012ec1666b70ad0b23f70a362732737c43efb57c2891556a5e89fea585bbb"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_6.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_6.png",
+      "sha256": "a1596717982e030e53ee575f63bccaedbb67d358bad129c9a0053236669cc94b"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_gongji.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_gongji.png",
+      "sha256": "054fe1921e10a5b069330a26f634231f6b33c20e9d9846fffb783cff86853c07"
+    },
+    "assets/iphonehd/ccbResources/godfield_main_res.plist": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_main_res.plist",
+      "sha256": "72238dece313fa8eb866e3e66c8520d28659b20abbec8c7625d3976b1e94e07a"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war.plist": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war.plist",
+      "sha256": "9ff9c3408badc0b33a3508f4b38b875062251ecf748c9df0f70641bafeccf769"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon02.png",
+      "sha256": "02df8c1df986d3c38741a3576112fc9887c41b46c505680f48021a0fd60e50e0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon09.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon09.png",
+      "sha256": "171b66ed31659856f7e040db830475f9ebd02d44cbeb7014ec241e7dff8d1175"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon12.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gonghui_icon12.png",
+      "sha256": "156e0e0ae581591838c1433c147829373e2ed329330c4dfb121d77ba4c1618a6"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/sz_msz01.fnt": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/sz_msz01.fnt",
+      "sha256": "7215053776f1b64eaa3cb43228de8b7eb37a08e206e1ef2704040d1a5f8a84d8"
+    },
+    "assets/iphonehd/ccbResources/public_res.plist": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/public_res.plist",
+      "sha256": "70ad4c51f6162ef49c36a5dd9e3a7e2a6cd08d192327edb00e49324707e06cac"
+    },
+    "assets/iphonehd/ccbResources/ui_wormhole_map.plist": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/ui_wormhole_map.plist",
+      "sha256": "c1a07dad5d53bb61913fd3c0f4b6f963ea911d28ef03bd86cac70267e4619ddd"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_1.png",
+      "sha256": "40faf83b5e7bc8a8bf2f72c0c171798a9af9e9c6c0ffe0d765882dc189c3065f"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_10.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_10.png",
+      "sha256": "caf016311a4885f6a91748f450b3fbecba6cc99de3cb7f660a39faae391fe2aa"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2.png",
+      "sha256": "19fa3c98d6d669c47bbbd8bc1872870a4fc814c92fe636650a4a45afddbac8cb"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_1.png",
+      "sha256": "8d06d54b7b41f6ab400d49c9316d3b9f8e861bb96069d9143858c7110002be9a"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_10.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_10.png",
+      "sha256": "7b9e0758f02b37ab74b7aa58b3322286a3983ec441e51a4a74d8ac0c29b21c82"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_2.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_2.png",
+      "sha256": "ffc316b3c93a198d153cda72f0f04685d352c07f64917c4f4aa1885256f08f6a"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_3.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_3.png",
+      "sha256": "70e0a99d6697878ac50771ae8a2bd5f02fe0f4211653df9c05ca218fd78014a6"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_4.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_4.png",
+      "sha256": "eda4925acea5d93f499b2aca2f14c843cb3dd70661dca06c7a8bd5d0b644fc20"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_5.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_5.png",
+      "sha256": "95cdd532fda2e7d1aeda64eefeb94e351b16d53dd3623c7fb241625c7bbf3d4c"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_6.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_6.png",
+      "sha256": "50cbb8ddf749b6b57503cbb30fc9434c04cac0f2b8c01b23c64747d3a35900f7"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_7.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_7.png",
+      "sha256": "cdf167848061e2dadce07884f66704b7fdd485b43f03b0194f64322671860e33"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_8.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_8.png",
+      "sha256": "bd1c5b1f3d4f43e5aa4804ee71684199af82b7582232a108f3d8218acb1087de"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_9.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_2_9.png",
+      "sha256": "b0c257d03638dbb6e6a35219ae1a691d8b1b4a445065daff7b1e53007abda2c5"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_3.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_3.png",
+      "sha256": "2a5ff648f54683c3eeee526a0233ca1ac7d3daf8c51ba103ecc304c66247f584"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_4.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_4.png",
+      "sha256": "92e3a94cce6c4ce7eaf7cb5b87ae224bf360319a521bfbf3f27cd6c493c40b8d"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_5.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_5.png",
+      "sha256": "9d59335e55bbac9fbf919d52535c64f7c84c20559f3d4a8f561a93a749cc2afb"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_7.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_7.png",
+      "sha256": "61c24864c34726455fc79af80a1920e9f10fcc3c59f46a8cf011ea398451e375"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_8.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_8.png",
+      "sha256": "f35df318519da135e15868be3db23023bdfc3b94f73169bb1483e020531b7020"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_9.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_9.png",
+      "sha256": "a709b408f10a49de8c72d5ed17cd4f46b85bdc7f9b194667122335bf746b4a31"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_BG.jpg": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_BG.jpg",
+      "sha256": "abbca47f264be976b62bbb717dd320e25c221b4540ab56532a409b27388bf97b"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_ditu1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_ditu1.png",
+      "sha256": "5980ef3de0c827079b4afef042baba2074825a426cac17276406cc872cefc7d5"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/godfield_build_ditu2.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/godfield_build_ditu2.png",
+      "sha256": "55bdac4b803ac88b97ca3fd012d8e50f5d6b314348bd3b96e561784c4e078bc3"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland1.png",
+      "sha256": "de758d0cb416ffe34f36c94c226ef60e0ae2e9c034f197bfc9849aa1be9ed46a"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland2.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland2.png",
+      "sha256": "1db018aa2ac4e51454a6470b9a062e91686f540283d567607026cd6e80af0ea1"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland3.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland3.png",
+      "sha256": "e8ade0594b75f96bba859b04ccfd7d098e62ff07efc44f88dcc4f3ec7882d9e6"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland4.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland4.png",
+      "sha256": "c71dd6f1a8cb0faeeb35aa4e5e1316fde176e84539541fd319186ba6a8736caf"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland5.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland5.png",
+      "sha256": "83bbfbdffe32c8be56bf665bed6cc8538675d64d96b3c7ab1516ef542c754873"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland6.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland6.png",
+      "sha256": "14078962e6e6877d9fd99a3e3bf5c6b21ac2e9d0734a275e033bcb5b981c9bf5"
+    },
+    "assets/iphonehd/ccbResources/godfield_build/nobodyland7.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/godfield_build/nobodyland7.png",
+      "sha256": "b405bb24671b8e663c73f0937e5ce304aa17da3a9cc5ea536783352f87b3c8df"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn01.png",
+      "sha256": "0ac263032fd768ef492c58906f5a1c6c8617ac19eb3abfb8950eee5a521f06ef"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn02.png",
+      "sha256": "2b5e8fe5d5e317f6f70e6ccc95ed7c24c02fbcc425fc9458f4175f71cd7ffcd0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn03.png",
+      "sha256": "6991e57c25302caadb8b0e64ae686054facd5db9a00c4800687c8fc6ec739604"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn04.png",
+      "sha256": "c981b4ee7ee2b3d277f8b2f515b5a144d41a46e76540b392b08a466affc46843"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn05.png",
+      "sha256": "0bf33b9b0cec5f367c553e909e07499900807032201d9ae1d805b56e028e162c"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aquarius_btn06.png",
+      "sha256": "710dd35c91b61d8631e855235e0203931ede78faf9425199e7823e6f050d540e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn01.png",
+      "sha256": "a95c459b4203655f3858db5039d154afaacb54a8e1b8753d06f8d3546930ec80"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn02.png",
+      "sha256": "0cad95c18976c92f8d2d7de2a9890c4093ade01276da77f1bc91ca542929e5bc"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn03.png",
+      "sha256": "9e29a5b5fc0851a3bd15c762b91709018a99256eeebf0d2543d98637ea513542"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn04.png",
+      "sha256": "54d9be85c45239dfa035df3b2e18a1ad1c7abdd9314e08879cbc3bec75610312"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn05.png",
+      "sha256": "47c7589b4e92e4ef08903ec727152a19613dae72f39617f15ae70b273684f04e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Aries_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Aries_btn06.png",
+      "sha256": "ea672e24f60806bc7a9279f65a4ac2c4931a9c681e085d444c41040657c12838"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn01.png",
+      "sha256": "299188817145b2412ecf4673fb033e5762061b35e96b86cb5172982c0d0d0ed5"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn02.png",
+      "sha256": "ed94a16bcfbc484498963f263333043ec8552c3403da92800b3953e108ac39a0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn03.png",
+      "sha256": "4485a815832fc964ceb14468dc6b2641f806482d3c66083e44663c4e6b8ffe1f"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn04.png",
+      "sha256": "c903a41f5f93b2b0809aa97a8e67738e9834bcb78f76d22143713f7afb6093e2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn05.png",
+      "sha256": "d944d7f877bb8dbda82366ad29ce9644d6dbf6c5deb5ca09949bf7d01fa1d8ee"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Cancer_btn06.png",
+      "sha256": "c8b8dd4c499530544116800954f845334c4d150d84a5ebeaa242bc3e509b7878"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn01.png",
+      "sha256": "03a688e9d40acfd08d322fd52b31d87a202ec86250eeab11f9355f6ba5814673"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn02.png",
+      "sha256": "9c07487bde2c734b028be827e4d8d2971d757c2bf544275a7207a793d69ae345"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn03.png",
+      "sha256": "e3cdb81a94abdcb0d81a40206133accd0c6a7b0b731632ad44efdfc08dbdc209"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn04.png",
+      "sha256": "183e87ed26ced67dee7e2aed01c41bc6b6eaef531e048bf115dd98deb9b37dc0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn05.png",
+      "sha256": "1cc1c988cdd970159173e9deca3c52c5b95e57dc39b1d41639d56d53446f5cce"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Capricorn_btn06.png",
+      "sha256": "b1d83d5f92ded52b45796a8ec7df72cbde56a03c1ada8d470921bf9c1b537fa9"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn01.png",
+      "sha256": "369b95bf020fdbddcb7316990101bcc31593bfe0256f30de5cf1df450692ecf1"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn02.png",
+      "sha256": "f852c6213ebc790097745dcaeb95ed69b56ced1cb57b8c03a634956bf768ec33"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn03.png",
+      "sha256": "bac8ad8ea191045be09300aed988393e31c92bcbe1ae7e734f498f4d9cdd9e07"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn04.png",
+      "sha256": "53dab0b883fffd338999ac6a7911cec1662ea6c14936a013b2fd172bb20089e2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn05.png",
+      "sha256": "af18b90dfd9286e77075cd6c3641f0d22a51f7f6f7842455def1d4911367244b"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Gemini_btn06.png",
+      "sha256": "772cc7aea184e7693879a0b56f1aa95f70faa8a86f964b020a7c0514dc2bc599"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn01.png",
+      "sha256": "043fc81350aef77f54b281ef0c8ea002eb9d5b7edd89dad2e24301554d6c0281"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn02.png",
+      "sha256": "d5160d1bec955f10340d4ece01ca3c1493b43b93f66b5546a9ed8be4e6b09da3"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn03.png",
+      "sha256": "31106912d94d37410828beba793f375b146780c2f6546859300dd1d7e91064dd"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn04.png",
+      "sha256": "1b31a574561d0636acc0dc9c2d4f8c0f8df72298451fc84225b83aeef0118dd2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn05.png",
+      "sha256": "ef74b6f8150333e0c0105be11257807c4843276aea95c03af91f3b18093d41fc"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Leo_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Leo_btn06.png",
+      "sha256": "103857febc224838c81f43b417ecdf853fa6b9ffd14f04b077b81da5fa3ba7bf"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn01.png",
+      "sha256": "97feb3def9d9b6edb199031adfd51e7647a66554ea6646478ea2613814497900"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn02.png",
+      "sha256": "c63726b2dbab76ddc279e82c1aeb28c904ddf51233e6a1e4c7edca727bb28798"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn03.png",
+      "sha256": "a1f0a9881b62dababdd21f1de65263c4a94fd8b24b68af14d243edff11ef6cdd"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn04.png",
+      "sha256": "b87c14667b1e79475e814d7e0090fdd2a96bea5d33c7330919f616821cef5843"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn05.png",
+      "sha256": "afad16dd48900394140d16f21aad03d945db666235af7551724c8af20cce05b4"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Libra_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Libra_btn06.png",
+      "sha256": "7abfd800950be8d7426d4b11c3ad54005b12b326444b1821e8a898a4dc11725c"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn01.png",
+      "sha256": "f07b3046e552e491a26a5753606d8cd943624db3d0afe11abf9a9d806128889e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn02.png",
+      "sha256": "4a5c6654db35f8a7f305b9eb5d5791a0b5758d16a6d26df62e896b0262571762"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn03.png",
+      "sha256": "5d61227ed3c3b8a86d99af7775e3b00a38780994b634c988cc6ee47282f8b0e2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn04.png",
+      "sha256": "152d9abedd62783ead9196b2e093860d9ed7f082319570b07d97e11ad0dfd08f"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn05.png",
+      "sha256": "154628effe2f40f4850d0a918300bbde90f9dcbf5368e8f7e0c821717a4c6eba"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Pisces_btn06.png",
+      "sha256": "5663ba3bd5a14b7370fceb795c83e22f428c09f2f76d69ce508a48de508bcff0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn01.png",
+      "sha256": "6d549d5dc0e313ad57238a3d974fea2999fa3d5c0146e6ef76011d765bd159e8"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn02.png",
+      "sha256": "33f8ce768ebbaac456e992a61191ceb6d599b6e38d24cfa4328cd4747df6943e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn03.png",
+      "sha256": "dacb7d24c812344a3fc2569937ac05c61a575e8ce0b1d1da899db33f77a29993"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn04.png",
+      "sha256": "11d1bd84b2a38f0ab08060bf6cd09863390199c8cc6aae82b9aad940c4230827"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn05.png",
+      "sha256": "e6691f718e7310f26cc6875fbf97e9b0a8b994c5c01c1321b4d6c96a465d0f64"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Sagittarius_btn06.png",
+      "sha256": "e1d791b532712ec7ae424ac74006d0ada07dc29ef5a31a3f7b967aef8ae6dd10"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn01.png",
+      "sha256": "cceb7c14484cf1762472ec8cefcac3abf626e1193a96402d343dd3b0966252da"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn02.png",
+      "sha256": "95041a7263b35cf30b57027e43075d8ef37e197dc8cc0666e28ea0158ee081a5"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn03.png",
+      "sha256": "72e8a8b5a19f861ed490c8610801efadf89714e8f7f77ea86329b958de5a8425"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn04.png",
+      "sha256": "ccc2043d17256bc6ba3a3b881c8ef0a439a6acc6f22cff23ba2642ff38560a80"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn05.png",
+      "sha256": "91814bc1ba8f202462bd0180b5402c727a59349675cfac7249432cf9e6c29c35"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Scorpio_btn06.png",
+      "sha256": "c142c38f7de38b1896dea4309bdea6b866927faba3d60a33bcc002edf2a2780c"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn01.png",
+      "sha256": "3862a792d6b056a95399074462c1a2324d3518b0a024df8af1cf1849cb4398a2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn02.png",
+      "sha256": "9befdd2ae78036dbe220f2df36606bab445b4fc2b12fac39f5ffb84b9066f944"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn03.png",
+      "sha256": "7485131f774b806335c30d23c3e21d99946ef69919f116c60899ff64e5dbcaf3"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn04.png",
+      "sha256": "b9e0ea3833c0a24340a5fe02f2a73122a68123b2ea27e7e61cd5827eec9a8d58"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn05.png",
+      "sha256": "2de8b6a4a593e48f430752e4681df14f27c4dd4257a5b5c063ee43a8b83b1cff"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/Taurus_btn06.png",
+      "sha256": "adbe5ee5636a40a919eb710a558c8159712ac4cfe716bf079f59cdd0833a9f30"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon01.png",
+      "sha256": "252c9545d116b0cce92c19f4087f37c65db72d311533e728b3a7b07667923b46"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon01_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon01_1.png",
+      "sha256": "ba59e6ca424fe792eb6b76c3fefb8bc1b0e3e76771d2801cba43914f44d5ccf3"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon02.png",
+      "sha256": "405bb37b7873a5612778e310a36656d7d9aa1304d0296075a2546b5ccbb81a0e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon02_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon02_1.png",
+      "sha256": "6db05ea15d3f9ca72c79073539cbd31f209f6f17d756c74e96882da9589226d1"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon03.png",
+      "sha256": "25b6b7b5bff76f4945f4cb5339e718bca08be916f577a5061c7f71dd1c4fde33"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon03_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon03_1.png",
+      "sha256": "128e280dd87a60fe19ff75586990aef0ff72ee8394814fa9f1346c74b56115ca"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon04.png",
+      "sha256": "b9488ec200d88378f05219f3291404feba299e9891dd6ddce57e0eff1332ac99"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon04_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon04_1.png",
+      "sha256": "54df30b4a1e5b0938b4b67811471ce59c99a780a30f497a5de4d81e027b39c88"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon05.png",
+      "sha256": "48b98a823229dc0f8707294fca9e6d2f6ed11e0296f06eb8290df1b3ae9f77e0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon05_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon05_1.png",
+      "sha256": "06790c423f749d93dd58f3024c04d4b7f3ea93f0ca5185ebd275dd99bf522f9f"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon06.png",
+      "sha256": "0d2ceb98c1f69ace01ae3f9ef1d7742d562f915b2d548ea58c6c115fbdc9f372"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon06_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon06_1.png",
+      "sha256": "bbb19a1a1e8b5325c4ff39edaa08bee1a1ab5b91661f8b524f8f74d4cbb4ed13"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon07.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon07.png",
+      "sha256": "57a02152eb6d56736b38f0b26072cfd10da5b68a26785ea98463b85c9e7a8468"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon07_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon07_1.png",
+      "sha256": "5f0ea88cd89711a214372f2c45283a1a617f7b7986b7e7bf37762f00501b9607"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon08.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon08.png",
+      "sha256": "4185a381f22524879b17ad9357f6b79222343a6580ac7c16de576c489be0f71d"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon08_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon08_1.png",
+      "sha256": "7ed2cce174a3cc48759851aab419f87635bd9c7ebcb247aa32c2f6f192b2d2d2"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon09.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon09.png",
+      "sha256": "ae2011685c3249d3181d4b944ce76313080c50729d45f2c6df2e41d854cbdbb0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon09_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon09_1.png",
+      "sha256": "8c14d0c644e3ce391207a9ae3829ac4f227e48061db59911cb5e6e2259a2f474"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon10.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon10.png",
+      "sha256": "73ba29e1628b019728130522b0fb0e7a89469b4feb46b4cb70db10190982662e"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon10_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon10_1.png",
+      "sha256": "d33eb370a808a83d611453fa559f8bc41dcfac0b59903317c62f3f2e404b2137"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon11.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon11.png",
+      "sha256": "400cfeae113828256abd320aebcc0dbd50460f2e1653e9c5cda0ad45034e3045"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon11_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon11_1.png",
+      "sha256": "13af08d77d916ce6e5a2bf75c14574fbca52df7502f4ba6b0d7a3e9e5e8bfc62"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon12.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon12.png",
+      "sha256": "65338d444c075f35d14656f4d8066a74d73bc4203b6891a8710b5b41e1366e66"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/gh_icon12_1.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/gh_icon12_1.png",
+      "sha256": "caf67223136635ec3d5879e47d487cdbaba888397fc6bcc22e0482b1ea7f7bdd"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/sz_msz01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/sz_msz01.png",
+      "sha256": "0ce972b4338c3ff8f7ecb5609428e2b085996bcc12238ea51537e9344cd1c2a0"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn01.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn01.png",
+      "sha256": "1887cbd54c6b2513ad4b7bcf39ccca7ebcd08241f61afaab9cc42ac11e8f0b25"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn02.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn02.png",
+      "sha256": "7242c2fc5617013c28cd96cf39a68b753e10cde8e1ad346311da7920bfc80818"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn03.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn03.png",
+      "sha256": "d8fd92372b222c92461b7f81d1a7524723ae7de7c9279349324764cba4b2f991"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn04.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn04.png",
+      "sha256": "2dc19adbd36ef59d6e89e8af6c4a10e96f979e027eaa99b70ed999601de24a1a"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn05.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn05.png",
+      "sha256": "ab22f5627d6ddb7da61242b0bf4a80048951111bbe6788ff68013f1e1f97789c"
+    },
+    "assets/iphonehd/ccbResources/guild_high_war/virgo_btn06.png": {
+      "status": "SOURCE VERIFIED",
+      "archive": "work/build/SAHHT-phase36-v7-test.apk",
+      "entry": "assets/iphonehd/ccbResources/guild_high_war/virgo_btn06.png",
+      "sha256": "5c2fdda70012fd7df44558d5e869acd946f13f31ada05005198fb6ac13a19343"
+    }
+  },
+  "calls": [
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 86,
+      "key": "guild_high_war_declare_war",
+      "route": "/api/?method=guild_high_war.declare_war"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 97,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 103,
+      "key": "guild_high_war_explore_index",
+      "route": "/api/?method=guild_high_war.explore_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 114,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 122,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 130,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 144,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_base_pop.lua",
+      "line": 149,
+      "key": "guild_high_war_get_city_record",
+      "route": "/api/?method=guild_high_war.get_city_record"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "line": 169,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_battle_detail_pop.lua",
+      "line": 204,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_chance_end_pop.lua",
+      "line": 54,
+      "key": "guild_high_war_get_fate_reward",
+      "route": "/api/?method=guild_high_war.get_fate_reward"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 187,
+      "key": "guild_high_war_explore",
+      "route": "/api/?method=guild_high_war.explore"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 237,
+      "key": "guild_high_war_explore_index",
+      "route": "/api/?method=guild_high_war.explore_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_chance_pop.lua",
+      "line": 248,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 292,
+      "key": "guild_high_war_set_first_alignment",
+      "route": "/api/?method=guild_high_war.set_first_alignment"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 352,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_front_pop.lua",
+      "line": 386,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_keji_rank_pop.lua",
+      "line": 193,
+      "key": "guild_high_war_get_science_star",
+      "route": "/api/?method=guild_high_war.get_science_star"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "line": 151,
+      "key": "guild_high_war_player_index",
+      "route": "/api/?method=guild_high_war.player_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_give_pop.lua",
+      "line": 233,
+      "key": "guild_high_war_send_war_card",
+      "route": "/api/?method=guild_high_war.send_war_card"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 72,
+      "key": "guild_high_war_auto_get_war_reward",
+      "route": "/api/?method=guild_high_war.auto_get_war_reward"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 88,
+      "key": "guild_high_war_player_index",
+      "route": "/api/?method=guild_high_war.player_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 164,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_miling_pop.lua",
+      "line": 544,
+      "key": "guild_high_war_get_war_reward",
+      "route": "/api/?method=guild_high_war.get_war_reward"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 45,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 52,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_rank_pop.lua",
+      "line": 236,
+      "key": "guild_high_war_dolike",
+      "route": "/api/?method=guild_high_war.dolike"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_report_pop.lua",
+      "line": 112,
+      "key": "guild_high_war_record",
+      "route": "/api/?method=guild_high_war.record"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 128,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 168,
+      "key": "guild_high_war_down_alignment_source",
+      "route": "/api/?method=guild_high_war.down_alignment_source"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 176,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 254,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 291,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_res_pop.lua",
+      "line": 352,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 51,
+      "key": "guild_high_war_box_index",
+      "route": "/api/?method=guild_high_war.box_index"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 57,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 63,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_pop/game_godfield_guild_high_war_reward_pop.lua",
+      "line": 451,
+      "key": "guild_high_war_select_reward",
+      "route": "/api/?method=guild_high_war.select_reward"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 28,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 216,
+      "key": "guild_high_war_employ_refuse",
+      "route": "/api/?method=guild_high_war.employ_refuse"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 230,
+      "key": "guild_high_war_employ_agree",
+      "route": "/api/?method=guild_high_war.employ_agree"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_guild_index.lua",
+      "line": 248,
+      "key": "guild_high_war_employ_remove",
+      "route": "/api/?method=guild_high_war.employ_remove"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 28,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 193,
+      "key": "guild_high_war_employ_index",
+      "route": "/api/?method=guild_high_war.employ_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 267,
+      "key": "guild_high_war_employ_join",
+      "route": "/api/?method=guild_high_war.employ_join"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_employ_index.lua",
+      "line": 285,
+      "key": "guild_high_war_employ_quit",
+      "route": "/api/?method=guild_high_war.employ_quit"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_items_scene.lua",
+      "line": 43,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 23,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 69,
+      "key": "guild_high_war_contribute",
+      "route": "/api/?method=guild_high_war.contribute"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_keji.lua",
+      "line": 76,
+      "key": "guild_high_war_science_rank",
+      "route": "/api/?method=guild_high_war.science_rank"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 53,
+      "key": "guild_high_war_get_guild_record",
+      "route": "/api/?method=guild_high_war.get_guild_record"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 58,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 63,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 69,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 75,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 103,
+      "key": "guild_high_war_employ_guild_index",
+      "route": "/api/?method=guild_high_war.employ_guild_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 127,
+      "key": "guild_high_war_employ_index",
+      "route": "/api/?method=guild_high_war.employ_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 211,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_main.lua",
+      "line": 216,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 144,
+      "key": "guild_high_war_index",
+      "route": "/api/?method=guild_high_war.index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 171,
+      "key": "guild_high_war_get_guild_record",
+      "route": "/api/?method=guild_high_war.get_guild_record"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 176,
+      "key": "guild_high_war_get_rank",
+      "route": "/api/?method=guild_high_war.get_rank"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 181,
+      "key": "guild_high_war_war_index",
+      "route": "/api/?method=guild_high_war.war_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 190,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 200,
+      "key": "guild_high_war_alignment_info",
+      "route": "/api/?method=guild_high_war.alignment_info"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 205,
+      "key": "guild_high_war_box_index",
+      "route": "/api/?method=guild_high_war.box_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 213,
+      "key": "guild_high_war_science_index",
+      "route": "/api/?method=guild_high_war.science_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 293,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 442,
+      "key": "guild_high_war_shop_index",
+      "route": "/api/?method=guild_high_war.shop_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 455,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_map.lua",
+      "line": 465,
+      "key": "guild_high_war_city_info",
+      "route": "/api/?method=guild_high_war.city_info"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_shop.lua",
+      "line": 51,
+      "key": "guild_high_war_map_index",
+      "route": "/api/?method=guild_high_war.map_index"
+    },
+    {
+      "lua": "game_ui/game_godfield_guild_high_war_shop.lua",
+      "line": 183,
+      "key": "guild_high_war_buy",
+      "route": "/api/?method=guild_high_war.buy"
+    }
+  ],
+  "seasonItems": {
+    "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+    "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+    "records": {
+      "9100986": "1db191b063cc83670e814b8dc20050cbe5635618920286fcff82694d1ac9e311",
+      "9100987": "7cd5ae9b2fb15d5047c80270b4ba83e96308da0627c6ac78a980d7351f608e10",
+      "9100988": "b37ab8cb94de35a4101d904b86ff92f0e719c3b71a87a494362071f1b4234b73",
+      "9100989": "a078dc1be9ee8eda8bebf890a1af9aa9ff78ef11eea3443ccfbffdc31ac8c888",
+      "9100990": "55e4f3427d65e56aa7a2589d3066a05a14a2260d3bad62bace08256461b8d3bc",
+      "9100991": "86ef81cfda12f53f7fbfdd4bc3ce05974bc8d03b0107e93f79b5089469509c38",
+      "9100992": "c555a296d6427b99e752fa644f34b905e9a56c02ed8ec6dc31a95a0820ae4f76",
+      "9100993": "628f322856e68ff3657c6f4a7e50df94693965c65eaf089206d602c6ba8ec871"
+    }
+  },
+  "blockers": [
+    "Quân trung lập battle_id79001: thiếu enemy_all/đội hình server và handler đủ cho skill69010/69020; khóa riêng trận trung lập, không xử thắng giả.",
+    "KHKT: đã nối cống miễn phí/tổng điểm/mốc thưởng/buff sao cộng dồn, cộng chung % thành và giảm Ô Nhiễm. Lượt trả phí thiếu sổ nạp Aether; điểm KHKT dùng trong BXH/thưởng hội còn chưa chốt.",
+    "Kỳ ngộ, 63 rương và sản lượng ngẫu nhiên: thiếu thuật toán chọn nhiều kết quả theo trọng số; chưa tiêu tài nguyên/phát thưởng.",
+    "Mật Lệnh: thiếu ledger hoạt động ngày và hợp đồng thanh toán; chưa giả kích hoạt trả phí.",
+    "Catalogue gốc có khoảng ngày ngoài bảng pha; lịch chủ quản dùng chu kỳ 13 ngày từ bảng open, không sao chép ngày lịch sử hoặc tự mở 24/7."
+  ],
+  "userConfirmedRules": {
+    "date": "2026-10-31",
+    "calendarAndMatching": "Chủ dự án đặt ngày bắt đầu và tự phân liên minh/điểm xuất phát trong Admin; không phục dựng bốc thăm server gốc.",
+    "blood": "floor(100 * (1.1^n - 1) / 0.1), cộng chênh lệch hai tổng liên tiếp; BigInt chính xác.",
+    "streakScope": "Một đội của một người, tại một thành, trong một ngày Việt Nam; thua kết thúc chuỗi, đội kế tiếp bắt đầu từ n=0.",
+    "revival": "Làm mới ngân sách hồi sinh khi gặp đội kế tiếp; giữ HP còn lại.",
+    "pollution": "Trừ vào HP còn lại sau thắng, trước trận liên tiếp kế; hệ số ô nhiễm cộng dồn theo word2.",
+    "combatBoundary": "Adapter LOCAL giữ actor hợp thể/dự bị sống, đặt lại buff có hạn/cooldown ở duel mới; chưa có packet server gốc xác nhận mọi trạng thái qua duel.",
+    "scienceConsumption": "Mỗi lần cống trừ tất cả các loại vật liệu đủ trong danh sách của cấp hiện tại; không trừ loại đang thiếu.",
+    "scienceThreshold": "Giữ tổng cống hiến tích lũy để so với need_price cấp kế tiếp; không trừ mốc khi lên cấp.",
+    "scienceStatsCumulative": "Buff chỉ số của sao KHKT cũ được giữ và cộng dồn khi mở sao mới.",
+    "scienceCityStats": "ADDITIVE_PERCENT",
+    "scienceCityStatsEvidence": "User xác nhận KHKT10%HP + thành40%HP =150%HP gốc; không nhân1.1×1.4.",
+    "sciencePollution": "Lấy radiation thành trừ rate giảm độc KHKT hiện tại:25−10=15 mỗi lần nối trận; mức cộng dồn chạm100% loại đội, không kích hồi sinh.",
+    "localSimulationApproval": "31/10/2026: chủ dự án cho phép mô phỏng LOCAL để chơi đủ luồng; chỉ fixture QA cô lập, quy tắc minh bạch aether-qa-sim-v1. Không áp lên LOCAL chính/ONLINE."
+  },
+  "supplementalItems": {
+    "path": "com.kaiqigu.cjyxyn.kvsdk/files/config/item.config",
+    "sha256": "664fc8998907a70c2304f136ed41a5ec3fff58cb167603c524f94549bb63e14a",
+    "ids": [
+      1433,
+      1430,
+      9101492,
+      9101998,
+      9102001,
+      9102003,
+      9102126,
+      9102510
+    ],
+    "scope": "Chỉ bổ sung ID vật phẩm nguồn VN còn thiếu; không tự thêm công thức ghép hoặc phần thưởng bên trong hộp."
+  },
+  "supplementalAssets": {
+    "assets/iphonehd/icon/hz_mpl_S.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hz_mpl_S.png",
+      "sha256": "9ef0ab8bc721ad7d551cf7ae4b92123ee7b57bdf3f9d80ff9289b7aef1b4dca3"
+    },
+    "assets/iphonehd/icon/hz_kklt_S.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hz_kklt_S.png",
+      "sha256": "36c30844a287af01883a7749cd28bd7235085edfdbda8019fe36c209710c0372"
+    },
+    "assets/iphonehd/icon/hz_yq_S.png": {
+      "path": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hz_yq_S.png",
+      "sha256": "e3da99ebf6ea6ffa4e1104b69e8d531101110b7b6930a0f5deb06d748c7cf29e"
+    }
+  },
+  "localSimulation": {
+    "policy": "aether-qa-sim-v1",
+    "gate": "fixture.json + đường dẫn QA + event QA hoạt động",
+    "originalBlockersRemain": true
+  }
+}

@@ -1,0 +1,1105 @@
+{
+  "schema": 1,
+  "source": "APK LOCAL event-planner-v2 / game_ui/game_main_scene.lua, nhánh Việt Nam",
+  "sourceLuaSha256": "b712da486435c13b671fbfb2a7cb28103f1321fd63203ceca020aa77bcaff991",
+  "events": [
+    {
+      "target": "icon.501",
+      "name": "Quà nạp đầu",
+      "icons": [
+        {
+          "tag": 501,
+          "frame": "mbutton_m_chongzhihaoli.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.500",
+      "name": "Gói tiêu dùng",
+      "icons": [
+        {
+          "tag": 500,
+          "frame": "mbutton_m_xiaofeijihua.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.1032",
+      "name": "Hoạt động mở server",
+      "icons": [
+        {
+          "tag": 1032,
+          "frame": "mbutton_m_kaifuhuodong.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.61",
+      "name": "Tích điểm tính giờ",
+      "icons": [
+        {
+          "tag": 61,
+          "frame": "mbutton_m_limitscore.png"
+        }
+      ]
+    },
+    {
+      "target": "main.501",
+      "name": "HOT",
+      "icons": [
+        {
+          "tag": 8080,
+          "frame": "mbutton_m_remen.png"
+        }
+      ]
+    },
+    {
+      "target": "main.532",
+      "name": "Sự kiện Main #532",
+      "icons": [
+        {
+          "tag": 950504,
+          "frame": "mbutton_fire_board.png"
+        }
+      ]
+    },
+    {
+      "target": "main.534",
+      "name": "Siêu Bá Hộ",
+      "icons": [
+        {
+          "tag": 198810,
+          "frame": "mbutton_super_player.png"
+        }
+      ]
+    },
+    {
+      "target": "main.502",
+      "name": "Đồng đội tính giờ",
+      "icons": [
+        {
+          "tag": 60,
+          "frame": "mbutton_m_xianshi.png"
+        }
+      ]
+    },
+    {
+      "target": "main.503",
+      "name": "Vòng quay",
+      "icons": [
+        {
+          "tag": 10064,
+          "frame": "mbutton_m_lunpan.png"
+        }
+      ]
+    },
+    {
+      "target": "main.504",
+      "name": "Ngọc rồng",
+      "icons": [
+        {
+          "tag": 10065,
+          "frame": "mbutton_m_shenlong.png"
+        }
+      ]
+    },
+    {
+      "target": "main.505",
+      "name": "Vua Vũ Trụ",
+      "icons": [
+        {
+          "tag": 8081,
+          "frame": "mbutton_m_king.png"
+        }
+      ]
+    },
+    {
+      "target": "main.506",
+      "name": "Xu đầy trời",
+      "icons": [
+        {
+          "tag": 10066,
+          "frame": "mbutton_m_maintianxing.png"
+        }
+      ]
+    },
+    {
+      "target": "main.520",
+      "name": "Chủ đề anh hùng truyền",
+      "icons": [
+        {
+          "tag": 10089,
+          "frame": "mbutton_hero_legend.png"
+        }
+      ]
+    },
+    {
+      "target": "main.507",
+      "name": "Minh nguyệt / Mua nhóm",
+      "icons": [
+        {
+          "tag": 10068,
+          "frame": "mbutton_m_zhongqiu.png"
+        },
+        {
+          "tag": 10069,
+          "frame": "mbutton_m_zhongqiutuangou.png"
+        }
+      ]
+    },
+    {
+      "target": "main.508",
+      "name": "Quỹ phúc lợi",
+      "icons": [
+        {
+          "tag": 10070,
+          "frame": "mbutton_m_jijin.png"
+        }
+      ]
+    },
+    {
+      "target": "main.509",
+      "name": "Kho báu",
+      "icons": [
+        {
+          "tag": 10074,
+          "frame": "m_button_xunbao.png"
+        }
+      ]
+    },
+    {
+      "target": "main.510",
+      "name": "Sự kiện Main #510",
+      "icons": [
+        {
+          "tag": 10075,
+          "frame": "m_button_c_firecup.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.8083",
+      "name": "Tranh Bá Thế Giới",
+      "icons": [
+        {
+          "tag": 8083,
+          "frame": "mbutton_m_zhengba.png"
+        }
+      ]
+    },
+    {
+      "target": "main.535",
+      "name": "Sự kiện Main #535",
+      "icons": [
+        {
+          "tag": 11017,
+          "frame": "m_button_newRichMan.png"
+        }
+      ]
+    },
+    {
+      "target": "main.536",
+      "name": "Rẻ Bèo",
+      "icons": [
+        {
+          "tag": 11018,
+          "frame": "m_button_cornucopia.png"
+        }
+      ]
+    },
+    {
+      "target": "main.538",
+      "name": "Sự kiện Main #538",
+      "icons": [
+        {
+          "tag": 11019,
+          "frame": "mbutton_m_xunlu.png"
+        }
+      ]
+    },
+    {
+      "target": "main.537",
+      "name": "Nhai Bà",
+      "icons": [
+        {
+          "tag": 62,
+          "frame": "ui_free_dinner_main_icon.png"
+        }
+      ]
+    },
+    {
+      "target": "server.919",
+      "name": "Nhai Bà · Mở server",
+      "icons": [
+        {
+          "tag": 63,
+          "frame": "ui_free_dinner_main_icon.png"
+        }
+      ]
+    },
+    {
+      "target": "main.541",
+      "name": "Đập trứng vàng",
+      "icons": [
+        {
+          "tag": 64,
+          "frame": "m_button_zadan.png"
+        }
+      ]
+    },
+    {
+      "target": "main.511",
+      "name": "Sự kiện Main #511",
+      "icons": [
+        {
+          "tag": 10076,
+          "frame": "m_button_motianlun.png"
+        }
+      ]
+    },
+    {
+      "target": "server.915",
+      "name": "Sự kiện #915 · Mở server",
+      "icons": [
+        {
+          "tag": 12010,
+          "frame": "m_button_richman.png"
+        }
+      ]
+    },
+    {
+      "target": "main.524",
+      "name": "Cổ Linh Các",
+      "icons": [
+        {
+          "tag": 11009,
+          "frame": "m_button_gringotts.png"
+        }
+      ]
+    },
+    {
+      "target": "main.526",
+      "name": "Sự kiện Main #526",
+      "icons": [
+        {
+          "tag": 11010,
+          "frame": "m_button_richman.png"
+        }
+      ]
+    },
+    {
+      "target": "main.527",
+      "name": "Sự kiện Main #527",
+      "icons": [
+        {
+          "tag": 11011,
+          "frame": "m_button_worldTree.png"
+        }
+      ]
+    },
+    {
+      "target": "main.512",
+      "name": "Sự kiện Main #512",
+      "icons": [
+        {
+          "tag": 11000,
+          "frame": "mbutton_m_bounty.png"
+        }
+      ]
+    },
+    {
+      "target": "main.529",
+      "name": "Sự kiện Main #529",
+      "icons": [
+        {
+          "tag": 11013,
+          "frame": "m_button_cardCollection.png"
+        }
+      ]
+    },
+    {
+      "target": "main.528",
+      "name": "Sự kiện Main #528",
+      "icons": [
+        {
+          "tag": 11012,
+          "frame": "m_button_indiana.png"
+        }
+      ]
+    },
+    {
+      "target": "main.531",
+      "name": "Quỹ đầu tháng",
+      "icons": [
+        {
+          "tag": 11016,
+          "frame": "m_button_month_found.png"
+        }
+      ]
+    },
+    {
+      "target": "main.548",
+      "name": "Sự kiện Main #548",
+      "icons": [
+        {
+          "tag": 13000,
+          "frame": "m_button_cheer_up1.png"
+        }
+      ]
+    },
+    {
+      "target": "main.550",
+      "name": "Sự kiện Main #550",
+      "icons": [
+        {
+          "tag": 13001,
+          "frame": "mbutton_m_ouxiang.png"
+        }
+      ]
+    },
+    {
+      "target": "main.552",
+      "name": "Thần Xạ Vũ Trụ",
+      "icons": [
+        {
+          "tag": 13003,
+          "frame": "m_button_archery.png"
+        }
+      ]
+    },
+    {
+      "target": "main.555",
+      "name": "Sự kiện Main #555",
+      "icons": [
+        {
+          "tag": 13005,
+          "frame": "mbutton_carnival.png"
+        }
+      ]
+    },
+    {
+      "target": "main.556",
+      "name": "Sự kiện Main #556",
+      "icons": [
+        {
+          "tag": 13006,
+          "frame": "mbutton_pingtu.png"
+        }
+      ]
+    },
+    {
+      "target": "main.557",
+      "name": "Sự kiện Main #557",
+      "icons": [
+        {
+          "tag": 13007,
+          "frame": "mbutton_super_luck.png"
+        }
+      ]
+    },
+    {
+      "target": "server.901",
+      "name": "Quà nạp · Mở server",
+      "icons": [
+        {
+          "tag": 10111,
+          "frame": "m_button_c_chongzhihaoli.png"
+        }
+      ]
+    },
+    {
+      "target": "server.904",
+      "name": "Đồng đội tính giờ · Mở server",
+      "icons": [
+        {
+          "tag": 10112,
+          "frame": "mbutton_m_xianshi.png"
+        }
+      ]
+    },
+    {
+      "target": "server.902",
+      "name": "Cửa hàng mới · Mở server",
+      "icons": [
+        {
+          "tag": 11111,
+          "frame": "m_button_c_newShop.png"
+        }
+      ]
+    },
+    {
+      "target": "server.903",
+      "name": "Đổi quà · Mở server",
+      "icons": [
+        {
+          "tag": 11112,
+          "frame": "m_button_c_newExchange.png"
+        }
+      ]
+    },
+    {
+      "target": "server.906",
+      "name": "Vòng quay · Mở server",
+      "icons": [
+        {
+          "tag": 10071,
+          "frame": "mbutton_m_lunpan.png"
+        }
+      ]
+    },
+    {
+      "target": "server.905",
+      "name": "Xu đầy trời · Mở server",
+      "icons": [
+        {
+          "tag": 10072,
+          "frame": "mbutton_m_maintianxing.png"
+        }
+      ]
+    },
+    {
+      "target": "server.907",
+      "name": "Quỹ phúc lợi · Mở server",
+      "icons": [
+        {
+          "tag": 10073,
+          "frame": "mbutton_m_jijin.png"
+        }
+      ]
+    },
+    {
+      "target": "server.909",
+      "name": "Ngọc rồng · Mở server",
+      "icons": [
+        {
+          "tag": 10080,
+          "frame": "mbutton_m_shenlong.png"
+        }
+      ]
+    },
+    {
+      "target": "server.910",
+      "name": "Vua Vũ Trụ · Mở server",
+      "icons": [
+        {
+          "tag": 10081,
+          "frame": "mbutton_m_king.png"
+        }
+      ]
+    },
+    {
+      "target": "server.908",
+      "name": "Minh nguyệt / Mua nhóm · Mở server",
+      "icons": [
+        {
+          "tag": 10082,
+          "frame": "mbutton_m_zhongqiu.png"
+        },
+        {
+          "tag": 10083,
+          "frame": "mbutton_m_zhongqiutuangou.png"
+        }
+      ]
+    },
+    {
+      "target": "server.912",
+      "name": "Kho báu · Mở server",
+      "icons": [
+        {
+          "tag": 10084,
+          "frame": "m_button_xunbao.png"
+        }
+      ]
+    },
+    {
+      "target": "server.911",
+      "name": "Sự kiện #911 · Mở server",
+      "icons": [
+        {
+          "tag": 10085,
+          "frame": "mbutton_m_bounty.png"
+        }
+      ]
+    },
+    {
+      "target": "main.513",
+      "name": "Sự kiện Main #513",
+      "icons": [
+        {
+          "tag": 11001,
+          "frame": "mbutton_m_league.png"
+        }
+      ]
+    },
+    {
+      "target": "main.514",
+      "name": "Sự kiện Main #514",
+      "icons": [
+        {
+          "tag": 11002,
+          "frame": "mbutton_m_redpaper.png"
+        }
+      ]
+    },
+    {
+      "target": "server.914",
+      "name": "Sự kiện #914 · Mở server",
+      "icons": [
+        {
+          "tag": 10086,
+          "frame": "m_button_c_firecup.png"
+        }
+      ]
+    },
+    {
+      "target": "server.916",
+      "name": "Sự kiện #916 · Mở server",
+      "icons": [
+        {
+          "tag": 12013,
+          "frame": "m_button_cardCollection.png"
+        }
+      ]
+    },
+    {
+      "target": "main.516",
+      "name": "Sự kiện Main #516",
+      "icons": [
+        {
+          "tag": 11005,
+          "frame": "m_button_m_lsxx.png"
+        }
+      ]
+    },
+    {
+      "target": "main.517",
+      "name": "Sự kiện Main #517",
+      "icons": [
+        {
+          "tag": 11003,
+          "frame": "m_button_m_server_turn.png"
+        }
+      ]
+    },
+    {
+      "target": "main.515",
+      "name": "Sự kiện Main #515",
+      "icons": [
+        {
+          "tag": 11004,
+          "frame": "m_button_m_clash.png"
+        }
+      ]
+    },
+    {
+      "target": "main.521",
+      "name": "Chúng thần điện",
+      "icons": [
+        {
+          "tag": 11007,
+          "frame": "m_button_cloneLane.png"
+        }
+      ]
+    },
+    {
+      "target": "server.917",
+      "name": "Sự kiện #917 · Mở server",
+      "icons": [
+        {
+          "tag": 12007,
+          "frame": "m_button_cloneLane.png"
+        }
+      ]
+    },
+    {
+      "target": "server.913",
+      "name": "Sự kiện #913 · Mở server",
+      "icons": [
+        {
+          "tag": 10087,
+          "frame": "m_button_motianlun.png"
+        }
+      ]
+    },
+    {
+      "target": "main.522",
+      "name": "Sự kiện Main #522",
+      "icons": [
+        {
+          "tag": 10088,
+          "frame": "m_button_oldplayer.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.6666",
+      "name": "Hoàn trả đặc biệt",
+      "icons": [
+        {
+          "tag": 6666,
+          "frame": "czfl_icon.png"
+        }
+      ]
+    },
+    {
+      "target": "main.539",
+      "name": "Sự kiện Main #539",
+      "icons": [
+        {
+          "tag": 955401,
+          "frame": "m_button_survey.png"
+        }
+      ]
+    },
+    {
+      "target": "main.540",
+      "name": "Kho báu mê cung",
+      "icons": [
+        {
+          "tag": 12011,
+          "frame": "m_button_mijingtanbao.png"
+        }
+      ]
+    },
+    {
+      "target": "main.542",
+      "name": "Sự kiện Main #542",
+      "icons": [
+        {
+          "tag": 12012,
+          "frame": "m_button_longhubang.png"
+        }
+      ]
+    },
+    {
+      "target": "main.543",
+      "name": "Sự kiện Main #543",
+      "icons": [
+        {
+          "tag": 955402,
+          "frame": "m_button_lottery.png"
+        }
+      ]
+    },
+    {
+      "target": "main.601",
+      "name": "Quà nạp",
+      "icons": [
+        {
+          "tag": 767,
+          "frame": "m_button_leichong.png"
+        }
+      ]
+    },
+    {
+      "target": "main.563",
+      "name": "Sự kiện Main #563",
+      "icons": [
+        {
+          "tag": 563,
+          "frame": "m_button_oneYuanRaffle.png"
+        }
+      ]
+    },
+    {
+      "target": "main.523",
+      "name": "Sự kiện Main #523",
+      "icons": [
+        {
+          "tag": 11008,
+          "frame": "m_button_redEnvelope.png"
+        }
+      ]
+    },
+    {
+      "target": "icon.502",
+      "name": "Nạp nhân đôi",
+      "icons": [
+        {
+          "tag": 502,
+          "frame": "mbutton_m_shuangbei.png"
+        }
+      ]
+    },
+    {
+      "target": "main.545",
+      "name": "Gắp thú",
+      "icons": [
+        {
+          "tag": 12015,
+          "frame": "mbutton_m_zhuawawa.png"
+        }
+      ]
+    },
+    {
+      "target": "main.546",
+      "name": "Bảo tháp",
+      "icons": [
+        {
+          "tag": 12016,
+          "frame": "mbutton_m_pagoda.png"
+        }
+      ]
+    },
+    {
+      "target": "main.547",
+      "name": "Sự kiện Main #547",
+      "icons": [
+        {
+          "tag": 12017,
+          "frame": "mbutton_m_huanqingshijiebei1.png"
+        }
+      ]
+    },
+    {
+      "target": "main.561",
+      "name": "Xuất Chinh · Phái tướng 2 giờ",
+      "icons": [
+        {
+          "tag": 13010,
+          "frame": "mbutton_limit_war.png"
+        }
+      ]
+    },
+    {
+      "target": "main.562",
+      "name": "Sự kiện Main #562",
+      "icons": [
+        {
+          "tag": 13011,
+          "frame": "fnds_ui_20.png"
+        }
+      ]
+    },
+    {
+      "target": "server.921",
+      "name": "Sự kiện #921 · Mở server",
+      "icons": [
+        {
+          "tag": 13012,
+          "frame": "mbutton_m_redpaper.png"
+        }
+      ]
+    },
+    {
+      "target": "main.525",
+      "name": "Quà phiên bản",
+      "icons": []
+    },
+    {
+      "target": "main.533",
+      "name": "Sự kiện người tuyết",
+      "icons": []
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "if game_data:isViewOpenByID(1) and (vipLevel < 1  or game_data:getAlertsDataByKey(\"opening\") == 1)",
+      "target": "icon.501"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(2) and shopInfo.guide_display",
+      "target": "icon.500"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(10) and level >= 3 and (open_time == -1 or not endFlag)",
+      "target": "icon.1032"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(112) or game_data:isViewOpenByID(113)",
+      "target": "icon.61"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(501)",
+      "target": "main.501"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(532)",
+      "target": "main.532"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(534)",
+      "target": "main.534"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(502)",
+      "target": "main.502"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(503)",
+      "target": "main.503"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(504)",
+      "target": "main.504"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(505)",
+      "target": "main.505"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(506)",
+      "target": "main.506"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(520)",
+      "target": "main.520"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(507)",
+      "target": "main.507"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(508) or game_data:getDataByKey(\"foundation_status\") == true",
+      "target": "main.508"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(509)",
+      "target": "main.509"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 510 )",
+      "target": "main.510"
+    },
+    {
+      "condition": "if level >= 10 and game_data:isViewOpenByID(123)",
+      "target": "icon.8083"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(535)",
+      "target": "main.535"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(536)",
+      "target": "main.536"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(538)",
+      "target": "main.538"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(537)",
+      "target": "main.537"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(919)",
+      "target": "server.919"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(541)",
+      "target": "main.541"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 511 )",
+      "target": "main.511"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID( 915 )",
+      "target": "server.915"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 524 )",
+      "target": "main.524"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 526 )",
+      "target": "main.526"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 527 )",
+      "target": "main.527"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 512 )",
+      "target": "main.512"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 529 )",
+      "target": "main.529"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 528 )",
+      "target": "main.528"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 531 ) or game_data:getDataByKey(\"month_foundation_status\") == true",
+      "target": "main.531"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(548)",
+      "target": "main.548"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(550)",
+      "target": "main.550"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(552)",
+      "target": "main.552"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(555)",
+      "target": "main.555"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(556)",
+      "target": "main.556"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(557)",
+      "target": "main.557"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(901)",
+      "target": "server.901"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(904)",
+      "target": "server.904"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(902)",
+      "target": "server.902"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(903)",
+      "target": "server.903"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(906)",
+      "target": "server.906"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(905)",
+      "target": "server.905"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(907) or game_data:getDataByKey(\"server_foundation_status\") == true",
+      "target": "server.907"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(909)",
+      "target": "server.909"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(910)",
+      "target": "server.910"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(908)",
+      "target": "server.908"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(912)",
+      "target": "server.912"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(911)",
+      "target": "server.911"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 513 )",
+      "target": "main.513"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 514 )",
+      "target": "main.514"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(914)",
+      "target": "server.914"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID( 916 )",
+      "target": "server.916"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 516 )",
+      "target": "main.516"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 517 )",
+      "target": "main.517"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 515 )",
+      "target": "main.515"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 521 )",
+      "target": "main.521"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID( 917 )",
+      "target": "server.917"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(913)",
+      "target": "server.913"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(522) or game_data:getAlertsDataByKey(\"recall_alert\") == true",
+      "target": "main.522"
+    },
+    {
+      "condition": "if big_holiday and big_holiday == 1",
+      "target": "icon.6666"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(539)",
+      "target": "main.539"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(540)",
+      "target": "main.540"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(542)",
+      "target": "main.542"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(543)",
+      "target": "main.543"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(601)",
+      "target": "main.601"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(563)",
+      "target": "main.563"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID( 523 )",
+      "target": "main.523"
+    },
+    {
+      "condition": "if   game_data:getIsdoubleValue() ",
+      "target": "icon.502"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(545)",
+      "target": "main.545"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(546)",
+      "target": "main.546"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(547)",
+      "target": "main.547"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(561)",
+      "target": "main.561"
+    },
+    {
+      "condition": "if game_data:isActiveOpenByID(562)",
+      "target": "main.562"
+    },
+    {
+      "condition": "if game_data:isViewOpenByID(921)",
+      "target": "server.921"
+    }
+  ]
+}

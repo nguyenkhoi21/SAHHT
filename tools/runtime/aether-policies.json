@@ -1,0 +1,25 @@
+{
+  "userConfirmedRules": {
+    "date": "2026-10-31",
+    "calendarAndMatching": "Chủ dự án đặt ngày bắt đầu và tự phân liên minh/điểm xuất phát trong Admin; không phục dựng bốc thăm server gốc.",
+    "blood": "floor(100 * (1.1^n - 1) / 0.1), cộng chênh lệch hai tổng liên tiếp; BigInt chính xác.",
+    "streakScope": "Một đội của một người, tại một thành, trong một ngày Việt Nam; thua kết thúc chuỗi, đội kế tiếp bắt đầu từ n=0.",
+    "revival": "Làm mới ngân sách hồi sinh khi gặp đội kế tiếp; giữ HP còn lại.",
+    "pollution": "Trừ vào HP còn lại sau thắng, trước trận liên tiếp kế; hệ số ô nhiễm cộng dồn theo word2.",
+    "combatBoundary": "Adapter LOCAL giữ actor hợp thể/dự bị sống, đặt lại buff có hạn/cooldown ở duel mới; chưa có packet server gốc xác nhận mọi trạng thái qua duel.",
+    "scienceConsumption": "Mỗi lần cống trừ tất cả các loại vật liệu đủ trong danh sách của cấp hiện tại; không trừ loại đang thiếu.",
+    "scienceThreshold": "Giữ tổng cống hiến tích lũy để so với need_price cấp kế tiếp; không trừ mốc khi lên cấp.",
+    "scienceStatsCumulative": "Buff chỉ số của sao KHKT cũ được giữ và cộng dồn khi mở sao mới.",
+    "scienceCityStats": "ADDITIVE_PERCENT",
+    "scienceCityStatsEvidence": "User xác nhận KHKT10%HP + thành40%HP =150%HP gốc; không nhân1.1×1.4.",
+    "sciencePollution": "Lấy radiation thành trừ rate giảm độc KHKT hiện tại:25−10=15 mỗi lần nối trận; mức cộng dồn chạm100% loại đội, không kích hồi sinh.",
+    "localSimulationApproval": "31/10/2026: chủ dự án cho phép mô phỏng LOCAL để chơi đủ luồng; chỉ fixture QA cô lập, quy tắc minh bạch aether-qa-sim-v1. Không áp lên LOCAL chính/ONLINE."
+  },
+  "blockers": [
+    "Quân trung lập battle_id79001: thiếu enemy_all/đội hình server và handler đủ cho skill69010/69020; khóa riêng trận trung lập, không xử thắng giả.",
+    "KHKT: đã nối cống miễn phí/tổng điểm/mốc thưởng/buff sao cộng dồn, cộng chung % thành và giảm Ô Nhiễm. Lượt trả phí thiếu sổ nạp Aether; điểm KHKT dùng trong BXH/thưởng hội còn chưa chốt.",
+    "Kỳ ngộ, 63 rương và sản lượng ngẫu nhiên: thiếu thuật toán chọn nhiều kết quả theo trọng số; chưa tiêu tài nguyên/phát thưởng.",
+    "Mật Lệnh: thiếu ledger hoạt động ngày và hợp đồng thanh toán; chưa giả kích hoạt trả phí.",
+    "Catalogue gốc có khoảng ngày ngoài bảng pha; lịch chủ quản dùng chu kỳ 13 ngày từ bảng open, không sao chép ngày lịch sử hoặc tự mở 24/7."
+  ]
+}
