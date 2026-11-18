@@ -1,0 +1,75 @@
+{
+  "baseConfigHashes": {
+    "exchange": "c89629bcab37506763c6382a1c923e7054bf237284a4728379377e2176036940",
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-than-vuc-fragments",
+  "configs": {
+    "exchange": {
+      "906": {
+        "change_id": [
+          [
+            5,
+            55,
+            1
+          ]
+        ],
+        "change_sort": 1,
+        "change_time": 9999,
+        "need_food": 10000,
+        "need_item": 1906,
+        "need_metal": 0,
+        "need_num": [
+          20
+        ],
+        "refesh": 1,
+        "shade": "public_shade_1.png"
+      }
+    },
+    "item": {
+      "1906": {
+        "daily_use": 99,
+        "icon": "icon_ling5.png",
+        "is_sell": -1,
+        "is_show": 0,
+        "is_use": 0,
+        "name": "Mảnh Hồn thần lực",
+        "quality": 6,
+        "shade": "public_shade_2.png",
+        "sort": 906,
+        "stack": 9999,
+        "story": "Đổi đồng đội tương ứng",
+        "use_effect": [
+          1
+        ],
+        "use_num": 10
+      }
+    }
+  },
+  "createdAt": "2026-10-29T08:29:45.281245+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "1906",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "906",
+      "status": "ADD",
+      "table": "exchange"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

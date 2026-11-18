@@ -1,0 +1,26 @@
+{
+  "decisions": [
+    {
+      "configId": 6400,
+      "displayName": "Vehito",
+      "nameVerified": true,
+      "reason": "Giữ nguyên ID, tên và ownership local",
+      "resourceStatus": "FULL ASSETS",
+      "status": "ALREADY_PRESENT"
+    },
+    {
+      "configId": 32600,
+      "displayName": "CT-Vehito",
+      "nameVerified": true,
+      "reason": "Giữ nguyên ID, tên và ownership local",
+      "resourceStatus": "FULL ASSETS",
+      "status": "ALREADY_PRESENT"
+    }
+  ],
+  "imported": 0,
+  "mutatedRuntime": false,
+  "reason": "Không tạo bản sao cho ID đã tồn tại; nguồn hiện tại không bổ sung hero definition mới.",
+  "revision": "vn-hero-import-plan-v1",
+  "sourceFingerprint": "b7760c7e387c135710268102da0aa1e687095aabd7520d6fe32bc6ecfd12e9f4",
+  "sourceKey": "vn-code10-b7760c7e387c1357"
+}

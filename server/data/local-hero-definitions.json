@@ -1,0 +1,8 @@
+{
+  "revision": "local-heroes-v1",
+  "provenance": "LOCAL TEST IMPLEMENTATION; không phải config Pain gốc",
+  "heroes": [
+    {"configId": 9000100, "characterId": "90001", "name": "Pain [LOCAL]", "model": "peien", "statsTemplate": 6200, "skillTemplate": 63400, "skillIdStart": 9100100},
+    {"configId": 9000200, "characterId": "90002", "name": "Pain II [LOCAL]", "model": "peien2", "statsTemplate": 6200, "skillTemplate": 63400, "skillIdStart": 9101100}
+  ]
+}

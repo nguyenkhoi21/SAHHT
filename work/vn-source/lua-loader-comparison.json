@@ -1,0 +1,17 @@
+[
+  {
+    "file": "assets/lua/game_version_config.lua",
+    "format": "XXTEA -> UTF8",
+    "samePlaintextAsBaseline": true
+  },
+  {
+    "file": "assets/lua/game_config.lua",
+    "format": "XXTEA -> UTF8",
+    "samePlaintextAsBaseline": true
+  },
+  {
+    "file": "assets/lua/game.lua",
+    "format": "XXTEA -> UTF8",
+    "samePlaintextAsBaseline": true
+  }
+]

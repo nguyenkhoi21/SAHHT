@@ -1,0 +1,7626 @@
+[
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "ace_action_1",
+    "path": "assets/iphonehd/anim_effects/ace_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "ace_action_3",
+    "path": "assets/iphonehd/anim_effects/ace_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      170,
+      1103101952,
+      22
+    ],
+    "internalName": "ace_gongji3_1",
+    "path": "assets/iphonehd/anim_effects/ace_gongji3_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      170,
+      1103101952,
+      22
+    ],
+    "internalName": "ace_gongji3_2",
+    "path": "assets/iphonehd/anim_effects/ace_gongji3_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      56
+    ],
+    "internalName": "action_1",
+    "path": "assets/iphonehd/anim_effects/action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "action_3",
+    "path": "assets/iphonehd/anim_effects/action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      56
+    ],
+    "internalName": "action_5",
+    "path": "assets/iphonehd/anim_effects/action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      56
+    ],
+    "internalName": "action_6",
+    "path": "assets/iphonehd/anim_effects/action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "zhishengji1",
+        "type": "wav"
+      },
+      {
+        "res": "zhishengjibaoxue",
+        "type": "wav"
+      },
+      {
+        "res": "zhishengjisha.wav",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      550,
+      400,
+      1103101952,
+      24
+    ],
+    "internalName": "andy_copter",
+    "path": "assets/iphonehd/anim_effects/andy_copter.swf.sam",
+    "references": [],
+    "sections": [
+      "gongji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "anim_baoji",
+    "path": "assets/iphonehd/anim_effects/anim_baoji.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      72
+    ],
+    "internalName": "anim_baoxiang",
+    "path": "assets/iphonehd/anim_effects/anim_baoxiang.swf.sam",
+    "references": [
+      "anim_baoxiang.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      72
+    ],
+    "internalName": "anim_baoxiang2",
+    "path": "assets/iphonehd/anim_effects/anim_baoxiang2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "jingbao",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      48
+    ],
+    "internalName": "anim_bosschuxian",
+    "path": "assets/iphonehd/anim_effects/anim_bosschuxian.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      394,
+      1103101952,
+      15
+    ],
+    "internalName": "anim_duobaoqibing",
+    "path": "assets/iphonehd/anim_effects/anim_duobaoqibing.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      250,
+      250,
+      1103101952,
+      18
+    ],
+    "internalName": "anim_fight",
+    "path": "assets/iphonehd/anim_effects/anim_fight.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      145,
+      105,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_fight_index",
+    "path": "assets/iphonehd/anim_effects/anim_fight_index.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      16
+    ],
+    "internalName": "anim_gem_effect1",
+    "path": "assets/iphonehd/anim_effects/anim_gem_effect1.swf.sam",
+    "references": [
+      "anim_gem_effect1.swf27.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      16
+    ],
+    "internalName": "anim_gem_effect2",
+    "path": "assets/iphonehd/anim_effects/anim_gem_effect2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_gem_effect3",
+    "path": "assets/iphonehd/anim_effects/anim_gem_effect3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_gem_effect4",
+    "path": "assets/iphonehd/anim_effects/anim_gem_effect4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      140,
+      95,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_gonghui_baozha",
+    "path": "assets/iphonehd/anim_effects/anim_gonghui_baozha.swf.sam",
+    "references": [
+      "anim_gonghui_baozha.swf29.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      154
+    ],
+    "internalName": "anim_gonghui_fight",
+    "path": "assets/iphonehd/anim_effects/anim_gonghui_fight.swf.sam",
+    "references": [
+      "anim_gonghui_fight.swf29.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      385
+    ],
+    "internalName": "anim_gonghui_paodan",
+    "path": "assets/iphonehd/anim_effects/anim_gonghui_paodan.swf.sam",
+    "references": [
+      "anim_gonghui_paodan.swf29.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      140,
+      95,
+      1103101952,
+      10
+    ],
+    "internalName": "anim_gonghui_zhaohuo",
+    "path": "assets/iphonehd/anim_effects/anim_gonghui_zhaohuo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      120,
+      140,
+      1103101952,
+      82
+    ],
+    "internalName": "anim_gonghuiboss",
+    "path": "assets/iphonehd/anim_effects/anim_gonghuiboss.swf.sam",
+    "references": [
+      "anim_gonghuiboss.swf27.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_guwu",
+    "path": "assets/iphonehd/anim_effects/anim_guwu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      70,
+      70,
+      1103101952,
+      23
+    ],
+    "internalName": "anim_icon_disappear",
+    "path": "assets/iphonehd/anim_effects/anim_icon_disappear.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "jianzhu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      240,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_jianzhu_faguang1",
+    "path": "assets/iphonehd/anim_effects/anim_jianzhu_faguang1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "jianzhu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      360,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_jianzhu_faguang2",
+    "path": "assets/iphonehd/anim_effects/anim_jianzhu_faguang2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "jianzhu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      360,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_jianzhu_faguang3",
+    "path": "assets/iphonehd/anim_effects/anim_jianzhu_faguang3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "jianzhu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      480,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_jianzhu_faguang4",
+    "path": "assets/iphonehd/anim_effects/anim_jianzhu_faguang4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      122,
+      122,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_jingyancao",
+    "path": "assets/iphonehd/anim_effects/anim_jingyancao.swf.sam",
+    "references": [
+      "anim_jingyancao.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      60,
+      70,
+      1103101952,
+      16
+    ],
+    "internalName": "anim_kapaipintu",
+    "path": "assets/iphonehd/anim_effects/anim_kapaipintu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      940,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_lianxie",
+    "path": "assets/iphonehd/anim_effects/anim_lianxie.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      43
+    ],
+    "internalName": "anim_paodan",
+    "path": "assets/iphonehd/anim_effects/anim_paodan.swf.sam",
+    "references": [
+      "anim_paodan.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      140,
+      95,
+      1103101952,
+      144
+    ],
+    "internalName": "anim_qiangbing",
+    "path": "assets/iphonehd/anim_effects/anim_qiangbing.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      86,
+      86,
+      1103101952,
+      120
+    ],
+    "internalName": "anim_shenenqiu1",
+    "path": "assets/iphonehd/anim_effects/anim_shenenqiu1.swf.sam",
+    "references": [
+      "anim_shenenqiu1.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      86,
+      86,
+      1103101952,
+      120
+    ],
+    "internalName": "anim_shenenqiu2",
+    "path": "assets/iphonehd/anim_effects/anim_shenenqiu2.swf.sam",
+    "references": [
+      "anim_shenenqiu2.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      220,
+      1103101952,
+      76
+    ],
+    "internalName": "anim_shenmikapai",
+    "path": "assets/iphonehd/anim_effects/anim_shenmikapai.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "tibu2",
+        "type": "wav"
+      },
+      {
+        "res": "tibu4",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      23
+    ],
+    "internalName": "anim_tibu",
+    "path": "assets/iphonehd/anim_effects/anim_tibu.swf.sam",
+    "references": [
+      "anim_tibu.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_baoxiang1",
+    "path": "assets/iphonehd/anim_effects/anim_ui_baoxiang1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_baoxiang2",
+    "path": "assets/iphonehd/anim_effects/anim_ui_baoxiang2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_baoxiang3",
+    "path": "assets/iphonehd/anim_effects/anim_ui_baoxiang3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_baoxianglingjiang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_baoxianglingjiang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_dingshilingjiang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_dingshilingjiang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_fuli",
+    "path": "assets/iphonehd/anim_effects/anim_ui_fuli.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_ui_gantanhao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_gantanhao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_gonggao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_gonggao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      40
+    ],
+    "internalName": "anim_ui_guang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_guang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      100
+    ],
+    "internalName": "anim_ui_hongbao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_hongbao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_ui_hongbaolipin",
+    "path": "assets/iphonehd/anim_effects/anim_ui_hongbaolipin.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_huodong",
+    "path": "assets/iphonehd/anim_effects/anim_ui_huodong.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      364,
+      94,
+      1103101952,
+      40
+    ],
+    "internalName": "anim_ui_jiacheng",
+    "path": "assets/iphonehd/anim_effects/anim_ui_jiacheng.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      211,
+      23,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_jiangchi",
+    "path": "assets/iphonehd/anim_effects/anim_ui_jiangchi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      340,
+      24,
+      1103101952,
+      25
+    ],
+    "internalName": "anim_ui_jindutiao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_jindutiao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      320
+    ],
+    "internalName": "anim_ui_jinguang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_jinguang.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_libao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_libao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_ui_libaotixing",
+    "path": "assets/iphonehd/anim_effects/anim_ui_libaotixing.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_ui_meiguihua",
+    "path": "assets/iphonehd/anim_effects/anim_ui_meiguihua.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      15
+    ],
+    "internalName": "anim_ui_new",
+    "path": "assets/iphonehd/anim_effects/anim_ui_new.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_qiandao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_qiandao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_remenhuodong",
+    "path": "assets/iphonehd/anim_effects/anim_ui_remenhuodong.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_renwu",
+    "path": "assets/iphonehd/anim_effects/anim_ui_renwu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      11
+    ],
+    "internalName": "anim_ui_shengji",
+    "path": "assets/iphonehd/anim_effects/anim_ui_shengji.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      110,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_tongyong",
+    "path": "assets/iphonehd/anim_effects/anim_ui_tongyong.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      110,
+      1103101952,
+      66
+    ],
+    "internalName": "anim_ui_touzi",
+    "path": "assets/iphonehd/anim_effects/anim_ui_touzi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      114,
+      114,
+      1103101952,
+      18
+    ],
+    "internalName": "anim_ui_viplibao",
+    "path": "assets/iphonehd/anim_effects/anim_ui_viplibao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      20
+    ],
+    "internalName": "anim_ui_xingguang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_xingguang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      96
+    ],
+    "internalName": "anim_ui_xingkong",
+    "path": "assets/iphonehd/anim_effects/anim_ui_xingkong.swf.sam",
+    "references": [
+      "anim_ui_xingkong.swf27.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      90,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_ui_xuanshang",
+    "path": "assets/iphonehd/anim_effects/anim_ui_xuanshang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      210,
+      305,
+      1103101952,
+      60
+    ],
+    "internalName": "anim_world_boss_fight",
+    "path": "assets/iphonehd/anim_effects/anim_world_boss_fight.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      77
+    ],
+    "internalName": "anim_world_gesila_fight",
+    "path": "assets/iphonehd/anim_effects/anim_world_gesila_fight.swf.sam",
+    "references": [
+      "anim_world_gesila_fight.swf33.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      150
+    ],
+    "internalName": "anim_world_jiesuan",
+    "path": "assets/iphonehd/anim_effects/anim_world_jiesuan.swf.sam",
+    "references": [],
+    "sections": [
+      "shengli"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      350,
+      350,
+      1103101952,
+      29
+    ],
+    "internalName": "anim_xinlianxie",
+    "path": "assets/iphonehd/anim_effects/anim_xinlianxie.swf.sam",
+    "references": [
+      "anim_xinlianxie.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      221,
+      52,
+      1103101952,
+      25
+    ],
+    "internalName": "anim_zhandouli",
+    "path": "assets/iphonehd/anim_effects/anim_zhandouli.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      45
+    ],
+    "internalName": "anim_zhanling",
+    "path": "assets/iphonehd/anim_effects/anim_zhanling.swf.sam",
+    "references": [
+      "anim_zhanling.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_zhenfajiacheng_effect1",
+    "path": "assets/iphonehd/anim_effects/anim_zhenfajiacheng_effect1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_zhenfajiacheng_effect2",
+    "path": "assets/iphonehd/anim_effects/anim_zhenfajiacheng_effect2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      160,
+      160,
+      1103101952,
+      96
+    ],
+    "internalName": "anim_zhongqiujie",
+    "path": "assets/iphonehd/anim_effects/anim_zhongqiujie.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      100,
+      1103101952,
+      30
+    ],
+    "internalName": "anim_zhuanshi",
+    "path": "assets/iphonehd/anim_effects/anim_zhuanshi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "qian1",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      204,
+      254,
+      1103101952,
+      21
+    ],
+    "internalName": "animi_card_split",
+    "path": "assets/iphonehd/anim_effects/animi_card_split.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "zhakai2",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      204,
+      254,
+      1103101952,
+      9
+    ],
+    "internalName": "animi_card_split1",
+    "path": "assets/iphonehd/anim_effects/animi_card_split1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "chuancheng",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      192,
+      239,
+      1103101952,
+      35
+    ],
+    "internalName": "animi_hero_inherit",
+    "path": "assets/iphonehd/anim_effects/animi_hero_inherit.swf.sam",
+    "references": [
+      "animi_hero_inherit.swf29.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "qian1",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      192,
+      239,
+      1103101952,
+      20
+    ],
+    "internalName": "animi_hero_jinjie",
+    "path": "assets/iphonehd/anim_effects/animi_hero_jinjie.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "zhakai2",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      226,
+      122,
+      1103101952,
+      19
+    ],
+    "internalName": "animi_map_jiesuo",
+    "path": "assets/iphonehd/anim_effects/animi_map_jiesuo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "res": "zhakai2",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      164,
+      164,
+      1103101952,
+      19
+    ],
+    "internalName": "animi_zhenxing_split",
+    "path": "assets/iphonehd/anim_effects/animi_zhenxing_split.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      253,
+      124,
+      1103101952,
+      12
+    ],
+    "internalName": "anniuguang",
+    "path": "assets/iphonehd/anim_effects/anniuguang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      1
+    ],
+    "internalName": "anyingbaozha",
+    "path": "assets/iphonehd/anim_effects/anyingbaozha.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "aochuang_action_5",
+    "path": "assets/iphonehd/anim_effects/aochuang_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "aochuang_action_6",
+    "path": "assets/iphonehd/anim_effects/aochuang_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      90
+    ],
+    "internalName": "aoding_buff",
+    "path": "assets/iphonehd/anim_effects/aoding_buff.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      264
+    ],
+    "internalName": "aoding_texiao",
+    "path": "assets/iphonehd/anim_effects/aoding_texiao.swf.sam",
+    "references": [
+      "aoding_texiao.swf23.png"
+    ],
+    "sections": [
+      "gongji3_texiao",
+      "gongji3_texiao2"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "aretha_action_3",
+    "path": "assets/iphonehd/anim_effects/aretha_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "aretha_action_5",
+    "path": "assets/iphonehd/anim_effects/aretha_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "aretha_action_6",
+    "path": "assets/iphonehd/anim_effects/aretha_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      170,
+      1103101952,
+      40
+    ],
+    "internalName": "aretha_gongji2",
+    "path": "assets/iphonehd/anim_effects/aretha_gongji2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      170,
+      1103101952,
+      31
+    ],
+    "internalName": "aretha_gongji3",
+    "path": "assets/iphonehd/anim_effects/aretha_gongji3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      170,
+      1103101952,
+      10
+    ],
+    "internalName": "aretha_gongji3_anbao",
+    "path": "assets/iphonehd/anim_effects/aretha_gongji3_anbao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      170,
+      1103101952,
+      32
+    ],
+    "internalName": "aretha_gongji4",
+    "path": "assets/iphonehd/anim_effects/aretha_gongji4.swf.sam",
+    "references": [
+      "aretha_gongji4.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      48
+    ],
+    "internalName": "baiqiu",
+    "path": "assets/iphonehd/anim_effects/baiqiu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "bosaidong_action_4",
+    "path": "assets/iphonehd/anim_effects/bosaidong_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "bosaidong_action_5",
+    "path": "assets/iphonehd/anim_effects/bosaidong_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "bosaidong_action_6",
+    "path": "assets/iphonehd/anim_effects/bosaidong_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      22
+    ],
+    "internalName": "buff_allup",
+    "path": "assets/iphonehd/anim_effects/buff_allup.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      12
+    ],
+    "internalName": "buff_back",
+    "path": "assets/iphonehd/anim_effects/buff_back.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      38
+    ],
+    "internalName": "buff_bingfeng",
+    "path": "assets/iphonehd/anim_effects/buff_bingfeng.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "buff_chenmo",
+    "path": "assets/iphonehd/anim_effects/buff_chenmo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      32
+    ],
+    "internalName": "buff_corruption",
+    "path": "assets/iphonehd/anim_effects/buff_corruption.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      35
+    ],
+    "internalName": "buff_daddy",
+    "path": "assets/iphonehd/anim_effects/buff_daddy.swf.sam",
+    "references": [
+      "buff_daddy.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_dfs",
+    "path": "assets/iphonehd/anim_effects/buff_dfs.swf.sam",
+    "references": [
+      "buff_dfs.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_dfslow",
+    "path": "assets/iphonehd/anim_effects/buff_dfslow.swf.sam",
+    "references": [
+      "buff_dfslow.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      29
+    ],
+    "internalName": "buff_dongshang",
+    "path": "assets/iphonehd/anim_effects/buff_dongshang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_fire",
+    "path": "assets/iphonehd/anim_effects/buff_fire.swf.sam",
+    "references": [
+      "buff_fire.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      29
+    ],
+    "internalName": "buff_giddy",
+    "path": "assets/iphonehd/anim_effects/buff_giddy.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      35
+    ],
+    "internalName": "buff_hp",
+    "path": "assets/iphonehd/anim_effects/buff_hp.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1106247680,
+      23
+    ],
+    "internalName": "buff_huisu",
+    "path": "assets/iphonehd/anim_effects/buff_huisu.swf.sam",
+    "references": [
+      "buff_huisu.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      29
+    ],
+    "internalName": "buff_hunmi",
+    "path": "assets/iphonehd/anim_effects/buff_hunmi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      37
+    ],
+    "internalName": "buff_ice",
+    "path": "assets/iphonehd/anim_effects/buff_ice.swf.sam",
+    "references": [
+      "buff_ice.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      24
+    ],
+    "internalName": "buff_jianshang",
+    "path": "assets/iphonehd/anim_effects/buff_jianshang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1106247680,
+      27
+    ],
+    "internalName": "buff_juemie",
+    "path": "assets/iphonehd/anim_effects/buff_juemie.swf.sam",
+    "references": [
+      "buff_juemie.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      37
+    ],
+    "internalName": "buff_lastday",
+    "path": "assets/iphonehd/anim_effects/buff_lastday.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "buff_mabi",
+    "path": "assets/iphonehd/anim_effects/buff_mabi.swf.sam",
+    "references": [
+      "buff_mabi.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "buff_mgc",
+    "path": "assets/iphonehd/anim_effects/buff_mgc.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_mgclow",
+    "path": "assets/iphonehd/anim_effects/buff_mgclow.swf.sam",
+    "references": [
+      "buff_mgclow.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      25
+    ],
+    "internalName": "buff_miss",
+    "path": "assets/iphonehd/anim_effects/buff_miss.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_misslow",
+    "path": "assets/iphonehd/anim_effects/buff_misslow.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "buff_oil",
+    "path": "assets/iphonehd/anim_effects/buff_oil.swf.sam",
+    "references": [
+      "buff_oil.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "buff_phlow",
+    "path": "assets/iphonehd/anim_effects/buff_phlow.swf.sam",
+    "references": [
+      "buff_phlow.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      37
+    ],
+    "internalName": "buff_phsc",
+    "path": "assets/iphonehd/anim_effects/buff_phsc.swf.sam",
+    "references": [
+      "buff_phsc.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_phsclow",
+    "path": "assets/iphonehd/anim_effects/buff_phsclow.swf.sam",
+    "references": [
+      "buff_phsclow.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      15
+    ],
+    "internalName": "buff_senility",
+    "path": "assets/iphonehd/anim_effects/buff_senility.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1106247680,
+      24
+    ],
+    "internalName": "buff_shenjin",
+    "path": "assets/iphonehd/anim_effects/buff_shenjin.swf.sam",
+    "references": [
+      "buff_shenjin.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1106247680,
+      22
+    ],
+    "internalName": "buff_shenjuan",
+    "path": "assets/iphonehd/anim_effects/buff_shenjuan.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1106247680,
+      22
+    ],
+    "internalName": "buff_shenyu",
+    "path": "assets/iphonehd/anim_effects/buff_shenyu.swf.sam",
+    "references": [
+      "buff_shenyu.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      37
+    ],
+    "internalName": "buff_shihua",
+    "path": "assets/iphonehd/anim_effects/buff_shihua.swf.sam",
+    "references": [
+      "buff_shihua.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      34
+    ],
+    "internalName": "buff_shufu",
+    "path": "assets/iphonehd/anim_effects/buff_shufu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_speed",
+    "path": "assets/iphonehd/anim_effects/buff_speed.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_speedlow",
+    "path": "assets/iphonehd/anim_effects/buff_speedlow.swf.sam",
+    "references": [
+      "buff_speedlow.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "buff_tempHp",
+    "path": "assets/iphonehd/anim_effects/buff_tempHp.swf.sam",
+    "references": [
+      "buff_tempHp.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      30
+    ],
+    "internalName": "buff_tempHplow",
+    "path": "assets/iphonehd/anim_effects/buff_tempHplow.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_tianzhao",
+    "path": "assets/iphonehd/anim_effects/buff_tianzhao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      26
+    ],
+    "internalName": "buff_tired",
+    "path": "assets/iphonehd/anim_effects/buff_tired.swf.sam",
+    "references": [
+      "buff_tired.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "buff_undead",
+    "path": "assets/iphonehd/anim_effects/buff_undead.swf.sam",
+    "references": [
+      "buff_undead.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "buff_will",
+    "path": "assets/iphonehd/anim_effects/buff_will.swf.sam",
+    "references": [
+      "buff_will.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      33
+    ],
+    "internalName": "buff_yuedu",
+    "path": "assets/iphonehd/anim_effects/buff_yuedu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      20
+    ],
+    "internalName": "buff_zhongshang",
+    "path": "assets/iphonehd/anim_effects/buff_zhongshang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "buffup",
+    "path": "assets/iphonehd/anim_effects/buffup.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      150,
+      1103101952,
+      50
+    ],
+    "internalName": "catwomam_gongji2",
+    "path": "assets/iphonehd/anim_effects/catwomam_gongji2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "changee_action_1",
+    "path": "assets/iphonehd/anim_effects/changee_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "changee_action_3",
+    "path": "assets/iphonehd/anim_effects/changee_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "changee_action_5",
+    "path": "assets/iphonehd/anim_effects/changee_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "changee_action_6",
+    "path": "assets/iphonehd/anim_effects/changee_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      69
+    ],
+    "internalName": "changee_texiao",
+    "path": "assets/iphonehd/anim_effects/changee_texiao.swf.sam",
+    "references": [],
+    "sections": [
+      "gongji4_texiao1"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      76
+    ],
+    "internalName": "changee_texiao2",
+    "path": "assets/iphonehd/anim_effects/changee_texiao2.swf.sam",
+    "references": [
+      "changee_texiao2.swf25.png"
+    ],
+    "sections": [
+      "gongji4_texiao"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      73
+    ],
+    "internalName": "changee_texiao3",
+    "path": "assets/iphonehd/anim_effects/changee_texiao3.swf.sam",
+    "references": [],
+    "sections": [
+      "gongji3_texiao"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      310,
+      1103101952,
+      3200
+    ],
+    "internalName": "changjing1",
+    "path": "assets/iphonehd/anim_effects/changjing1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      598
+    ],
+    "internalName": "changjingtexiao",
+    "path": "assets/iphonehd/anim_effects/changjingtexiao.swf.sam",
+    "references": [
+      "changjingtexiao.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      12
+    ],
+    "internalName": "chenghuo_action_2",
+    "path": "assets/iphonehd/anim_effects/chenghuo_action_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      48
+    ],
+    "internalName": "chengqiu",
+    "path": "assets/iphonehd/anim_effects/chengqiu.swf.sam",
+    "references": [
+      "chengqiu.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      138,
+      1103101952,
+      20
+    ],
+    "internalName": "chopper_gongji23_tempHp",
+    "path": "assets/iphonehd/anim_effects/chopper_gongji23_tempHp.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      138,
+      1103101952,
+      36
+    ],
+    "internalName": "chopper_gongji4_dot",
+    "path": "assets/iphonehd/anim_effects/chopper_gongji4_dot.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      138,
+      1103101952,
+      36
+    ],
+    "internalName": "chopper_gongji4_tempHp",
+    "path": "assets/iphonehd/anim_effects/chopper_gongji4_tempHp.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      16
+    ],
+    "internalName": "chuansong",
+    "path": "assets/iphonehd/anim_effects/chuansong.swf.sam",
+    "references": [
+      "chuansong.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      41,
+      1103101952,
+      26
+    ],
+    "internalName": "color_circle3",
+    "path": "assets/iphonehd/anim_effects/color_circle3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "crystal",
+    "path": "assets/iphonehd/anim_effects/crystal.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "crystal_1",
+    "path": "assets/iphonehd/anim_effects/crystal_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      44
+    ],
+    "internalName": "daonv_gongji2",
+    "path": "assets/iphonehd/anim_effects/daonv_gongji2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "dasheng_action_5",
+    "path": "assets/iphonehd/anim_effects/dasheng_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "dingji_action_7",
+    "path": "assets/iphonehd/anim_effects/dingji_action_7.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      22
+    ],
+    "internalName": "double_action",
+    "path": "assets/iphonehd/anim_effects/double_action.swf.sam",
+    "references": [
+      "double_action.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "dracula_action_3",
+    "path": "assets/iphonehd/anim_effects/dracula_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "dracula_action_5",
+    "path": "assets/iphonehd/anim_effects/dracula_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "dracula_action_6",
+    "path": "assets/iphonehd/anim_effects/dracula_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      88,
+      48,
+      1103101952,
+      27
+    ],
+    "internalName": "effect_anniu",
+    "path": "assets/iphonehd/anim_effects/effect_anniu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      103,
+      103,
+      1103101952,
+      30
+    ],
+    "internalName": "effect_cheng",
+    "path": "assets/iphonehd/anim_effects/effect_cheng.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      103,
+      103,
+      1103101952,
+      30
+    ],
+    "internalName": "effect_hong",
+    "path": "assets/iphonehd/anim_effects/effect_hong.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      103,
+      103,
+      1103101952,
+      30
+    ],
+    "internalName": "effect_lan",
+    "path": "assets/iphonehd/anim_effects/effect_lan.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      553,
+      540,
+      1103101952,
+      16
+    ],
+    "internalName": "effect_light",
+    "path": "assets/iphonehd/anim_effects/effect_light.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      103,
+      103,
+      1103101952,
+      30
+    ],
+    "internalName": "effect_lv",
+    "path": "assets/iphonehd/anim_effects/effect_lv.swf.sam",
+    "references": [
+      "effect_lv.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      103,
+      103,
+      1103101952,
+      30
+    ],
+    "internalName": "effect_zi",
+    "path": "assets/iphonehd/anim_effects/effect_zi.swf.sam",
+    "references": [
+      "effect_zi.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "eling_action_3",
+    "path": "assets/iphonehd/anim_effects/eling_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "eling_action_4",
+    "path": "assets/iphonehd/anim_effects/eling_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "energy",
+    "path": "assets/iphonehd/anim_effects/energy.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "energy_1",
+    "path": "assets/iphonehd/anim_effects/energy_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      120
+    ],
+    "internalName": "famous_texiao",
+    "path": "assets/iphonehd/anim_effects/famous_texiao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      527,
+      527,
+      1103101952,
+      60
+    ],
+    "internalName": "famous_texiao1",
+    "path": "assets/iphonehd/anim_effects/famous_texiao1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      25
+    ],
+    "internalName": "fb_dfs_bxz",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_bxz.swf.sam",
+    "references": [
+      "fb_dfs_bxz.swf20.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      25
+    ],
+    "internalName": "fb_dfs_fhl",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_fhl.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      22
+    ],
+    "internalName": "fb_dfs_jsj",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_jsj.swf.sam",
+    "references": [
+      "fb_dfs_jsj.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      29
+    ],
+    "internalName": "fb_dfs_jzz",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_jzz.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      429,
+      1103101952,
+      31
+    ],
+    "internalName": "fb_dfs_llt",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_llt.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      29
+    ],
+    "internalName": "fb_dfs_mdszd",
+    "path": "assets/iphonehd/anim_effects/fb_dfs_mdszd.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 4,
+        "type": "bao"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      57
+    ],
+    "internalName": "fb_hurt_dyxw",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_dyxw.swf.sam",
+    "references": [
+      "fb_hurt_dyxw.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 3,
+        "type": "bao"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      23
+    ],
+    "internalName": "fb_hurt_ghl",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_ghl.swf.sam",
+    "references": [
+      "fb_hurt_ghl.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      570,
+      500,
+      1103101952,
+      22
+    ],
+    "internalName": "fb_hurt_hbc",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_hbc.swf.sam",
+    "references": [
+      "fb_hurt_hbc.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      550,
+      400,
+      1103101952,
+      60
+    ],
+    "internalName": "fb_hurt_htj",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_htj.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      16
+    ],
+    "internalName": "fb_hurt_kjc",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_kjc.swf.sam",
+    "references": [
+      "fb_hurt_kjc.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 3,
+        "type": "bao"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      31
+    ],
+    "internalName": "fb_hurt_sglq",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_sglq.swf.sam",
+    "references": [
+      "fb_hurt_sglq.swf23.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      10
+    ],
+    "internalName": "fb_hurt_tgd",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_tgd.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      25
+    ],
+    "internalName": "fb_hurt_yyf",
+    "path": "assets/iphonehd/anim_effects/fb_hurt_yyf.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "food",
+    "path": "assets/iphonehd/anim_effects/food.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "food_1",
+    "path": "assets/iphonehd/anim_effects/food_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      37
+    ],
+    "internalName": "gacha_anim_1",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_1.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      38
+    ],
+    "internalName": "gacha_anim_2",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_2.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      38
+    ],
+    "internalName": "gacha_anim_3",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_3.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      80
+    ],
+    "internalName": "gacha_anim_guixiang_2",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_guixiang_2.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      110
+    ],
+    "internalName": "gacha_anim_guixiang_3",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_guixiang_3.swf.sam",
+    "references": [],
+    "sections": [
+      "daiji"
+    ]
+  },
+  {
+    "events": [
+      {
+        "res": "chuanchengi",
+        "type": "wav"
+      },
+      {
+        "res": "huifu",
+        "type": "wav"
+      },
+      {
+        "res": "jiazhuangtai",
+        "type": "wav"
+      },
+      {
+        "res": "shengguang",
+        "type": "wav"
+      },
+      {
+        "res": "up_success",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      315
+    ],
+    "internalName": "gacha_anim_kabao",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_kabao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1103101952,
+      82
+    ],
+    "internalName": "gacha_anim_texiao",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_texiao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      7
+    ],
+    "internalName": "gacha_anim_xiaoshi",
+    "path": "assets/iphonehd/anim_effects/gacha_anim_xiaoshi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "gaojizhandou",
+    "path": "assets/iphonehd/anim_effects/gaojizhandou.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      450,
+      450,
+      1103101952,
+      216
+    ],
+    "internalName": "glowstick",
+    "path": "assets/iphonehd/anim_effects/glowstick.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "guanyu_action_1",
+    "path": "assets/iphonehd/anim_effects/guanyu_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "guanyu_action_3",
+    "path": "assets/iphonehd/anim_effects/guanyu_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "guanyu_action_4",
+    "path": "assets/iphonehd/anim_effects/guanyu_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "guanyu_action_5",
+    "path": "assets/iphonehd/anim_effects/guanyu_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "guanyu_action_6",
+    "path": "assets/iphonehd/anim_effects/guanyu_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      250,
+      1103101952,
+      361
+    ],
+    "internalName": "guanyu_texiao",
+    "path": "assets/iphonehd/anim_effects/guanyu_texiao.swf.sam",
+    "references": [
+      "guanyu_texiao.swf23.png"
+    ],
+    "sections": [
+      "texiao",
+      "texiao2",
+      "texiao3",
+      "texiao4"
+    ]
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "res": "dianfashu",
+        "type": "wav"
+      },
+      {
+        "res": "gongjilijiaqiang",
+        "type": "wav"
+      },
+      {
+        "res": "menquan",
+        "type": "wav"
+      },
+      {
+        "res": "xiajiangzhuangtai",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1108082688,
+      781
+    ],
+    "internalName": "guozhandonghua2",
+    "path": "assets/iphonehd/anim_effects/guozhandonghua2.swf.sam",
+    "references": [
+      "guozhandonghua2.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "mode": 1,
+        "number": 3,
+        "type": "bao"
+      },
+      {
+        "mode": 1,
+        "number": 4,
+        "type": "bao"
+      },
+      {
+        "dis": 2,
+        "mode": 1,
+        "type": "beiji"
+      },
+      {
+        "type": "shock_screen"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      200,
+      1108344832,
+      513
+    ],
+    "internalName": "hadisi",
+    "path": "assets/iphonehd/anim_effects/hadisi.swf.sam",
+    "references": [
+      "hadisi.swf17.png"
+    ],
+    "sections": [
+      "beiji1",
+      "beiji2",
+      "daiji",
+      "dengchang",
+      "gongji1",
+      "gongji2",
+      "gongji2_1",
+      "gongji2_2",
+      "gongji2_3",
+      "gongji3",
+      "gongji3_1",
+      "gongji3_3",
+      "gongji4",
+      "houtui",
+      "qianjin",
+      "shuaidao",
+      "siwang"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "hadisi_action_3",
+    "path": "assets/iphonehd/anim_effects/hadisi_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      200,
+      1103101952,
+      220
+    ],
+    "internalName": "hadisi_texiao",
+    "path": "assets/iphonehd/anim_effects/hadisi_texiao.swf.sam",
+    "references": [
+      "hadisi_texiao.swf23.png"
+    ],
+    "sections": [
+      "gongji2_1",
+      "gongji2_3",
+      "gongji3_1",
+      "gongji3_3"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      167,
+      141,
+      1103101952,
+      40
+    ],
+    "internalName": "homeland_tree_1",
+    "path": "assets/iphonehd/anim_effects/homeland_tree_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      167,
+      141,
+      1103101952,
+      80
+    ],
+    "internalName": "homeland_tree_2",
+    "path": "assets/iphonehd/anim_effects/homeland_tree_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      167,
+      141,
+      1103101952,
+      80
+    ],
+    "internalName": "homeland_tree_3",
+    "path": "assets/iphonehd/anim_effects/homeland_tree_3.swf.sam",
+    "references": [
+      "homeland_tree_3.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      167,
+      141,
+      1103101952,
+      80
+    ],
+    "internalName": "homeland_tree_4",
+    "path": "assets/iphonehd/anim_effects/homeland_tree_4.swf.sam",
+    "references": [
+      "homeland_tree_4.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      12
+    ],
+    "internalName": "honghuo_action_2",
+    "path": "assets/iphonehd/anim_effects/honghuo_action_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "hork_action_1",
+    "path": "assets/iphonehd/anim_effects/hork_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "hork_action_5",
+    "path": "assets/iphonehd/anim_effects/hork_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "ichigo_action_4",
+    "path": "assets/iphonehd/anim_effects/ichigo_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "ichigo_action_5",
+    "path": "assets/iphonehd/anim_effects/ichigo_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "ichigo_action_6",
+    "path": "assets/iphonehd/anim_effects/ichigo_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "ironman2_action_3",
+    "path": "assets/iphonehd/anim_effects/ironman2_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "ironman2_action_5",
+    "path": "assets/iphonehd/anim_effects/ironman2_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      17
+    ],
+    "internalName": "irontwins_gongji2_chongjibo",
+    "path": "assets/iphonehd/anim_effects/irontwins_gongji2_chongjibo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      9
+    ],
+    "internalName": "irontwins_gongji4_chongjibo",
+    "path": "assets/iphonehd/anim_effects/irontwins_gongji4_chongjibo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_ada",
+    "path": "assets/iphonehd/anim_effects/ite_ada.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_ailisi",
+    "path": "assets/iphonehd/anim_effects/ite_ailisi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_andy",
+    "path": "assets/iphonehd/anim_effects/ite_andy.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_aretha",
+    "path": "assets/iphonehd/anim_effects/ite_aretha.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_arrow",
+    "path": "assets/iphonehd/anim_effects/ite_arrow.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_baoxiang1",
+    "path": "assets/iphonehd/anim_effects/ite_baoxiang1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_baoxiang2",
+    "path": "assets/iphonehd/anim_effects/ite_baoxiang2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_baoxiang3",
+    "path": "assets/iphonehd/anim_effects/ite_baoxiang3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_batwoman",
+    "path": "assets/iphonehd/anim_effects/ite_batwoman.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_boss",
+    "path": "assets/iphonehd/anim_effects/ite_boss.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_catwomam",
+    "path": "assets/iphonehd/anim_effects/ite_catwomam.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_chen1",
+    "path": "assets/iphonehd/anim_effects/ite_chen1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_chen2",
+    "path": "assets/iphonehd/anim_effects/ite_chen2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_chunli",
+    "path": "assets/iphonehd/anim_effects/ite_chunli.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_daonv",
+    "path": "assets/iphonehd/anim_effects/ite_daonv.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_darryl",
+    "path": "assets/iphonehd/anim_effects/ite_darryl.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_dracula",
+    "path": "assets/iphonehd/anim_effects/ite_dracula.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_hork",
+    "path": "assets/iphonehd/anim_effects/ite_hork.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_ironman",
+    "path": "assets/iphonehd/anim_effects/ite_ironman.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_irontwins",
+    "path": "assets/iphonehd/anim_effects/ite_irontwins.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_ketch",
+    "path": "assets/iphonehd/anim_effects/ite_ketch.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_knife",
+    "path": "assets/iphonehd/anim_effects/ite_knife.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_kofbeauty",
+    "path": "assets/iphonehd/anim_effects/ite_kofbeauty.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_kuzan",
+    "path": "assets/iphonehd/anim_effects/ite_kuzan.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_luffy",
+    "path": "assets/iphonehd/anim_effects/ite_luffy.swf.sam",
+    "references": [
+      "ite_luffy.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_madara",
+    "path": "assets/iphonehd/anim_effects/ite_madara.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_matt",
+    "path": "assets/iphonehd/anim_effects/ite_matt.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_monkey",
+    "path": "assets/iphonehd/anim_effects/ite_monkey.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_neville",
+    "path": "assets/iphonehd/anim_effects/ite_neville.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_professorX",
+    "path": "assets/iphonehd/anim_effects/ite_professorX.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_pudge",
+    "path": "assets/iphonehd/anim_effects/ite_pudge.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_sanjiaotou",
+    "path": "assets/iphonehd/anim_effects/ite_sanjiaotou.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_shadow",
+    "path": "assets/iphonehd/anim_effects/ite_shadow.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_spiderman",
+    "path": "assets/iphonehd/anim_effects/ite_spiderman.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_steve",
+    "path": "assets/iphonehd/anim_effects/ite_steve.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_swordheart",
+    "path": "assets/iphonehd/anim_effects/ite_swordheart.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_terminator",
+    "path": "assets/iphonehd/anim_effects/ite_terminator.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_twist",
+    "path": "assets/iphonehd/anim_effects/ite_twist.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_vega",
+    "path": "assets/iphonehd/anim_effects/ite_vega.swf.sam",
+    "references": [
+      "ite_vega.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      20
+    ],
+    "internalName": "ite_wolverine",
+    "path": "assets/iphonehd/anim_effects/ite_wolverine.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_zhuangbei1",
+    "path": "assets/iphonehd/anim_effects/ite_zhuangbei1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_zhuangbei2",
+    "path": "assets/iphonehd/anim_effects/ite_zhuangbei2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "ite_zhuangbei3",
+    "path": "assets/iphonehd/anim_effects/ite_zhuangbei3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "jean_action_3",
+    "path": "assets/iphonehd/anim_effects/jean_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "jean_action_4",
+    "path": "assets/iphonehd/anim_effects/jean_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "jean_action_5",
+    "path": "assets/iphonehd/anim_effects/jean_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      120,
+      200,
+      1103101952,
+      31
+    ],
+    "internalName": "jean_gongji2_1",
+    "path": "assets/iphonehd/anim_effects/jean_gongji2_1.swf.sam",
+    "references": [
+      "jean_gongji2_1.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      47
+    ],
+    "internalName": "jean_gongji3_1",
+    "path": "assets/iphonehd/anim_effects/jean_gongji3_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      47
+    ],
+    "internalName": "jean_gongji3_2",
+    "path": "assets/iphonehd/anim_effects/jean_gongji3_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      24
+    ],
+    "internalName": "jianshang",
+    "path": "assets/iphonehd/anim_effects/jianshang.swf.sam",
+    "references": [
+      "jianshang.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      55,
+      1103101952,
+      30
+    ],
+    "internalName": "jiantou",
+    "path": "assets/iphonehd/anim_effects/jiantou.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "jiaozhan",
+    "path": "assets/iphonehd/anim_effects/jiaozhan.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      110,
+      1103101952,
+      52
+    ],
+    "internalName": "jiesuo",
+    "path": "assets/iphonehd/anim_effects/jiesuo.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      16
+    ],
+    "internalName": "jizeng",
+    "path": "assets/iphonehd/anim_effects/jizeng.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      380
+    ],
+    "internalName": "kangsitanding_texiao",
+    "path": "assets/iphonehd/anim_effects/kangsitanding_texiao.swf.sam",
+    "references": [
+      "kangsitanding_texiao.swf31.png"
+    ],
+    "sections": [
+      "gongji3111",
+      "gongji3_texiao",
+      "gongji3_texiao2"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      126,
+      170,
+      1103101952,
+      24
+    ],
+    "internalName": "kofbeauty_gongji3",
+    "path": "assets/iphonehd/anim_effects/kofbeauty_gongji3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "kuzan_action_1",
+    "path": "assets/iphonehd/anim_effects/kuzan_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "kuzan_action_3",
+    "path": "assets/iphonehd/anim_effects/kuzan_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "kuzan_action_5",
+    "path": "assets/iphonehd/anim_effects/kuzan_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "kuzan_action_6",
+    "path": "assets/iphonehd/anim_effects/kuzan_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      60
+    ],
+    "internalName": "kuzan_gongji4_1",
+    "path": "assets/iphonehd/anim_effects/kuzan_gongji4_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      60
+    ],
+    "internalName": "kuzan_gongji4_2",
+    "path": "assets/iphonehd/anim_effects/kuzan_gongji4_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      48
+    ],
+    "internalName": "lanqiu",
+    "path": "assets/iphonehd/anim_effects/lanqiu.swf.sam",
+    "references": [
+      "lanqiu.swf17.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      100,
+      1103101952,
+      25
+    ],
+    "internalName": "libao",
+    "path": "assets/iphonehd/anim_effects/libao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      1
+    ],
+    "internalName": "liedi",
+    "path": "assets/iphonehd/anim_effects/liedi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "liudao_action_1",
+    "path": "assets/iphonehd/anim_effects/liudao_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "liudao_action_3",
+    "path": "assets/iphonehd/anim_effects/liudao_action_3.swf.sam",
+    "references": [
+      "liudao_action_3.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "liudao_action_5",
+    "path": "assets/iphonehd/anim_effects/liudao_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 2,
+        "type": "bao"
+      },
+      {
+        "type": "shock_screen"
+      },
+      {
+        "res": "gunzichu",
+        "type": "wav"
+      },
+      {
+        "res": "menquan",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      16
+    ],
+    "internalName": "ls_fire_bigfireball",
+    "path": "assets/iphonehd/anim_effects/ls_fire_bigfireball.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 4,
+        "type": "bao"
+      },
+      {
+        "type": "shock_screen"
+      },
+      {
+        "res": "gunzichu",
+        "type": "wav"
+      },
+      {
+        "res": "menquan",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      24
+    ],
+    "internalName": "ls_fire_fireball",
+    "path": "assets/iphonehd/anim_effects/ls_fire_fireball.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 8,
+        "type": "bao"
+      },
+      {
+        "type": "shock_screen"
+      },
+      {
+        "res": "nbsheng",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      35
+    ],
+    "internalName": "ls_fire_firegush",
+    "path": "assets/iphonehd/anim_effects/ls_fire_firegush.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 7,
+        "type": "bao"
+      },
+      {
+        "res": "fashu1",
+        "type": "wav"
+      },
+      {
+        "res": "fashu4",
+        "type": "wav"
+      },
+      {
+        "res": "feng3",
+        "type": "wav"
+      },
+      {
+        "res": "yingshanghai",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      52
+    ],
+    "internalName": "ls_ice_blizzard",
+    "path": "assets/iphonehd/anim_effects/ls_ice_blizzard.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "res": "fashu1",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      17
+    ],
+    "internalName": "ls_ice_iceball",
+    "path": "assets/iphonehd/anim_effects/ls_ice_iceball.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "res": "dafashu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      13
+    ],
+    "internalName": "ls_ice_icespear",
+    "path": "assets/iphonehd/anim_effects/ls_ice_icespear.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 2,
+        "type": "bao"
+      },
+      {
+        "res": "dafashu",
+        "type": "wav"
+      },
+      {
+        "res": "fashu1",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      32
+    ],
+    "internalName": "ls_lighting_biglighting",
+    "path": "assets/iphonehd/anim_effects/ls_lighting_biglighting.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 4,
+        "type": "bao"
+      },
+      {
+        "res": "dafashu",
+        "type": "wav"
+      },
+      {
+        "res": "dianfashu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      28
+    ],
+    "internalName": "ls_lighting_chainlighting",
+    "path": "assets/iphonehd/anim_effects/ls_lighting_chainlighting.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "type": "shock_screen"
+      },
+      {
+        "res": "dafashu",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      18
+    ],
+    "internalName": "ls_lighting_lighting",
+    "path": "assets/iphonehd/anim_effects/ls_lighting_lighting.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 2,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "dis": 0,
+        "mode": 2,
+        "type": "beiji"
+      },
+      {
+        "type": "shock_screen"
+      },
+      {
+        "res": "buxiankai",
+        "type": "wav"
+      },
+      {
+        "res": "gunzichu",
+        "type": "wav"
+      },
+      {
+        "res": "menquan",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      27
+    ],
+    "internalName": "ls_phsc_bash1",
+    "path": "assets/iphonehd/anim_effects/ls_phsc_bash1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 1,
+        "type": "bao"
+      },
+      {
+        "res": "gongjilijiaqiang",
+        "type": "wav"
+      },
+      {
+        "res": "kanduan",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      17
+    ],
+    "internalName": "ls_phsc_heroic",
+    "path": "assets/iphonehd/anim_effects/ls_phsc_heroic.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [
+      {
+        "mode": 1,
+        "number": 3,
+        "type": "bao"
+      },
+      {
+        "res": "shunjianyidong2",
+        "type": "wav"
+      }
+    ],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      25
+    ],
+    "internalName": "ls_phsc_whirlwind",
+    "path": "assets/iphonehd/anim_effects/ls_phsc_whirlwind.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "luffy_action_1",
+    "path": "assets/iphonehd/anim_effects/luffy_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "luffy_action_5",
+    "path": "assets/iphonehd/anim_effects/luffy_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      340
+    ],
+    "internalName": "luoji_texiao",
+    "path": "assets/iphonehd/anim_effects/luoji_texiao.swf.sam",
+    "references": [
+      "luoji_texiao.swf23.png"
+    ],
+    "sections": [
+      "gongji3_texiao",
+      "gongji3_texiao1",
+      "gongji4_texiao"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      48
+    ],
+    "internalName": "lvqiu",
+    "path": "assets/iphonehd/anim_effects/lvqiu.swf.sam",
+    "references": [
+      "lvqiu.swf15.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      20
+    ],
+    "internalName": "madara_action_3",
+    "path": "assets/iphonehd/anim_effects/madara_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      20
+    ],
+    "internalName": "madara_action_5",
+    "path": "assets/iphonehd/anim_effects/madara_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      20
+    ],
+    "internalName": "madara_action_6",
+    "path": "assets/iphonehd/anim_effects/madara_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      63
+    ],
+    "internalName": "madara_gongji3",
+    "path": "assets/iphonehd/anim_effects/madara_gongji3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "magneto_action_1",
+    "path": "assets/iphonehd/anim_effects/magneto_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "magneto_action_3",
+    "path": "assets/iphonehd/anim_effects/magneto_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "magneto_action_5",
+    "path": "assets/iphonehd/anim_effects/magneto_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "magneto_action_6",
+    "path": "assets/iphonehd/anim_effects/magneto_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      1138
+    ],
+    "internalName": "meihouwang_texiao",
+    "path": "assets/iphonehd/anim_effects/meihouwang_texiao.swf.sam",
+    "references": [
+      "meihouwang_texiao.swf27.png"
+    ],
+    "sections": [
+      "gongji2_texiao",
+      "gongji2_texiao1",
+      "gongji3_baiping",
+      "gongji3_heidi",
+      "gongji3_heiping",
+      "gongji3_jingubang",
+      "gongji3_texiao",
+      "gongji3_texiao2",
+      "gongji4",
+      "gongji4_texiao",
+      "gongji4_texiao1"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "metal",
+    "path": "assets/iphonehd/anim_effects/metal.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      109,
+      91,
+      1103101952,
+      34
+    ],
+    "internalName": "metal_1",
+    "path": "assets/iphonehd/anim_effects/metal_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      145,
+      48,
+      1103101952,
+      18
+    ],
+    "internalName": "mingyunzhuanhuan",
+    "path": "assets/iphonehd/anim_effects/mingyunzhuanhuan.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "monkey_action_1",
+    "path": "assets/iphonehd/anim_effects/monkey_action_1.swf.sam",
+    "references": [
+      "monkey_action_1.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "monkey_action_3",
+    "path": "assets/iphonehd/anim_effects/monkey_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "monkey_action_5",
+    "path": "assets/iphonehd/anim_effects/monkey_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      99,
+      200,
+      1103101952,
+      54
+    ],
+    "internalName": "monkey_gongji3",
+    "path": "assets/iphonehd/anim_effects/monkey_gongji3.swf.sam",
+    "references": [
+      "monkey_gongji3.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      40
+    ],
+    "internalName": "monopoly_dark",
+    "path": "assets/iphonehd/anim_effects/monopoly_dark.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "naruto2_action_3",
+    "path": "assets/iphonehd/anim_effects/naruto2_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "naruto2_action_5",
+    "path": "assets/iphonehd/anim_effects/naruto2_action_5.swf.sam",
+    "references": [
+      "naruto2_action_5.swf27.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "naruto2_action_6",
+    "path": "assets/iphonehd/anim_effects/naruto2_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      120
+    ],
+    "internalName": "naruto2_texiao",
+    "path": "assets/iphonehd/anim_effects/naruto2_texiao.swf.sam",
+    "references": [
+      "naruto2_texiao.swf25.png"
+    ],
+    "sections": [
+      "gongji2_1",
+      "gongji2_2",
+      "gongji4_1"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      20
+    ],
+    "internalName": "naruto_action_3",
+    "path": "assets/iphonehd/anim_effects/naruto_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      108
+    ],
+    "internalName": "nezha_texiao",
+    "path": "assets/iphonehd/anim_effects/nezha_texiao.swf.sam",
+    "references": [
+      "nezha_texiao.swf23.png"
+    ],
+    "sections": [
+      "gongji4_texiao",
+      "gongji4_texiao2"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      300,
+      300,
+      1103101952,
+      212
+    ],
+    "internalName": "niudan",
+    "path": "assets/iphonehd/anim_effects/niudan.swf.sam",
+    "references": [
+      "niudan.swf17.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      25
+    ],
+    "internalName": "northfist_action_1",
+    "path": "assets/iphonehd/anim_effects/northfist_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      25
+    ],
+    "internalName": "northfist_action_5",
+    "path": "assets/iphonehd/anim_effects/northfist_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      7,
+      14,
+      1103101952,
+      25
+    ],
+    "internalName": "number_anim",
+    "path": "assets/iphonehd/anim_effects/number_anim.swf.sam",
+    "references": [
+      "number_anim.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      1
+    ],
+    "internalName": "penxue",
+    "path": "assets/iphonehd/anim_effects/penxue.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      32
+    ],
+    "internalName": "professorX_action_3",
+    "path": "assets/iphonehd/anim_effects/professorX_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      32
+    ],
+    "internalName": "professorX_action_5",
+    "path": "assets/iphonehd/anim_effects/professorX_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      7
+    ],
+    "internalName": "pudge_gouzi",
+    "path": "assets/iphonehd/anim_effects/pudge_gouzi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      23
+    ],
+    "internalName": "pudge_yaohe",
+    "path": "assets/iphonehd/anim_effects/pudge_yaohe.swf.sam",
+    "references": [
+      "pudge_yaohe.swf21.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "rojer_action_1",
+    "path": "assets/iphonehd/anim_effects/rojer_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "rojer_action_3",
+    "path": "assets/iphonehd/anim_effects/rojer_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "rojer_action_5",
+    "path": "assets/iphonehd/anim_effects/rojer_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      120,
+      200,
+      1103101952,
+      9
+    ],
+    "internalName": "sailajiong_gongji3",
+    "path": "assets/iphonehd/anim_effects/sailajiong_gongji3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke2_action_3",
+    "path": "assets/iphonehd/anim_effects/sasuke2_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke2_action_4",
+    "path": "assets/iphonehd/anim_effects/sasuke2_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke2_action_5",
+    "path": "assets/iphonehd/anim_effects/sasuke2_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      183,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke_action_3",
+    "path": "assets/iphonehd/anim_effects/sasuke_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      183,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke_action_4",
+    "path": "assets/iphonehd/anim_effects/sasuke_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      183,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke_action_5",
+    "path": "assets/iphonehd/anim_effects/sasuke_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      183,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "sasuke_action_6",
+    "path": "assets/iphonehd/anim_effects/sasuke_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      90,
+      165,
+      1103101952,
+      50
+    ],
+    "internalName": "shadow_gongji3",
+    "path": "assets/iphonehd/anim_effects/shadow_gongji3.swf.sam",
+    "references": [
+      "shadow_gongji3.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      320,
+      221,
+      1103101952,
+      28
+    ],
+    "internalName": "shenyubg",
+    "path": "assets/iphonehd/anim_effects/shenyubg.swf.sam",
+    "references": [
+      "shenyubg.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      5
+    ],
+    "internalName": "shouji_1",
+    "path": "assets/iphonehd/anim_effects/shouji_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      5
+    ],
+    "internalName": "shouji_2",
+    "path": "assets/iphonehd/anim_effects/shouji_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      7
+    ],
+    "internalName": "shouji_3",
+    "path": "assets/iphonehd/anim_effects/shouji_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      100,
+      1103101952,
+      4
+    ],
+    "internalName": "shouzhi",
+    "path": "assets/iphonehd/anim_effects/shouzhi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      30
+    ],
+    "internalName": "shuihu",
+    "path": "assets/iphonehd/anim_effects/shuihu.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      1
+    ],
+    "internalName": "siwangbaoxue",
+    "path": "assets/iphonehd/anim_effects/siwangbaoxue.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "st_1",
+    "path": "assets/iphonehd/anim_effects/st_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "st_2",
+    "path": "assets/iphonehd/anim_effects/st_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "st_3",
+    "path": "assets/iphonehd/anim_effects/st_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "st_4",
+    "path": "assets/iphonehd/anim_effects/st_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      80,
+      80,
+      1103101952,
+      20
+    ],
+    "internalName": "st_5",
+    "path": "assets/iphonehd/anim_effects/st_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      24
+    ],
+    "internalName": "swordheart_action_3",
+    "path": "assets/iphonehd/anim_effects/swordheart_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      24
+    ],
+    "internalName": "swordheart_action_5",
+    "path": "assets/iphonehd/anim_effects/swordheart_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      180,
+      1103101952,
+      45
+    ],
+    "internalName": "swordheart_gongji2",
+    "path": "assets/iphonehd/anim_effects/swordheart_gongji2.swf.sam",
+    "references": [
+      "swordheart_gongji2.swf29.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      180,
+      1103101952,
+      51
+    ],
+    "internalName": "swordheart_gongji4",
+    "path": "assets/iphonehd/anim_effects/swordheart_gongji4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      53
+    ],
+    "internalName": "taozhuangjihuo",
+    "path": "assets/iphonehd/anim_effects/taozhuangjihuo.swf.sam",
+    "references": [
+      "taozhuangjihuo.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      130,
+      185,
+      1103101952,
+      48
+    ],
+    "internalName": "terminator_gongji4",
+    "path": "assets/iphonehd/anim_effects/terminator_gongji4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      151,
+      124,
+      1103101952,
+      12
+    ],
+    "internalName": "teshujiangli",
+    "path": "assets/iphonehd/anim_effects/teshujiangli.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "thor_action_3",
+    "path": "assets/iphonehd/anim_effects/thor_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "thor_action_5",
+    "path": "assets/iphonehd/anim_effects/thor_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      110,
+      180,
+      1103101952,
+      37
+    ],
+    "internalName": "thor_gongji3",
+    "path": "assets/iphonehd/anim_effects/thor_gongji3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      60,
+      1103101952,
+      50
+    ],
+    "internalName": "tips_reward",
+    "path": "assets/iphonehd/anim_effects/tips_reward.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      105,
+      105,
+      1103101952,
+      40
+    ],
+    "internalName": "tips_reward2",
+    "path": "assets/iphonehd/anim_effects/tips_reward2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      105,
+      105,
+      1103101952,
+      30
+    ],
+    "internalName": "tips_reward4",
+    "path": "assets/iphonehd/anim_effects/tips_reward4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      115,
+      1103101952,
+      128
+    ],
+    "internalName": "touzi",
+    "path": "assets/iphonehd/anim_effects/touzi.swf.sam",
+    "references": [
+      "touzi.swf15.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      115,
+      1103101952,
+      128
+    ],
+    "internalName": "touzi2",
+    "path": "assets/iphonehd/anim_effects/touzi2.swf.sam",
+    "references": [
+      "touzi.swf15.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      160,
+      200,
+      1103101952,
+      46
+    ],
+    "internalName": "twist_gongji_01",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_01.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      160,
+      200,
+      1103101952,
+      46
+    ],
+    "internalName": "twist_gongji_02",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_02.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      160,
+      200,
+      1103101952,
+      34
+    ],
+    "internalName": "twist_gongji_1",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_1.swf.sam",
+    "references": [
+      "twist_gongji_1.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      36
+    ],
+    "internalName": "twist_gongji_2",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_2.swf.sam",
+    "references": [
+      "twist_gongji_2.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      35
+    ],
+    "internalName": "twist_gongji_3",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_3.swf.sam",
+    "references": [
+      "twist_gongji_3.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      35
+    ],
+    "internalName": "twist_gongji_4",
+    "path": "assets/iphonehd/anim_effects/twist_gongji_4.swf.sam",
+    "references": [
+      "twist_gongji_4.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      50,
+      50,
+      1106247680,
+      30
+    ],
+    "internalName": "ui_zhuchengtishi",
+    "path": "assets/iphonehd/anim_effects/ui_zhuchengtishi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "vega_action_3",
+    "path": "assets/iphonehd/anim_effects/vega_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "vega_action_4",
+    "path": "assets/iphonehd/anim_effects/vega_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "vegeta_action_1",
+    "path": "assets/iphonehd/anim_effects/vegeta_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      28
+    ],
+    "internalName": "vegeta_action_3",
+    "path": "assets/iphonehd/anim_effects/vegeta_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "vegete_action_3",
+    "path": "assets/iphonehd/anim_effects/vegete_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "vegete_action_5",
+    "path": "assets/iphonehd/anim_effects/vegete_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "vegete_action_6",
+    "path": "assets/iphonehd/anim_effects/vegete_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      112
+    ],
+    "internalName": "venus_texiao",
+    "path": "assets/iphonehd/anim_effects/venus_texiao.swf.sam",
+    "references": [],
+    "sections": [
+      "gongji3_1",
+      "gongji4_1"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      27
+    ],
+    "internalName": "weisike_action_3",
+    "path": "assets/iphonehd/anim_effects/weisike_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      27
+    ],
+    "internalName": "weisike_action_4",
+    "path": "assets/iphonehd/anim_effects/weisike_action_4.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      27
+    ],
+    "internalName": "weisike_action_5",
+    "path": "assets/iphonehd/anim_effects/weisike_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      156,
+      150,
+      1103101952,
+      45
+    ],
+    "internalName": "win",
+    "path": "assets/iphonehd/anim_effects/win.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      15
+    ],
+    "internalName": "wujijiansheng_texiao",
+    "path": "assets/iphonehd/anim_effects/wujijiansheng_texiao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "xingshi_action_1",
+    "path": "assets/iphonehd/anim_effects/xingshi_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "xingshi_action_3",
+    "path": "assets/iphonehd/anim_effects/xingshi_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "xingshi_action_5",
+    "path": "assets/iphonehd/anim_effects/xingshi_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      1138
+    ],
+    "internalName": "xingzhesun_texiao",
+    "path": "assets/iphonehd/anim_effects/xingzhesun_texiao.swf.sam",
+    "references": [
+      "xingzhesun_texiao.swf27.png"
+    ],
+    "sections": [
+      "gongji2_texiao",
+      "gongji2_texiao1",
+      "gongji3_baiping",
+      "gongji3_heidi",
+      "gongji3_heiping",
+      "gongji3_jingubang",
+      "gongji3_texiao",
+      "gongji3_texiao2",
+      "gongji4",
+      "gongji4_texiao",
+      "gongji4_texiao1"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      1136,
+      640,
+      1106247680,
+      200
+    ],
+    "internalName": "xuetexiao",
+    "path": "assets/iphonehd/anim_effects/xuetexiao.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "yadianna_action_1",
+    "path": "assets/iphonehd/anim_effects/yadianna_action_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "yadianna_action_3",
+    "path": "assets/iphonehd/anim_effects/yadianna_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      262,
+      1103101952,
+      30
+    ],
+    "internalName": "yadianna_action_5",
+    "path": "assets/iphonehd/anim_effects/yadianna_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      168
+    ],
+    "internalName": "yangjian_texiao",
+    "path": "assets/iphonehd/anim_effects/yangjian_texiao.swf.sam",
+    "references": [
+      "yangjian_texiao.swf25.png"
+    ],
+    "sections": [
+      "gongji4_1",
+      "gongji4_2"
+    ]
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      18
+    ],
+    "internalName": "yindao_shouzhi",
+    "path": "assets/iphonehd/anim_effects/yindao_shouzhi.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      319,
+      184,
+      1103101952,
+      32
+    ],
+    "internalName": "yingxiongrenwu",
+    "path": "assets/iphonehd/anim_effects/yingxiongrenwu.swf.sam",
+    "references": [
+      "yingxiongrenwu.swf25.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "yusuke_action_3",
+    "path": "assets/iphonehd/anim_effects/yusuke_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "yusuke_action_5",
+    "path": "assets/iphonehd/anim_effects/yusuke_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "yusuke_action_6",
+    "path": "assets/iphonehd/anim_effects/yusuke_action_6.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      40
+    ],
+    "internalName": "yusuke_gongji3_1",
+    "path": "assets/iphonehd/anim_effects/yusuke_gongji3_1.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      40
+    ],
+    "internalName": "yusuke_gongji3_2",
+    "path": "assets/iphonehd/anim_effects/yusuke_gongji3_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      230,
+      1103101952,
+      40
+    ],
+    "internalName": "yusuke_gongji3_3",
+    "path": "assets/iphonehd/anim_effects/yusuke_gongji3_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      67
+    ],
+    "internalName": "zadan_cai",
+    "path": "assets/iphonehd/anim_effects/zadan_cai.swf.sam",
+    "references": [
+      "zadan_cai.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      200,
+      200,
+      1103101952,
+      68
+    ],
+    "internalName": "zadan_jin",
+    "path": "assets/iphonehd/anim_effects/zadan_jin.swf.sam",
+    "references": [
+      "zadan_jin.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      200,
+      1103101952,
+      12
+    ],
+    "internalName": "zhengqi",
+    "path": "assets/iphonehd/anim_effects/zhengqi.swf.sam",
+    "references": [
+      "zhengqi.swf17.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "zhousi_action_3",
+    "path": "assets/iphonehd/anim_effects/zhousi_action_3.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      30
+    ],
+    "internalName": "zhousi_action_5",
+    "path": "assets/iphonehd/anim_effects/zhousi_action_5.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      120,
+      1103101952,
+      120
+    ],
+    "internalName": "zhujue100",
+    "path": "assets/iphonehd/anim_effects/zhujue100.swf.sam",
+    "references": [
+      "zhujue100.swf19.png"
+    ],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      184,
+      264,
+      1103101952,
+      12
+    ],
+    "internalName": "zihuo_action_2",
+    "path": "assets/iphonehd/anim_effects/zihuo_action_2.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      100,
+      100,
+      1103101952,
+      16
+    ],
+    "internalName": "zikuang",
+    "path": "assets/iphonehd/anim_effects/zikuang.swf.sam",
+    "references": [],
+    "sections": []
+  },
+  {
+    "events": [],
+    "evidence": "STATIC VERIFIED",
+    "headerWords": [
+      6,
+      16,
+      150,
+      150,
+      1103101952,
+      48
+    ],
+    "internalName": "ziqiu",
+    "path": "assets/iphonehd/anim_effects/ziqiu.swf.sam",
+    "references": [
+      "ziqiu.swf15.png"
+    ],
+    "sections": []
+  }
+]

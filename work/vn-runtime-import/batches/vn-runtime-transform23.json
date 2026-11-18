@@ -1,0 +1,2554 @@
+{
+  "baseConfigHashes": {
+    "equip": "174ebaaae101ee0ec6699043277ba8d9485a7f8e67ef9c729f7a93e3393e19eb",
+    "suit": "9853a33da0c2a2310ec5bcba372e001114198c07d3acf960beaaff0080d06692"
+  },
+  "batch": "vn-runtime-transform23",
+  "configs": {
+    "equip": {
+      "106101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1061,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1061,
+        "evolution": 106102,
+        "evolution_id": 106101,
+        "exchange_id": 19,
+        "image": "e_baihuzi_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Mura Kumogiri",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1250,
+        "value1": 448,
+        "value2": 672
+      },
+      "106201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1062,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1062,
+        "evolution": 106202,
+        "evolution_id": 106201,
+        "exchange_id": 19,
+        "image": "e_baihuzi_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Áo choàng Râu Trắng",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1250,
+        "value1": 268,
+        "value2": 672
+      },
+      "106301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1063,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1063,
+        "evolution": 106302,
+        "evolution_id": 106301,
+        "exchange_id": 19,
+        "image": "e_baihuzi_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Quần Râu Trắng",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1250,
+        "value1": 403,
+        "value2": 672
+      },
+      "106401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1064,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1064,
+        "evolution": 106402,
+        "evolution_id": 106401,
+        "exchange_id": 19,
+        "image": "e_baihuzi_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Gura Gura No Mi",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1250,
+        "value1": 403,
+        "value2": 672
+      },
+      "107101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1071,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1071,
+        "evolution": 107102,
+        "evolution_id": 107101,
+        "exchange_id": 19,
+        "image": "e_peien_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Rinnegan",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1290,
+        "value1": 448,
+        "value2": 672
+      },
+      "107201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1072,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1072,
+        "evolution": 107202,
+        "evolution_id": 107201,
+        "exchange_id": 19,
+        "image": "e_peien_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Áo choàng Akatsuki",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1290,
+        "value1": 268,
+        "value2": 672
+      },
+      "107301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1073,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1073,
+        "evolution": 107302,
+        "evolution_id": 107301,
+        "exchange_id": 19,
+        "image": "e_peien_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Ninja",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1290,
+        "value1": 403,
+        "value2": 672
+      },
+      "107401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1074,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1074,
+        "evolution": 107402,
+        "evolution_id": 107401,
+        "exchange_id": 19,
+        "image": "e_peien_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Băng trán Akatsuki",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1290,
+        "value1": 403,
+        "value2": 672
+      },
+      "108101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1081,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1081,
+        "evolution": 108102,
+        "evolution_id": 108101,
+        "exchange_id": 19,
+        "image": "e_telankesi_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Kiếm Dũng Sĩ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1330,
+        "value1": 448,
+        "value2": 672
+      },
+      "108201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1082,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1082,
+        "evolution": 108202,
+        "evolution_id": 108201,
+        "exchange_id": 19,
+        "image": "e_telankesi_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Áo Luyện Công - Trunks",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1330,
+        "value1": 268,
+        "value2": 672
+      },
+      "108301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1083,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1083,
+        "evolution": 108302,
+        "evolution_id": 108301,
+        "exchange_id": 19,
+        "image": "e_telankesi_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Quần Luyện Công - Trunks",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1330,
+        "value1": 403,
+        "value2": 672
+      },
+      "108401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1084,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1084,
+        "evolution": 108402,
+        "evolution_id": 108401,
+        "exchange_id": 19,
+        "image": "e_telankesi_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Cỗ Máy Thời Gian",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1330,
+        "value1": 403,
+        "value2": 672
+      },
+      "113101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1131,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1131,
+        "evolution": 113102,
+        "evolution_id": 113101,
+        "exchange_id": 19,
+        "image": "e_fulilian_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Pháp trượng Frieren ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1390,
+        "value1": 448,
+        "value2": 672
+      },
+      "113201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1132,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1132,
+        "evolution": 113202,
+        "evolution_id": 113201,
+        "exchange_id": 19,
+        "image": "e_fulilian_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Pháp bào Frieren ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1390,
+        "value1": 268,
+        "value2": 672
+      },
+      "113301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1133,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1133,
+        "evolution": 113302,
+        "evolution_id": 113301,
+        "exchange_id": 19,
+        "image": "e_fulilian_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Ủng Frieren ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1390,
+        "value1": 403,
+        "value2": 672
+      },
+      "113401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1134,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1134,
+        "evolution": 113402,
+        "evolution_id": 113401,
+        "exchange_id": 19,
+        "image": "e_fulilian_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Hoa Quê",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1390,
+        "value1": 403,
+        "value2": 672
+      },
+      "114101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1141,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1141,
+        "evolution": 114102,
+        "evolution_id": 114101,
+        "exchange_id": 19,
+        "image": "e_anying_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Kiếm Ảo Slime",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1430,
+        "value1": 448,
+        "value2": 672
+      },
+      "114201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1142,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1142,
+        "evolution": 114202,
+        "evolution_id": 114201,
+        "exchange_id": 19,
+        "image": "e_anying_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Áo Ảo Slime",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1430,
+        "value1": 268,
+        "value2": 672
+      },
+      "114301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1143,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1143,
+        "evolution": 114302,
+        "evolution_id": 114301,
+        "exchange_id": 19,
+        "image": "e_anying_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Ảo Slime",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1430,
+        "value1": 403,
+        "value2": 672
+      },
+      "114401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1144,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1144,
+        "evolution": 114402,
+        "evolution_id": 114401,
+        "exchange_id": 19,
+        "image": "e_anying_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Áp Súc Ma Lực",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1430,
+        "value1": 403,
+        "value2": 672
+      },
+      "115101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1151,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1151,
+        "evolution": 115102,
+        "evolution_id": 115101,
+        "exchange_id": 19,
+        "image": "e_yileina_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Gậy Phù Thủy",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1470,
+        "value1": 448,
+        "value2": 672
+      },
+      "115201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1152,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1152,
+        "evolution": 115202,
+        "evolution_id": 115201,
+        "exchange_id": 19,
+        "image": "e_yileina_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Mũ Phù Thủy",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1470,
+        "value1": 268,
+        "value2": 672
+      },
+      "115301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1153,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1153,
+        "evolution": 115302,
+        "evolution_id": 115301,
+        "exchange_id": 19,
+        "image": "e_yileina_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Phù Thủy",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1470,
+        "value1": 403,
+        "value2": 672
+      },
+      "115401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1154,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1154,
+        "evolution": 115402,
+        "evolution_id": 115401,
+        "exchange_id": 19,
+        "image": "e_yileina_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Huy Hiệu Phù Thủy",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1470,
+        "value1": 403,
+        "value2": 672
+      },
+      "116101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1161,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1161,
+        "evolution": 116102,
+        "evolution_id": 116101,
+        "exchange_id": 19,
+        "image": "e_beijita_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Hộ Uyển Vegeta",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1510,
+        "value1": 448,
+        "value2": 672
+      },
+      "116201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1162,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1162,
+        "evolution": 116202,
+        "evolution_id": 116201,
+        "exchange_id": 19,
+        "image": "e_beijita_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Hộ Vai Vegeta",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1510,
+        "value1": 268,
+        "value2": 672
+      },
+      "116301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1163,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1163,
+        "evolution": 116302,
+        "evolution_id": 116301,
+        "exchange_id": 19,
+        "image": "e_beijita_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Đồ Luyện Công Vegeta",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1510,
+        "value1": 403,
+        "value2": 672
+      },
+      "116401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1164,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1164,
+        "evolution": 116402,
+        "evolution_id": 116401,
+        "exchange_id": 19,
+        "image": "e_beijita_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Chiến Ủng Vegeta",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1510,
+        "value1": 403,
+        "value2": 672
+      },
+      "117101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1171,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1171,
+        "evolution": 117102,
+        "evolution_id": 117101,
+        "exchange_id": 19,
+        "image": "e_xsjsuolong_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Sandai Kitetsu",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1550,
+        "value1": 448,
+        "value2": 672
+      },
+      "117201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1172,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1172,
+        "evolution": 117202,
+        "evolution_id": 117201,
+        "exchange_id": 19,
+        "image": "e_xsjsuolong_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Grand Line - Băng Dầu",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1550,
+        "value1": 268,
+        "value2": 672
+      },
+      "117301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1173,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1173,
+        "evolution": 117302,
+        "evolution_id": 117301,
+        "exchange_id": 19,
+        "image": "e_xsjsuolong_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Grand Line - Ủng Chiến",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1550,
+        "value1": 403,
+        "value2": 672
+      },
+      "117401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1174,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1174,
+        "evolution": 117402,
+        "evolution_id": 117401,
+        "exchange_id": 19,
+        "image": "e_xsjsuolong_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Grand Line - Quần Dài",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1550,
+        "value1": 403,
+        "value2": 672
+      },
+      "118101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1181,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1181,
+        "evolution": 118102,
+        "evolution_id": 118101,
+        "exchange_id": 19,
+        "image": "e_hudieren_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Kiếm Tẩm Độc",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1590,
+        "value1": 448,
+        "value2": 672
+      },
+      "118201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1182,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1182,
+        "evolution": 118202,
+        "evolution_id": 118201,
+        "exchange_id": 19,
+        "image": "e_hudieren_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Khoác Kochou",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1590,
+        "value1": 268,
+        "value2": 672
+      },
+      "118301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1183,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1183,
+        "evolution": 118302,
+        "evolution_id": 118301,
+        "exchange_id": 19,
+        "image": "e_hudieren_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Tàng Kiếm",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1590,
+        "value1": 403,
+        "value2": 672
+      },
+      "118401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1184,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1184,
+        "evolution": 118402,
+        "evolution_id": 118401,
+        "exchange_id": 19,
+        "image": "e_hudieren_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Hồ Điệp Nhớ Thương",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1590,
+        "value1": 403,
+        "value2": 672
+      },
+      "123101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1231,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1231,
+        "evolution": 123102,
+        "evolution_id": 123101,
+        "exchange_id": 19,
+        "image": "e_xzuozhu_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Kiếm Kusanagi",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1710,
+        "value1": 448,
+        "value2": 672
+      },
+      "123201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1232,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1232,
+        "evolution": 123202,
+        "evolution_id": 123201,
+        "exchange_id": 19,
+        "image": "e_xzuozhu_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Áo Sasuke",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1710,
+        "value1": 268,
+        "value2": 672
+      },
+      "123301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1233,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1233,
+        "evolution": 123302,
+        "evolution_id": 123301,
+        "exchange_id": 19,
+        "image": "e_xzuozhu_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Sasuke",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1710,
+        "value1": 403,
+        "value2": 672
+      },
+      "123401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1234,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1234,
+        "evolution": 123402,
+        "evolution_id": 123401,
+        "exchange_id": 19,
+        "image": "e_xzuozhu_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Obi Rắn",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1710,
+        "value1": 403,
+        "value2": 672
+      },
+      "124101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1241,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1241,
+        "evolution": 124102,
+        "evolution_id": 124101,
+        "exchange_id": 19,
+        "image": "e_mlads_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Kiếm Gãy",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1750,
+        "value1": 448,
+        "value2": 672
+      },
+      "124201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1242,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1242,
+        "evolution": 124202,
+        "evolution_id": 124201,
+        "exchange_id": 19,
+        "image": "e_mlads_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Chiến Y Phẫn Nộ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1750,
+        "value1": 268,
+        "value2": 672
+      },
+      "124301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1243,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1243,
+        "evolution": 124302,
+        "evolution_id": 124301,
+        "exchange_id": 19,
+        "image": "e_mlads_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày Chiến Phẫn Nộ",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1750,
+        "value1": 403,
+        "value2": 672
+      },
+      "124401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1244,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1244,
+        "evolution": 124402,
+        "evolution_id": 124401,
+        "exchange_id": 19,
+        "image": "e_mlads_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Balo Đoàn Trưởng",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1750,
+        "value1": 403,
+        "value2": 672
+      },
+      "126101": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1261,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1261,
+        "evolution": 126102,
+        "evolution_id": 126101,
+        "exchange_id": 19,
+        "image": "e_vegetto_sward",
+        "is_resolve": 1,
+        "level_add1": 112,
+        "level_add2": 84,
+        "name": "Bao tay Vegito",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 5,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 1,
+        "sprite_py": "",
+        "suit": 1830,
+        "value1": 448,
+        "value2": 672
+      },
+      "126201": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1262,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1262,
+        "evolution": 126202,
+        "evolution_id": 126201,
+        "exchange_id": 19,
+        "image": "e_vegetto_cloak",
+        "is_resolve": 1,
+        "level_add1": 67,
+        "level_add2": 84,
+        "name": "Đồ luyện công Vegito",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 7,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 3,
+        "sprite_py": "",
+        "suit": 1830,
+        "value1": 268,
+        "value2": 672
+      },
+      "126301": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1263,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1263,
+        "evolution": 126302,
+        "evolution_id": 126301,
+        "exchange_id": 19,
+        "image": "e_vegetto_shoe",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Giày chiến Vegito",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 6,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 4,
+        "sprite_py": "",
+        "suit": 1830,
+        "value1": 403,
+        "value2": 672
+      },
+      "126401": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 128,
+        "cd": 0,
+        "chain_id": 1264,
+        "des": "",
+        "effect": 0,
+        "equip_add1": [],
+        "equip_id": 1264,
+        "evolution": 126402,
+        "evolution_id": 126401,
+        "exchange_id": 19,
+        "image": "e_vegetto_crown",
+        "is_resolve": 1,
+        "level_add1": 100,
+        "level_add2": 84,
+        "name": "Bông tai Potara",
+        "occupation1": [],
+        "quality": 4,
+        "refine_id": 8,
+        "sell_metal": 1800,
+        "skill_type": "",
+        "sort": 2,
+        "sprite_py": "",
+        "suit": 1830,
+        "value1": 403,
+        "value2": 672
+      }
+    },
+    "suit": {
+      "1250": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "白胡子",
+        "part": [
+          106101,
+          106201,
+          106301,
+          106401
+        ]
+      },
+      "1290": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "佩恩",
+        "part": [
+          107101,
+          107201,
+          107301,
+          107401
+        ]
+      },
+      "1330": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "特兰克斯",
+        "part": [
+          108101,
+          108201,
+          108301,
+          108401
+        ]
+      },
+      "1390": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "芙莉莲",
+        "part": [
+          113101,
+          113201,
+          113301,
+          113401
+        ]
+      },
+      "1430": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "暗影",
+        "part": [
+          114101,
+          114201,
+          114301,
+          114401
+        ]
+      },
+      "1470": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "伊蕾娜",
+        "part": [
+          115101,
+          115201,
+          115301,
+          115401
+        ]
+      },
+      "1510": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "贝吉塔",
+        "part": [
+          116101,
+          116201,
+          116301,
+          116401
+        ]
+      },
+      "1550": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "猎人の索隆",
+        "part": [
+          117101,
+          117201,
+          117301,
+          117401
+        ]
+      },
+      "1590": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "蝴蝶忍",
+        "part": [
+          118101,
+          118201,
+          118301,
+          118401
+        ]
+      },
+      "1710": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "咒印佐助",
+        "part": [
+          123101,
+          123201,
+          123301,
+          123401
+        ]
+      },
+      "1750": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "梅利奥达斯",
+        "part": [
+          124101,
+          124201,
+          124301,
+          124401
+        ]
+      },
+      "1830": {
+        "effect_2": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ]
+        ],
+        "effect_3": [
+          [
+            3,
+            200
+          ],
+          [
+            4,
+            500
+          ]
+        ],
+        "effect_4": [
+          [
+            1,
+            300
+          ],
+          [
+            2,
+            250
+          ],
+          [
+            5,
+            3300
+          ]
+        ],
+        "name": "Vegetto",
+        "part": [
+          126101,
+          126201,
+          126301,
+          126401
+        ]
+      }
+    }
+  },
+  "createdAt": "2026-10-27T04:31:50.121800+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "106101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1250",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "106101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "106201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "106301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "106401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "107101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1290",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "107101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "107201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "107301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "107401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "108101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1330",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "108101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "108201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "108301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "108401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "113101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1390",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "113101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "113201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "113301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "113401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "114101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1430",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "114101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "114201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "114301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "114401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "115101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1470",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "115101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "115201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "115301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "115401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "116101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1510",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "116101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "116201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "116301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "116401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "117101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1550",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "117101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "117201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "117301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "117401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "118101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1590",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "118101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "118201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "118301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "118401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "123101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1710",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "123101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "123201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "123301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "123401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "124101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1750",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "124101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "124201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "124301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "124401",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "126101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1830",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "126101",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "126201",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "126301",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "126401",
+      "status": "ADD",
+      "table": "equip"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {
+    "assets/iphonehd/icon/e_anying_cloak.png": {
+      "sha256": "7459a456e965f438e148495dcd8b74af92615ad0eb1162f70df7a7ed63207136",
+      "size": 24843,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_anying_cloak.png"
+    },
+    "assets/iphonehd/icon/e_anying_crown.png": {
+      "sha256": "b28613e2666ee7ece76800e6efa68a5fd70f966e592d0ca759e9184706a7406f",
+      "size": 21971,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_anying_crown.png"
+    },
+    "assets/iphonehd/icon/e_anying_shoe.png": {
+      "sha256": "f9f6a1e11cced88d544a8c0f415b602a661bda7161143bb486576215fac8be58",
+      "size": 26486,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_anying_shoe.png"
+    },
+    "assets/iphonehd/icon/e_anying_sward.png": {
+      "sha256": "7625f7b561919deec31221d31568d777d153f7766e36985933a2082b6e7383ad",
+      "size": 20555,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_anying_sward.png"
+    },
+    "assets/iphonehd/icon/e_beijita_cloak.png": {
+      "sha256": "f1b1b9c618ca9061207f1d2314c5596e18aa2c04d7d8bb9dd13f807ac4fa9b83",
+      "size": 22608,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_beijita_cloak.png"
+    },
+    "assets/iphonehd/icon/e_beijita_crown.png": {
+      "sha256": "652812eb89421451af5f91b94735c1876bde3489b5c0ac9b3adb35f59cca647c",
+      "size": 22522,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_beijita_crown.png"
+    },
+    "assets/iphonehd/icon/e_beijita_shoe.png": {
+      "sha256": "570e4bc16b0532bed386c5b36dccaee3c1101ae8d75d88365edfdb886e294985",
+      "size": 22371,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_beijita_shoe.png"
+    },
+    "assets/iphonehd/icon/e_beijita_sward.png": {
+      "sha256": "3c1d484242b8539684eb0210cd5e20308acc0829dc3940e8460e653c81ab0fe9",
+      "size": 18606,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_beijita_sward.png"
+    },
+    "assets/iphonehd/icon/e_hudieren_cloak.png": {
+      "sha256": "8c93824a78e128fe67178550d2b1cd4fb35178b5e94a2da9283fc5370934b590",
+      "size": 26957,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_hudieren_cloak.png"
+    },
+    "assets/iphonehd/icon/e_hudieren_crown.png": {
+      "sha256": "5dca2f48712dfa4c54d065256ac824b10f0e02c28505b263ca2743b2022420da",
+      "size": 25578,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_hudieren_crown.png"
+    },
+    "assets/iphonehd/icon/e_hudieren_shoe.png": {
+      "sha256": "3edb71fcec59cb248d1c97ccfd76e3f73804879badfade42f6dca14cb2ffb9f2",
+      "size": 24399,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_hudieren_shoe.png"
+    },
+    "assets/iphonehd/icon/e_hudieren_sward.png": {
+      "sha256": "4aa0c9bf71b3c7e407c7ee171714318158d8b3b4da314667aa4d4c4858f5f941",
+      "size": 25898,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_hudieren_sward.png"
+    },
+    "assets/iphonehd/icon/e_mlads_cloak.png": {
+      "sha256": "28602b295d1d218cf5c4ab51571e666b57d537a608e155977bd0b0466d9e8ba4",
+      "size": 23808,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_mlads_cloak.png"
+    },
+    "assets/iphonehd/icon/e_mlads_crown.png": {
+      "sha256": "24db0e02a2f865a554a12fc714ac69115379f1480e8a63f857d81a803c27f198",
+      "size": 18084,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_mlads_crown.png"
+    },
+    "assets/iphonehd/icon/e_mlads_shoe.png": {
+      "sha256": "670003e6ae7a7ce8607deec7556d9c74c490570fcd3c1f52bf9474242706610b",
+      "size": 17826,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_mlads_shoe.png"
+    },
+    "assets/iphonehd/icon/e_mlads_sward.png": {
+      "sha256": "37439154494183c356f44f6d2cc808bdeda37c5789b781db88565eb73b73390a",
+      "size": 22112,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_mlads_sward.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_cloak.png": {
+      "sha256": "b333958bbb8d0480b31f08641fa2a23ae2d4c688a7e5d124cdaa554138aa673c",
+      "size": 29471,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_cloak.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_crown.png": {
+      "sha256": "1db06a9f0ffe5eaa5fc8266115cafa9bb0de10d5cec2c07cec6e3e26931e9038",
+      "size": 29332,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_crown.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_shoe.png": {
+      "sha256": "5e0638c32fa8a7fa67ac3445ada2fbc4e931930379a6aa44b0b85ef5af7e1224",
+      "size": 28981,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_shoe.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_sward.png": {
+      "sha256": "21bd3cd87fdb8da70ceb286699f9d736ac2127d8fda73d202a6870ad0deb4658",
+      "size": 28633,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_sward.png"
+    },
+    "assets/iphonehd/icon/e_xsjsuolong_cloak.png": {
+      "sha256": "db5ff186d4627bc706361842a667f881e013ff07fc686511ca240c3a1d52c793",
+      "size": 19953,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xsjsuolong_cloak.png"
+    },
+    "assets/iphonehd/icon/e_xsjsuolong_crown.png": {
+      "sha256": "1c02064b972851b93b7da9ae61e1b4ad90c3a82395a25b5fdc1d26ba688959b4",
+      "size": 24367,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xsjsuolong_crown.png"
+    },
+    "assets/iphonehd/icon/e_xsjsuolong_shoe.png": {
+      "sha256": "45b96dd66cc00b927f4c713156b6dc9da537bec4ecc7c935f38adeff51487f74",
+      "size": 23668,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xsjsuolong_shoe.png"
+    },
+    "assets/iphonehd/icon/e_xsjsuolong_sward.png": {
+      "sha256": "ef1602162b59ef06444ff138e98f2ffe6d5f98d408ccd64a84f7a65b53420b05",
+      "size": 27879,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xsjsuolong_sward.png"
+    },
+    "assets/iphonehd/icon/e_xzuozhu_cloak.png": {
+      "sha256": "f00c54be6dba838c949c44025e396eb9b93e53fd5d0ff93f56bf5d09f5292608",
+      "size": 27587,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xzuozhu_cloak.png"
+    },
+    "assets/iphonehd/icon/e_xzuozhu_crown.png": {
+      "sha256": "4ea469d8792a58fe205d1c78a0bad64bb7ded77f97b9b3bc77b4169d732aca1e",
+      "size": 31074,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xzuozhu_crown.png"
+    },
+    "assets/iphonehd/icon/e_xzuozhu_shoe.png": {
+      "sha256": "bdd6bc5c50b963fa3126bc69bbd226ee50439061eaff82ad454b07ba75be7faa",
+      "size": 29436,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xzuozhu_shoe.png"
+    },
+    "assets/iphonehd/icon/e_xzuozhu_sward.png": {
+      "sha256": "959ffb95a03c8c71dc5094cdf67df01175cce15936c079e016ee5ac0222d7414",
+      "size": 30205,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_xzuozhu_sward.png"
+    },
+    "assets/iphonehd/icon/e_yileina_cloak.png": {
+      "sha256": "19c8c69804c0dd122b6a193ae42ed068cc406b44378b69d2bf14804e8ae84b25",
+      "size": 16399,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_yileina_cloak.png"
+    },
+    "assets/iphonehd/icon/e_yileina_crown.png": {
+      "sha256": "013d8db25174cb9e4895af924654855216674e21f241d20de57d01acc0ae4e8e",
+      "size": 16183,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_yileina_crown.png"
+    },
+    "assets/iphonehd/icon/e_yileina_shoe.png": {
+      "sha256": "c65af26a48cc1adfbf1f3d870c31b58f79f136f8978d2eff521294db2fa236d3",
+      "size": 19367,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_yileina_shoe.png"
+    },
+    "assets/iphonehd/icon/e_yileina_sward.png": {
+      "sha256": "c01d0ffe39fa3c4112d80d71ee13d95f640b514e60f8d07233880956e254d9ac",
+      "size": 15896,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_yileina_sward.png"
+    }
+  },
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

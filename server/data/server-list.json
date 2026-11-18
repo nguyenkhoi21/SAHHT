@@ -1,0 +1,19 @@
+{
+  "server_list": [{
+    "server": "local-1",
+    "server_name": "PGaming",
+    "sort_id": 0,
+    "uid": "",
+    "level": 0,
+    "flag": 0,
+    "open_time": 0,
+    "master_url": "http://127.0.0.1:8787/pub_abroad_vr",
+    "domain": "http://127.0.0.1:8787/pub_abroad_vr",
+    "lua_url": "http://127.0.0.1:8787/resources",
+    "lua_ver_url": "http://127.0.0.1:8787/versions",
+    "dataosha_url": "http://127.0.0.1:8787/pub_abroad_vr",
+    "chat_ip": "127.0.0.1",
+    "chat_port": 0
+  }],
+  "current_server": "local-1"
+}

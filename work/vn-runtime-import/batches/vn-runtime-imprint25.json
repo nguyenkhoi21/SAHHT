@@ -1,0 +1,206 @@
+{
+  "baseConfigHashes": {
+    "box": "0656d11cb416cdd3b42a258b096c1da7d6080f93d6a3f89c9059ab360176c0bf",
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-imprint25",
+  "configs": {
+    "box": {
+      "9102470": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              108,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9102471": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              108,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9102472": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              108,
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ]
+    },
+    "item": {
+      "9102470": {
+        "daily_use": 0,
+        "icon": "icon_box1",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In S",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In S ×1.",
+        "use_effect": [
+          9102470
+        ],
+        "use_num": 1
+      },
+      "9102471": {
+        "daily_use": 0,
+        "icon": "icon_box2",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SS",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SS ×1.",
+        "use_effect": [
+          9102471
+        ],
+        "use_num": 1
+      },
+      "9102472": {
+        "daily_use": 0,
+        "icon": "icon_box3",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SSS",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SSS ×1.",
+        "use_effect": [
+          9102472
+        ],
+        "use_num": 1
+      }
+    }
+  },
+  "createdAt": "2026-10-27T11:06:35.685551+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "9102470",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102470",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "9102471",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102471",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "9102472",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102472",
+      "status": "ADD",
+      "table": "box"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

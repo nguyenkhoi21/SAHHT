@@ -1,0 +1,212 @@
+[
+  {
+    "file": "work/apk/lib/arm64-v8a/libartemis.so",
+    "size": 121224,
+    "sha256": "10024c9c7307f5254da0c8ae36fcffae2d3b7ab643ea7e16f6ffa24e546ebd68",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 262
+  },
+  {
+    "file": "work/apk/lib/arm64-v8a/libfusionstorage.so",
+    "size": 969120,
+    "sha256": "2844d626d4eea26c4364263323a23fa249d0ff0b4b3e20e47f2846c5aba6ad64",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 2359
+  },
+  {
+    "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+    "size": 11368648,
+    "sha256": "2c8991016413565ad572fdfe1ed7587a1060f7b7682d051d89a46c8611e40093",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 476
+  },
+  {
+    "file": "work/apk/lib/arm64-v8a/libjinqu.so",
+    "size": 11237352,
+    "sha256": "78ed49cd7a63bead353eb01cefb279c3fcb9dcfab00dbac6ef35b50ccda25b9e",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "libGLESv2.so",
+      "liblog.so",
+      "libz.so",
+      "libdl.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "symbols": 16921
+  },
+  {
+    "file": "work/apk/lib/arm64-v8a/libne_audio.so",
+    "size": 1273784,
+    "sha256": "a3efb6cc25d72915bd53fb209130bcafe330700c409b30723c599618fbfbbb89",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "symbols": 1524
+  },
+  {
+    "file": "work/apk/lib/arm64-v8a/libtraceroute.so",
+    "size": 93016,
+    "sha256": "728b0f999ee2c11c546c17b79ba20521e378c6f2645d6da4ab109efce9b42316",
+    "machine": "EM_AARCH64",
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so"
+    ],
+    "symbols": 140
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libartemis.so",
+    "size": 92016,
+    "sha256": "e0322815d6e6539aa033d5511ff33071b596a34facba98f328e627c057a3a1a9",
+    "machine": "EM_ARM",
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 268
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+    "size": 107796,
+    "sha256": "9c39ee3f577b1808d6568edc5644b3146af1a667b9c53165b9d7d964ff8e253f",
+    "machine": "EM_ARM",
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "symbols": 415
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libfusionstorage.so",
+    "size": 573260,
+    "sha256": "eb91fa66e0375d698d3240ff4b4ca43a8fa0a52529e4f3f5218f24bc44f2ad9e",
+    "machine": "EM_ARM",
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 2384
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+    "size": 7405656,
+    "sha256": "89fb17cce18a9b1ddeb0ab90bc8193ae984233452e2866b25cdcb7905e5c40d2",
+    "machine": "EM_ARM",
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "symbols": 501
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libjinqu.so",
+    "size": 7008296,
+    "sha256": "48a3831b39d9e07492e63fdb9ac2e49d5970e33d57df0dd0014db9badf8a781f",
+    "machine": "EM_ARM",
+    "needed": [
+      "libGLESv2.so",
+      "liblog.so",
+      "libz.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "symbols": 17535
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libne_audio.so",
+    "size": 753028,
+    "sha256": "4af5ce5a692132cf872e9ab5b0b472cea386152ba53c92840be7f2429e883e9d",
+    "machine": "EM_ARM",
+    "needed": [
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "symbols": 1541
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+    "size": 54836,
+    "sha256": "82999caf761218fc97717c8d7521381f47fae9028b1f3a7d2204d8e423440388",
+    "machine": "EM_ARM",
+    "needed": [
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "symbols": 343
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libtraceroute.so",
+    "size": 69844,
+    "sha256": "5b9150fc056e6afa839ea0a91586245c1c3dcfa522d1fd9640bf6edbf755cd30",
+    "machine": "EM_ARM",
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so"
+    ],
+    "symbols": 144
+  },
+  {
+    "file": "work/apk/lib/armeabi-v7a/libuptsmaddon.so",
+    "size": 689164,
+    "sha256": "034eb87054f4d96006079b49a329a4b6f7b7d306e9babef5ccd126b62d24f08d",
+    "machine": "EM_ARM",
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "symbols": 418
+  }
+]

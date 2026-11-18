@@ -1,0 +1,550 @@
+{
+  "manifest": {
+    "{http://schemas.android.com/apk/res/android}compileSdkVersion": "28",
+    "{http://schemas.android.com/apk/res/android}compileSdkVersionCodename": "9",
+    "{http://schemas.android.com/apk/res/android}installLocation": "auto",
+    "package": "com.kaiqigu.cjyxyn.kvsdk",
+    "platformBuildVersionCode": "28",
+    "platformBuildVersionName": "9"
+  },
+  "application": {
+    "{http://schemas.android.com/apk/res/android}allowBackup": "true",
+    "{http://schemas.android.com/apk/res/android}appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "{http://schemas.android.com/apk/res/android}extractNativeLibs": "false",
+    "{http://schemas.android.com/apk/res/android}icon": "@drawable/ic_launcher",
+    "{http://schemas.android.com/apk/res/android}label": "@string/app_name",
+    "{http://schemas.android.com/apk/res/android}launchMode": "singleTask",
+    "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.base.BaseApplication",
+    "{http://schemas.android.com/apk/res/android}noHistory": "true",
+    "{http://schemas.android.com/apk/res/android}theme": "@style/app_",
+    "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "true"
+  },
+  "permissions": [
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.INTERNET"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.READ_PHONE_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.ACCESS_NETWORK_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.ACCESS_WIFI_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.CHANGE_WIFI_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.CHANGE_NETWORK_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.WRITE_EXTERNAL_STORAGE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.MODIFY_AUDIO_SETTINGS"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.READ_EXTERNAL_STORAGE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.WRITE_EXTERNAL_STORAGE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.CAMERA"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.RECORD_AUDIO"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.READ_PHONE_STATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.FLASHLIGHT"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.VIBRATE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.permission.FOREGROUND_SERVICE"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.netease.nim.demo.permission.RECEIVE_MSG"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.asus.msa.SupplementaryDID.ACCESS"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.asus.permission.READ_SDID_PROVIDER"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "freemme.permission.msa"
+    }
+  ],
+  "components": [
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}label": "@string/app_name",
+        "{http://schemas.android.com/apk/res/android}launchMode": "singleTop",
+        "{http://schemas.android.com/apk/res/android}name": "www.kaiqigu.com.JinQu",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.NoTitleBar.Fullscreen"
+      },
+      "intent_filters": [
+        "<intent-filter xmlns:ns0=\"http://schemas.android.com/apk/res/android\">\n                <action ns0:name=\"android.intent.action.MAIN\" />\n                <category ns0:name=\"android.intent.category.LAUNCHER\" />\n            </intent-filter>\n        "
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}label": "@string/app_name",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.InitActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.BindToEnterPassword",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.LoginActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.RegisterActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ForgetPwdActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.AgreeContentActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.QuickRegistActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.QuickLoginActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.BindActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.WelcomeActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.CertificationActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.QuitGame",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ChangePhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ConfirmChangePhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.FindPasswordByPhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.PaySelectActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Light"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.PayConfirmActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Light"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.PayResultActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Light"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.service.NimService",
+        "{http://schemas.android.com/apk/res/android}process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.service.NimService$Aux",
+        "{http://schemas.android.com/apk/res/android}process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.job.NIMJobService",
+        "{http://schemas.android.com/apk/res/android}permission": "android.permission.BIND_JOB_SERVICE",
+        "{http://schemas.android.com/apk/res/android}process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.service.NimReceiver",
+        "{http://schemas.android.com/apk/res/android}process": ":core"
+      },
+      "intent_filters": [
+        "<intent-filter xmlns:ns0=\"http://schemas.android.com/apk/res/android\">\n                <action ns0:name=\"android.net.conn.CONNECTIVITY_CHANGE\" />\n            </intent-filter>\n        "
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.service.ResponseReceiver"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.service.ResponseService"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}authorities": "com.kaiqigu.cjyxyn.kvsdk.ipc.provider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.ipc.NIMContentProvider",
+        "{http://schemas.android.com/apk/res/android}process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}authorities": "com.kaiqigu.cjyxyn.kvsdk.ipc.provider.preference",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.CheckAppPermissionsActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ChangeNewPhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.AccountManagerActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ChangePwdConfirmPhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ForceBindPhone",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.ChangePwdConfirmPwd",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "keyboardHidden|navigation|orientation|screenSize",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.activity.FindPasswordByEmail",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "landscape",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}launchMode": "singleTop",
+        "{http://schemas.android.com/apk/res/android}name": "com.kqg.main.wxapi.WXPayEntryActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}name": "com.kaiqigu.cjyxyn.kvsdk.wxapi.WXPayEntryActivity",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.kqg.main.wxapi.WXPayEntryActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.H5PayActivity",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.NoTitleBar"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.H5AuthActivity",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.NoTitleBar"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}launchMode": "singleInstance",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.PayResultActivity",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent.NoTitleBar"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}launchMode": "singleTask",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.AlipayResultActivity",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent.NoTitleBar"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.H5OpenAuthActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "behind",
+        "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "stateHidden|adjustResize"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}name": "com.alipay.sdk.app.APayEntranceActivity",
+        "{http://schemas.android.com/apk/res/android}theme": "@android:style/Theme.Translucent.NoTitleBar"
+      },
+      "intent_filters": []
+    }
+  ],
+  "metadata": [
+    {
+      "{http://schemas.android.com/apk/res/android}name": "ali_screen_orientation",
+      "{http://schemas.android.com/apk/res/android}value": "landscape"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "UMENG_APPKEY",
+      "{http://schemas.android.com/apk/res/android}value": "536aff2c56240bb2c2023306"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "UMENG_CHANNEL",
+      "{http://schemas.android.com/apk/res/android}value": "kvgames"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "PLATFORM_CHANNEL",
+      "{http://schemas.android.com/apk/res/android}value": "kvgames"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.snowfish.customer",
+      "{http://schemas.android.com/apk/res/android}value": "SNOWFISH"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.snowfish.channel",
+      "{http://schemas.android.com/apk/res/android}value": "SNOWFISH"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "PlatformClass",
+      "{http://schemas.android.com/apk/res/android}value": "www.kaiqigu.com.dcaSdk"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.snowfish.sdk.version",
+      "{http://schemas.android.com/apk/res/android}value": "2"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.snowfish.appid",
+      "{http://schemas.android.com/apk/res/android}value": "{40FA776F-DF9E04BF}"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.snowfish.channelid",
+      "{http://schemas.android.com/apk/res/android}value": "{4ff036a1-3254eafe}"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "android.max_aspect",
+      "{http://schemas.android.com/apk/res/android}value": "2.4"
+    },
+    {
+      "{http://schemas.android.com/apk/res/android}name": "com.netease.nim.appKey",
+      "{http://schemas.android.com/apk/res/android}value": "c790c9d270bf631d0d024b54ffcb39ab"
+    }
+  ]
+}

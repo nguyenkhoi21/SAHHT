@@ -1,0 +1,1901 @@
+[
+  {
+    "file": "game_scene.lua",
+    "line": 311,
+    "functionContext": "responseMethod",
+    "key": "buy_point",
+    "route": "/api/?method=vip.buy_point",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"buy_point\"), http_request_method.GET, nil,\"buy_point\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_scene.lua",
+    "line": 331,
+    "functionContext": "responseMethod",
+    "key": "vip_buy_step",
+    "route": "/api/?method=shop.vip_buy_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_buy_step\"), http_request_method.GET, nil,\"vip_buy_step\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_scene.lua",
+    "line": 677,
+    "functionContext": "responseMethod",
+    "key": "user_main_page",
+    "route": "/api/?method=user.main_page",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"user_main_page\"), http_request_method.GET, nil,\"user_main_page\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_scene.lua",
+    "line": 699,
+    "functionContext": "responseMethod",
+    "key": "user_main_page",
+    "route": "/api/?method=user.main_page",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"user_main_page\"), http_request_method.GET, nil,\"user_main_page\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 389,
+    "functionContext": "responseMethod",
+    "key": "user_main_page",
+    "route": "/api/?method=user.main_page",
+    "code": "network.sendHttpRequestNoLoading(responseMethod,game_url.getUrlForKey(\"user_main_page\"), http_request_method.GET, nil,\"user_main_page\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 483,
+    "functionContext": "responseMethod",
+    "key": "open_door_index",
+    "route": "/api/?method=open_door.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_index\"), http_request_method.GET, nil,\"open_door_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 489,
+    "functionContext": "responseMethod",
+    "key": "open_door_battle",
+    "route": "/api/?method=open_door.battle",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_battle\"), http_request_method.GET, {},\"open_door_battle\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 510,
+    "functionContext": "responseMethod",
+    "key": "god_field_upload_god_formation",
+    "route": "/api/?method=god_field.upload_god_formation",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"god_field_upload_god_formation\"), http_request_method.GET, nil,\"god_field_upload_god_formation\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 513,
+    "functionContext": "responseMethod",
+    "key": "god_field_index",
+    "route": "/api/?method=god_field.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"god_field_index\"), http_request_method.GET, {},\"god_field_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 520,
+    "functionContext": "responseMethod",
+    "key": "wormholes_index",
+    "route": "/api/?method=wormholes_field.wormholes_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"wormholes_index\"), http_request_method.GET, {},\"wormholes_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 685,
+    "functionContext": "responseMethod",
+    "key": "open_door_index",
+    "route": "/api/?method=open_door.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_index\"), http_request_method.GET, nil,\"open_door_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 691,
+    "functionContext": "responseMethod",
+    "key": "open_door_battle",
+    "route": "/api/?method=open_door.battle",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_battle\"), http_request_method.GET, {},\"open_door_battle\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 762,
+    "functionContext": "responseMethod",
+    "key": "open_door_index",
+    "route": "/api/?method=open_door.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_index\"), http_request_method.GET, nil,\"open_door_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 768,
+    "functionContext": "responseMethod",
+    "key": "open_door_battle",
+    "route": "/api/?method=open_door.battle",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"open_door_battle\"), http_request_method.GET, {},\"open_door_battle\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 790,
+    "functionContext": "responseMethod",
+    "key": "god_field_upload_god_formation",
+    "route": "/api/?method=god_field.upload_god_formation",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"god_field_upload_god_formation\"), http_request_method.GET, nil,\"god_field_upload_god_formation\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 793,
+    "functionContext": "responseMethod",
+    "key": "god_field_index",
+    "route": "/api/?method=god_field.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"god_field_index\"), http_request_method.GET, {},\"god_field_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 954,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 993,
+    "functionContext": "newrefresh",
+    "key": "yunxin_chat_info",
+    "route": "/api/?method=yunxin.chat_info",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"yunxin_chat_info\"), http_request_method.GET, nil,\"yunxin_chat_info\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1042,
+    "functionContext": "responseMethod",
+    "key": "gacha_get_all_gacha",
+    "route": "/api/?method=gacha.get_all_gacha",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"gacha_get_all_gacha\"), http_request_method.GET, nil,\"gacha_get_all_gacha\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1055,
+    "functionContext": "responseMethod",
+    "key": "arena_index",
+    "route": "/api/?method=arena.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"arena_index\"), http_request_method.GET, {},\"arena_index\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1063,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1071,
+    "functionContext": "responseMethod",
+    "key": "team_raid_index",
+    "route": "/api/?method=team_raid.team_raid_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_raid_index\"), http_request_method.GET, nil,\"team_raid_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1101,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1118,
+    "functionContext": "responseMethod",
+    "key": "red_bag_index",
+    "route": "/api/?method=red_bag.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"red_bag_index\"), http_request_method.GET, nil,\"red_bag_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1125,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "reward_index",
+    "route": "/api/?method=reward.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"reward_index\"), http_request_method.GET, {},\"reward_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1140,
+    "functionContext": "responseMethod",
+    "key": "pay_sign_index",
+    "route": "/api/?method=pay_sign.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"pay_sign_index\"), http_request_method.GET, nil,\"pay_sign_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1146,
+    "functionContext": "responseMethod",
+    "key": "reward_diary_index",
+    "route": "/api/?method=reward.diary_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"reward_diary_index\"), http_request_method.GET, {},\"reward_diary_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1153,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "reward_index",
+    "route": "/api/?method=reward.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"reward_index\"), http_request_method.GET, {},\"reward_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1158,
+    "functionContext": "responseMethod",
+    "key": "reward_diary_index",
+    "route": "/api/?method=reward.diary_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"reward_diary_index\"), http_request_method.GET, {},\"reward_diary_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1166,
+    "functionContext": "responseMethod",
+    "key": "rank_combat",
+    "route": "/api/?method=user.top_combat",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"rank_combat\"), http_request_method.GET, {},\"rank_combat\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1177,
+    "functionContext": "responseMethod",
+    "key": "reward_once_index",
+    "route": "/api/?method=reward.once_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"reward_once_index\"), http_request_method.GET, nil,\"reward_once_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1202,
+    "functionContext": "responseMethod",
+    "key": "snow_index",
+    "route": "/api/?method=snowman.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"snow_index\"), http_request_method.GET, {},\"snow_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1230,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "battle_challenge_info",
+    "route": "/api/?method=battle.challenge_info",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"battle_challenge_info\"), http_request_method.GET, {},\"battle_challenge_info\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1236,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "roulette_index",
+    "route": "/api/?method=roulette.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"roulette_index\"), http_request_method.GET, {},\"roulette_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1246,
+    "functionContext": "responseMethod",
+    "key": "super_active_index",
+    "route": "/api/?method=super_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"super_active_index\"), http_request_method.GET, nil,\"super_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1252,
+    "functionContext": "responseMethod",
+    "key": "active_active_show",
+    "route": "/api/?method=active.active_show",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_active_show\"), http_request_method.GET, {},\"active_active_show\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1259,
+    "functionContext": "responseMethod",
+    "key": "fire_chess_index",
+    "route": "/api/?method=fire_chess.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"fire_chess_index\"), http_request_method.GET, {},\"fire_chess_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1266,
+    "functionContext": "responseMethod",
+    "key": "super_player_index",
+    "route": "/api/?method=super_player.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"super_player_index\"), http_request_method.GET, {},\"super_player_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1277,
+    "functionContext": "responseMethod",
+    "key": "super_active_index",
+    "route": "/api/?method=super_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"super_active_index\"), http_request_method.GET, {},\"super_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1298,
+    "functionContext": "responseMethod",
+    "key": "guild_gvg_index",
+    "route": "/api/?method=guild_gvg.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"guild_gvg_index\"), http_request_method.GET, nil,\"guild_gvg_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1308,
+    "functionContext": "responseMethod",
+    "key": "bandit_index",
+    "route": "/api/?method=bandit.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"bandit_index\"), http_request_method.GET, nil,\"bandit_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1318,
+    "functionContext": "responseMethod",
+    "key": "rocker_machine_index",
+    "route": "/api/?method=new_rocker.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"rocker_machine_index\"), http_request_method.GET, nil,\"rocker_machine_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1328,
+    "functionContext": "responseMethod",
+    "key": "active_group_index",
+    "route": "/api/?method=active.group_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_group_index\"), http_request_method.GET, nil,\"active_group_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1338,
+    "functionContext": "responseMethod",
+    "key": "active_group_active_index",
+    "route": "/api/?method=active.group_active_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_group_active_index\"), http_request_method.GET, nil,\"active_group_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1362,
+    "functionContext": "responseMethod",
+    "key": "foundation_show_available_funds",
+    "route": "/api/?method=foundation.show_available_funds",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"foundation_show_available_funds\"), http_request_method.GET, nil,\"foundation_show_available_funds\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1381,
+    "functionContext": "responseMethod",
+    "key": "server_active_show",
+    "route": "/api/?method=active.server_active_show",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_active_show\"), http_request_method.GET, {},\"server_active_show\",true,true);",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1388,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "server_limit_hero_index",
+    "route": "/api/?method=server_limit_hero.get_reward_gacha",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"server_limit_hero_index\"), http_request_method.GET, {},\"server_limit_hero_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1399,
+    "functionContext": "responseMethod",
+    "key": "server_shop_show",
+    "route": "/api/?method=shop.server_shop_show",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_shop_show\"), http_request_method.GET, params,\"server_shop_show\",true,true);",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1405,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "show_server_exchange_options",
+    "route": "/api/?method=server_exchange.show_server_exchange_options",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"show_server_exchange_options\"), http_request_method.GET, {},\"show_server_exchange_options\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1411,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "server_roulette_index",
+    "route": "/api/?method=server_roulette.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"server_roulette_index\"), http_request_method.GET, {},\"server_roulette_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1421,
+    "functionContext": "responseMethod",
+    "key": "server_bandit_index",
+    "route": "/api/?method=server_bandit.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_bandit_index\"), http_request_method.GET, nil,\"server_bandit_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1432,
+    "functionContext": "responseMethod",
+    "key": "server_super_active_index",
+    "route": "/api/?method=server_super_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_super_active_index\"), http_request_method.GET, {all_open = 1},\"server_super_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1442,
+    "functionContext": "responseMethod",
+    "key": "server_super_active_index",
+    "route": "/api/?method=server_super_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_super_active_index\"), http_request_method.GET, {rich_open = 1},\"server_super_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1454,
+    "functionContext": "responseMethod",
+    "key": "server_group_index",
+    "route": "/api/?method=server_group.group_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_group_index\"), http_request_method.GET, nil,\"server_group_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1464,
+    "functionContext": "responseMethod",
+    "key": "server_group_active_index",
+    "route": "/api/?method=server_group.group_active_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_group_active_index\"), http_request_method.GET, nil,\"server_group_active_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1474,
+    "functionContext": "responseMethod",
+    "key": "server_one_piece_index",
+    "route": "/api/?method=server_one_piece.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_one_piece_index\"), http_request_method.GET, nil,\"server_one_piece_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1497,
+    "functionContext": "responseMethod",
+    "key": "server_bounty_order_index",
+    "route": "/api/?method=server_bounty_order.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_bounty_order_index\"), http_request_method.GET, nil,\"server_bounty_order_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1507,
+    "functionContext": "responseMethod",
+    "key": "server_magic_school_index",
+    "route": "/api/?method=server_magic_school.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_magic_school_index\"), http_request_method.GET, nil,\"server_magic_school_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1517,
+    "functionContext": "responseMethod",
+    "key": "server_diamond_wheel_index",
+    "route": "/api/?method=server_diamond_wheel.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_diamond_wheel_index\"), http_request_method.GET, nil,\"server_diamond_wheel_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1528,
+    "functionContext": "responseMethod",
+    "key": "king_recall_index",
+    "route": "/api/?method=king.recall_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"king_recall_index\"), http_request_method.GET, nil,\"king_recall_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1552,
+    "functionContext": "responseMethod",
+    "key": "server_foundation_show_available_funds",
+    "route": "/api/?method=server_foundation.show_available_funds",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_foundation_show_available_funds\"), http_request_method.GET, nil,\"server_foundation_show_available_funds\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1562,
+    "functionContext": "responseMethod",
+    "key": "one_piece_index",
+    "route": "/api/?method=one_piece.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"one_piece_index\"), http_request_method.GET, nil,\"one_piece_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1572,
+    "functionContext": "responseMethod",
+    "key": "magic_school_index",
+    "route": "/api/?method=magic_school.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"magic_school_index\"), http_request_method.GET, nil,\"magic_school_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1583,
+    "functionContext": "responseMethod",
+    "key": "diamond_wheel_index",
+    "route": "/api/?method=diamond_wheel.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"diamond_wheel_index\"), http_request_method.GET, nil,\"diamond_wheel_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1589,
+    "functionContext": "responseMethod",
+    "key": "server_clone_lane_index",
+    "route": "/api/?method=server_clone_lane.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_clone_lane_index\"), http_request_method.GET, nil,\"server_clone_lane_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1597,
+    "functionContext": "responseMethod",
+    "key": "red_bag_index",
+    "route": "/api/?method=red_bag.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"red_bag_index\"), http_request_method.GET, nil,\"red_bag_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1621,
+    "functionContext": "responseMethod",
+    "key": "bounty_order_index",
+    "route": "/api/?method=bounty_order.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"bounty_order_index\"), http_request_method.GET, nil,\"bounty_order_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1638,
+    "functionContext": "responseMethod",
+    "key": "world_one_index",
+    "route": "/api/?method=world_one.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"world_one_index\"), http_request_method.GET, nil,\"world_one_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1645,
+    "functionContext": "responseMethod",
+    "key": "vip_guide_isbuy",
+    "route": "/api/?method=shop.vip_guide_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_guide_isbuy\"), http_request_method.GET, {},\"vip_guide_isbuy\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1652,
+    "functionContext": "responseMethod",
+    "key": "bigholiday_index",
+    "route": "/api/?method=bigholiday.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"bigholiday_index\"), http_request_method.GET, {},\"bigholiday_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1661,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "get_reward_gacha",
+    "route": "/api/?method=gacha.get_reward_gacha",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"get_reward_gacha\"), http_request_method.GET, {},\"get_reward_gacha\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1667,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "integration_index",
+    "route": "/api/?method=active.integration_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"integration_index\"), http_request_method.GET, {},\"integration_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1673,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "free_dinner",
+    "route": "/api/?method=overlord_meal.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"free_dinner\"), http_request_method.GET, {price = 200},\"free_dinner\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1679,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "server_free_dinner",
+    "route": "/api/?method=server_overlord_meal.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"server_free_dinner\"), http_request_method.GET, {price = 200},\"server_free_dinner\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1685,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "egg_index",
+    "route": "/api/?method=egg.egg_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"egg_index\"), http_request_method.GET, {},\"egg_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1694,
+    "functionContext": "responseMethod",
+    "key": "active_kfhd_index",
+    "route": "/api/?method=reward.opening_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_kfhd_index\"), http_request_method.GET, {},\"active_kfhd_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1699,
+    "functionContext": "responseMethod",
+    "key": "redpacket_index",
+    "route": "/api/?method=redpacket.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"redpacket_index\"), http_request_method.GET, nil,\"redpacket_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1714,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "large_roulette_index",
+    "route": "/api/?method=large_roulette.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"large_roulette_index\"), http_request_method.GET, {},\"large_roulette_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1729,
+    "functionContext": "responseMethod",
+    "key": "large_super_rich_index",
+    "route": "/api/?method=large_super_rich.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"large_super_rich_index\"), http_request_method.GET, nil,\"large_super_rich_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1744,
+    "functionContext": "responseMethod",
+    "key": "large_super_all_index",
+    "route": "/api/?method=large_super_all.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"large_super_all_index\"), http_request_method.GET, nil,\"large_super_all_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1753,
+    "functionContext": "responseMethod",
+    "key": "gringotts_index",
+    "route": "/api/?method=gringotts.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"gringotts_index\"), http_request_method.GET, nil,\"gringotts_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1759,
+    "functionContext": "responseMethod",
+    "key": "clone_lane_index",
+    "route": "/api/?method=clone_lane.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"clone_lane_index\"), http_request_method.GET, nil,\"clone_lane_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1765,
+    "functionContext": "responseMethod",
+    "key": "super_tycoon_active_index",
+    "route": "/api/?method=super_tycoon_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"super_tycoon_active_index\"), http_request_method.GET, nil,\"super_tycoon_active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1770,
+    "functionContext": "responseMethod",
+    "key": "server_super_tycoon_active_index",
+    "route": "/api/?method=server_richman.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_super_tycoon_active_index\"), http_request_method.GET, nil,\"server_super_tycoon_active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1775,
+    "functionContext": "responseMethod",
+    "key": "world_tree_new_index",
+    "route": "/api/?method=world_tree_new.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"world_tree_new_index\"), http_request_method.GET, nil,\"world_tree_new_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1781,
+    "functionContext": "responseMethod",
+    "key": "card_collection_index",
+    "route": "/api/?method=card_collection.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"card_collection_index\"), http_request_method.GET, nil,\"card_collection_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1786,
+    "functionContext": "responseMethod",
+    "key": "server_card_collection_index",
+    "route": "/api/?method=server_card_collection.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_card_collection_index\"), http_request_method.GET, nil,\"server_card_collection_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1791,
+    "functionContext": "responseMethod",
+    "key": "raiders_index",
+    "route": "/api/?method=raiders.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"raiders_index\"), http_request_method.GET, nil,\"raiders_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1806,
+    "functionContext": "responseMethod",
+    "key": "month_foundation_index",
+    "route": "/api/?method=month_foundation.index_foundation",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"month_foundation_index\"), http_request_method.GET, nil,\"month_foundation_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1811,
+    "functionContext": "responseMethod",
+    "key": "monopoly_index",
+    "route": "/api/?method=monopoly.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"monopoly_index\"), http_request_method.GET, nil,\"monopoly_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1816,
+    "functionContext": "responseMethod",
+    "key": "bowl_index",
+    "route": "/api/?method=bowl.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"bowl_index\"), http_request_method.GET, nil,\"bowl_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1821,
+    "functionContext": "responseMethod",
+    "key": "yato_running_index",
+    "route": "/api/?method=race.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"yato_running_index\"),http_request_method.GET,nil,\"yato_running_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1832,
+    "functionContext": "ResponseMethod",
+    "key": "new_roulette_index",
+    "route": "/api/?method=new_roulette.index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"new_roulette_index\"), http_request_method.GET, params,\"new_roulette_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1839,
+    "functionContext": "ResponseMethod",
+    "key": "trainning_index",
+    "route": "/api/?method=card_develop.card_develop_index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"trainning_index\"), http_request_method.GET, nil,\"trainning_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1846,
+    "functionContext": "ResponseMethod",
+    "key": "lottery_index",
+    "route": "/api/?method=luck_lottery.index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"lottery_index\"), http_request_method.GET, nil,\"lottery_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1854,
+    "functionContext": "responseMethod",
+    "key": "vip_buy_step",
+    "route": "/api/?method=shop.vip_buy_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_buy_step\"), http_request_method.GET, nil,\"vip_buy_step\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1861,
+    "functionContext": "responseMethod",
+    "key": "recharge_index",
+    "route": "/api/?method=recharge_package.package_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"recharge_index\"), http_request_method.GET, nil,\"recharge_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1867,
+    "functionContext": "ResponseMethod",
+    "key": "toy_toy_index",
+    "route": "/api/?method=toy.toy_index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"toy_toy_index\"),http_request_method.GET,params,\"toy_toy_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1873,
+    "functionContext": "ResponseMethod",
+    "key": "pagoda_pagoda_index",
+    "route": "/api/?method=pagoda.pagoda_index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"pagoda_pagoda_index\"), http_request_method.GET, params,\"pagoda_pagoda_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1879,
+    "functionContext": "ResponseMethod",
+    "key": "world_cup_flag_index",
+    "route": "/api/?method=world_cup_flag.index",
+    "code": "network.sendHttpRequest(ResponseMethod,game_url.getUrlForKey(\"world_cup_flag_index\"), http_request_method.GET, params,\"world_cup_flag_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1885,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "world_cup_guess_index",
+    "route": "/api/?method=world_cup_guess.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"world_cup_guess_index\"), http_request_method.GET, {},\"world_cup_guess_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1891,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "idol_festival_index",
+    "route": "/api/?method=idol_festival.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"idol_festival_index\"), http_request_method.GET, {},\"idol_festival_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1896,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "god_shot_index",
+    "route": "/api/?method=god_shot.god_shot_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"god_shot_index\"), http_request_method.GET, {},\"god_shot_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1903,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "jigsaw_jigsaw_index",
+    "route": "/api/?method=jigsaw.jigsaw_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"jigsaw_jigsaw_index\"), http_request_method.GET, {},\"jigsaw_jigsaw_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1909,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "celebration_show",
+    "route": "/api/?method=celebration.cb_show",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"celebration_show\"), http_request_method.GET, {},\"celebration_show\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1914,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "super_luck_index",
+    "route": "/api/?method=super_luck.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"super_luck_index\"), http_request_method.GET, {},\"super_luck_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1919,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "limit_time_war_index",
+    "route": "/api/?method=limit_time_war.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"limit_time_war_index\"), http_request_method.GET, {},\"limit_time_war_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1924,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "invite_code_index",
+    "route": "/api/?method=invite_code.index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"invite_code_index\"), http_request_method.GET, {},\"invite_code_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1929,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "funeng_task_index",
+    "route": "/api/?method=funeng.task_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"funeng_task_index\"), http_request_method.GET, {},\"funeng_task_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1934,
+    "functionContext": "responseMethod",
+    "key": "redpacket_server_index",
+    "route": "/api/?method=redpacket.server_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"redpacket_server_index\"), http_request_method.GET, nil,\"redpacket_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 1942,
+    "functionContext": "responseMethod",
+    "key": "crowdfunding_index",
+    "route": "/api/?method=crowdfunding.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"crowdfunding_index\"), http_request_method.GET, params, \"crowdfunding_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 2824,
+    "functionContext": "responseMethod",
+    "key": "red_bag_open_red_bag",
+    "route": "/api/?method=red_bag.open_red_bag",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"red_bag_open_red_bag\"), http_request_method.GET, params,\"red_bag_open_red_bag\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 2851,
+    "functionContext": "responseMethod",
+    "key": "red_bag_open_red_bag",
+    "route": "/api/?method=red_bag.open_red_bag",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"red_bag_open_red_bag\"), http_request_method.GET, params,\"red_bag_open_red_bag\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 2982,
+    "functionContext": "responseMethod",
+    "key": "super_tycoon_active_index",
+    "route": "/api/?method=super_tycoon_active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"super_tycoon_active_index\"), http_request_method.GET, nil,\"super_tycoon_active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 2988,
+    "functionContext": "responseMethod",
+    "key": "server_super_tycoon_active_index",
+    "route": "/api/?method=server_richman.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"server_super_tycoon_active_index\"), http_request_method.GET, nil,\"server_super_tycoon_active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 3003,
+    "functionContext": "responseMethod",
+    "key": "month_foundation_index",
+    "route": "/api/?method=month_foundation.index_foundation",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"month_foundation_index\"), http_request_method.GET, nil,\"month_foundation_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_main_scene.lua",
+    "line": 3013,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 229,
+    "functionContext": "responseMethod",
+    "key": "combiner_index",
+    "route": "/api/?method=fable_beast.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"combiner_index\"), http_request_method.GET, nil,\"combiner_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 234,
+    "functionContext": "responseMethod",
+    "key": "school_open",
+    "route": "/api/?method=school.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"school_open\"), http_request_method.GET, nil,\"school_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 245,
+    "functionContext": "responseMethod",
+    "key": "cards_fate_rune_index",
+    "route": "/api/?method=cards.fate_rune_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_fate_rune_index\"), http_request_method.GET, nil,\"cards_fate_rune_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 266,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "shop_open",
+    "route": "/api/?method=shop.open",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"shop_open\"), http_request_method.GET, {},\"shop_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 272,
+    "functionContext": "responseMethod",
+    "key": "cards_open_dirt_shop",
+    "route": "/api/?method=cards.open_dirt_shop",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_open_dirt_shop\"), http_request_method.GET, nil,\"cards_open_dirt_shop\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 293,
+    "functionContext": "responseMethod",
+    "key": "homeland_index",
+    "route": "/api/?method=homeland.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"homeland_index\"), http_request_method.GET, nil,\"homeland_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 299,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "notify_messages",
+    "route": "/api/?method=notify.messages",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"notify_messages\"), http_request_method.GET, {},\"notify_messages\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 318,
+    "functionContext": "responseMethod",
+    "key": "offline_dispatch_index",
+    "route": "/api/?method=offline_dispatch.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"offline_dispatch_index\"), http_request_method.GET, nil,\"offline_dispatch_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 343,
+    "functionContext": "responseMethod",
+    "key": "leader_skill_open",
+    "route": "/api/?method=leader_skill.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"leader_skill_open\"), http_request_method.GET, nil,\"leader_skill_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 359,
+    "functionContext": "responseMethod",
+    "key": "item_view",
+    "route": "/api/?method=item.view",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"item_view\"), http_request_method.GET, {},\"item_view\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 372,
+    "functionContext": "responseMethod",
+    "key": "vip_buy_step",
+    "route": "/api/?method=shop.vip_buy_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_buy_step\"), http_request_method.GET, nil,\"vip_buy_step\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 381,
+    "functionContext": "responseMethod",
+    "key": "offline_dispatch_index",
+    "route": "/api/?method=offline_dispatch.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"offline_dispatch_index\"), http_request_method.GET, nil,\"offline_dispatch_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 389,
+    "functionContext": "responseMethod",
+    "key": "show_character_options",
+    "route": "/api/?method=book_exchange.show_character_options",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"show_character_options\"), http_request_method.GET, nil,\"show_character_options\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 397,
+    "functionContext": "responseMethod",
+    "key": "show_equip_options",
+    "route": "/api/?method=book_exchange.show_equip_options",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"show_equip_options\"), http_request_method.GET, nil,\"show_equip_options\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 404,
+    "functionContext": "responseMethod",
+    "key": "item_view",
+    "route": "/api/?method=item.view",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"item_view\"), http_request_method.GET, {},\"item_view\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 413,
+    "functionContext": "responseMethod",
+    "key": "commander_index",
+    "route": "/api/?method=commander.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"commander_index\"), http_request_method.GET, nil,\"commander_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 432,
+    "functionContext": "responseMethod",
+    "key": "shop_outlets_open",
+    "route": "/api/?method=shop.outlets_open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"shop_outlets_open\"), http_request_method.GET, {},\"shop_outlets_open\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 446,
+    "functionContext": "responseMethod",
+    "key": "rank_combat",
+    "route": "/api/?method=user.top_combat",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"rank_combat\"), http_request_method.GET, {},\"rank_combat\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 452,
+    "functionContext": "responseMethod",
+    "key": "user_request_code_index",
+    "route": "/api/?method=user.request_code_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"user_request_code_index\"), http_request_method.GET, nil,\"user_request_code_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 470,
+    "functionContext": "responseMethod",
+    "key": "omni_exchange_lastcount",
+    "route": "/api/?method=omni_exchange.show_omni_exchange_options",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"omni_exchange_lastcount\"), http_request_method.GET, nil,\"omni_exchange_lastcount\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 497,
+    "functionContext": "responseMethod",
+    "key": "medal_index",
+    "route": "/api/?method=medal.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"medal_index\"), http_request_method.GET, nil,\"medal_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 503,
+    "functionContext": "responseMethod",
+    "key": "medal_index",
+    "route": "/api/?method=medal.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"medal_index\"), http_request_method.GET, nil,\"medal_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 509,
+    "functionContext": "responseMethod",
+    "key": "medal_index",
+    "route": "/api/?method=medal.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"medal_index\"), http_request_method.GET, nil,\"medal_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 518,
+    "functionContext": "responseMethod",
+    "key": "soul_soul_index",
+    "route": "/api/?method=soul.soul_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"soul_soul_index\"), http_request_method.GET, nil,\"soul_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_function_pop.lua",
+    "line": 544,
+    "functionContext": "responseMethod",
+    "key": "cards_famous_index",
+    "route": "/api/?method=cards.famous_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_famous_index\"), http_request_method.GET, {},\"cards_famous_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/player_profile_pop.lua",
+    "line": 43,
+    "functionContext": "responseMethod",
+    "key": "rank_combat",
+    "route": "/api/?method=user.top_combat",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"rank_combat\"), http_request_method.GET, {},\"rank_combat\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/player_profile_pop.lua",
+    "line": 62,
+    "functionContext": "responseMethod",
+    "key": "user_title_index",
+    "route": "/api/?method=user.title_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"user_title_index\"), http_request_method.GET, nil,\"user_title_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_change_name_pop.lua",
+    "line": 72,
+    "functionContext": "responseMethod",
+    "key": "user_change_name",
+    "route": "/api/?method=user.change_name",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"user_change_name\"), http_request_method.GET, {name=playerName},\"user_change_name\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 87,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 94,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 108,
+    "functionContext": "responseMethod",
+    "key": "public_city_open",
+    "route": "/api/?method=public_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"public_city_open\"), http_request_method.GET, {city_id = city_id},\"public_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 117,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 126,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_hero_list.lua",
+    "line": 281,
+    "functionContext": "responseMethod",
+    "key": "cards_butcher",
+    "route": "/api/?method=cards.butcher",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_butcher\"), http_request_method.POST, params,\"cards_butcher\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_hero_info_pop.lua",
+    "line": 131,
+    "functionContext": "responseMethod",
+    "key": "cards_lock_card",
+    "route": "/api/?method=cards.lock_card",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_lock_card\"), http_request_method.GET, params,\"cards_lock_card\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_hero_info_pop.lua",
+    "line": 133,
+    "functionContext": "responseMethod",
+    "key": "cards_release_card",
+    "route": "/api/?method=cards.release_card",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_release_card\"), http_request_method.GET, params,\"cards_release_card\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 206,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 227,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 248,
+    "functionContext": "responseMethod",
+    "key": "world_boss_index",
+    "route": "/api/?method=world_boss.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"world_boss_index\"), http_request_method.GET, nil,\"world_boss_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 270,
+    "functionContext": "callBackFunc",
+    "key": "guildboss_index",
+    "route": "/api/?method=association.guildboss_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"guildboss_index\"), http_request_method.GET, nil,\"guildboss_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 279,
+    "functionContext": "responseMethod",
+    "key": "public_city_open",
+    "route": "/api/?method=public_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"public_city_open\"), http_request_method.GET, {city_id = city_id},\"public_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 294,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 303,
+    "functionContext": "shopOpenResponseMethod",
+    "key": "playerboss_index",
+    "route": "/api/?method=arena.playerboss_index",
+    "code": "network.sendHttpRequest(shopOpenResponseMethod,game_url.getUrlForKey(\"playerboss_index\"), http_request_method.GET, {},\"playerboss_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 309,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 328,
+    "functionContext": "responseMethod",
+    "key": "guild_gvg_index",
+    "route": "/api/?method=guild_gvg.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"guild_gvg_index\"), http_request_method.GET, nil,\"guild_gvg_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 350,
+    "functionContext": "responseMethod",
+    "key": "maze_index",
+    "route": "/api/?method=maze.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"maze_index\"), http_request_method.GET, nil,\"maze_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 389,
+    "functionContext": "responseMethod",
+    "key": "team_boss_index",
+    "route": "/api/?method=team_boss.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_boss_index\"), http_request_method.GET, nil,\"team_boss_index\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 408,
+    "functionContext": "responseMethod",
+    "key": "team_pk_new_index",
+    "route": "/api/?method=team_pk_new.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_pk_new_index\"), http_request_method.GET, nil,\"team_pk_new_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 601,
+    "functionContext": "responseMethod",
+    "key": "cards_set_alignment",
+    "route": "/api/?method=cards.set_alignment",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_set_alignment\"), http_request_method.POST, prarms,\"cards_set_alignment\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 688,
+    "functionContext": "responseMethod",
+    "key": "cards_activate_assistant_effect",
+    "route": "/api/?method=cards.activate_assistant_effect",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_activate_assistant_effect\"), http_request_method.GET, {position = self.m_posIndex-1},\"cards_activate_assistant_effect\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 4437,
+    "functionContext": "responseMethod",
+    "key": "cards_activate_assistant",
+    "route": "/api/?method=cards.activate_assistant",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_activate_assistant\"), http_request_method.GET, {position = endTag-1},\"cards_activate_assistant\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_adjustment_formation.lua",
+    "line": 5242,
+    "functionContext": "responseMethod",
+    "key": "cards_activate_destiny",
+    "route": "/api/?method=cards.activate_destiny",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"cards_activate_destiny\"), http_request_method.GET, {position = endTag-1},\"cards_activate_destiny\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/items_scene.lua",
+    "line": 204,
+    "functionContext": "callBackFunc",
+    "key": "item_use",
+    "route": "/api/?method=item.use",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"item_use\"), http_request_method.GET, {item_id = item_id,num = 1},\"item_use\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 81,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 95,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, {city = game_data:getSelCityId()},\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 109,
+    "functionContext": "responseMethod",
+    "key": "public_city_open",
+    "route": "/api/?method=public_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"public_city_open\"), http_request_method.GET, {city_id = city_id},\"public_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 118,
+    "functionContext": "responseMethod",
+    "key": "active_index",
+    "route": "/api/?method=active.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_index\"), http_request_method.GET, nil,\"active_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 127,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/equipment_list.lua",
+    "line": 251,
+    "functionContext": "responseMethod",
+    "key": "equip_sell",
+    "route": "/api/?method=equip.sell",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"equip_sell\"), http_request_method.POST, params,\"equip_sell\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 174,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_score",
+    "route": "/api/?method=private_city.world_score",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_score\"), http_request_method.GET, nil,\"private_city_world_score\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 207,
+    "functionContext": "responseMethod",
+    "key": "equip_books",
+    "route": "/api/?method=equip.books",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"equip_books\"), http_request_method.GET, nil,\"equip_books\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 213,
+    "functionContext": "responseMethod",
+    "key": "item_view",
+    "route": "/api/?method=item.view",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"item_view\"), http_request_method.GET, {},\"item_view\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 407,
+    "functionContext": "responseMethod",
+    "key": "private_city_auto_sweep_building",
+    "route": "/api/?method=private_city.auto_sweep_building",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_auto_sweep_building\"), http_request_method.GET, nil,\"private_city_auto_sweep_building\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 819,
+    "functionContext": "responseMethod",
+    "key": "active_fight",
+    "route": "/api/?method=active.fight",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"active_fight\"), http_request_method.GET, params,\"active_fight\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1064,
+    "functionContext": "responseMethod",
+    "key": "buy_done_times",
+    "route": "/api/?method=private_city.buy_done_times",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"buy_done_times\"), http_request_method.GET, nil,\"buy_done_times\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1095,
+    "functionContext": "responseMethod",
+    "key": "private_city_hard_open",
+    "route": "/api/?method=private_city.hard_open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_hard_open\"), http_request_method.GET, params,\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1097,
+    "functionContext": "responseMethod",
+    "key": "private_city_open",
+    "route": "/api/?method=private_city.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_open\"), http_request_method.GET, params,\"private_city_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1130,
+    "functionContext": "responseMethod",
+    "key": "hard_giveup",
+    "route": "/api/?method=private_city.hard_giveup",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"hard_giveup\"), http_request_method.GET, nil ,\"hard_giveup\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1337,
+    "functionContext": "responseMethod",
+    "key": "hard_giveup",
+    "route": "/api/?method=private_city.hard_giveup",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"hard_giveup\"), http_request_method.GET, nil ,\"hard_giveup\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/map_world_scene.lua",
+    "line": 1373,
+    "functionContext": "responseMethod",
+    "key": "private_city_hard_open",
+    "route": "/api/?method=private_city.hard_open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_hard_open\"), http_request_method.GET, params,\"private_city_hard_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_notify_message_scene.lua",
+    "line": 87,
+    "functionContext": "responseMethod",
+    "key": "team_fight_team_fight_messages",
+    "route": "/api/?method=team_fight.team_fight_messages",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_fight_team_fight_messages\"), http_request_method.GET, params,\"team_fight_team_fight_messages\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_notify_message_scene.lua",
+    "line": 112,
+    "functionContext": "responseMethod",
+    "key": "notify_messages_auto_read",
+    "route": "/api/?method=notify.auto_read",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"notify_messages_auto_read\"), http_request_method.GET, params,\"notify_messages_auto_read\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_notify_message_scene.lua",
+    "line": 219,
+    "functionContext": "responseMethod",
+    "key": "notify_read",
+    "route": "/api/?method=notify.read",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"notify_read\"), http_request_method.GET, params,\"notify_read\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_notify_message_scene.lua",
+    "line": 251,
+    "functionContext": "responseMethod",
+    "key": "team_fight_index",
+    "route": "/api/?method=team_fight.team_fight_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_fight_index\"), http_request_method.GET, nil,\"team_fight_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_notify_message_scene.lua",
+    "line": 350,
+    "functionContext": "responseMethod",
+    "key": "team_fight_team_fight_messages",
+    "route": "/api/?method=team_fight.team_fight_messages",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"team_fight_team_fight_messages\"), http_request_method.GET, params,\"team_fight_team_fight_messages\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 76,
+    "functionContext": "responseMethod",
+    "key": "refresh_daily_task",
+    "route": "/api/?method=reward.refresh_daily_task",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"refresh_daily_task\"), http_request_method.GET, nil,\"refresh_daily_task\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 86,
+    "functionContext": "responseMethod",
+    "key": "inactivate_daily_task",
+    "route": "/api/?method=reward.inactivate_daily_task",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"inactivate_daily_task\"), http_request_method.GET, {award_id = tostring(self.going_id)},\"inactivate_daily_task\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 92,
+    "functionContext": "responseMethod",
+    "key": "reward_diary_index",
+    "route": "/api/?method=reward.diary_index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"reward_diary_index\"), http_request_method.GET, {},\"reward_diary_index\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 170,
+    "functionContext": "responseMethod",
+    "key": "daily_score_award",
+    "route": "/api/?method=reward.daily_score_award",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"daily_score_award\"), http_request_method.GET, {score=tostring(score)},\"daily_score_award\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 303,
+    "functionContext": "responseMethod",
+    "key": "reward_daily_award",
+    "route": "/api/?method=reward.daily_award",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"reward_daily_award\"), http_request_method.GET, params,\"reward_daily_award\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 323,
+    "functionContext": "responseMethod",
+    "key": "activate_daily_task",
+    "route": "/api/?method=reward.activate_daily_task",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"activate_daily_task\"), http_request_method.GET, {award_id=tostring(id)},\"activate_daily_task\");",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 528,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 542,
+    "functionContext": "responseMethod",
+    "key": "school_open",
+    "route": "/api/?method=school.open",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"school_open\"), http_request_method.GET, nil,\"school_open\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 564,
+    "functionContext": "responseMethod",
+    "key": "gacha_get_all_gacha",
+    "route": "/api/?method=gacha.get_all_gacha",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"gacha_get_all_gacha\"), http_request_method.GET, nil,\"gacha_get_all_gacha\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 572,
+    "functionContext": "responseMethod",
+    "key": "arena_index",
+    "route": "/api/?method=arena.index",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"arena_index\"), http_request_method.GET, {},\"arena_index\");-- 競技場 完成 1-4 花園城市 後開啟 第四關強制",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 624,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_pop/game_daily_wanted.lua",
+    "line": 629,
+    "functionContext": "responseMethod",
+    "key": "private_city_world_map",
+    "route": "/api/?method=private_city.world_map",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"private_city_world_map\"), http_request_method.GET, nil,\"private_city_world_map\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_buy_item_scene.lua",
+    "line": 71,
+    "functionContext": "responseMethod",
+    "key": "vip_buy_step",
+    "route": "/api/?method=shop.vip_buy_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_buy_step\"), http_request_method.GET, nil,\"vip_buy_step\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_buy_item_scene.lua",
+    "line": 147,
+    "functionContext": "responseMethod",
+    "key": "item_use",
+    "route": "/api/?method=item.use",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"item_use\"), http_request_method.GET, {item_id = itemId,num = 1},\"item_use\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_buy_item_scene.lua",
+    "line": 158,
+    "functionContext": "responseMethod",
+    "key": "shop_buy",
+    "route": "/api/?method=shop.buy",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"shop_buy\"), http_request_method.GET, params,\"shop_buy\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_buy_item_scene.lua",
+    "line": 462,
+    "functionContext": "responseMethod",
+    "key": "shop_buy",
+    "route": "/api/?method=shop.buy",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"shop_buy\"), http_request_method.GET, params,\"shop_buy\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_gacha_scene.lua",
+    "line": 145,
+    "functionContext": "responseMethod",
+    "key": "vip_buy_step",
+    "route": "/api/?method=shop.vip_buy_step",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"vip_buy_step\"), http_request_method.GET, nil,\"vip_buy_step\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_gacha_scene.lua",
+    "line": 151,
+    "functionContext": "responseMethod",
+    "key": "top_gacha_score",
+    "route": "/api/?method=user.top_gacha_score",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"top_gacha_score\"), http_request_method.GET, {page = 0},\"top_gacha_score\")",
+    "evidence": "STATIC VERIFIED"
+  },
+  {
+    "file": "game_ui/game_gacha_scene.lua",
+    "line": 478,
+    "functionContext": "responseMethod",
+    "key": "gacha_get_gacha",
+    "route": "/api/?method=gacha.get_gacha",
+    "code": "network.sendHttpRequest(responseMethod,game_url.getUrlForKey(\"gacha_get_gacha\"), http_request_method.GET, {gacha_type=self.m_sel_gacha_id},\"gacha_get_gacha\",true,true)",
+    "evidence": "STATIC VERIFIED"
+  }
+]

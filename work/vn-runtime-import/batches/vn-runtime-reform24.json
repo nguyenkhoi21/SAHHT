@@ -1,0 +1,946 @@
+{
+  "baseConfigHashes": {
+    "character_strengthen": "74dfc0abf4e8366d0e84d08cd1d05dd3b520cff387f6aeedf8b4afffea58aaf2"
+  },
+  "batch": "vn-runtime-reform24",
+  "configs": {
+    "character_strengthen": {
+      "41": {
+        "add_def": 9558,
+        "add_hp": 63720,
+        "add_matk": 15930,
+        "add_patk": 15930,
+        "add_speed": 12744,
+        "need_crstal_def": [
+          3,
+          100
+        ],
+        "need_crstal_hp": [
+          3,
+          100
+        ],
+        "need_crstal_matk": [
+          3,
+          100
+        ],
+        "need_crstal_patk": [
+          3,
+          100
+        ],
+        "need_crstal_speed": [
+          3,
+          100
+        ],
+        "need_food": 42100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "42": {
+        "add_def": 10002,
+        "add_hp": 66680,
+        "add_matk": 16670,
+        "add_patk": 16670,
+        "add_speed": 13336,
+        "need_crstal_def": [
+          3,
+          120
+        ],
+        "need_crstal_hp": [
+          3,
+          120
+        ],
+        "need_crstal_matk": [
+          3,
+          120
+        ],
+        "need_crstal_patk": [
+          3,
+          120
+        ],
+        "need_crstal_speed": [
+          3,
+          120
+        ],
+        "need_food": 44100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "43": {
+        "add_def": 10446,
+        "add_hp": 69640,
+        "add_matk": 17410,
+        "add_patk": 17410,
+        "add_speed": 13928,
+        "need_crstal_def": [
+          3,
+          140
+        ],
+        "need_crstal_hp": [
+          3,
+          140
+        ],
+        "need_crstal_matk": [
+          3,
+          140
+        ],
+        "need_crstal_patk": [
+          3,
+          140
+        ],
+        "need_crstal_speed": [
+          3,
+          140
+        ],
+        "need_food": 46100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "44": {
+        "add_def": 10890,
+        "add_hp": 72600,
+        "add_matk": 18150,
+        "add_patk": 18150,
+        "add_speed": 14520,
+        "need_crstal_def": [
+          3,
+          160
+        ],
+        "need_crstal_hp": [
+          3,
+          160
+        ],
+        "need_crstal_matk": [
+          3,
+          160
+        ],
+        "need_crstal_patk": [
+          3,
+          160
+        ],
+        "need_crstal_speed": [
+          3,
+          160
+        ],
+        "need_food": 48100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "45": {
+        "add_def": 11334,
+        "add_hp": 75560,
+        "add_matk": 18890,
+        "add_patk": 18890,
+        "add_speed": 15112,
+        "need_crstal_def": [
+          3,
+          180
+        ],
+        "need_crstal_hp": [
+          3,
+          180
+        ],
+        "need_crstal_matk": [
+          3,
+          180
+        ],
+        "need_crstal_patk": [
+          3,
+          180
+        ],
+        "need_crstal_speed": [
+          3,
+          180
+        ],
+        "need_food": 50100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "46": {
+        "add_def": 11778,
+        "add_hp": 78520,
+        "add_matk": 19630,
+        "add_patk": 19630,
+        "add_speed": 15704,
+        "need_crstal_def": [
+          3,
+          200
+        ],
+        "need_crstal_hp": [
+          3,
+          200
+        ],
+        "need_crstal_matk": [
+          3,
+          200
+        ],
+        "need_crstal_patk": [
+          3,
+          200
+        ],
+        "need_crstal_speed": [
+          3,
+          200
+        ],
+        "need_food": 52100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "47": {
+        "add_def": 12222,
+        "add_hp": 81480,
+        "add_matk": 20370,
+        "add_patk": 20370,
+        "add_speed": 16296,
+        "need_crstal_def": [
+          3,
+          250
+        ],
+        "need_crstal_hp": [
+          3,
+          250
+        ],
+        "need_crstal_matk": [
+          3,
+          250
+        ],
+        "need_crstal_patk": [
+          3,
+          250
+        ],
+        "need_crstal_speed": [
+          3,
+          250
+        ],
+        "need_food": 54100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "48": {
+        "add_def": 12666,
+        "add_hp": 84440,
+        "add_matk": 21110,
+        "add_patk": 21110,
+        "add_speed": 16888,
+        "need_crstal_def": [
+          3,
+          300
+        ],
+        "need_crstal_hp": [
+          3,
+          300
+        ],
+        "need_crstal_matk": [
+          3,
+          300
+        ],
+        "need_crstal_patk": [
+          3,
+          300
+        ],
+        "need_crstal_speed": [
+          3,
+          300
+        ],
+        "need_food": 56100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "49": {
+        "add_def": 13110,
+        "add_hp": 87400,
+        "add_matk": 21850,
+        "add_patk": 21850,
+        "add_speed": 17480,
+        "need_crstal_def": [
+          3,
+          350
+        ],
+        "need_crstal_hp": [
+          3,
+          350
+        ],
+        "need_crstal_matk": [
+          3,
+          350
+        ],
+        "need_crstal_patk": [
+          3,
+          350
+        ],
+        "need_crstal_speed": [
+          3,
+          350
+        ],
+        "need_food": 58100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "50": {
+        "add_def": 13554,
+        "add_hp": 90360,
+        "add_matk": 22590,
+        "add_patk": 22590,
+        "add_speed": 18072,
+        "need_crstal_def": [
+          3,
+          400
+        ],
+        "need_crstal_hp": [
+          3,
+          400
+        ],
+        "need_crstal_matk": [
+          3,
+          400
+        ],
+        "need_crstal_patk": [
+          3,
+          400
+        ],
+        "need_crstal_speed": [
+          3,
+          400
+        ],
+        "need_food": 60100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "51": {
+        "add_def": 13998,
+        "add_hp": 93320,
+        "add_matk": 23330,
+        "add_patk": 23330,
+        "add_speed": 18664,
+        "need_crstal_def": [
+          3,
+          450
+        ],
+        "need_crstal_hp": [
+          3,
+          450
+        ],
+        "need_crstal_matk": [
+          3,
+          450
+        ],
+        "need_crstal_patk": [
+          3,
+          450
+        ],
+        "need_crstal_speed": [
+          3,
+          450
+        ],
+        "need_food": 62100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "52": {
+        "add_def": 14442,
+        "add_hp": 96280,
+        "add_matk": 24070,
+        "add_patk": 24070,
+        "add_speed": 19256,
+        "need_crstal_def": [
+          3,
+          500
+        ],
+        "need_crstal_hp": [
+          3,
+          500
+        ],
+        "need_crstal_matk": [
+          3,
+          500
+        ],
+        "need_crstal_patk": [
+          3,
+          500
+        ],
+        "need_crstal_speed": [
+          3,
+          500
+        ],
+        "need_food": 64100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "53": {
+        "add_def": 14886,
+        "add_hp": 99240,
+        "add_matk": 24810,
+        "add_patk": 24810,
+        "add_speed": 19848,
+        "need_crstal_def": [
+          3,
+          550
+        ],
+        "need_crstal_hp": [
+          3,
+          550
+        ],
+        "need_crstal_matk": [
+          3,
+          550
+        ],
+        "need_crstal_patk": [
+          3,
+          550
+        ],
+        "need_crstal_speed": [
+          3,
+          550
+        ],
+        "need_food": 66100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "54": {
+        "add_def": 15330,
+        "add_hp": 102200,
+        "add_matk": 25550,
+        "add_patk": 25550,
+        "add_speed": 20440,
+        "need_crstal_def": [
+          3,
+          600
+        ],
+        "need_crstal_hp": [
+          3,
+          600
+        ],
+        "need_crstal_matk": [
+          3,
+          600
+        ],
+        "need_crstal_patk": [
+          3,
+          600
+        ],
+        "need_crstal_speed": [
+          3,
+          600
+        ],
+        "need_food": 68100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "55": {
+        "add_def": 15774,
+        "add_hp": 105160,
+        "add_matk": 26290,
+        "add_patk": 26290,
+        "add_speed": 21032,
+        "need_crstal_def": [
+          3,
+          650
+        ],
+        "need_crstal_hp": [
+          3,
+          650
+        ],
+        "need_crstal_matk": [
+          3,
+          650
+        ],
+        "need_crstal_patk": [
+          3,
+          650
+        ],
+        "need_crstal_speed": [
+          3,
+          650
+        ],
+        "need_food": 70100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "56": {
+        "add_def": 16218,
+        "add_hp": 108120,
+        "add_matk": 27030,
+        "add_patk": 27030,
+        "add_speed": 21624,
+        "need_crstal_def": [
+          3,
+          700
+        ],
+        "need_crstal_hp": [
+          3,
+          700
+        ],
+        "need_crstal_matk": [
+          3,
+          700
+        ],
+        "need_crstal_patk": [
+          3,
+          700
+        ],
+        "need_crstal_speed": [
+          3,
+          700
+        ],
+        "need_food": 72100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "57": {
+        "add_def": 16662,
+        "add_hp": 111080,
+        "add_matk": 27770,
+        "add_patk": 27770,
+        "add_speed": 22216,
+        "need_crstal_def": [
+          3,
+          750
+        ],
+        "need_crstal_hp": [
+          3,
+          750
+        ],
+        "need_crstal_matk": [
+          3,
+          750
+        ],
+        "need_crstal_patk": [
+          3,
+          750
+        ],
+        "need_crstal_speed": [
+          3,
+          750
+        ],
+        "need_food": 74100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "58": {
+        "add_def": 17106,
+        "add_hp": 114040,
+        "add_matk": 28510,
+        "add_patk": 28510,
+        "add_speed": 22808,
+        "need_crstal_def": [
+          3,
+          800
+        ],
+        "need_crstal_hp": [
+          3,
+          800
+        ],
+        "need_crstal_matk": [
+          3,
+          800
+        ],
+        "need_crstal_patk": [
+          3,
+          800
+        ],
+        "need_crstal_speed": [
+          3,
+          800
+        ],
+        "need_food": 76100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "59": {
+        "add_def": 17550,
+        "add_hp": 117000,
+        "add_matk": 29250,
+        "add_patk": 29250,
+        "add_speed": 23400,
+        "need_crstal_def": [
+          3,
+          900
+        ],
+        "need_crstal_hp": [
+          3,
+          900
+        ],
+        "need_crstal_matk": [
+          3,
+          900
+        ],
+        "need_crstal_patk": [
+          3,
+          900
+        ],
+        "need_crstal_speed": [
+          3,
+          900
+        ],
+        "need_food": 78100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      },
+      "60": {
+        "add_def": 18000,
+        "add_hp": 120000,
+        "add_matk": 30000,
+        "add_patk": 30000,
+        "add_speed": 24000,
+        "need_crstal_def": [
+          3,
+          1000
+        ],
+        "need_crstal_hp": [
+          3,
+          1000
+        ],
+        "need_crstal_matk": [
+          3,
+          1000
+        ],
+        "need_crstal_patk": [
+          3,
+          1000
+        ],
+        "need_crstal_speed": [
+          3,
+          1000
+        ],
+        "need_food": 80100,
+        "need_level": 150,
+        "need_star": 0,
+        "need_time": 0
+      }
+    }
+  },
+  "createdAt": "2026-10-27T09:30:25.771529+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "1",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "2",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "3",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "4",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "5",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "6",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "7",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "8",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "9",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "10",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "11",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "12",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "13",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "14",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "15",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "16",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "17",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "18",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "19",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "20",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "21",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "22",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "23",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "24",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "25",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "26",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "27",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "28",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "29",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "30",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "31",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "32",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "33",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "34",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "35",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "36",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "37",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "38",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "39",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "40",
+      "status": "BASE",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "41",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "42",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "43",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "44",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "45",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "46",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "47",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "48",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "49",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "50",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "51",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "52",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "53",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "54",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "55",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "56",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "57",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "58",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "59",
+      "status": "ADD",
+      "table": "character_strengthen"
+    },
+    {
+      "id": "60",
+      "status": "ADD",
+      "table": "character_strengthen"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

@@ -1,0 +1,331 @@
+{
+  "baseConfigHashes": {
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-item-icons",
+  "configs": {
+    "item": {
+      "9102120": {
+        "daily_use": 0,
+        "icon": "icon_box8",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Phiếu bộ Năm Ngựa",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra có thể chọn 1 Phiếu bộ trang bị Năm Ngựa thuộc tính Hoả/ Thủy/ Địa/ Phong ",
+        "use_effect": [
+          9102120
+        ],
+        "use_num": 1
+      },
+      "9102366": {
+        "daily_use": 0,
+        "icon": "erhuan",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Bông Tai Potara",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ chuyên dụng cho Chuyển Thế vegetto",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "9102470": {
+        "daily_use": 0,
+        "icon": "icon_box1",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In S",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In S ×1.",
+        "use_effect": [
+          9102470
+        ],
+        "use_num": 1
+      },
+      "9102471": {
+        "daily_use": 0,
+        "icon": "icon_box2",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SS",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SS ×1.",
+        "use_effect": [
+          9102471
+        ],
+        "use_num": 1
+      },
+      "9102472": {
+        "daily_use": 0,
+        "icon": "icon_box3",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SSS",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SSS ×1.",
+        "use_effect": [
+          9102472
+        ],
+        "use_num": 1
+      },
+      "950001": {
+        "daily_use": 0,
+        "icon": "jin",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Kim Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950002": {
+        "daily_use": 0,
+        "icon": "mu",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Mộc Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950003": {
+        "daily_use": 0,
+        "icon": "shui",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Thủy Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950004": {
+        "daily_use": 0,
+        "icon": "huo",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Hỏa Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950005": {
+        "daily_use": 0,
+        "icon": "tu",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Thổ Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950006": {
+        "daily_use": 0,
+        "icon": "wenzhang",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Linh Tiềm Năng",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950007": {
+        "daily_use": 0,
+        "icon": "hun",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Hồn Tiềm Năng",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      }
+    }
+  },
+  "createdAt": "2026-10-25T18:38:30.797255+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "950001",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950002",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950003",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950004",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950005",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950006",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950007",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102120",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102470",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102471",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102472",
+      "status": "ADD",
+      "table": "item"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {
+    "assets/iphonehd/icon/erhuan.png": {
+      "sha256": "426fae84fcdd9070ef7a614dbc7895d5fde9a2d9dc4c603adda9ccf1f69176c4",
+      "size": 10130,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/erhuan.png"
+    },
+    "assets/iphonehd/icon/hun.png": {
+      "sha256": "57970177b803063cfdf08e9f64e210d3ff821e21faf0c281f5dbcbb2c27e9def",
+      "size": 17093,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/hun.png"
+    },
+    "assets/iphonehd/icon/huo.png": {
+      "sha256": "6fce29e95c26d7108d51c0b3798e182c308f6ca594a1674f07e8f1523c60f564",
+      "size": 17238,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/huo.png"
+    },
+    "assets/iphonehd/icon/jin.png": {
+      "sha256": "1826e0263ea49a0fdfc46c6126345820cfebe99be52cdd5f09472b1b8261782b",
+      "size": 17765,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/jin.png"
+    },
+    "assets/iphonehd/icon/mu.png": {
+      "sha256": "e53ea1ff318c3da5f8fb0eb06a5822f7f74854e621865f33cb49bf9c9afc3d1d",
+      "size": 16496,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/mu.png"
+    },
+    "assets/iphonehd/icon/shui.png": {
+      "sha256": "39ea638059f4ccb9913d3fb723967634654bed9d97dcd22b5bd3310443969a20",
+      "size": 15991,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/shui.png"
+    },
+    "assets/iphonehd/icon/tu.png": {
+      "sha256": "82948a6c1dd8966f33a95c49b56c63365856815573fcb7f8b84e2b109040c6bc",
+      "size": 16351,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/tu.png"
+    },
+    "assets/iphonehd/icon/wenzhang.png": {
+      "sha256": "8db82b66d9fe3b1e859219d8af8e6264c2d040e69f1431686a452b3c9aaa3ac5",
+      "size": 16640,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/wenzhang.png"
+    }
+  },
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

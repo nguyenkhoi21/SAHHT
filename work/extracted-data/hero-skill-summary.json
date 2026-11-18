@@ -1,0 +1,20 @@
+{
+  "heroes": 662,
+  "skills": 9318,
+  "referencedSkills": 2084,
+  "missingSkillReferences": 130,
+  "tables": {
+    "combat_skill": 50,
+    "combiner_skill_detail": 16,
+    "equip_gem_fate_skill": 40,
+    "leader_skill": 96,
+    "leader_skill_develop": 96,
+    "leader_skill_tree": 8,
+    "pet_skill_detail": 90,
+    "pet_skill_levelup": 30,
+    "role_skill": 6,
+    "skill_detail": 9318,
+    "skill_levelup": 30,
+    "talent_skill": 117
+  }
+}

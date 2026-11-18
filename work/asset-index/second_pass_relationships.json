@@ -1,0 +1,887 @@
+{
+  "scriptAliasReferences": [
+    {
+      "file": "work/decrypted/lua/game_data.lua",
+      "line": 3466,
+      "match": "pein"
+    },
+    {
+      "file": "work/decrypted/lua/game_pop/game_data.lua",
+      "line": 2622,
+      "match": "pein"
+    },
+    {
+      "file": "work/decrypted/lua/game_pop/game_hero_evo_look_pop.lua",
+      "line": 224,
+      "match": "peIn"
+    },
+    {
+      "file": "work/decrypted/lua/game_pop/game_hero_evo_look_pop.lua",
+      "line": 226,
+      "match": "peIn"
+    },
+    {
+      "file": "work/decrypted/lua/game_ui/game_hero_advanced_sure.lua",
+      "line": 1261,
+      "match": "peIn"
+    },
+    {
+      "file": "work/decrypted/lua/game_ui/game_hero_advanced_sure.lua",
+      "line": 1263,
+      "match": "peIn"
+    },
+    {
+      "file": "work/decrypted/lua/game_ui/game_main_scene.lua",
+      "line": 2354,
+      "match": "pein"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s1.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s2.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s3.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s4.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s5.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s6.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s7.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s7.lua",
+      "line": 16,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/peien_s7.lua",
+      "line": 36,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien/skill1.lua",
+      "line": 3,
+      "match": "peien"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s1.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s2.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s3.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s4.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s5.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s6.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s7.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s7.lua",
+      "line": 16,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/peien2_s7.lua",
+      "line": 36,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/peien2/skill1.lua",
+      "line": 3,
+      "match": "peien2"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/skill1.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s1.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s2.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s3.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s4.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s5.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s5.lua",
+      "line": 16,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s5.lua",
+      "line": 36,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s6.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s6.lua",
+      "line": 16,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s6.lua",
+      "line": 36,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s7.lua",
+      "line": 3,
+      "match": "Vagete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/vegete/skill1.lua",
+      "line": 3,
+      "match": "vegete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/vegete/skill2.lua",
+      "line": 3,
+      "match": "vegete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/vegete/vegete_s1.lua",
+      "line": 3,
+      "match": "vegete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/vegete/vegete_s2.lua",
+      "line": 3,
+      "match": "vegete"
+    },
+    {
+      "file": "work/decrypted/lua/skill_effect/vegete/vegete_s3.lua",
+      "line": 3,
+      "match": "vegete"
+    }
+  ],
+  "summary": {
+    "androidPlayableCount": "UNKNOWN; chưa kiểm runtime mọi hero",
+    "assetModelGroups": 476,
+    "configTableCount": 634,
+    "equipmentQualities": {
+      "1": 24,
+      "2": 52,
+      "3": 80,
+      "4": 611,
+      "5": 583,
+      "6": 1146,
+      "7": 711,
+      "8": 711
+    },
+    "equipmentRecords": 3918,
+    "equipmentSlots": {
+      "1": 981,
+      "2": 979,
+      "3": 979,
+      "4": 979
+    },
+    "heroConfigClassifications": {
+      "CONFIG HERO MISSING ASSET": 26,
+      "FULLY RESOLVED CONFIG IDENTITY": 625,
+      "MATERIAL CARD": 9,
+      "SKIN / TRANSFORMATION": 2
+    },
+    "itemUsageClasses": {
+      "consumable": 4,
+      "non_direct_use": 2805
+    },
+    "modelClassifications": {
+      "AMBIGUOUS": 99,
+      "ASSET HERO MISSING CONFIG": 32,
+      "FULLY RESOLVED CONFIG IDENTITY": 281,
+      "NPC / ENEMY": 18,
+      "OTHER CONFIG IDENTITY": 29,
+      "PET CONFIG IDENTITY": 17
+    },
+    "notice": "Full coverage là mọi candidate có hồ sơ; không khẳng định mọi resource là playable hero hoặc đã giải hết identity.",
+    "painModels": [
+      {
+        "aliasConfidence": "LIKELY",
+        "aliases": [
+          "Pain",
+          "Pein"
+        ],
+        "classification": "ASSET HERO MISSING CONFIG",
+        "confidence": "POSSIBLE",
+        "configIds": [],
+        "configReferences": [],
+        "effectScripts": [
+          "work/decrypted/lua/skill_effect/peien/peien_s1.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s2.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s3.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s4.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s5.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s6.lua",
+          "work/decrypted/lua/skill_effect/peien/peien_s7.lua",
+          "work/decrypted/lua/skill_effect/peien/skill1.lua"
+        ],
+        "events": [
+          {
+            "mode": 2,
+            "number": 3,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 4,
+            "type": "bao"
+          },
+          {
+            "type": "shock_screen"
+          },
+          {
+            "res": "peienYNgongji6",
+            "type": "wav"
+          },
+          {
+            "res": "peienYNgongji8",
+            "type": "wav"
+          },
+          {
+            "res": "peiengj1",
+            "type": "wav"
+          },
+          {
+            "res": "peiengj3",
+            "type": "wav"
+          },
+          {
+            "res": "peiengj4",
+            "type": "wav"
+          },
+          {
+            "res": "peiengj5",
+            "type": "wav"
+          },
+          {
+            "res": "peiengj7",
+            "type": "wav"
+          }
+        ],
+        "grantable": false,
+        "icon": "assets/iphonehd/icon/icon_peien.png",
+        "internalName": "peien",
+        "luaReferences": [
+          {
+            "file": "work/decrypted/lua/skill_effect/peien/peien_s7.lua",
+            "line": 36
+          }
+        ],
+        "model": "assets/iphonehd/anim/peien.swf.sam",
+        "otherConfigReferences": [],
+        "portrait": "assets/iphonehd/img/image_peien.png",
+        "resolution": "PLAYABLE ID UNKNOWN",
+        "sections": [
+          "beiji",
+          "beiji2",
+          "daiji",
+          "dengchang",
+          "gongji1",
+          "gongji2",
+          "gongji3",
+          "gongji4",
+          "gongji5",
+          "gongji6",
+          "gongji7",
+          "gongji8",
+          "gongji8_teixao1",
+          "houtui",
+          "qianjin",
+          "shuaidao",
+          "siwang"
+        ]
+      },
+      {
+        "aliasConfidence": "LIKELY",
+        "aliases": [
+          "Pain",
+          "Pein"
+        ],
+        "classification": "ASSET HERO MISSING CONFIG",
+        "confidence": "POSSIBLE",
+        "configIds": [],
+        "configReferences": [],
+        "effectScripts": [
+          "work/decrypted/lua/skill_effect/peien2/peien2_s1.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s2.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s3.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s4.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s5.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s6.lua",
+          "work/decrypted/lua/skill_effect/peien2/peien2_s7.lua",
+          "work/decrypted/lua/skill_effect/peien2/skill1.lua"
+        ],
+        "events": [
+          {
+            "mode": 2,
+            "number": 3,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 4,
+            "type": "bao"
+          },
+          {
+            "type": "shock_screen"
+          },
+          {
+            "res": "Peiencm1",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm2",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm3",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm4",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm5",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm6",
+            "type": "wav"
+          },
+          {
+            "res": "Peiencm7",
+            "type": "wav"
+          },
+          {
+            "res": "peien2YNgongji8",
+            "type": "wav"
+          }
+        ],
+        "grantable": false,
+        "icon": "assets/iphonehd/icon/icon_peien2.png",
+        "internalName": "peien2",
+        "luaReferences": [
+          {
+            "file": "work/decrypted/lua/skill_effect/peien2/peien2_s7.lua",
+            "line": 36
+          }
+        ],
+        "model": "assets/iphonehd/anim/peien2.swf.sam",
+        "otherConfigReferences": [],
+        "portrait": "assets/iphonehd/img/image_peien2.png",
+        "resolution": "PLAYABLE ID UNKNOWN",
+        "sections": [
+          "beiji",
+          "beiji2",
+          "daiji",
+          "dengchang",
+          "gongji1",
+          "gongji2",
+          "gongji3",
+          "gongji4",
+          "gongji5",
+          "gongji6",
+          "gongji7",
+          "gongji8",
+          "gongji8_teixao1",
+          "houtui",
+          "qianjin",
+          "shuaidao",
+          "siwang"
+        ]
+      }
+    ],
+    "painPlayableId": "UNKNOWN",
+    "primaryConfigRows": 662,
+    "separateItemRecords": 2809,
+    "vegettoModels": [
+      {
+        "aliasConfidence": "UNKNOWN",
+        "aliases": [],
+        "classification": "FULLY RESOLVED CONFIG IDENTITY",
+        "confidence": "CONFIRMED",
+        "configIds": [
+          63400
+        ],
+        "configReferences": [
+          {
+            "path": "character_detail/63400/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "character_detail/63400/animation",
+            "relation": "EXACT_MODEL"
+          }
+        ],
+        "effectScripts": [
+          "work/decrypted/lua/skill_effect/VageteBlue/skill1.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s1.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s2.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s3.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s4.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s5.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s6.lua",
+          "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s7.lua"
+        ],
+        "events": [
+          {
+            "mode": 2,
+            "number": 4,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 6,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 8,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 9,
+            "type": "bao"
+          },
+          {
+            "type": "shock_screen"
+          },
+          {
+            "res": "baopo",
+            "type": "wav"
+          },
+          {
+            "res": "dianfashu",
+            "type": "wav"
+          },
+          {
+            "res": "jiazhuangtai",
+            "type": "wav"
+          },
+          {
+            "res": "jiguang",
+            "type": "wav"
+          },
+          {
+            "res": "jiguang3",
+            "type": "wav"
+          },
+          {
+            "res": "jiguangshexian",
+            "type": "wav"
+          },
+          {
+            "res": "lunren",
+            "type": "wav"
+          },
+          {
+            "res": "nuge2",
+            "type": "wav"
+          },
+          {
+            "res": "qiman",
+            "type": "wav"
+          },
+          {
+            "res": "rexuequan1",
+            "type": "wav"
+          },
+          {
+            "res": "tielian",
+            "type": "wav"
+          },
+          {
+            "res": "yeshou",
+            "type": "wav"
+          }
+        ],
+        "grantable": false,
+        "icon": "assets/iphonehd/icon/icon_VageteBlue.png",
+        "internalName": "VageteBlue",
+        "luaReferences": [
+          {
+            "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s5.lua",
+            "line": 36
+          },
+          {
+            "file": "work/decrypted/lua/skill_effect/VageteBlue/VageteBlue_s6.lua",
+            "line": 36
+          }
+        ],
+        "model": "assets/iphonehd/anim/VageteBlue.swf.sam",
+        "otherConfigReferences": [
+          "character_detail/63400/animation"
+        ],
+        "portrait": "assets/iphonehd/img/image_VageteBlue.png",
+        "resolution": "CONFIG ID CONFIRMED",
+        "sections": [
+          "beiji",
+          "beiji2",
+          "daiji",
+          "dengchang",
+          "gongji1",
+          "gongji2",
+          "gongji3",
+          "gongji4",
+          "gongji5",
+          "gongji6",
+          "gongji7",
+          "gongji8",
+          "gongji8_texiao1",
+          "houtui",
+          "qianjin",
+          "shuaidao",
+          "siwang"
+        ]
+      },
+      {
+        "aliasConfidence": "UNKNOWN",
+        "aliases": [],
+        "classification": "FULLY RESOLVED CONFIG IDENTITY",
+        "confidence": "CONFIRMED",
+        "configIds": [
+          6400,
+          32600
+        ],
+        "configReferences": [
+          {
+            "path": "afterlife_enemy/1800036/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "afterlife_enemy/1800036/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "character_detail/6400/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "character_detail/6400/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "character_detail/32600/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "character_detail/32600/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "colosseum_limited/9/img",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "constellation_boss/2/image",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "constellation_detail/2/tiltle_name",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "constellation_enemy/1800036/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "constellation_enemy/1800036/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "enemy_detail/30075/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "enemy_detail/30075/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "enemy_detail/30138/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "enemy_detail/30138/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "enemy_detail/30025/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "enemy_detail/30025/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "enemy_detail/79019/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "face_icon/27/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "item/1064/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "item/511256/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "item/511409/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "item/522016/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "maze_stage/2505/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "maze_stage/503/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "maze_stage/1404/icon",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "monopoly_enemy/1800027/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "monopoly_enemy/1800027/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "new_fight_enemy/1800236/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "new_fight_enemy/1800236/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "new_fight_enemy/1800136/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "new_fight_enemy/1800136/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "new_fight_enemy/1800036/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "new_fight_enemy/1800036/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "nightmare_enemy/1800236/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "nightmare_enemy/1800236/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "nightmare_enemy/1800136/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "nightmare_enemy/1800136/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "nightmare_enemy/1800036/img",
+            "relation": "ICON_OR_PORTRAIT"
+          },
+          {
+            "path": "nightmare_enemy/1800036/animation",
+            "relation": "EXACT_MODEL"
+          },
+          {
+            "path": "updating/3/updating_animation",
+            "relation": "EXACT_MODEL"
+          }
+        ],
+        "effectScripts": [
+          "work/decrypted/lua/skill_effect/vegete/skill1.lua",
+          "work/decrypted/lua/skill_effect/vegete/skill2.lua",
+          "work/decrypted/lua/skill_effect/vegete/vegete_s1.lua",
+          "work/decrypted/lua/skill_effect/vegete/vegete_s2.lua",
+          "work/decrypted/lua/skill_effect/vegete/vegete_s3.lua"
+        ],
+        "events": [
+          {
+            "mode": 1,
+            "number": 1,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 1,
+            "type": "bao"
+          },
+          {
+            "mode": 2,
+            "number": 2,
+            "type": "bao"
+          },
+          {
+            "type": "shock_screen"
+          },
+          {
+            "res": "bao",
+            "type": "wav"
+          },
+          {
+            "res": "dahuoyan",
+            "type": "wav"
+          },
+          {
+            "res": "feng",
+            "type": "wav"
+          },
+          {
+            "res": "jiguang",
+            "type": "wav"
+          },
+          {
+            "res": "juguang",
+            "type": "wav"
+          },
+          {
+            "res": "lunren",
+            "type": "wav"
+          },
+          {
+            "res": "nbsheng",
+            "type": "wav"
+          },
+          {
+            "res": "zhongpao",
+            "type": "wav"
+          }
+        ],
+        "grantable": false,
+        "icon": "assets/iphonehd/icon/icon_vegete.png",
+        "internalName": "vegete",
+        "luaReferences": [],
+        "model": "assets/iphonehd/anim/vegete.swf.sam",
+        "otherConfigReferences": [
+          "afterlife_enemy/1800036/animation",
+          "character_detail/32600/animation",
+          "character_detail/6400/animation",
+          "colosseum_limited/9/img",
+          "constellation_boss/2/image",
+          "constellation_detail/2/tiltle_name",
+          "constellation_enemy/1800036/animation",
+          "enemy_detail/30025/animation",
+          "enemy_detail/30075/animation",
+          "enemy_detail/30138/animation",
+          "enemy_detail/79019/animation",
+          "monopoly_enemy/1800027/animation",
+          "new_fight_enemy/1800036/animation",
+          "new_fight_enemy/1800136/animation",
+          "new_fight_enemy/1800236/animation",
+          "nightmare_enemy/1800036/animation",
+          "nightmare_enemy/1800136/animation",
+          "nightmare_enemy/1800236/animation",
+          "updating/3/updating_animation"
+        ],
+        "portrait": "assets/iphonehd/img/image_vegete.png",
+        "resolution": "CONFIG ID CONFIRMED",
+        "sections": [
+          "beiji1",
+          "beiji2",
+          "daiji",
+          "dengchang",
+          "gongji1",
+          "gongji2",
+          "gongji2_1",
+          "gongji2_2",
+          "gongji3",
+          "gongji4",
+          "houtui",
+          "qianjin",
+          "shuaidao",
+          "siwang"
+        ]
+      }
+    ]
+  }
+}

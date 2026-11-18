@@ -1,0 +1,132 @@
+{
+  "baseConfigHashes": {
+    "character_detail": "056e618c76d5b7815aeecf133ceb5b2eed8466f8c2bf46f28cdd50ddd01ccb10"
+  },
+  "batch": "vn-runtime-beast-material59",
+  "configs": {
+    "character_detail": {
+      "59": {
+        "animation": "ling5",
+        "base_def": 10,
+        "base_hp": 100,
+        "base_matk": 10,
+        "base_patk": 10,
+        "base_speed": 10,
+        "break4": [],
+        "break5": [],
+        "breakthrough_ids": [],
+        "call_price": 2560,
+        "career": 0,
+        "chain": [],
+        "character_ID": "1009",
+        "evo_food": 0,
+        "evo_kind": 6,
+        "exchange_id": 0,
+        "growth_def": 0,
+        "growth_hp": 0,
+        "growth_matk": 0,
+        "growth_patk": 0,
+        "growth_speed": 0,
+        "img": "icon_ling5.png",
+        "is_evo": 0,
+        "is_notice": 2,
+        "is_only": 1,
+        "is_skin": 0,
+        "level_max": 1,
+        "name": "Hồn Thần Thú hình 1",
+        "occupation_shade": -1,
+        "quality": 6,
+        "race": 1,
+        "rebirth": 3,
+        "rgb_sort": 0,
+        "sex": 1,
+        "short_story": "Có thể dùng Thần Thú EVANGELION-01 mở khóa/ tiến giai",
+        "skill_1_source": [],
+        "skill_2_source": [],
+        "skill_3_source": [],
+        "skill_4_source": [],
+        "skill_5_source": [],
+        "skill_6_source": [],
+        "skill_7_source": [],
+        "skill_num": 0,
+        "star": 2,
+        "star_max": 0,
+        "story": "Có thể dùng Thần Thú EVANGELION-01 mở khóa/ tiến giai",
+        "streng": 0,
+        "super_evo": 0,
+        "type": 3,
+        "wake1": [],
+        "wake2": [],
+        "wake3": [],
+        "wake4": [],
+        "wake5": [],
+        "wake6": []
+      }
+    }
+  },
+  "createdAt": "2026-10-30T13:57:17.156924+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "59",
+      "status": "ADD",
+      "table": "character_detail"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [
+    {
+      "aliases": [],
+      "baseGrantableByServer": true,
+      "classification": "VERIFIED VN MATERIAL CARD · KHÔNG XUẤT TRẬN",
+      "configId": 59,
+      "displayName": "Hồn Thần Thú hình 1",
+      "internalName": "ling5",
+      "qaSupport": {
+        "reason": "Thẻ nguyên liệu, không phải tướng chiến đấu.",
+        "supported": false
+      },
+      "resourceStatus": "FULL ASSETS",
+      "skillIds": [],
+      "sourceDefinition": {
+        "batch": "vn-runtime-beast-material59",
+        "configId": 59,
+        "source": "vn-runtime-00d83b786d933a14",
+        "sourceVersion": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+        "verification": "CONFIG VERIFIED / RESOURCE VERIFIED"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "animation": "ling5",
+      "assetStatus": "FULL ASSETS",
+      "atlas": "assets/iphonehd/anim/ling5.plist",
+      "configId": 59,
+      "evidence": "VN MATERIAL CARD · KHÔNG XUẤT TRẬN",
+      "model": "assets/iphonehd/anim/ling5.swf.sam",
+      "portrait": "assets/iphonehd/img/image_ling5.png",
+      "sections": [],
+      "textures": [
+        "assets/iphonehd/anim/ling5-hd.pvr.ccz"
+      ]
+    }
+  ],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {
+      "59": {
+        "animation": "ling5",
+        "configId": 59,
+        "name": "Hồn Thần Thú hình 1",
+        "skillChains": {},
+        "skills": []
+      }
+    },
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

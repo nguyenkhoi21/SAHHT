@@ -1,0 +1,43 @@
+{
+  "revision": "welfare-local-v1",
+  "assets": {
+    "publicTicket": {
+      "path": "work/welfare-assets/public_ticket.png",
+      "sha256": "38acf59338b04e978f18082eec5b21b1dc01a5c047b12ab0cb9c5b9c35036c39",
+      "source": "assets/iphonehd/icon/public_ticket.png",
+      "sourceApkSha256": "605bf92ad9ef517611ed69d338beb1f1281fc6032e019a8026566179f18a71a4"
+    }
+  },
+  "tables": {
+    "daily_award": {
+      "path": "work/extracted-data/configs/daily_award.json",
+      "sha256": "b6a24df1decc237e1443408335a92ea220b32d74ccff83ef24571d4f75e289c3",
+      "count": 25
+    },
+    "daily_award_loop": {
+      "path": "work/extracted-data/configs/daily_award_loop.json",
+      "sha256": "cb942e5c9f2a66fc49b9552d0b6460a54aa7bd699edb7142cae15f3907945ce0",
+      "count": 25
+    },
+    "month_award": {
+      "path": "work/extracted-data/configs/month_award.json",
+      "sha256": "ae9ec4bf8ecbe6e41b851c1ed33e26a7b078dfc575280856f2f7959f62d0ddce",
+      "count": 21
+    },
+    "quarter_award": {
+      "path": "work/extracted-data/configs/quarter_award.json",
+      "sha256": "adaeef3905a77970a06f1f8430adea962613bfa6a3b8595911c1df3aa3217398",
+      "count": 270
+    },
+    "month_award_coin": {
+      "path": "work/extracted-data/configs/month_award_coin.json",
+      "sha256": "507df168c998081af699d705977921cff99202b72f8eb87aaebec401df59ed52",
+      "count": 25
+    },
+    "month_award_coin_loop": {
+      "path": "work/extracted-data/configs/month_award_coin_loop.json",
+      "sha256": "89db946b9c35562c1ab8bdc318a69346e1f65a5fb371c70f9afdf3107b17870e",
+      "count": 25
+    }
+  }
+}

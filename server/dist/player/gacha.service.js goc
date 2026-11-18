@@ -1,0 +1,67 @@
+import { readConfigSync } from './local-content.js';
+import { WelfareService } from './welfare.service.js';
+import { contentReceipt } from './content-receipt.js';
+import { audit } from '../admin/admin.audit.js';
+const fail = (message) => { throw Object.assign(new Error(message), { statusCode: 422 }); };
+// Chỉ mở pool xác định ở cả hai nhánh; không đoán xác suất hoặc pity.
+export class GachaService {
+    db;
+    constructor(db) {
+        this.db = db;
+    }
+    draws(userId, id) {
+        return Number(this.db.prepare('SELECT draws FROM player_gacha WHERE user_id=? AND gacha_id=?').get(userId, id)?.draws ?? 0);
+    }
+    pool(c) {
+        if (c.is_box !== 0 || c.get_num !== 1 || c.piece.length || c.good_item.length !== 1 || JSON.stringify(c.good_item) !== JSON.stringify(c.bad_item))
+            return null;
+        const row = c.good_item[0];
+        if (row.length !== 3 || !row.every(Number.isSafeInteger) || !readConfigSync('character_detail')[row[0]] || ![2, 3].includes(c.consume_sort) || c.gacha_sort !== 2 || c.gacha_num !== 1 || c.star_time || c.end_time)
+            return null;
+        return row[0];
+    }
+    diagnostics(s) { return { modes: Object.entries(readConfigSync('gacha')).map(([id, c]) => ({ id, cost: c.value, currency: c.consume_sort === 2 ? 'silver' : 'coin', count: c.get_num, draws: this.draws(s.user_id, id), limit: c.gacha_num, prerequisite: c.use_gacha, available: this.pool(c) !== null, reason: this.pool(c) !== null ? 'Pool một nhân vật xác định; khởi tạo tướng cấp1 từ registry local, không suy cấp từ tuple nguồn.' : c.is_box ? 'Thiếu dữ liệu pool backend bad_item/is_box và thuật toán bảo hiểm.' : 'Chưa xác minh cách chọn good_point/bad_point; không tự chế xác suất.', goodPool: c.good_item, badPool: c.bad_item })), history: this.db.prepare("SELECT method,result,created_at FROM player_content_operations WHERE user_id=? AND method='gacha.get_gacha' ORDER BY created_at DESC LIMIT 50").all(s.user_id).map(r => ({ ...r, result: JSON.parse(String(r.result)) })), notice: 'Giữ ledger cũ; không tiếp tục lượt Luffy hardcode #221. Các pool ngẫu nhiên chưa đủ dữ liệu sẽ không tiêu tài nguyên.' }; }
+    open(session) {
+        const all = {};
+        for (const [id, c] of Object.entries(readConfigSync('gacha'))) {
+            if (this.pool(c) === null)
+                continue;
+            const [pre, n] = c.use_gacha;
+            if (pre && this.draws(session.user_id, String(pre)) < n)
+                continue;
+            const remaining = Math.max(0, c.gacha_num - this.draws(session.user_id, id));
+            if (remaining)
+                all[id] = remaining;
+        }
+        const score = Number(this.db.prepare("SELECT COALESCE(SUM(json_extract(result,'$.points')),0) n FROM player_content_operations WHERE user_id=? AND method='gacha.get_gacha'").get(session.user_id).n);
+        return { gacha_all: all, score, energy_slot: 0, msg: 'Chiêu mộ local theo pool xác định. Không chế tỷ lệ hoặc bảo hiểm.' };
+    }
+    async draw(s, type, key) {
+        if (typeof type !== 'string' || !/^\d{1,5}$/.test(type))
+            fail('Mã chiêu mộ không hợp lệ.');
+        const id = String(type), c = readConfigSync('gacha')[id], cid = c && this.pool(c);
+        if (!c || !cid)
+            fail('Chiêu mộ này chưa hỗ trợ: thiếu quy tắc pool/đảm bảo đã xác minh.');
+        const defs = { heroes: readConfigSync('character_detail'), items: readConfigSync('item'), equipment: readConfigSync('equip') };
+        return contentReceipt(this.db, s.user_id, 'gacha.get_gacha', key, { id }, () => {
+            const p = JSON.parse(String(this.db.prepare('SELECT profile FROM player_state WHERE user_id=?').get(s.user_id).profile));
+            if (this.draws(s.user_id, id) >= c.gacha_num)
+                fail('Đã dùng lượt chiêu mộ theo cấu hình.');
+            const [pre, n] = c.use_gacha;
+            if (pre && this.draws(s.user_id, String(pre)) < n)
+                fail('Chưa hoàn thành lượt chiêu mộ trước đó.');
+            if (p.level < c.use_level[0] || p.level > c.use_level[1])
+                fail('Chưa đủ điều kiện cấp người chơi.');
+            const field = c.consume_sort === 2 ? 'silver' : 'coin';
+            if (!Number.isSafeInteger(c.value) || c.value < 1 || !Number.isSafeInteger(p[field]) || p[field] < c.value)
+                fail('Không đủ ' + (field === 'coin' ? 'Xu' : 'vàng') + ' để chiêu mộ.');
+            this.db.prepare('UPDATE player_state SET profile=? WHERE user_id=?').run(JSON.stringify({ ...p, [field]: p[field] - c.value }), s.user_id);
+            const applied = new WelfareService(this.db).applyInTransaction(s, [[5, cid, 1]], defs);
+            this.db.prepare('INSERT INTO player_gacha VALUES(?,?,1) ON CONFLICT(user_id,gacha_id) DO UPDATE SET draws=draws+1').run(s.user_id, id);
+            const points = c.add_point;
+            audit(this.db, null, 'gacha.draw', s.user_id, 'Pool xác định từ config; schema khởi tạo tướng local', { balance: p[field] }, { gachaId: id, cost: c.value, cid, points });
+            const state = this.open(s);
+            return { ...applied, ...state, score: state.score + points, points, new_card: Object.keys(applied._client_cache_update.cards.cards.update), gacha_type: id };
+        }, old => ({ ...old, ...this.open(s), reward: [], new_card: [], replayed: true, _client_cache_update: { cards: { cards: { update: Object.fromEntries(this.db.prepare('SELECT id,state FROM player_heroes WHERE user_id=?').all(s.user_id).map(r => [String(r.id), JSON.parse(String(r.state))])), remove: [] } } } }));
+    }
+}

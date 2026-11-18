@@ -1,0 +1,202 @@
+{
+  "baseConfigHashes": {
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-highway-materials",
+  "configs": {
+    "item": {
+      "9101347": {
+        "daily_use": 0,
+        "icon": "th_csq",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "gia tốc",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Trợ Giúp, khi số lượng tàu vũ trụ nhiều hơn tường thì sẽ tăng tốc cho phi thuyền ",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101348": {
+        "daily_use": 0,
+        "icon": "th_rzq",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Tường",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Quấy Rối, khi số lượng tàu vũ trụ ít hơn tường thì sẽ giảm tốc độ phi thuyền",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101349": {
+        "daily_use": 0,
+        "icon": "th_lzc",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Khoang tàu",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Trợ Giúp, khi số lượng Khoang tàu lớn hơn Khe nứt nhỏ thì sẽ tăng lợi tức phụ cho phi thuyền",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101350": {
+        "daily_use": 0,
+        "icon": "th_xlf",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "vết nứt",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Quấy Rối, khi số lượng Khoang tàu ít hơn Khe nứt thì sẽ giảm lợi tức phụ của phi thuyền",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101351": {
+        "daily_use": 0,
+        "icon": "th_ytny",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "năng nguyên",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Trợ Giúp, khi số lượng Năng Nguyên Aether lớn hơn Đóng Băng thì sẽ tăng gia tốc cho phi thuyền",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101352": {
+        "daily_use": 0,
+        "icon": "th_ynj",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Đóng băng",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ Quấy Rối, khi số lượng Năng Nguyên Aether ít hơn Đóng Băng thì sẽ giảm gia tốc của phi thuyền",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101353": {
+        "daily_use": 0,
+        "icon": "th_cq",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Chip cược",
+        "quality": 3,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ đấu Viễn Trình, dùng để đặt cược trong trận đấu và nhận về nhiều phần thưởng hấp dẫn",
+        "use_effect": [
+          5
+        ],
+        "use_num": 1
+      },
+      "9101451": {
+        "daily_use": 0,
+        "icon": "s_hmde_allcure",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Chất keo",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ chuyển hóa năng lượng trong HĐ Khai Hoang Tinh Tế, giá trị 100 năng lượng vũ trụ ",
+        "use_effect": [
+          9101451
+        ],
+        "use_num": 1
+      }
+    }
+  },
+  "createdAt": "2026-10-29T10:44:09.956876+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "9101347",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101348",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101349",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101350",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101351",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101352",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101353",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101451",
+      "status": "ADD",
+      "table": "item"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

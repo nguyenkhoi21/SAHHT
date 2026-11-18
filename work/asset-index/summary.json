@@ -1,0 +1,38 @@
+{
+  "atlasCount": 1217,
+  "equipmentCount": 3918,
+  "extensions": {
+    ".ccbi": 1369,
+    ".ccz": 1245,
+    ".fnt": 13,
+    ".jpg": 80,
+    ".plist": 1217,
+    ".png": 5283,
+    ".sam": 915,
+    ".sam 2": 4,
+    ".temp": 1,
+    ".tmx": 186,
+    ".tps": 2
+  },
+  "fileCount": 10315,
+  "formats": {
+    "CCBI_BINARY": 1369,
+    "CCZ": 1245,
+    "JPEG": 80,
+    "PLIST": 1217,
+    "PNG": 5283,
+    "SAM_BINARY": 919,
+    "TEXT_OR_BINARY_UNKNOWN": 14,
+    "UNKNOWN": 1,
+    "XML/data": 1,
+    "XML/map": 186
+  },
+  "grantableEquipment": 3918,
+  "heroConfigCount": 662,
+  "modelGroups": 476,
+  "samCount": 919,
+  "stageCount": 160,
+  "tmxCount": 186,
+  "uncompressedBytes": 1087949416,
+  "unresolvedModelGroups": 195
+}

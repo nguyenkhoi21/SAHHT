@@ -1,0 +1,7 @@
+{
+  "configRows": 662,
+  "baseGrantable": 626,
+  "qaCompatible": 425,
+  "qaBounded": 80,
+  "notice": "Guard server cho cấp base/QA, không phải số hero đã Android battle verified. QA bounded có cap thấp hơn bảng do thiếu chuỗi skill."
+}

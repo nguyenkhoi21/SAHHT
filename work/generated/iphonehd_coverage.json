@@ -1,0 +1,21 @@
+{
+  "source": "Siêu Anh Hùng Hội Tụ_v1/Siêu Anh Hùng Hội Tụ_v1.9(10)_src/assets/iphonehd",
+  "apk": "Siêu Anh Hùng Hội Tụ_v1.9(10).apk",
+  "evidence": "STATIC VERIFIED",
+  "localFiles": 10315,
+  "apkFiles": 10315,
+  "matchingFiles": 10315,
+  "changedFiles": [],
+  "onlyLocal": [],
+  "onlyApk": [],
+  "modelGroups": 476,
+  "indexedModelGroups": 476,
+  "unindexedModels": [],
+  "configRows": 662,
+  "indexedConfigRows": 662,
+  "unindexedConfigIds": [],
+  "grantableRows": 626,
+  "grantableCombatRows": 617,
+  "qaCompatible": 425,
+  "notice": "Đã kiểm từng file bằng size/CRC. Bao phủ asset không đồng nghĩa mọi model có config hero để cấp hoặc đã chạy combat Android."
+}

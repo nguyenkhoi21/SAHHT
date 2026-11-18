@@ -1,0 +1,741 @@
+{
+  "routes": {
+    "arena_index": "/api/?method=arena.index",
+    "arena_exchange": "/api/?method=arena.exchange",
+    "arena_battle": "/api/?method=arena.battle",
+    "arena_log": "/api/?method=arena.log",
+    "arena_replay": "/api/?method=arena.replay",
+    "arena_top": "/api/?method=arena.top",
+    "friend_battle": "/api/?method=friend.battle",
+    "arena_buy_count": "/api/?method=arena.buy_count",
+    "serverpk_team_battle": "/api/?method=servers_fight.team_battle",
+    "serverpk_check_enemy_list": "/api/?method=servers_fight.check_enemy_list",
+    "serverpk_group_combat_log": "/api/?method=servers_fight.group_combat_log",
+    "serverpk_group_replay": "/api/?method=servers_fight.group_replay",
+    "serverpk_team_battle_rank": "/api/?method=servers_fight.team_battle_rank",
+    "serverpk_team_final_battle_rank": "/api/?method=servers_fight.final_battle_rank",
+    "serverpk_team_final_combat_log": "/api/?method=servers_fight.final_combat_log",
+    "serverpk_team_final_replay": "/api/?method=servers_fight.final_replay",
+    "god_arena": "/api/?method=god_arena.index",
+    "god_arena_leisure_match": "/api/?method=god_arena.leisure_match",
+    "god_arena_receive_stage_up_reward": "/api/?method=god_arena.receive_stage_up_reward",
+    "god_arena_battle": "/api/?method=god_arena.battle",
+    "god_arena_shop_index": "/api/?method=god_arena.shop_index",
+    "god_arena_exchange": "/api/?method=god_arena.exchange",
+    "god_arena_get_own_logs": "/api/?method=god_arena.get_own_logs",
+    "god_arena_top": "/api/?method=god_arena.top",
+    "god_arena_stage_up_battle": "/api/?method=god_arena.stage_up_battle",
+    "god_arena_show_stage_up_enemy": "/api/?method=god_arena.show_stage_up_enemy",
+    "god_arena_buy_count": "/api/?method=god_arena.buy_count",
+    "god_arena_show_enemy_detail": "/api/?method=god_arena.show_enemy_detail",
+    "universe_arena_index": "/api/?method=universe_arena.index",
+    "universe_arena_team_index": "/api/?method=universe_arena.team_index",
+    "universe_arena_upload_god_formation": "/api/?method=universe_arena.upload_god_formation",
+    "universe_arena_universe_arena_battle": "/api/?method=universe_arena.universe_arena_battle",
+    "universe_arena_get_battle_tips": "/api/?method=universe_arena.get_battle_tips",
+    "universe_arena_get_rank_info": "/api/?method=universe_arena.get_rank_info",
+    "universe_arena_shop_index": "/api/?method=universe_arena.shop_index",
+    "universe_arena_buy_goods": "/api/?method=universe_arena.buy_goods",
+    "universe_arena_secore_reward_index": "/api/?method=universe_arena.secore_reward_index",
+    "universe_arena_get_reward": "/api/?method=universe_arena.get_reward",
+    "universe_arena_set_god_field": "/api/?method=universe_arena.set_god_field",
+    "universe_arena_hero_rank": "/api/?method=universe_arena.hero_rank",
+    "universe_arena_get_battle_logs": "/api/?method=universe_arena.get_battle_logs"
+  },
+  "calls": [
+    {
+      "file": "game_pop/game_activity_new_pop.lua",
+      "line": 219,
+      "function": "game_activity_new_pop.createUi",
+      "key": "serverpk_team_battle",
+      "route": "/api/?method=servers_fight.team_battle"
+    },
+    {
+      "file": "game_pop/game_daily_task_pop.lua",
+      "line": 416,
+      "function": "game_daily_task_pop.goFinishTask",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_daily_wanted.lua",
+      "line": 572,
+      "function": "game_daily_wanted.quickEnter",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_do_something_pop.lua",
+      "line": 263,
+      "function": "game_do_something_pop.initShowData",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_do_something_pop.lua",
+      "line": 378,
+      "function": "game_do_something_pop.getOpenButtonInfoByID",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_error_pop.lua",
+      "line": 217,
+      "function": "game_error_pop.onBtnClickFunc",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_error_pop.lua",
+      "line": 276,
+      "function": "game_error_pop.create",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_friend_pop.lua",
+      "line": 169,
+      "function": "game_friend_pop.createFriendTableView",
+      "key": "friend_battle",
+      "route": "/api/?method=friend.battle"
+    },
+    {
+      "file": "game_pop/game_fuli_subui_award.lua",
+      "line": 97,
+      "function": "game_fuli_subui_award.createRewardTableView",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_godfield_arena_success.lua",
+      "line": 38,
+      "function": "game_godfield_arena_success.back",
+      "key": "god_arena_receive_stage_up_reward",
+      "route": "/api/?method=god_arena.receive_stage_up_reward"
+    },
+    {
+      "file": "game_pop/game_godfield_arena_up.lua",
+      "line": 51,
+      "function": "game_godfield_arena_up.createUi",
+      "key": "god_arena_stage_up_battle",
+      "route": "/api/?method=god_arena.stage_up_battle"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_new_battle_result.lua",
+      "line": 24,
+      "function": "game_godfield_pvp_new_battle_result.back",
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_new_battleMsg.lua",
+      "line": 77,
+      "function": "game_godfield_pvp_new_battleMsg:createUi",
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_new_battleMsg.lua",
+      "line": 153,
+      "function": "game_godfield_pvp_new_battleMsg:createTableView",
+      "key": "universe_arena_get_battle_logs",
+      "route": "/api/?method=universe_arena.get_battle_logs"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_new_score_rew.lua",
+      "line": 112,
+      "function": "game_godfield_pvp_new_score_rew:createTableView",
+      "key": "universe_arena_get_reward",
+      "route": "/api/?method=universe_arena.get_reward"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_new_shop.lua",
+      "line": 110,
+      "function": "game_godfield_pvp_new_shop.createTableView",
+      "key": "universe_arena_buy_goods",
+      "route": "/api/?method=universe_arena.buy_goods"
+    },
+    {
+      "file": "game_pop/game_godfield_pvp_pop.lua",
+      "line": 118,
+      "function": "game_godfield_pvp_pop.createUi",
+      "key": "god_arena_battle",
+      "route": "/api/?method=god_arena.battle"
+    },
+    {
+      "file": "game_pop/game_normal_tips_pop.lua",
+      "line": 325,
+      "function": "game_normal_tips_pop.createUi",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/game_pk_notice_pop.lua",
+      "line": 75,
+      "function": "__notice:createTableView",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_batter_info_pop.lua",
+      "line": 79,
+      "function": "ui_batter_info_pop.createTableView",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_batter_info_pop.lua",
+      "line": 99,
+      "function": "ui_batter_info_pop.createTableView",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_batter_info_pop.lua",
+      "line": 255,
+      "function": "ui_batter_info_pop.createTableView2",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_batter_info_pop.lua",
+      "line": 269,
+      "function": "ui_batter_info_pop.createTableView2",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_batter_info_pop.lua",
+      "line": 398,
+      "function": "ui_batter_info_pop.createTableView3",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_chat_new_pop.lua",
+      "line": 1412,
+      "function": "ui_chat_new_pop.addSelBattleInfoUi",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/ui_chat_pop.lua",
+      "line": 863,
+      "function": "ui_chat_pop.createTableView",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_pop/ui_chat_pop.lua",
+      "line": 1549,
+      "function": "ui_chat_pop.addSelBattleInfoUi",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_pop/ui_secretary_detaile.lua",
+      "line": 134,
+      "function": "ui_secretary_detaile.btnOnClickFunc",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_qucik_entry.lua",
+      "line": 54,
+      "function": "game_do_something_pop.getOpenButtonInfoByID",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/battle_over_scene.lua",
+      "line": 202,
+      "function": "battle_over_scene.back",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_arena.lua",
+      "line": 154,
+      "function": "game_arena.createUi",
+      "key": "arena_buy_count",
+      "route": "/api/?method=arena.buy_count"
+    },
+    {
+      "file": "game_ui/game_arena.lua",
+      "line": 213,
+      "function": "game_arena.createFightTableView",
+      "key": "arena_battle",
+      "route": "/api/?method=arena.battle"
+    },
+    {
+      "file": "game_ui/game_arena.lua",
+      "line": 230,
+      "function": "game_arena.createFightTableView",
+      "key": "arena_battle",
+      "route": "/api/?method=arena.battle"
+    },
+    {
+      "file": "game_ui/game_arena.lua",
+      "line": 259,
+      "function": "game_arena.createFightTableView",
+      "key": "arena_buy_count",
+      "route": "/api/?method=arena.buy_count"
+    },
+    {
+      "file": "game_ui/game_arena.lua",
+      "line": 655,
+      "function": "game_arena.requestForHttp",
+      "key": "arena_top",
+      "route": "/api/?method=arena.top"
+    },
+    {
+      "file": "game_ui/game_arena_shop.lua",
+      "line": 46,
+      "function": "game_arena_shop.back",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_arena_shop.lua",
+      "line": 128,
+      "function": "game_arena_shop.createTableView",
+      "key": "arena_exchange",
+      "route": "/api/?method=arena.exchange"
+    },
+    {
+      "file": "game_ui/game_arena_shop.lua",
+      "line": 296,
+      "function": "game_arena_shop.createTableView",
+      "key": "arena_exchange",
+      "route": "/api/?method=arena.exchange"
+    },
+    {
+      "file": "game_ui/game_battle_scene.lua",
+      "line": 247,
+      "function": "game_battle_scene.back",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_battle_scene.lua",
+      "line": 456,
+      "function": "game_battle_scene.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_battle_scene.lua",
+      "line": 468,
+      "function": "game_battle_scene.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_friend_scene.lua",
+      "line": 223,
+      "function": "game_friend_scene.createFriendTableView",
+      "key": "friend_battle",
+      "route": "/api/?method=friend.battle"
+    },
+    {
+      "file": "game_ui/game_god_adjustment.lua",
+      "line": 363,
+      "function": "game_god_adjustment.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_god_Star_adjustment.lua",
+      "line": 333,
+      "function": "game_god_Star_adjustment.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_arena_rank.lua",
+      "line": 60,
+      "function": "game_godfield_arena_rank.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_arena_rank.lua",
+      "line": 239,
+      "function": "game_godfield_arena_rank.requestForHttp",
+      "key": "god_arena_top",
+      "route": "/api/?method=god_arena.top"
+    },
+    {
+      "file": "game_ui/game_godfield_battle_result.lua",
+      "line": 56,
+      "function": "game_godfield_battle_result.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_battle_result.lua",
+      "line": 68,
+      "function": "game_godfield_battle_result.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_mainBig.lua",
+      "line": 99,
+      "function": "game_godfield_mainBig.createUi",
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_mainBig.lua",
+      "line": 104,
+      "function": "game_godfield_mainBig.createUi",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 127,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_get_own_logs",
+      "route": "/api/?method=god_arena.get_own_logs"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 137,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_shop_index",
+      "route": "/api/?method=god_arena.shop_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 148,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_top",
+      "route": "/api/?method=god_arena.top"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 162,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_leisure_match",
+      "route": "/api/?method=god_arena.leisure_match"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 181,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_leisure_match",
+      "route": "/api/?method=god_arena.leisure_match"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 197,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 213,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 229,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_show_enemy_detail",
+      "route": "/api/?method=god_arena.show_enemy_detail"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 239,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_show_stage_up_enemy",
+      "route": "/api/?method=god_arena.show_stage_up_enemy"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 268,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp.lua",
+      "line": 271,
+      "function": "game_godfield_pvp.createUi",
+      "key": "god_arena_buy_count",
+      "route": "/api/?method=god_arena.buy_count"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 113,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_hero_rank",
+      "route": "/api/?method=universe_arena.hero_rank"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 118,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 124,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_shop_index",
+      "route": "/api/?method=universe_arena.shop_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 129,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_upload_god_formation",
+      "route": "/api/?method=universe_arena.upload_god_formation"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 135,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new.lua",
+      "line": 140,
+      "function": "game_godfield_pvp_new.createUi",
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 285,
+      "function": "game_godfield_pvp_new_adjust.back",
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 290,
+      "function": "game_godfield_pvp_new_adjust.back",
+      "key": "universe_arena_team_index",
+      "route": "/api/?method=universe_arena.team_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_adjust.lua",
+      "line": 491,
+      "function": "game_godfield_pvp_new_adjust.sendChangedData",
+      "key": "universe_arena_set_god_field",
+      "route": "/api/?method=universe_arena.set_god_field"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_hero.lua",
+      "line": 93,
+      "function": "game_godfield_pvp_new_hero.back",
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 63,
+      "function": "game_godfield_pvp_new_sec.back",
+      "key": "universe_arena_index",
+      "route": "/api/?method=universe_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 102,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_upload_god_formation",
+      "route": "/api/?method=universe_arena.upload_god_formation"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 108,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_shop_index",
+      "route": "/api/?method=universe_arena.shop_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 113,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 119,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_get_battle_tips",
+      "route": "/api/?method=universe_arena.get_battle_tips"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 124,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_secore_reward_index",
+      "route": "/api/?method=universe_arena.secore_reward_index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 129,
+      "function": "game_godfield_pvp_new_sec.createUi",
+      "key": "universe_arena_get_rank_info",
+      "route": "/api/?method=universe_arena.get_rank_info"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 207,
+      "function": "game_godfield_pvp_new_sec:battleAgain",
+      "key": "universe_arena_universe_arena_battle",
+      "route": "/api/?method=universe_arena.universe_arena_battle"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_new_sec.lua",
+      "line": 295,
+      "function": "game_godfield_pvp_new_sec:beginBattle",
+      "key": "universe_arena_universe_arena_battle",
+      "route": "/api/?method=universe_arena.universe_arena_battle"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 55,
+      "function": "game_godfield_pvp_shop.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 71,
+      "function": "game_godfield_pvp_shop.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_pvp_shop.lua",
+      "line": 176,
+      "function": "game_godfield_pvp_shop.createTableView",
+      "key": "god_arena_exchange",
+      "route": "/api/?method=god_arena.exchange"
+    },
+    {
+      "file": "game_ui/game_godfield_shop.lua",
+      "line": 52,
+      "function": "game_godfield_shop.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_godfield_shop.lua",
+      "line": 89,
+      "function": "game_godfield_shop.createUi",
+      "key": "god_arena_shop_index",
+      "route": "/api/?method=god_arena.shop_index"
+    },
+    {
+      "file": "game_ui/game_main_scene.lua",
+      "line": 1055,
+      "function": "game_main_scene.mainBtnOnClick",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_new_reward.lua",
+      "line": 141,
+      "function": "game_new_reward.createContentTableView",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 56,
+      "function": "__pk:create",
+      "key": "arena_log",
+      "route": "/api/?method=arena.log"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 72,
+      "function": "__pk:create",
+      "key": "arena_exchange",
+      "route": "/api/?method=arena.exchange"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 137,
+      "function": "__pk:create",
+      "key": "arena_battle",
+      "route": "/api/?method=arena.battle"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 178,
+      "function": "__pk:create",
+      "key": "arena_battle",
+      "route": "/api/?method=arena.battle"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 194,
+      "function": "__pk:create",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 593,
+      "function": "__pk:onItemClick_pk",
+      "key": "arena_battle",
+      "route": "/api/?method=arena.battle"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 641,
+      "function": "__pk:onItemClick_buy",
+      "key": "arena_exchange",
+      "route": "/api/?method=arena.exchange"
+    },
+    {
+      "file": "game_ui/game_pk.lua",
+      "line": 845,
+      "function": "__pk:createTableView_detail",
+      "key": "arena_replay",
+      "route": "/api/?method=arena.replay"
+    },
+    {
+      "file": "game_ui/game_team_pk_shop.lua",
+      "line": 73,
+      "function": "game_team_pk_shop.back",
+      "key": "god_arena",
+      "route": "/api/?method=god_arena.index"
+    },
+    {
+      "file": "game_ui/game_team_pk_shop.lua",
+      "line": 114,
+      "function": "game_team_pk_shop.createUi",
+      "key": "god_arena_shop_index",
+      "route": "/api/?method=god_arena.shop_index"
+    },
+    {
+      "file": "game_ui/open_door_main_scene.lua",
+      "line": 482,
+      "function": "open_door_main_scene.mainBtnOnClick",
+      "key": "arena_index",
+      "route": "/api/?method=arena.index"
+    }
+  ],
+  "unreadable": [
+    "skill_effect/yadainna/skill1.lua",
+    "skill_effect/yadainna/skill2.lua",
+    "skill_effect/yadainna/yadianna_s1.lua",
+    "skill_effect/yadainna/yadianna_s2.lua",
+    "skill_effect/yadainna/yadianna_s3.lua"
+  ],
+  "evidence": "STATIC VERIFIED: textual callsites, không runtime coverage"
+}

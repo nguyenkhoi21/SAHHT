@@ -1,0 +1,145 @@
+{
+  "baseConfigHashes": {
+    "character_detail": "056e618c76d5b7815aeecf133ceb5b2eed8466f8c2bf46f28cdd50ddd01ccb10",
+    "exchange": "c89629bcab37506763c6382a1c923e7054bf237284a4728379377e2176036940",
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-beast-fragment1907",
+  "configs": {
+    "character_detail": {
+      "59": {
+        "animation": "ling5",
+        "base_def": 10,
+        "base_hp": 100,
+        "base_matk": 10,
+        "base_patk": 10,
+        "base_speed": 10,
+        "break4": [],
+        "break5": [],
+        "breakthrough_ids": [],
+        "call_price": 2560,
+        "career": 0,
+        "chain": [],
+        "character_ID": "1009",
+        "evo_food": 0,
+        "evo_kind": 6,
+        "exchange_id": 0,
+        "growth_def": 0,
+        "growth_hp": 0,
+        "growth_matk": 0,
+        "growth_patk": 0,
+        "growth_speed": 0,
+        "img": "icon_ling5.png",
+        "is_evo": 0,
+        "is_notice": 2,
+        "is_only": 1,
+        "is_skin": 0,
+        "level_max": 1,
+        "name": "Hồn Thần Thú hình 1",
+        "occupation_shade": -1,
+        "quality": 6,
+        "race": 1,
+        "rebirth": 3,
+        "rgb_sort": 0,
+        "sex": 1,
+        "short_story": "Có thể dùng Thần Thú EVANGELION-01 mở khóa/ tiến giai",
+        "skill_1_source": [],
+        "skill_2_source": [],
+        "skill_3_source": [],
+        "skill_4_source": [],
+        "skill_5_source": [],
+        "skill_6_source": [],
+        "skill_7_source": [],
+        "skill_num": 0,
+        "star": 2,
+        "star_max": 0,
+        "story": "Có thể dùng Thần Thú EVANGELION-01 mở khóa/ tiến giai",
+        "streng": 0,
+        "super_evo": 0,
+        "type": 3,
+        "wake1": [],
+        "wake2": [],
+        "wake3": [],
+        "wake4": [],
+        "wake5": [],
+        "wake6": []
+      }
+    },
+    "exchange": {
+      "907": {
+        "change_id": [
+          [
+            5,
+            59,
+            1
+          ]
+        ],
+        "change_sort": 1,
+        "change_time": 9999,
+        "need_food": 10000,
+        "need_item": 1907,
+        "need_metal": 0,
+        "need_num": [
+          20
+        ],
+        "refesh": 1,
+        "shade": "public_shade_1.png"
+      }
+    },
+    "item": {
+      "1907": {
+        "daily_use": 99,
+        "icon": "icon_ling5.png",
+        "is_sell": -1,
+        "is_show": 0,
+        "is_use": 0,
+        "name": "Mảnh Hồn Thần Thú hình 1",
+        "quality": 6,
+        "shade": "public_shade_2.png",
+        "sort": 907,
+        "stack": 9999,
+        "story": "Đổi đồng đội tương ứng",
+        "use_effect": [
+          1
+        ],
+        "use_num": 10
+      }
+    }
+  },
+  "createdAt": "2026-10-30T15:46:04.984139+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "1907",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "1907",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "59",
+      "status": "ADD",
+      "table": "character_detail"
+    },
+    {
+      "id": "907",
+      "status": "ADD",
+      "table": "exchange"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

@@ -1,0 +1,48 @@
+{
+  "baseConfigHashes": {
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b"
+  },
+  "batch": "vn-runtime-than-vuc-materials",
+  "configs": {
+    "item": {
+      "1906": {
+        "daily_use": 99,
+        "icon": "icon_ling5.png",
+        "is_sell": -1,
+        "is_show": 0,
+        "is_use": 0,
+        "name": "Mảnh Hồn thần lực",
+        "quality": 6,
+        "shade": "public_shade_2.png",
+        "sort": 906,
+        "stack": 9999,
+        "story": "Đổi đồng đội tương ứng",
+        "use_effect": [
+          1
+        ],
+        "use_num": 10
+      }
+    }
+  },
+  "createdAt": "2026-10-29T07:50:20.966935+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "1906",
+      "status": "ADD",
+      "table": "item"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

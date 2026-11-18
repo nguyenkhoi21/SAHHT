@@ -1,0 +1,417 @@
+{
+  "samples": [
+    {
+      "extension": ".config",
+      "count": 634,
+      "path": "assets/config/achieve.config",
+      "size": 537,
+      "header_hex": "7b2231223a7b227265776172645f73757065725f73746570223a5b5b32302c302c3530305d2c5b362c3535353131362c33305d5d2c2273757065725f73746570",
+      "header_ascii": "b'{\"1\":{\"reward_super_step\":[[20,0,500],[6,555116,30]],\"super_step'"
+    },
+    {
+      "extension": ".ccbi",
+      "count": 1369,
+      "path": "assets/iphonehd/anim/ui_shooting.ccbi",
+      "size": 3157,
+      "header_hex": "696263630c00400b00000008706f736974696f6e001c69676e6f7265416e63686f72506f696e74466f72506f736974696f6e000b616e63686f72506f696e7400",
+      "header_ascii": "b'ibcc\\x0c\\x00@\\x0b\\x00\\x00\\x00\\x08position\\x00\\x1cignoreAnchorPointForPosition\\x00\\x0banchorPoint\\x00'"
+    },
+    {
+      "extension": ".ccz",
+      "count": 1245,
+      "path": "assets/iphonehd/anim/Athena-hd.pvr.ccz",
+      "size": 3092702,
+      "header_hex": "43435a21000000020000000000f972a6789cecbd0f7854e59df76d324908103267b4ddd62a3967e82edb3efe9919e86eeb3f261370fb6cb79a3f82b6bb5d1340",
+      "header_ascii": "b'CCZ!\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\xf9r\\xa6x\\x9c\\xec\\xbd\\x0fxT\\xe5\\x9d\\xf7m2I\\x08\\x102g\\xb4\\xdd\\xd6*9g\\xe8.\\xdb>\\xfe\\x99\\x19\\xe8n\\xeb?&\\x13p\\xfbl\\xb7\\x9a?\\x82\\xb6\\xbb]\\x13@'"
+    },
+    {
+      "extension": ".plist",
+      "count": 1217,
+      "path": "assets/iphonehd/anim/Athena.plist",
+      "size": 101531,
+      "header_hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d",
+      "header_ascii": "b'<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<!DOCTYPE plist PUBLIC \"-'"
+    },
+    {
+      "extension": ".sam",
+      "count": 915,
+      "path": "assets/iphonehd/anim/Athena.swf.sam",
+      "size": 2241088,
+      "header_hex": "0600000010000000c8000000fa0000000000c0418c020000020000000a00000064656e676368616e6700010000001400000001000000417468656e612e737766",
+      "header_ascii": "b'\\x06\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\xc8\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\x00\\x00\\xc0A\\x8c\\x02\\x00\\x00\\x02\\x00\\x00\\x00\\n\\x00\\x00\\x00dengchang\\x00\\x01\\x00\\x00\\x00\\x14\\x00\\x00\\x00\\x01\\x00\\x00\\x00Athena.swf'"
+    },
+    {
+      "extension": ".tmx",
+      "count": 186,
+      "path": "assets/iphonehd/building_img/1.tmx",
+      "size": 4749,
+      "header_hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c6d61702076657273696f6e3d22312e3022206f7269656e74",
+      "header_ascii": "b'<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<map version=\"1.0\" orient'"
+    },
+    {
+      "extension": ".version",
+      "count": 20,
+      "path": "META-INF/androidx.activity_activity.version",
+      "size": 6,
+      "header_hex": "312e302e300a",
+      "header_ascii": "b'1.0.0\\n'"
+    },
+    {
+      "extension": ".bin",
+      "count": 2,
+      "path": "assets/Sonnenblume/res.bin",
+      "size": 194881,
+      "header_hex": "504b03040a0000080000d8546749000000000000000000000000090004004d4554412d494e462ffeca0000504b03040a0000080800d7546749ca91d6705a0000",
+      "header_ascii": "b'PK\\x03\\x04\\n\\x00\\x00\\x08\\x00\\x00\\xd8TgI\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\t\\x00\\x04\\x00META-INF/\\xfe\\xca\\x00\\x00PK\\x03\\x04\\n\\x00\\x00\\x08\\x08\\x00\\xd7TgI\\xca\\x91\\xd6pZ\\x00\\x00'"
+    },
+    {
+      "extension": ".jks",
+      "count": 4,
+      "path": "assets/nim/rsa/r.jks",
+      "size": 174,
+      "header_hex": "00000000b08d00340000000030819f300d06092a864886f70d010101050003818d003081890281810081c4bb8bf3ec6941275d4a74af3e4bcd38775caf912eab",
+      "header_ascii": "b\"\\x00\\x00\\x00\\x00\\xb0\\x8d\\x004\\x00\\x00\\x00\\x000\\x81\\x9f0\\r\\x06\\t*\\x86H\\x86\\xf7\\r\\x01\\x01\\x01\\x05\\x00\\x03\\x81\\x8d\\x000\\x81\\x89\\x02\\x81\\x81\\x00\\x81\\xc4\\xbb\\x8b\\xf3\\xeciA']Jt\\xaf>K\\xcd8w\\\\\\xaf\\x91.\\xab\""
+    },
+    {
+      "extension": ".apk",
+      "count": 1,
+      "path": "assets/UPPayPluginEx.apk",
+      "size": 3286872,
+      "header_hex": "504b030414000808080076865648fe043c59db240200888e02000f0004006173736574732f646174612e62696efeca0000ecbc05581ddbb227de1b770b162038",
+      "header_ascii": "b\"PK\\x03\\x04\\x14\\x00\\x08\\x08\\x08\\x00v\\x86VH\\xfe\\x04<Y\\xdb$\\x02\\x00\\x88\\x8e\\x02\\x00\\x0f\\x00\\x04\\x00assets/data.bin\\xfe\\xca\\x00\\x00\\xec\\xbc\\x05X\\x1d\\xdb\\xb2'\\xde\\x1bw\\x0b\\x16 8\""
+    }
+  ],
+  "certificates": [
+    {
+      "path": "META-INF/CERT.RSA",
+      "subject": "CN=chen.zhang,OU=kvgame,O=kvgame,L=bj,ST=bj,C=ch",
+      "issuer": "CN=chen.zhang,OU=kvgame,O=kvgame,L=bj,ST=bj,C=ch",
+      "sha256": "b5ba700df713811ff85024020a42102b2b630ed945f1e7ee42438171c1c1c87e",
+      "not_before": "2014-05-14T12:53:17+00:00",
+      "not_after": "2114-04-20T12:53:17+00:00"
+    }
+  ],
+  "nested_archives": [],
+  "native_urls": [
+    {
+      "file": "work/apk/lib/arm64-v8a/libartemis.so",
+      "offset": "0x1d1e2",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libfusionstorage.so",
+      "offset": "0xec177",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7d6733",
+      "value": "https://statistic.live.126.net"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7da842",
+      "value": "https://lbs.netease.im/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7da87b",
+      "value": "https://lbs.chatnos.com/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7da8a0",
+      "value": "https://yunxin.163.com/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7de846",
+      "value": "http://nos.netease.com"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7de85d",
+      "value": "http://45.127.128.24"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7de872",
+      "value": "http://45.127.128.25"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7ff54e",
+      "value": "http://s3.amazonaws.com/doc/2006-03-01/"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x7fff31",
+      "value": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x84b658",
+      "value": "http://169.254.170.2"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x84e48d",
+      "value": "http://169.254.169.254"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x84e4a4",
+      "value": "http://[fd00:ec2::254]"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x8552c1",
+      "value": "https://curl.se/docs/hsts.html"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x858ea2",
+      "value": "https://curl.se/docs/alt-svc.html"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0x8596e3",
+      "value": "https://curl.se/docs/http-cookies.html"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libhigh_available_android.so",
+      "offset": "0xad70aa",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libjinqu.so",
+      "offset": "0x8705ed",
+      "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libjinqu.so",
+      "offset": "0x877dee",
+      "value": "https://curl.haxx.se/docs/http-cookies.html"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libjinqu.so",
+      "offset": "0x8e0728",
+      "value": "http://gcc.gnu.org/bugs.html):"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libjinqu.so",
+      "offset": "0x90f5da",
+      "value": "http://www.openssl.org/support/faq.html"
+    },
+    {
+      "file": "work/apk/lib/arm64-v8a/libne_audio.so",
+      "offset": "0x114fb8",
+      "value": "http://gcc.gnu.org/bugs.html):"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libartemis.so",
+      "offset": "0x16123",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x14c57",
+      "value": "http://101.231.114.238:5089/app/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x1529d",
+      "value": "http://101.231.204.80:16005/app/mobile/conf"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x152c9",
+      "value": "http://101.231.114.224:11000/app/mobile/conf"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x152f6",
+      "value": "http://172.17.236.169:8081/app/mobile/conf"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x15321",
+      "value": "http://101.231.114.217:8080/app/mobile/conf"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x15593",
+      "value": "http://101.231.204.80:16005/app/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x155bf",
+      "value": "http://101.231.114.224:11000/app/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x155ec",
+      "value": "http://101.231.114.217:8080/app/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x15618",
+      "value": "http://172.17.236.169:8081/app/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x156a4",
+      "value": "http://202.101.25.178:8080/gateway/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x156d3",
+      "value": "http://101.231.114.224:11000/gateway/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x15765",
+      "value": "http://101.231.114.217:8080/gateway/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libentryexpro.so",
+      "offset": "0x15795",
+      "value": "http://120.204.69.182:8080/gateway/mobile/json"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libfusionstorage.so",
+      "offset": "0x8b9ab",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x5391a3",
+      "value": "https://statistic.live.126.net"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53a863",
+      "value": "https://lbs.netease.im/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53a89c",
+      "value": "https://lbs.chatnos.com/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53a8c1",
+      "value": "https://yunxin.163.com/lbs/conf.jsp"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53b6b8",
+      "value": "http://nos.netease.com"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53b6cf",
+      "value": "http://45.127.128.24"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x53b6e4",
+      "value": "http://45.127.128.25"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x5439bc",
+      "value": "http://s3.amazonaws.com/doc/2006-03-01/"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x5446ec",
+      "value": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x54895b",
+      "value": "http://169.254.170.2"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x549334",
+      "value": "http://169.254.169.254"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x54934b",
+      "value": "http://[fd00:ec2::254]"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x54b46c",
+      "value": "https://curl.se/docs/hsts.html"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x54e08a",
+      "value": "https://curl.se/docs/alt-svc.html"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x54e7dd",
+      "value": "https://curl.se/docs/http-cookies.html"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libhigh_available_android.so",
+      "offset": "0x70f9df",
+      "value": "https://android.googlesource.com/toolchain/llvm-project"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libjinqu.so",
+      "offset": "0x50aa37",
+      "value": "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libjinqu.so",
+      "offset": "0x53003a",
+      "value": "https://curl.haxx.se/docs/http-cookies.html"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libjinqu.so",
+      "offset": "0x55ee22",
+      "value": "http://www.openssl.org/support/faq.html"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libne_audio.so",
+      "offset": "0x90d04",
+      "value": "http://gcc.gnu.org/bugs.html):"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+      "offset": "0xafec",
+      "value": "https://dby.ipaynow.cn/api/payment/sdk/syncException"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+      "offset": "0xb021",
+      "value": "https://pay.ipaynow.cn/sdk/syncException"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+      "offset": "0xb04a",
+      "value": "https://pay.ipaynow.cn/api_release/sdk/placeOrder"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+      "offset": "0xb07c",
+      "value": "https://dby.ipaynow.cn/api/payment/sdk/placeOrder"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libonlywechat_plugin.so",
+      "offset": "0xb0ae",
+      "value": "https://pay.ipaynow.cn/sdk/placeOrder"
+    },
+    {
+      "file": "work/apk/lib/armeabi-v7a/libuptsmaddon.so",
+      "offset": "0x8adcd",
+      "value": "http://www.openssl.org/support/faq.html"
+    }
+  ]
+}

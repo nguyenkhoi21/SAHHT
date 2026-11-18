@@ -1,0 +1,6319 @@
+{
+  "baseConfigHashes": {
+    "chain": "ce9ae11338db9739b0504583a42b971c5f9ede2b2a06abb1982ce08da734c7e1",
+    "character_break_new": "2a3758a8c6a7d45fc45f4dffa48393970d7467d6b3fbee90a9ab17d41e723525",
+    "character_detail": "056e618c76d5b7815aeecf133ceb5b2eed8466f8c2bf46f28cdd50ddd01ccb10",
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b",
+    "new_vip_reward": "555c4257603367e5e776075de45e6a6e7a9e62fd7d38efdf6e2783bf824af628",
+    "skill_detail": "3d9b5635827b68aa6d71a3cccbbead05e54e855a2a740fdd3f1ef1072c217661",
+    "super_evo_team": "dfdf251891f7345b77c041420000b8639949683785d5f5cab216278d4a8e7b67",
+    "super_evolution": "01aee96f8c9af0052062b59137dfdef5a9b6e4e59cdaeac35e2cb3b4fbffaa07",
+    "vip": "2c50d234d0e29605efc36825ae14daf23e989d6e706bbe808bc3b2bbf683d4c2"
+  },
+  "batch": "vn-runtime-b1",
+  "configs": {
+    "chain": {
+      "43101": {
+        "condition_sort": "0",
+        "data": [
+          43100,
+          42600,
+          42700
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 và card3 Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+        "effect": [
+          [
+            0,
+            200
+          ],
+          [
+            1,
+            200
+          ],
+          [
+            2,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            200
+          ]
+        ],
+        "name": "Hồi Sinh"
+      },
+      "43102": {
+        "condition_sort": "0",
+        "data": [
+          43100,
+          43000
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            1,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Thủ Lĩnh"
+      },
+      "43103": {
+        "condition_sort": "0",
+        "data": [
+          43100,
+          42700
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            1,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Lưỡi Kiếm"
+      },
+      "43104": {
+        "condition_sort": "0",
+        "data": [
+          43100,
+          41200
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            1,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Huyết Cừu"
+      },
+      "43105": {
+        "condition_sort": "1",
+        "data": [
+          107101
+        ],
+        "des": "Khi trang bị equip1 Ma Công+20%",
+        "effect": [
+          [
+            1,
+            200
+          ]
+        ],
+        "name": "Sức Mạnh Lục Đạo"
+      },
+      "43106": {
+        "condition_sort": "1",
+        "data": [
+          107201
+        ],
+        "des": "Khi trang bị equip1 Phòng Ngự+20%",
+        "effect": [
+          [
+            2,
+            200
+          ]
+        ],
+        "name": "Akatsuki"
+      },
+      "43107": {
+        "condition_sort": "1",
+        "data": [
+          107301,
+          107401
+        ],
+        "des": "Khi trang bị equip1 và equip2 HP+30%",
+        "effect": [
+          [
+            4,
+            300
+          ]
+        ],
+        "name": "Ninja"
+      },
+      "44201": {
+        "condition_sort": "0",
+        "data": [
+          44200,
+          43600,
+          43200
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 và card3 Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+        "effect": [
+          [
+            0,
+            200
+          ],
+          [
+            1,
+            200
+          ],
+          [
+            2,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            200
+          ]
+        ],
+        "name": "Saiyan"
+      },
+      "44202": {
+        "condition_sort": "0",
+        "data": [
+          44200,
+          42500
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            0,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Sức Mạnh Hợp Thể"
+      },
+      "44203": {
+        "condition_sort": "0",
+        "data": [
+          44200,
+          43700
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            0,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Thân Xác Cường Hãn"
+      },
+      "44204": {
+        "condition_sort": "0",
+        "data": [
+          44200,
+          41100
+        ],
+        "des": "Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%",
+        "effect": [
+          [
+            0,
+            150
+          ],
+          [
+            3,
+            150
+          ],
+          [
+            4,
+            150
+          ]
+        ],
+        "name": "Chúa Tể Tuyệt Đối"
+      },
+      "44205": {
+        "condition_sort": "1",
+        "data": [
+          126101
+        ],
+        "des": "Khi trang bị equip1 Vật Công+20%",
+        "effect": [
+          [
+            0,
+            200
+          ]
+        ],
+        "name": "Luyện Công"
+      },
+      "44206": {
+        "condition_sort": "1",
+        "data": [
+          126201
+        ],
+        "des": "Khi trang bị equip1 Phòng Ngự+20%",
+        "effect": [
+          [
+            2,
+            200
+          ]
+        ],
+        "name": "Vô Địch"
+      },
+      "44207": {
+        "condition_sort": "1",
+        "data": [
+          126301,
+          126401
+        ],
+        "des": "Khi trang bị equip1 và equip2 HP+30%",
+        "effect": [
+          [
+            4,
+            300
+          ]
+        ],
+        "name": "Dung Hợp"
+      }
+    },
+    "character_break_new": {
+      "43100": {
+        "break_story1": "HP tối đa + 30%\n Kỹ năng tăng cường  Truyền Chakra",
+        "break_story10": "",
+        "break_story2": "HP tối đa + 30%\n Kỹ năng tăng cường  Shinra Tensei - nhỏ",
+        "break_story3": "HP tối đa + 30%\n Kỹ năng tăng cường  Gedo Mazo",
+        "break_story4": "HP tối đa +30%, Tăng 20% tỉ lệ Trúng Đích\n Kỹ năng tăng cường  Vạn Tượng Thiên Dẫn",
+        "break_story5": "HP tối đa +30%, Tăng miễn giảm 20% ST\n Kỹ năng tăng cường  Địa Bạo Thiên Tinh",
+        "break_story6": "Tăng 20% kĩ năng Miễn Thương\n Kỹ năng siêu tiến hóa tăng cường   Diêm Vương Luân Hồi Phục Sinh",
+        "break_story7": "Tăng 30% kỹ năng Miễn Thương\n Kỹ năng Siêu Tiến Hóa   Shinra Tensei",
+        "break_story8": "",
+        "break_story9": "",
+        "character_id": 431,
+        "high_break": 7,
+        "material1": [
+          [
+            6,
+            900000,
+            30
+          ],
+          [
+            6,
+            910004,
+            10
+          ]
+        ],
+        "material10": [],
+        "material2": [
+          [
+            6,
+            900000,
+            60
+          ],
+          [
+            6,
+            910001,
+            10
+          ],
+          [
+            5,
+            39700,
+            2
+          ],
+          [
+            5,
+            43100,
+            1
+          ]
+        ],
+        "material3": [
+          [
+            6,
+            900000,
+            90
+          ],
+          [
+            6,
+            920002,
+            15
+          ],
+          [
+            5,
+            43100,
+            1
+          ]
+        ],
+        "material4": [
+          [
+            6,
+            900000,
+            120
+          ],
+          [
+            6,
+            920002,
+            15
+          ],
+          [
+            5,
+            39700,
+            3
+          ],
+          [
+            5,
+            43100,
+            1
+          ]
+        ],
+        "material5": [
+          [
+            6,
+            900000,
+            150
+          ],
+          [
+            6,
+            910002,
+            20
+          ],
+          [
+            6,
+            920003,
+            20
+          ],
+          [
+            5,
+            43100,
+            2
+          ]
+        ],
+        "material6": [
+          [
+            6,
+            930000,
+            100
+          ],
+          [
+            6,
+            930002,
+            30
+          ],
+          [
+            6,
+            930004,
+            30
+          ],
+          [
+            5,
+            43100,
+            1
+          ]
+        ],
+        "material7": [
+          [
+            6,
+            930000,
+            150
+          ],
+          [
+            6,
+            940002,
+            40
+          ],
+          [
+            6,
+            940004,
+            40
+          ],
+          [
+            5,
+            43100,
+            2
+          ]
+        ],
+        "material8": [],
+        "material9": [],
+        "name": "Pain",
+        "name1": "Dũng Sĩ·Pain",
+        "name10": "",
+        "name2": "Đấu Sĩ·Pain",
+        "name3": "Anh Hùng·Pain",
+        "name4": "Thần Thoại·Pain",
+        "name5": "Thần·Pain",
+        "name6": "Linh·Pain",
+        "name7": "Hồn·Pain",
+        "name8": "",
+        "name9": "",
+        "story_detail1": "Gây ra thêm gấp 5 lần ST cho mục tiêu, gây Hỗn Loạn 1 lượt",
+        "story_detail10": "",
+        "story_detail2": "Số lần kích hoạt biến thành 3. Truy kích thêm với ST thực bằng 50% HP. Cho bản thân 1 tầng Thần Ngự",
+        "story_detail3": "Giảm Né Tránh của toàn phe địch về 0",
+        "story_detail4": "Dựa vào số người của đối phương mà gây ra hiệu quả khác nhau:\n1. Địch có 4-5 người, gây ra thêm gấp 5 lần ST cho mục tiêu\n2. Địch có 1-3 người, gây ra thêm gấp 10 lần ST cho mục tiêu",
+        "story_detail5": "Dựa vào số người của đối phương mà gây ra hiệu quả khác nhau:\n1. Địch có 4-5 người, gây ra thêm gấp 5 lần ST cho mục tiêu\n2. Địch có 1-3 người, gây ra thêm gấp 10 lần ST cho mục tiêu",
+        "story_detail6": "Số lần Hồi Sinh tối đa biến thành 4, khi Hồi Sinh có tỉ lệ 30% không tốn số lần hồi sinh.",
+        "story_detail7": "Vĩnh viễn miễn dịch hiệu quả Trầm Mặc, Hóa Đá, Hỗn Loạn, Chế Giễu, Tsukuyomi. Diệt Ngay ngẫu nhiên 1 đơn vị địch, mỗi có 500k điểm tấn công thuộc tính Thổ cơ sở thì loại bỏ 1 lần sử dụng Hồi Sinh của mục tiêu (có thể loại bỏ 3 lần).",
+        "story_detail8": "",
+        "story_detail9": ""
+      },
+      "44200": {
+        "break_story1": "HP max +30%\n Kĩ năng   Tăng cường Đạn Năng Lượng",
+        "break_story10": "",
+        "break_story2": "HP max +30%\n Kĩ năng   Tăng cường Tự Tại Cực Ý Công",
+        "break_story3": "HP max +30%\n Kĩ năng   Tăng cường Kamekameha",
+        "break_story4": "HP max +30% Tăng 20% tỉ lệ Trúng Đích\n Kĩ năng   Tăng cường Cực - Chung Cực Ma Quang Thiểm",
+        "break_story5": "HP max +30% Tăng 20% miễn giảm ST\n Kĩ năng   Tăng cường Cực - Kamekameha",
+        "break_story6": "Tăng 20% miễn thương kĩ năng \n Kĩ năng siêu tiến hóa   Tăng cường Xóa Sổ",
+        "break_story7": "Tăng 30% miễn thương kĩ năng \n Kĩ năng siêu tiến hóa   Tăng cường Cực - Kiếm Khí",
+        "break_story8": "",
+        "break_story9": "",
+        "character_id": 442,
+        "high_break": 7,
+        "material1": [
+          [
+            6,
+            950001,
+            1
+          ],
+          [
+            6,
+            9102366,
+            1
+          ]
+        ],
+        "material10": [],
+        "material2": [
+          [
+            6,
+            950002,
+            1
+          ],
+          [
+            6,
+            9102366,
+            1
+          ],
+          [
+            5,
+            39600,
+            3
+          ],
+          [
+            5,
+            44200,
+            1
+          ]
+        ],
+        "material3": [
+          [
+            6,
+            950003,
+            1
+          ],
+          [
+            6,
+            9102366,
+            1
+          ],
+          [
+            5,
+            44200,
+            1
+          ]
+        ],
+        "material4": [
+          [
+            6,
+            950004,
+            1
+          ],
+          [
+            6,
+            9102366,
+            1
+          ],
+          [
+            5,
+            39600,
+            3
+          ],
+          [
+            5,
+            44200,
+            1
+          ]
+        ],
+        "material5": [
+          [
+            6,
+            950005,
+            1
+          ],
+          [
+            6,
+            9102366,
+            1
+          ],
+          [
+            5,
+            44200,
+            2
+          ]
+        ],
+        "material6": [
+          [
+            6,
+            950006,
+            1
+          ],
+          [
+            5,
+            44200,
+            1
+          ]
+        ],
+        "material7": [
+          [
+            6,
+            950007,
+            1
+          ],
+          [
+            5,
+            44200,
+            2
+          ]
+        ],
+        "material8": [],
+        "material9": [],
+        "name": "Vegetto",
+        "name1": "Dũng Sĩ·Vegetto",
+        "name10": "",
+        "name2": "Đấu Sĩ·Vegetto",
+        "name3": "Anh Hùng·Vegetto",
+        "name4": "Thần Thoại·Vegetto",
+        "name5": "Thần·Vegetto",
+        "name6": "Linh·Vegetto",
+        "name7": "Hồn·Vegetto",
+        "name8": "",
+        "name9": "",
+        "story_detail1": "Gây thêm gấp 5 lần ST",
+        "story_detail10": "",
+        "story_detail2": "Mỗi lượt tối đa kích hoạt 3 lần; nhận 1 lượt \"Vô Địch\".",
+        "story_detail3": "Trói Buộc toàn thể phe địch 1 lần.",
+        "story_detail4": "Trước khi Diệt Ngay mục tiêu, xóa 1 lần số lượt Hồi Sinh có thể dùng của mục tiêu",
+        "story_detail5": "Diệt Ngay ngẫu nhiên 1 mục tiêu. ST truy kích tăng lên đến 20%.",
+        "story_detail6": "Số lượt Hồi Sinh tối đa tăng thành 4. Xác suất không mất lượt sử dụng kỹ năng hồi sinh do mỗi nhân vật cung cấp tăng thành 15%.",
+        "story_detail7": "Tăng vĩnh viễn 230% HP max của bản thân. Miễn hiệu ứng Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukoyomi. Dựa trên số lượng đồng minh thuộc phe Ngọc Rồng đang có mặt trên sân, ngẫu nhiên xóa số lần hồi sinh tương ứng của một kẻ địch, đồng thời áp dụng hiệu ứng “Diệt Ngay” và gây sát thương truy kích bằng 50% HP max của bản thân. Nhận “Thần Ngự”, kéo dài 1 hiệp.",
+        "story_detail8": "",
+        "story_detail9": ""
+      }
+    },
+    "character_detail": {
+      "43100": {
+        "animation": "peien",
+        "base_def": 468,
+        "base_hp": 7714,
+        "base_matk": 423,
+        "base_patk": 800,
+        "base_speed": 476,
+        "break4": [
+          7,
+          20
+        ],
+        "break5": [
+          8,
+          20
+        ],
+        "breakthrough_ids": [],
+        "call_price": 1280,
+        "career": 2,
+        "chain": [
+          43101,
+          43102,
+          43103,
+          43104,
+          43105,
+          43106,
+          43107
+        ],
+        "character_ID": "431",
+        "evo_food": 400,
+        "evo_kind": 5,
+        "exchange_id": 3,
+        "growth_def": 100,
+        "growth_hp": 1000,
+        "growth_matk": 200,
+        "growth_patk": 200,
+        "growth_speed": 36,
+        "img": "icon_peien.png",
+        "is_evo": 1,
+        "is_notice": 2,
+        "is_only": 1,
+        "is_skin": 0,
+        "level_max": 0,
+        "name": "Pain",
+        "occupation_shade": 2,
+        "quality": 4,
+        "race": 5,
+        "rebirth": 5,
+        "rgb_sort": 0,
+        "sex": 1,
+        "short_story": "Thần  Lãnh tụ",
+        "skill_1_source": [
+          [
+            28710,
+            1
+          ]
+        ],
+        "skill_2_source": [
+          [
+            28720,
+            1
+          ]
+        ],
+        "skill_3_source": [
+          [
+            28730,
+            1
+          ]
+        ],
+        "skill_4_source": [
+          [
+            28760,
+            1
+          ]
+        ],
+        "skill_5_source": [
+          [
+            28770,
+            1
+          ]
+        ],
+        "skill_6_source": [
+          [
+            28740,
+            1
+          ]
+        ],
+        "skill_7_source": [
+          [
+            28750,
+            1
+          ]
+        ],
+        "skill_num": 5,
+        "star": 0,
+        "star_max": 20,
+        "story": "Thủ lĩnh Akatsuki dùng các thanh đen và Rinegan để đứng sau màn thao túng 6 thân xác",
+        "streng": 3,
+        "super_evo": 43100,
+        "type": 4,
+        "wake1": [
+          [
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake2": [
+          [
+            "action_1",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake3": [
+          [
+            "action_1",
+            "zihuo_action_2",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake4": [
+          [
+            "action_1",
+            "chenghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake5": [
+          [
+            "action_1",
+            "honghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_6"
+          ]
+        ],
+        "wake6": [
+          [
+            "action_1",
+            "honghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_6"
+          ]
+        ]
+      },
+      "44200": {
+        "animation": "vegetto",
+        "base_def": 468,
+        "base_hp": 7714,
+        "base_matk": 423,
+        "base_patk": 800,
+        "base_speed": 476,
+        "break4": [
+          7,
+          20
+        ],
+        "break5": [
+          8,
+          20
+        ],
+        "breakthrough_ids": [],
+        "call_price": 1280,
+        "career": 2,
+        "chain": [
+          44201,
+          44202,
+          44203,
+          44204,
+          44205,
+          44206,
+          44207
+        ],
+        "character_ID": "442",
+        "evo_food": 400,
+        "evo_kind": 5,
+        "exchange_id": 3,
+        "growth_def": 100,
+        "growth_hp": 1800,
+        "growth_matk": 100,
+        "growth_patk": 200,
+        "growth_speed": 150,
+        "img": "icon_vegetto.png",
+        "is_evo": 1,
+        "is_notice": 2,
+        "is_only": 1,
+        "is_skin": 0,
+        "level_max": 0,
+        "name": "Vegetto",
+        "occupation_shade": 1,
+        "quality": 4,
+        "race": 5,
+        "rebirth": 5,
+        "rgb_sort": 0,
+        "sex": 1,
+        "short_story": "Thần  Lãnh tụ",
+        "skill_1_source": [
+          [
+            29810,
+            1
+          ]
+        ],
+        "skill_2_source": [
+          [
+            29820,
+            1
+          ]
+        ],
+        "skill_3_source": [
+          [
+            29830,
+            1
+          ]
+        ],
+        "skill_4_source": [
+          [
+            29860,
+            1
+          ]
+        ],
+        "skill_5_source": [
+          [
+            29870,
+            1
+          ]
+        ],
+        "skill_6_source": [
+          [
+            29840,
+            1
+          ]
+        ],
+        "skill_7_source": [
+          [
+            29850,
+            1
+          ]
+        ],
+        "skill_num": 5,
+        "star": 0,
+        "star_max": 20,
+        "story": "Trong lúc chiến đấu với Beerus, Songoku và Vegeta đã dùng \"Bông tai Potara\" do thần Kaio tặng để hợp thể, và sinh ra chiến binh chung cực Cực Ý Vegito.",
+        "streng": 3,
+        "super_evo": 44200,
+        "type": 4,
+        "wake1": [
+          [
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake2": [
+          [
+            "action_1",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake3": [
+          [
+            "action_1",
+            "zihuo_action_2",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake4": [
+          [
+            "action_1",
+            "chenghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_15"
+          ]
+        ],
+        "wake5": [
+          [
+            "action_1",
+            "honghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_6"
+          ]
+        ],
+        "wake6": [
+          [
+            "action_1",
+            "honghuo_action_2",
+            "action_3",
+            "action_5",
+            "action_6"
+          ]
+        ]
+      }
+    },
+    "item": {
+      "950001": {
+        "daily_use": 0,
+        "icon": "jin",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Kim Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950002": {
+        "daily_use": 0,
+        "icon": "mu",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Mộc Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950003": {
+        "daily_use": 0,
+        "icon": "shui",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Thủy Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950004": {
+        "daily_use": 0,
+        "icon": "huo",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Hỏa Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950005": {
+        "daily_use": 0,
+        "icon": "tu",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Thổ Ngũ Hành",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950006": {
+        "daily_use": 0,
+        "icon": "wenzhang",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Linh Tiềm Năng",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "950007": {
+        "daily_use": 0,
+        "icon": "hun",
+        "is_sell": 0,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Hồn Tiềm Năng",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Một Trong Những Nguyên Liệu Chuyển sinh Thẻ Tướng",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "9102120": {
+        "daily_use": 0,
+        "icon": "icon_box8",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Phiếu bộ Năm Ngựa",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra có thể chọn 1 Phiếu bộ trang bị Năm Ngựa thuộc tính Hoả/ Thủy/ Địa/ Phong ",
+        "use_effect": [
+          9102120
+        ],
+        "use_num": 1
+      },
+      "9102366": {
+        "daily_use": 0,
+        "icon": "erhuan",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 0,
+        "name": "Bông Tai Potara",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Đạo cụ chuyên dụng cho Chuyển Thế vegetto",
+        "use_effect": [
+          0
+        ],
+        "use_num": 1
+      },
+      "9102470": {
+        "daily_use": 0,
+        "icon": "icon_box1",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In S",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In S ×1.",
+        "use_effect": [
+          9102470
+        ],
+        "use_num": 1
+      },
+      "9102471": {
+        "daily_use": 0,
+        "icon": "icon_box2",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SS",
+        "quality": 4,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SS ×1.",
+        "use_effect": [
+          9102471
+        ],
+        "use_num": 1
+      },
+      "9102472": {
+        "daily_use": 0,
+        "icon": "icon_box3",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Rương Đá In SSS",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Mở ra nhận Đá In SSS ×1.",
+        "use_effect": [
+          9102472
+        ],
+        "use_num": 1
+      }
+    },
+    "new_vip_reward": {
+      "16": {
+        "day1": [
+          [
+            6,
+            9102120,
+            1
+          ]
+        ],
+        "day2": [
+          [
+            6,
+            9102120,
+            1
+          ]
+        ],
+        "day3": [
+          [
+            6,
+            9102120,
+            1
+          ]
+        ],
+        "day4": [
+          [
+            6,
+            9102120,
+            1
+          ]
+        ],
+        "day5": [
+          [
+            6,
+            9102470,
+            1
+          ]
+        ],
+        "day6": [
+          [
+            6,
+            9102471,
+            1
+          ]
+        ],
+        "day7": [
+          [
+            6,
+            9102472,
+            1
+          ]
+        ],
+        "everyday": [
+          [
+            9,
+            0,
+            39999
+          ],
+          [
+            6,
+            9102471,
+            1
+          ],
+          [
+            6,
+            511317,
+            1
+          ]
+        ]
+      }
+    },
+    "skill_detail": {
+      "28710": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 550,
+        "cd": 3,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "",
+        "is_evolution": 28711,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 50,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra",
+        "skill_quality": 4,
+        "skill_story": "Gây ra effect% ST ma pháp và 300% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28711": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 3,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +7",
+        "is_evolution": 28712,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Gây ra effect% ST ma pháp và 400% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28712": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 650,
+        "cd": 3,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +17",
+        "is_evolution": 28713,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Gây ra effect% ST ma pháp và 500% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28713": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 3,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +24",
+        "is_evolution": 28714,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST ma pháp và 600% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28714": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 750,
+        "cd": 2,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +31",
+        "is_evolution": 28715,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST ma pháp và 650% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28715": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 2,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +36",
+        "is_evolution": 28716,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST ma pháp và 700% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28716": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 850,
+        "cd": 2,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +41",
+        "is_evolution": 28717,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST ma pháp và 750% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28717": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 900,
+        "cd": 2,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +50",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s1",
+        "skill_name": "Truyền Chakra - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST ma pháp và 800% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s1"
+      },
+      "28720": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 200,
+        "cd": 0,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +2",
+        "is_evolution": 28721,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 50,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ",
+        "skill_quality": 4,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28721": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 300,
+        "cd": 0,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +11",
+        "is_evolution": 28722,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28722": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 400,
+        "cd": 0,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +20",
+        "is_evolution": 28723,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28723": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 500,
+        "cd": 0,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +27",
+        "is_evolution": 28724,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28724": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 0,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +32",
+        "is_evolution": 28725,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28725": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 0,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +38",
+        "is_evolution": 28726,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28726": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 0,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +43",
+        "is_evolution": 28727,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28727": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 900,
+        "cd": 0,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +55",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s2",
+        "skill_name": "Shinra Tensei - nhỏ - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "peien_s2"
+      },
+      "28730": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 500,
+        "cd": 3,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +4",
+        "is_evolution": 28731,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 50,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo",
+        "skill_quality": 4,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 500% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28731": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 550,
+        "cd": 3,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +14",
+        "is_evolution": 28732,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 550% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28732": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 3,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +23",
+        "is_evolution": 28733,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 600% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28733": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 650,
+        "cd": 3,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +30",
+        "is_evolution": 28734,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 650% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28734": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 2,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +34",
+        "is_evolution": 28735,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 700% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28735": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 750,
+        "cd": 2,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +40",
+        "is_evolution": 28736,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 750% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28736": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 2,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +45",
+        "is_evolution": 28737,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 800% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28737": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 850,
+        "cd": 2,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +60",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s3",
+        "skill_name": "Gedo Mazo - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 900% ST thuộc tính Thổ",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "peien_s3"
+      },
+      "28740": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1200,
+        "cd": 2,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Tiêu Xu sẽ mở skill này",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s4",
+        "skill_name": "Vạn Tượng Thiên Dẫn",
+        "skill_quality": 7,
+        "skill_story": "Dẫn động sức mạnh lục đạo, gây ra effect% ST thực ma pháp và 1200% ST thực thuộc tính Thổ. Trói Buộc mục tiêu 1 lượt",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "peien_s4"
+      },
+      "28750": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1800,
+        "cd": 1,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Tiêu Xu sẽ mở skill này",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s5",
+        "skill_name": "Địa Bạo Thiên Tinh",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước lượt đấu: Tay bóp vẫn thạch. Gây ra effect% ST thực ma pháp và 1800% ST thực thuộc tính Thổ. Hồi 50% HP cho bản thân (bỏ qua Trọng Thương)",
+        "skill_type": "KBEFOREROUND",
+        "sprite_py": "peien_s5"
+      },
+      "28760": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1500,
+        "cd": 0,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 1,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s6",
+        "skill_name": "Diêm Vương Luân Hồi Phục Sinh",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng tử vong: Thông qua Địa Ngục hồi sinh bản thân, hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra effect% ST thực ma pháp và 1500% ST thực thuộc tính Thổ, tối đa có thể Hồi Sinh 3 lần. Diệt Ngay 1 đơn vị ngẫu nhiên",
+        "skill_type": "KDEAD",
+        "sprite_py": "peien_s6"
+      },
+      "28770": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1800,
+        "cd": 99,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 1,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_peien_s7",
+        "skill_name": "Shinra Tensei",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước chiến đấu: Lấy bản thân làm tâm, bắn ngược tất cả vật thể, nhẫn thuật ở xung quanh. Vĩnh viễn tăng 210% HP max, 79% Giảm Thương chỉnh thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân Gây ra effect% ST thực ma pháp và 1800% ST nguyên tố Thổ, Truy Kích với ST thực bằng 50% HP max của bản thân",
+        "skill_type": "KBEFOREBATTLE",
+        "sprite_py": "peien_s7"
+      },
+      "29810": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 100,
+        "cd": 3,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "",
+        "is_evolution": 29811,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng",
+        "skill_quality": 4,
+        "skill_story": "Gây ra effect% ST vật lý và 100% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29811": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 200,
+        "cd": 3,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +7",
+        "is_evolution": 29812,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Gây ra effect% ST vật lý và 200% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29812": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 300,
+        "cd": 3,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +17",
+        "is_evolution": 29813,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Gây ra effect% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29813": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 400,
+        "cd": 3,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +24",
+        "is_evolution": 29814,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST vật lý và 400% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29814": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 500,
+        "cd": 2,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +31",
+        "is_evolution": 29815,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29815": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 2,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +36",
+        "is_evolution": 29816,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST vật lý và 600% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29816": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 2,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +41",
+        "is_evolution": 29817,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST vật lý và 700% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29817": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 2,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +50",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s1",
+        "skill_name": "Đạn Năng Lượng - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Gây ra effect% ST vật lý và 800% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s1"
+      },
+      "29820": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 100,
+        "cd": 0,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +2",
+        "is_evolution": 29821,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công",
+        "skill_quality": 4,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 30% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29821": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 200,
+        "cd": 0,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +11",
+        "is_evolution": 29822,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 35% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29822": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 300,
+        "cd": 0,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +20",
+        "is_evolution": 29823,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 38% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29823": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 400,
+        "cd": 0,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +27",
+        "is_evolution": 29824,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 40% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29824": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 500,
+        "cd": 0,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +32",
+        "is_evolution": 29825,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 42% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29825": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 0,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +38",
+        "is_evolution": 29826,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 45% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29826": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 0,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +43",
+        "is_evolution": 29827,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 48% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29827": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 0,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +55",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s2",
+        "skill_name": "Tự Tại Cực Ý Công - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 50% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+        "skill_type": "KBEATTACK",
+        "sprite_py": "vegetto_s2"
+      },
+      "29830": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 200,
+        "cd": 3,
+        "effect": 500,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 5000,
+        "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +4",
+        "is_evolution": 29831,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha",
+        "skill_quality": 4,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 200% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29831": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 300,
+        "cd": 3,
+        "effect": 600,
+        "effect_delay": 0,
+        "effect_lvchange": 2,
+        "effect_talent": 0,
+        "evo_food": 30000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +14",
+        "is_evolution": 29832,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 2",
+        "skill_quality": 5,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29832": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 400,
+        "cd": 3,
+        "effect": 700,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +23",
+        "is_evolution": 29833,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 3",
+        "skill_quality": 6,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 400% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29833": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 500,
+        "cd": 3,
+        "effect": 800,
+        "effect_delay": 0,
+        "effect_lvchange": 3,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +30",
+        "is_evolution": 29834,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 4",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29834": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 600,
+        "cd": 2,
+        "effect": 900,
+        "effect_delay": 0,
+        "effect_lvchange": 4,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +34",
+        "is_evolution": 29835,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 5",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 600% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29835": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 700,
+        "cd": 2,
+        "effect": 1000,
+        "effect_delay": 0,
+        "effect_lvchange": 5,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +40",
+        "is_evolution": 29836,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 6",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 700% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29836": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 800,
+        "cd": 2,
+        "effect": 1100,
+        "effect_delay": 0,
+        "effect_lvchange": 8,
+        "effect_talent": 0,
+        "evo_food": 60000,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +45",
+        "is_evolution": 29837,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 7",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 800% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29837": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 900,
+        "cd": 2,
+        "effect": 1200,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +60",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s3",
+        "skill_name": "Kamekameha - Giai 8",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 900% ST thuộc tính Hỏa cho toàn phe địch.",
+        "skill_type": "KBEFOREHERT",
+        "sprite_py": "vegetto_s3"
+      },
+      "29840": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1200,
+        "cd": 2,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Tiêu Xu sẽ mở skill này",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s4",
+        "skill_name": "Cực - Chung cực Ma Quang Thiểm",
+        "skill_quality": 7,
+        "skill_story": "Gây ra ST thực bằng effect% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch. Diệt Ngay ngẫu nhiên 1 mục tiêu.",
+        "skill_type": "KBEFOREATTACK",
+        "sprite_py": "vegetto_s4"
+      },
+      "29850": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1200,
+        "cd": 1,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "Tiêu Xu sẽ mở skill này",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 30,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s5",
+        "skill_name": "Cực - Kamekameha",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng effect% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Hồi 100% HP max bản thân. Mỗi một đồng đội thuộc phe Ngọc Rồng có trong trận sẽ giúp kĩ năng này gây thêm ST truy kích bằng 10% HP max bản thân.",
+        "skill_type": "KBEFOREROUND",
+        "sprite_py": "vegetto_s5"
+      },
+      "29860": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1200,
+        "cd": 0,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 1,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s6",
+        "skill_name": "Xóa Sổ",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng tử vong: Khi Hồi Sinh sẽ dựa vào số người cùng phe Ngọc Rồng mà tăng tỉ lệ giảm số lần sử dụng kĩ năng Hồi Sinh, mỗi người sẽ tăng 10%; Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thực bằng effect% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Tối đa Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 kẻ địch.",
+        "skill_type": "KDEAD",
+        "sprite_py": "vegetto_s6"
+      },
+      "29870": {
+        "action": 0,
+        "attack_effect": "",
+        "attr_effect": 1800,
+        "cd": 99,
+        "effect": 1500,
+        "effect_delay": 0,
+        "effect_lvchange": 10,
+        "effect_talent": 0,
+        "evo_food": 0,
+        "evo_story": "",
+        "is_evolution": 0,
+        "is_learn": 0,
+        "max_lv": 1,
+        "pre_cd": 0,
+        "rate": 100,
+        "resource_count": 0,
+        "resource_type": 0,
+        "skill_icon": "s_vegetto_s7",
+        "skill_name": "Cực - Kiếm Khí",
+        "skill_quality": 7,
+        "skill_story": "Kĩ năng trước khi chiến đấu: Phục hồi 100% HP max bản thân. Gây ra ST thực bằng effect% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch",
+        "skill_type": "KBEFOREBATTLE",
+        "sprite_py": "vegetto_s7"
+      }
+    },
+    "super_evo_team": {
+      "1447": {
+        "ability_add": [
+          [
+            1,
+            150
+          ],
+          [
+            3,
+            99
+          ],
+          [
+            5,
+            472.5
+          ]
+        ],
+        "card_need": 42600
+      },
+      "1448": {
+        "ability_add": [
+          [
+            2,
+            148.5
+          ],
+          [
+            4,
+            135
+          ],
+          [
+            5,
+            472.5
+          ]
+        ],
+        "card_need": 43200
+      },
+      "1449": {
+        "ability_add": [
+          [
+            1,
+            225
+          ],
+          [
+            3,
+            148.5
+          ],
+          [
+            5,
+            708.5
+          ]
+        ],
+        "card_need": 43600
+      },
+      "1450": {
+        "ability_add": [
+          [
+            2,
+            222.5
+          ],
+          [
+            4,
+            202.5
+          ],
+          [
+            5,
+            708.5
+          ]
+        ],
+        "card_need": 42500
+      }
+    },
+    "super_evolution": {
+      "43100": {
+        "level_1_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_1_need": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "level_2_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_2_need": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "level_3_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_3_need": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "level_4_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_4_need": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "level_5_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_5_need": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "level_6_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_6_need": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "level_7_add": [
+          [
+            1,
+            720
+          ],
+          [
+            2,
+            712.8
+          ],
+          [
+            3,
+            316.8
+          ],
+          [
+            4,
+            648
+          ],
+          [
+            5,
+            3024
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_7_need": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "level_8_add": [
+          [
+            1,
+            720
+          ],
+          [
+            2,
+            712.8
+          ],
+          [
+            3,
+            316.8
+          ],
+          [
+            4,
+            648
+          ],
+          [
+            5,
+            3024
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_8_need": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "level_9_add": [],
+        "level_9_need": [],
+        "skill4_open": 3,
+        "skill5_open": 6
+      },
+      "44200": {
+        "level_1_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_1_need": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "level_2_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_2_need": [
+          1447,
+          6,
+          7,
+          8
+        ],
+        "level_3_add": [
+          [
+            1,
+            360
+          ],
+          [
+            2,
+            356.4
+          ],
+          [
+            3,
+            158.4
+          ],
+          [
+            4,
+            324
+          ],
+          [
+            5,
+            1512
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_3_need": [
+          9,
+          1448,
+          11,
+          12
+        ],
+        "level_4_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_4_need": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "level_5_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_5_need": [
+          1449,
+          18,
+          19,
+          20
+        ],
+        "level_6_add": [
+          [
+            1,
+            540
+          ],
+          [
+            2,
+            534.6
+          ],
+          [
+            3,
+            237.6
+          ],
+          [
+            4,
+            486
+          ],
+          [
+            5,
+            2268
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_6_need": [
+          21,
+          1450,
+          23,
+          24
+        ],
+        "level_7_add": [
+          [
+            1,
+            720
+          ],
+          [
+            2,
+            712.8
+          ],
+          [
+            3,
+            316.8
+          ],
+          [
+            4,
+            648
+          ],
+          [
+            5,
+            3024
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_7_need": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "level_8_add": [
+          [
+            1,
+            720
+          ],
+          [
+            2,
+            712.8
+          ],
+          [
+            3,
+            316.8
+          ],
+          [
+            4,
+            648
+          ],
+          [
+            5,
+            3024
+          ],
+          [
+            501,
+            1
+          ]
+        ],
+        "level_8_need": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "level_9_add": [],
+        "level_9_need": [],
+        "skill4_open": 3,
+        "skill5_open": 6
+      }
+    },
+    "vip": {
+      "16": {
+        "active_times": 1,
+        "arena_skip": 1,
+        "auto_fight": 400,
+        "buy_arena": 65,
+        "buy_godlike": 100,
+        "buy_point": 50,
+        "buy_wakuang2": 1,
+        "exp_inherit": 1,
+        "fast_quest": 1,
+        "fast_train": 8,
+        "fight_skip": 1,
+        "need_exp": 4800000,
+        "refresh_dirtshop": 999,
+        "steal_num": [
+          100,
+          100
+        ],
+        "story": "Đặc biệt: có thể mua gói quà siêu cấp [color = fff5a504]VIP15[/color]\n1：Mỗi ngày có thể mua [color = fff5a504]50[/color] lần thể lực；\n2：Mỗi ngày có thể mua [color = fff5a504]65[/color] lần đấu trường；\n3：Số lần tự động Quét Sạch [color = fff5a504]400 lần[/color].\nChú ý: [color = fff5a504]VIP16[/color] có toàn bộ đặc quyền của [color = fff5a504]VIP15[/color]",
+        "sweep_fast": 1,
+        "sweep_times": 1,
+        "train_times": 0,
+        "treasure_time": 0,
+        "world_boss_auto": 1,
+        "world_boss_revive": 1,
+        "world_boss_skip": 1
+      },
+      "17": {
+        "active_times": 1,
+        "arena_skip": 1,
+        "auto_fight": 400,
+        "buy_arena": 65,
+        "buy_godlike": 100,
+        "buy_point": 50,
+        "buy_wakuang2": 1,
+        "exp_inherit": 1,
+        "fast_quest": 1,
+        "fast_train": 8,
+        "fight_skip": 1,
+        "need_exp": 5800000,
+        "refresh_dirtshop": 999,
+        "steal_num": [
+          100,
+          100
+        ],
+        "story": "Đặc biệt: có thể mua gói quà siêu cấp [color = fff5a504]VIP15[/color]\n1：Mỗi ngày có thể mua [color = fff5a504]50[/color] lần thể lực；\n2：Mỗi ngày có thể mua [color = fff5a504]65[/color] lần đấu trường；\n3：Số lần tự động Quét Sạch [color = fff5a504]400 lần[/color].\nChú ý: [color = fff5a504]VIP17[/color] có toàn bộ đặc quyền của [color = fff5a504]VIP16[/color]",
+        "sweep_fast": 1,
+        "sweep_times": 1,
+        "train_times": 0,
+        "treasure_time": 0,
+        "world_boss_auto": 1,
+        "world_boss_revive": 1,
+        "world_boss_skip": 1
+      }
+    }
+  },
+  "createdAt": "2026-10-25T14:30:50.468092+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "43100",
+      "status": "ADD",
+      "table": "character_detail"
+    },
+    {
+      "id": "28710",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28711",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28712",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28713",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28714",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28715",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28716",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28717",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28720",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28721",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28722",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28723",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28724",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28725",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28726",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28727",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28730",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28731",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28732",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28733",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28734",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28735",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28736",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28737",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28760",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28770",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28740",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "28750",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "43101",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43102",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43103",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43104",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43105",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43106",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43107",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "43100",
+      "status": "ADD",
+      "table": "super_evolution"
+    },
+    {
+      "id": "5",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "6",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "7",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "8",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "1",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "2",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "3",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "4",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "29",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "30",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "31",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "32",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "17",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "18",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "19",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "20",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "21",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "22",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "23",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "24",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "9",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "10",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "11",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "12",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "13",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "14",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "15",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "16",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "25",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "26",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "27",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "28",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "43100",
+      "status": "ADD",
+      "table": "character_break_new"
+    },
+    {
+      "id": "44200",
+      "status": "ADD",
+      "table": "character_detail"
+    },
+    {
+      "id": "29810",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29811",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29812",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29813",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29814",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29815",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29816",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29817",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29820",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29821",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29822",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29823",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29824",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29825",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29826",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29827",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29830",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29831",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29832",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29833",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29834",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29835",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29836",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29837",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29860",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29870",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29840",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "29850",
+      "status": "ADD",
+      "table": "skill_detail"
+    },
+    {
+      "id": "44201",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44202",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44203",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44204",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44205",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44206",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44207",
+      "status": "ADD",
+      "table": "chain"
+    },
+    {
+      "id": "44200",
+      "status": "ADD",
+      "table": "super_evolution"
+    },
+    {
+      "id": "1447",
+      "status": "ADD",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "6",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "7",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "8",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "1",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "2",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "3",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "4",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "29",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "30",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "31",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "32",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "1449",
+      "status": "ADD",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "18",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "19",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "20",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "21",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "1450",
+      "status": "ADD",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "23",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "24",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "9",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "1448",
+      "status": "ADD",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "11",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "12",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "13",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "14",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "15",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "16",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "25",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "26",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "27",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "28",
+      "status": "BASE",
+      "table": "super_evo_team"
+    },
+    {
+      "id": "44200",
+      "status": "ADD",
+      "table": "character_break_new"
+    },
+    {
+      "id": "950001",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950002",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950003",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950004",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950005",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102366",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950006",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "950007",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "16",
+      "status": "ADD",
+      "table": "vip"
+    },
+    {
+      "id": "17",
+      "status": "ADD",
+      "table": "vip"
+    },
+    {
+      "id": "16",
+      "status": "ADD",
+      "table": "new_vip_reward"
+    },
+    {
+      "id": "9102471",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102472",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102120",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102470",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102120",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102120",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102120",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9102471",
+      "status": "ADD",
+      "table": "item"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {
+    "assets/iphonehd/anim/vegetto.plist": {
+      "sha256": "96ea68ed8a666e71894e0d811ddc5bc47f863a004b643374fbed874358acb3d4",
+      "size": 101874,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/vegetto.plist"
+    },
+    "assets/iphonehd/anim/vegetto.pvr.ccz": {
+      "sha256": "bbc52f0367b677466b037ed050badc629c1ce86c5e20be33241d103d4e4f220e",
+      "size": 4645847,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/vegetto.pvr.ccz"
+    },
+    "assets/iphonehd/anim/vegetto.swf.sam": {
+      "sha256": "b41e6f1c7b26571371d4074196c4120060199fb443d30c7f4004fd1797b4c355",
+      "size": 1682546,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/anim/vegetto.swf.sam"
+    },
+    "assets/iphonehd/icon/e_vegetto_cloak.png": {
+      "sha256": "b333958bbb8d0480b31f08641fa2a23ae2d4c688a7e5d124cdaa554138aa673c",
+      "size": 29471,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_cloak.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_crown.png": {
+      "sha256": "1db06a9f0ffe5eaa5fc8266115cafa9bb0de10d5cec2c07cec6e3e26931e9038",
+      "size": 29332,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_crown.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_shoe.png": {
+      "sha256": "5e0638c32fa8a7fa67ac3445ada2fbc4e931930379a6aa44b0b85ef5af7e1224",
+      "size": 28981,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_shoe.png"
+    },
+    "assets/iphonehd/icon/e_vegetto_sward.png": {
+      "sha256": "21bd3cd87fdb8da70ceb286699f9d736ac2127d8fda73d202a6870ad0deb4658",
+      "size": 28633,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/e_vegetto_sward.png"
+    },
+    "assets/iphonehd/icon/icon_vegetto.png": {
+      "sha256": "919eb796e64a4b1c98d861bf52b183a2d107cc1707c55db03b336dfb41e1c561",
+      "size": 22107,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/icon_vegetto.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s1.png": {
+      "sha256": "f48c67b9db4f803e2859c13b4c47524cc159a5a5ac7a31b5750151f726cc495c",
+      "size": 17432,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s1.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s2.png": {
+      "sha256": "9375e0d6d8d32b98e0211b612b344e6bcc5f42e76b60d0afc0e0d089fbcb34b6",
+      "size": 18992,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s2.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s3.png": {
+      "sha256": "f7fb2bbfb4eb782543f8fdf9be08ba66fd66a19d0e157c21c3e571b5671c385f",
+      "size": 16553,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s3.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s4.png": {
+      "sha256": "f4b1e32392907688f5229337a0f17bcb68f1db89e9c2f7c8d0963f02c1759c89",
+      "size": 23451,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s4.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s5.png": {
+      "sha256": "c97221d0765b5f09883fdbf92593d2485bd1737731715e5878ec6d73f5fec549",
+      "size": 19058,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s5.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s6.png": {
+      "sha256": "28e636dcbf90bee879eadf9ebeadb77bc6d42fc1f8f8f95ffdf82d3ddc3d20b7",
+      "size": 19429,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s6.png"
+    },
+    "assets/iphonehd/icon/s_vegetto_s7.png": {
+      "sha256": "52be56c27910ae33aa8062baeaa5bd42f0ec9239a46a501a72d7f7e61cb0201b",
+      "size": 19608,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/icon/s_vegetto_s7.png"
+    },
+    "assets/iphonehd/img/image_vegetto.png": {
+      "sha256": "bd9f9178d3ce2b9b7bf468aeb103ecea42c9a1cf2bb4c6b4bb5093ee96f32757",
+      "size": 123087,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/Resources/iphonehd/img/image_vegetto.png"
+    },
+    "assets/lua/skill_effect/vegetto/skill1.lua": {
+      "sha256": "a75397a358d38bd15716a1c3d8de2c776531968031a7baeaa223c12e2b654358",
+      "size": 1153,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/skill1.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s1.lua": {
+      "sha256": "453526919a814dba4cc6b0eea66d834b4dd173335461d0a36955d081c0055d52",
+      "size": 1157,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s1.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s2.lua": {
+      "sha256": "feaf72dd179a658e7b88a3eba4affc6716c0b93e1dce5778ce6bdd6c58135154",
+      "size": 1129,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s2.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s3.lua": {
+      "sha256": "5483bb7b15ed1852fbd474f0badd3c6fd89fee1eaa2213a52d04f6ab4e0e0523",
+      "size": 1157,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s3.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s4.lua": {
+      "sha256": "ba0189a30d8e5b797cf9ed36963158afb210837e35acbc95483d8bcbe5220c80",
+      "size": 1157,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s4.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s5.lua": {
+      "sha256": "78867c5b5e09439149efcf251d3c41d29df9277afed27ac7f1e4e8b7a631ad81",
+      "size": 1577,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s5.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s6.lua": {
+      "sha256": "a4a042570c3a6d2de5a34e364994b6b4a7999ccb5d4f79c17d7a4280bf930045",
+      "size": 1157,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s6.lua"
+    },
+    "assets/lua/skill_effect/vegetto/vegetto_s7.lua": {
+      "sha256": "c2b62caf8a761154c08a4b786e0abafffbe8617caada0b50971941469c6ae9fa",
+      "size": 1577,
+      "sourcePath": "com.kaiqigu.cjyxyn.kvsdk/files/lua/skill_effect/vegetto/vegetto_s7.lua"
+    }
+  },
+  "heroCatalog": [
+    {
+      "aliases": [
+        "Pein",
+        "Nagato"
+      ],
+      "baseGrantableByServer": true,
+      "classification": "VERIFIED VN RUNTIME DEFINITION",
+      "configId": 43100,
+      "displayName": "Pain",
+      "internalName": "peien",
+      "qaSupport": {
+        "supported": true,
+        "applied": {
+          "level": 255,
+          "evolution": 60,
+          "superStep": 8,
+          "superLabel": "Vàng++",
+          "rebirth": 7,
+          "reform": 40
+        },
+        "evidence": "SERVER VERIFIED"
+      },
+      "resourceStatus": "FULL ASSETS",
+      "skillIds": [
+        28710,
+        28720,
+        28730,
+        28740,
+        28750,
+        28760,
+        28770
+      ],
+      "sourceDefinition": {
+        "batch": "vn-runtime-b1",
+        "configId": 43100,
+        "source": "vn-runtime-00d83b786d933a14",
+        "sourceVersion": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+        "verification": "CONFIG VERIFIED / RESOURCE VERIFIED"
+      }
+    },
+    {
+      "aliases": [
+        "Vegito"
+      ],
+      "baseGrantableByServer": true,
+      "classification": "VERIFIED VN RUNTIME DEFINITION",
+      "configId": 44200,
+      "displayName": "Vegetto",
+      "internalName": "vegetto",
+      "qaSupport": {
+        "supported": true,
+        "applied": {
+          "level": 255,
+          "evolution": 60,
+          "superStep": 8,
+          "superLabel": "Vàng++",
+          "rebirth": 7,
+          "reform": 40
+        },
+        "evidence": "SERVER VERIFIED"
+      },
+      "resourceStatus": "FULL ASSETS",
+      "skillIds": [
+        29810,
+        29820,
+        29830,
+        29840,
+        29850,
+        29860,
+        29870
+      ],
+      "sourceDefinition": {
+        "batch": "vn-runtime-b1",
+        "configId": 44200,
+        "source": "vn-runtime-00d83b786d933a14",
+        "sourceVersion": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+        "verification": "CONFIG VERIFIED / RESOURCE VERIFIED"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "animation": "peien",
+      "assetStatus": "FULL ASSETS",
+      "atlas": "assets/iphonehd/anim/peien.plist",
+      "configId": 43100,
+      "evidence": "RESOURCE VERIFIED",
+      "model": "assets/iphonehd/anim/peien.swf.sam",
+      "portrait": "assets/iphonehd/img/image_peien.png",
+      "runtimeAssetStatus": "PARTIAL_RUNTIME_ASSETS",
+      "sections": [
+        "beiji",
+        "beiji2",
+        "daiji",
+        "dengchang",
+        "gongji1",
+        "gongji2",
+        "gongji3",
+        "gongji4",
+        "gongji5",
+        "gongji6",
+        "gongji7",
+        "gongji8",
+        "gongji8_teixao1",
+        "houtui",
+        "qianjin",
+        "shuaidao",
+        "siwang"
+      ],
+      "textures": [
+        "assets/iphonehd/anim/peien.pvr.ccz"
+      ]
+    },
+    {
+      "animation": "vegetto",
+      "assetStatus": "FULL ASSETS",
+      "atlas": "assets/iphonehd/anim/vegetto.plist",
+      "configId": 44200,
+      "evidence": "RESOURCE VERIFIED",
+      "model": "assets/iphonehd/anim/vegetto.swf.sam",
+      "portrait": "assets/iphonehd/img/image_vegetto.png",
+      "runtimeAssetStatus": "PARTIAL_RUNTIME_ASSETS",
+      "sections": [
+        "beiji",
+        "beiji2",
+        "daiji",
+        "dengchang",
+        "gongji1",
+        "gongji2",
+        "gongji3",
+        "gongji4",
+        "gongji5",
+        "gongji6",
+        "gongji6_teixao1",
+        "gongji7",
+        "gongji8",
+        "gongji8_teixao1",
+        "houtui",
+        "qianjin",
+        "shuaidao",
+        "siwang"
+      ],
+      "textures": [
+        "assets/iphonehd/anim/vegetto.pvr.ccz"
+      ]
+    }
+  ],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {
+      "43100": {
+        "animation": "peien",
+        "configId": 43100,
+        "name": "Pain",
+        "skillChains": {
+          "1": [
+            28710,
+            28711,
+            28712,
+            28713,
+            28714,
+            28715,
+            28716,
+            28717
+          ],
+          "2": [
+            28720,
+            28721,
+            28722,
+            28723,
+            28724,
+            28725,
+            28726,
+            28727
+          ],
+          "3": [
+            28730,
+            28731,
+            28732,
+            28733,
+            28734,
+            28735,
+            28736,
+            28737
+          ],
+          "4": [
+            28760
+          ],
+          "5": [
+            28770
+          ],
+          "6": [
+            28740
+          ],
+          "7": [
+            28750
+          ]
+        },
+        "skills": [
+          {
+            "exists": true,
+            "skillId": 28710,
+            "skillName": "Truyền Chakra",
+            "slot": 1,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28710,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28720,
+            "skillName": "Shinra Tensei - nhỏ",
+            "slot": 2,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28720,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28730,
+            "skillName": "Gedo Mazo",
+            "slot": 3,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28730,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28760,
+            "skillName": "Diêm Vương Luân Hồi Phục Sinh",
+            "slot": 4,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28760,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28770,
+            "skillName": "Shinra Tensei",
+            "slot": 5,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28770,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28740,
+            "skillName": "Vạn Tượng Thiên Dẫn",
+            "slot": 6,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28740,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 28750,
+            "skillName": "Địa Bạo Thiên Tinh",
+            "slot": 7,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              28750,
+              1
+            ],
+            "variant": 0
+          }
+        ]
+      },
+      "44200": {
+        "animation": "vegetto",
+        "configId": 44200,
+        "name": "Vegetto",
+        "skillChains": {
+          "1": [
+            29810,
+            29811,
+            29812,
+            29813,
+            29814,
+            29815,
+            29816,
+            29817
+          ],
+          "2": [
+            29820,
+            29821,
+            29822,
+            29823,
+            29824,
+            29825,
+            29826,
+            29827
+          ],
+          "3": [
+            29830,
+            29831,
+            29832,
+            29833,
+            29834,
+            29835,
+            29836,
+            29837
+          ],
+          "4": [
+            29860
+          ],
+          "5": [
+            29870
+          ],
+          "6": [
+            29840
+          ],
+          "7": [
+            29850
+          ]
+        },
+        "skills": [
+          {
+            "exists": true,
+            "skillId": 29810,
+            "skillName": "Đạn Năng Lượng",
+            "slot": 1,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29810,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29820,
+            "skillName": "Tự Tại Cực Ý Công",
+            "slot": 2,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29820,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29830,
+            "skillName": "Kamekameha",
+            "slot": 3,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29830,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29860,
+            "skillName": "Xóa Sổ",
+            "slot": 4,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29860,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29870,
+            "skillName": "Cực - Kiếm Khí",
+            "slot": 5,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29870,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29840,
+            "skillName": "Cực - Chung cực Ma Quang Thiểm",
+            "slot": 6,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29840,
+              1
+            ],
+            "variant": 0
+          },
+          {
+            "exists": true,
+            "skillId": 29850,
+            "skillName": "Cực - Kamekameha",
+            "slot": 7,
+            "sourceTable": "skill_detail",
+            "sourceTuple": [
+              29850,
+              1
+            ],
+            "variant": 0
+          }
+        ]
+      }
+    },
+    "skillById": {
+      "28710": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 550,
+          "cd": 3,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "",
+          "is_evolution": 28711,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 50,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra",
+          "skill_quality": 4,
+          "skill_story": "Gây ra effect% ST ma pháp và 300% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28710,
+        "sourceTable": "skill_detail"
+      },
+      "28711": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 3,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +7",
+          "is_evolution": 28712,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Gây ra effect% ST ma pháp và 400% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28711,
+        "sourceTable": "skill_detail"
+      },
+      "28712": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 650,
+          "cd": 3,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +17",
+          "is_evolution": 28713,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Gây ra effect% ST ma pháp và 500% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28712,
+        "sourceTable": "skill_detail"
+      },
+      "28713": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 3,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +24",
+          "is_evolution": 28714,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST ma pháp và 600% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28713,
+        "sourceTable": "skill_detail"
+      },
+      "28714": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 750,
+          "cd": 2,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +31",
+          "is_evolution": 28715,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST ma pháp và 650% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28714,
+        "sourceTable": "skill_detail"
+      },
+      "28715": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 2,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +36",
+          "is_evolution": 28716,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST ma pháp và 700% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28715,
+        "sourceTable": "skill_detail"
+      },
+      "28716": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 850,
+          "cd": 2,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +41",
+          "is_evolution": 28717,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST ma pháp và 750% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28716,
+        "sourceTable": "skill_detail"
+      },
+      "28717": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 900,
+          "cd": 2,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +50",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s1",
+          "skill_name": "Truyền Chakra - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST ma pháp và 800% ST thuộc tính Thổ cho ngẫu nhiên 1 kẻ địch",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28717,
+        "sourceTable": "skill_detail"
+      },
+      "28720": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 200,
+          "cd": 0,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +2",
+          "is_evolution": 28721,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 50,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ",
+          "skill_quality": 4,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28720,
+        "sourceTable": "skill_detail"
+      },
+      "28721": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 300,
+          "cd": 0,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +11",
+          "is_evolution": 28722,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28721,
+        "sourceTable": "skill_detail"
+      },
+      "28722": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 400,
+          "cd": 0,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +20",
+          "is_evolution": 28723,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28722,
+        "sourceTable": "skill_detail"
+      },
+      "28723": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 500,
+          "cd": 0,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +27",
+          "is_evolution": 28724,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28723,
+        "sourceTable": "skill_detail"
+      },
+      "28724": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 0,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +32",
+          "is_evolution": 28725,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28724,
+        "sourceTable": "skill_detail"
+      },
+      "28725": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 0,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +38",
+          "is_evolution": 28726,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28725,
+        "sourceTable": "skill_detail"
+      },
+      "28726": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 0,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +43",
+          "is_evolution": 28727,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28726,
+        "sourceTable": "skill_detail"
+      },
+      "28727": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 900,
+          "cd": 0,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +55",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s2",
+          "skill_name": "Shinra Tensei - nhỏ - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra effect% ST ma pháp cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "peien_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28727,
+        "sourceTable": "skill_detail"
+      },
+      "28730": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 500,
+          "cd": 3,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +4",
+          "is_evolution": 28731,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 50,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo",
+          "skill_quality": 4,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 500% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28730,
+        "sourceTable": "skill_detail"
+      },
+      "28731": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 550,
+          "cd": 3,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +14",
+          "is_evolution": 28732,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 550% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28731,
+        "sourceTable": "skill_detail"
+      },
+      "28732": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 3,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +23",
+          "is_evolution": 28733,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 600% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28732,
+        "sourceTable": "skill_detail"
+      },
+      "28733": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 650,
+          "cd": 3,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +30",
+          "is_evolution": 28734,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 650% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28733,
+        "sourceTable": "skill_detail"
+      },
+      "28734": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 2,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +34",
+          "is_evolution": 28735,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 700% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28734,
+        "sourceTable": "skill_detail"
+      },
+      "28735": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 750,
+          "cd": 2,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +40",
+          "is_evolution": 28736,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 750% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28735,
+        "sourceTable": "skill_detail"
+      },
+      "28736": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 2,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +45",
+          "is_evolution": 28737,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 800% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28736,
+        "sourceTable": "skill_detail"
+      },
+      "28737": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 850,
+          "cd": 2,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +60",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s3",
+          "skill_name": "Gedo Mazo - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Thông linh với Gedo Mazo để phản kích, gây ra effect% ST ma pháp và 900% ST thuộc tính Thổ",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "peien_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28737,
+        "sourceTable": "skill_detail"
+      },
+      "28740": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1200,
+          "cd": 2,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Tiêu Xu sẽ mở skill này",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s4",
+          "skill_name": "Vạn Tượng Thiên Dẫn",
+          "skill_quality": 7,
+          "skill_story": "Dẫn động sức mạnh lục đạo, gây ra effect% ST thực ma pháp và 1200% ST thực thuộc tính Thổ. Trói Buộc mục tiêu 1 lượt",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "peien_s4"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28740,
+        "sourceTable": "skill_detail"
+      },
+      "28750": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1800,
+          "cd": 1,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Tiêu Xu sẽ mở skill này",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s5",
+          "skill_name": "Địa Bạo Thiên Tinh",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước lượt đấu: Tay bóp vẫn thạch. Gây ra effect% ST thực ma pháp và 1800% ST thực thuộc tính Thổ. Hồi 50% HP cho bản thân (bỏ qua Trọng Thương)",
+          "skill_type": "KBEFOREROUND",
+          "sprite_py": "peien_s5"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28750,
+        "sourceTable": "skill_detail"
+      },
+      "28760": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1500,
+          "cd": 0,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 1,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s6",
+          "skill_name": "Diêm Vương Luân Hồi Phục Sinh",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng tử vong: Thông qua Địa Ngục hồi sinh bản thân, hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra effect% ST thực ma pháp và 1500% ST thực thuộc tính Thổ, tối đa có thể Hồi Sinh 3 lần. Diệt Ngay 1 đơn vị ngẫu nhiên",
+          "skill_type": "KDEAD",
+          "sprite_py": "peien_s6"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28760,
+        "sourceTable": "skill_detail"
+      },
+      "28770": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1800,
+          "cd": 99,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 1,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_peien_s7",
+          "skill_name": "Shinra Tensei",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước chiến đấu: Lấy bản thân làm tâm, bắn ngược tất cả vật thể, nhẫn thuật ở xung quanh. Vĩnh viễn tăng 210% HP max, 79% Giảm Thương chỉnh thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân Gây ra effect% ST thực ma pháp và 1800% ST nguyên tố Thổ, Truy Kích với ST thực bằng 50% HP max của bản thân",
+          "skill_type": "KBEFOREBATTLE",
+          "sprite_py": "peien_s7"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 28770,
+        "sourceTable": "skill_detail"
+      },
+      "29810": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 100,
+          "cd": 3,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "",
+          "is_evolution": 29811,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng",
+          "skill_quality": 4,
+          "skill_story": "Gây ra effect% ST vật lý và 100% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29810,
+        "sourceTable": "skill_detail"
+      },
+      "29811": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 200,
+          "cd": 3,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +7",
+          "is_evolution": 29812,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Gây ra effect% ST vật lý và 200% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29811,
+        "sourceTable": "skill_detail"
+      },
+      "29812": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 300,
+          "cd": 3,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +17",
+          "is_evolution": 29813,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Gây ra effect% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29812,
+        "sourceTable": "skill_detail"
+      },
+      "29813": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 400,
+          "cd": 3,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +24",
+          "is_evolution": 29814,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST vật lý và 400% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29813,
+        "sourceTable": "skill_detail"
+      },
+      "29814": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 500,
+          "cd": 2,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +31",
+          "is_evolution": 29815,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29814,
+        "sourceTable": "skill_detail"
+      },
+      "29815": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 2,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +36",
+          "is_evolution": 29816,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST vật lý và 600% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29815,
+        "sourceTable": "skill_detail"
+      },
+      "29816": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 2,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +41",
+          "is_evolution": 29817,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST vật lý và 700% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29816,
+        "sourceTable": "skill_detail"
+      },
+      "29817": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 2,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +50",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s1",
+          "skill_name": "Đạn Năng Lượng - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Gây ra effect% ST vật lý và 800% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s1"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29817,
+        "sourceTable": "skill_detail"
+      },
+      "29820": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 100,
+          "cd": 0,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +2",
+          "is_evolution": 29821,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công",
+          "skill_quality": 4,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 30% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29820,
+        "sourceTable": "skill_detail"
+      },
+      "29821": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 200,
+          "cd": 0,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +11",
+          "is_evolution": 29822,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 35% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29821,
+        "sourceTable": "skill_detail"
+      },
+      "29822": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 300,
+          "cd": 0,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +20",
+          "is_evolution": 29823,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 38% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29822,
+        "sourceTable": "skill_detail"
+      },
+      "29823": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 400,
+          "cd": 0,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +27",
+          "is_evolution": 29824,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 40% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29823,
+        "sourceTable": "skill_detail"
+      },
+      "29824": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 500,
+          "cd": 0,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +32",
+          "is_evolution": 29825,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 42% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29824,
+        "sourceTable": "skill_detail"
+      },
+      "29825": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 0,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +38",
+          "is_evolution": 29826,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 45% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29825,
+        "sourceTable": "skill_detail"
+      },
+      "29826": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 0,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +43",
+          "is_evolution": 29827,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 48% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29826,
+        "sourceTable": "skill_detail"
+      },
+      "29827": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 0,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +55",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s2",
+          "skill_name": "Tự Tại Cực Ý Công - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 50% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
+          "skill_type": "KBEATTACK",
+          "sprite_py": "vegetto_s2"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29827,
+        "sourceTable": "skill_detail"
+      },
+      "29830": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 200,
+          "cd": 3,
+          "effect": 500,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 5000,
+          "evo_story": "Điều kiện mở khóa: Đồng đội tiến cấp đến +4",
+          "is_evolution": 29831,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha",
+          "skill_quality": 4,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 200% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29830,
+        "sourceTable": "skill_detail"
+      },
+      "29831": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 300,
+          "cd": 3,
+          "effect": 600,
+          "effect_delay": 0,
+          "effect_lvchange": 2,
+          "effect_talent": 0,
+          "evo_food": 30000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +14",
+          "is_evolution": 29832,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 2",
+          "skill_quality": 5,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29831,
+        "sourceTable": "skill_detail"
+      },
+      "29832": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 400,
+          "cd": 3,
+          "effect": 700,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +23",
+          "is_evolution": 29833,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 3",
+          "skill_quality": 6,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 400% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29832,
+        "sourceTable": "skill_detail"
+      },
+      "29833": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 500,
+          "cd": 3,
+          "effect": 800,
+          "effect_delay": 0,
+          "effect_lvchange": 3,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +30",
+          "is_evolution": 29834,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 4",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29833,
+        "sourceTable": "skill_detail"
+      },
+      "29834": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 600,
+          "cd": 2,
+          "effect": 900,
+          "effect_delay": 0,
+          "effect_lvchange": 4,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +34",
+          "is_evolution": 29835,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 5",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 600% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29834,
+        "sourceTable": "skill_detail"
+      },
+      "29835": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 700,
+          "cd": 2,
+          "effect": 1000,
+          "effect_delay": 0,
+          "effect_lvchange": 5,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +40",
+          "is_evolution": 29836,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 6",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 700% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29835,
+        "sourceTable": "skill_detail"
+      },
+      "29836": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 800,
+          "cd": 2,
+          "effect": 1100,
+          "effect_delay": 0,
+          "effect_lvchange": 8,
+          "effect_talent": 0,
+          "evo_food": 60000,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +45",
+          "is_evolution": 29837,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 7",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 800% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29836,
+        "sourceTable": "skill_detail"
+      },
+      "29837": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 900,
+          "cd": 2,
+          "effect": 1200,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Điều kiện tiến cấp: Đồng đội tiến cấp đến +60",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s3",
+          "skill_name": "Kamekameha - Giai 8",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng phản kích: Gây ra effect% ST vật lý và 900% ST thuộc tính Hỏa cho toàn phe địch.",
+          "skill_type": "KBEFOREHERT",
+          "sprite_py": "vegetto_s3"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29837,
+        "sourceTable": "skill_detail"
+      },
+      "29840": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1200,
+          "cd": 2,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Tiêu Xu sẽ mở skill này",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s4",
+          "skill_name": "Cực - Chung cực Ma Quang Thiểm",
+          "skill_quality": 7,
+          "skill_story": "Gây ra ST thực bằng effect% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch. Diệt Ngay ngẫu nhiên 1 mục tiêu.",
+          "skill_type": "KBEFOREATTACK",
+          "sprite_py": "vegetto_s4"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29840,
+        "sourceTable": "skill_detail"
+      },
+      "29850": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1200,
+          "cd": 1,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "Tiêu Xu sẽ mở skill này",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 30,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s5",
+          "skill_name": "Cực - Kamekameha",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng effect% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Hồi 100% HP max bản thân. Mỗi một đồng đội thuộc phe Ngọc Rồng có trong trận sẽ giúp kĩ năng này gây thêm ST truy kích bằng 10% HP max bản thân.",
+          "skill_type": "KBEFOREROUND",
+          "sprite_py": "vegetto_s5"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29850,
+        "sourceTable": "skill_detail"
+      },
+      "29860": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1200,
+          "cd": 0,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 1,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s6",
+          "skill_name": "Xóa Sổ",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng tử vong: Khi Hồi Sinh sẽ dựa vào số người cùng phe Ngọc Rồng mà tăng tỉ lệ giảm số lần sử dụng kĩ năng Hồi Sinh, mỗi người sẽ tăng 10%; Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thực bằng effect% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Tối đa Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 kẻ địch.",
+          "skill_type": "KDEAD",
+          "sprite_py": "vegetto_s6"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29860,
+        "sourceTable": "skill_detail"
+      },
+      "29870": {
+        "config": {
+          "action": 0,
+          "attack_effect": "",
+          "attr_effect": 1800,
+          "cd": 99,
+          "effect": 1500,
+          "effect_delay": 0,
+          "effect_lvchange": 10,
+          "effect_talent": 0,
+          "evo_food": 0,
+          "evo_story": "",
+          "is_evolution": 0,
+          "is_learn": 0,
+          "max_lv": 1,
+          "pre_cd": 0,
+          "rate": 100,
+          "resource_count": 0,
+          "resource_type": 0,
+          "skill_icon": "s_vegetto_s7",
+          "skill_name": "Cực - Kiếm Khí",
+          "skill_quality": 7,
+          "skill_story": "Kĩ năng trước khi chiến đấu: Phục hồi 100% HP max bản thân. Gây ra ST thực bằng effect% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch",
+          "skill_type": "KBEFOREBATTLE",
+          "sprite_py": "vegetto_s7"
+        },
+        "formulaStatus": "UNKNOWN",
+        "skillId": 29870,
+        "sourceTable": "skill_detail"
+      }
+    }
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

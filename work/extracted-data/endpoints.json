@@ -1,0 +1,716 @@
+[
+  {
+    "value": "http://dev.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_url_config.lua",
+    "line": 3,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_url_config.lua",
+    "line": 4,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_url_config.lua",
+    "line": 6,
+    "comment_line": true
+  },
+  {
+    "value": "http://localhost:8888/api",
+    "file": "work/decrypted/lua/game_url_config.lua",
+    "line": 12,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_url_config.lua",
+    "line": 20,
+    "comment_line": true
+  },
+  {
+    "value": "http://cjyx-login-sg.pocketgamesol.com/pub_abroad_vn/follow_stat/?login_result=",
+    "file": "work/decrypted/lua/game_util.lua",
+    "line": 8643,
+    "comment_line": false
+  },
+  {
+    "value": "http://vntcn.superhero.hi365.com/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 8,
+    "comment_line": true
+  },
+  {
+    "value": "http://vntcn.superhero.hi365.com/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 9,
+    "comment_line": true
+  },
+  {
+    "value": "http://113.107.160.101/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 13,
+    "comment_line": true
+  },
+  {
+    "value": "http://113.107.160.101/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 14,
+    "comment_line": true
+  },
+  {
+    "value": "http://125.212.211.20/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 17,
+    "comment_line": true
+  },
+  {
+    "value": "http://125.212.211.20/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 18,
+    "comment_line": true
+  },
+  {
+    "value": "http://cjyx-login-ios-sg.pocketgamesol.com/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 22,
+    "comment_line": true
+  },
+  {
+    "value": "http://cjyx-login-ios-sg.pocketgamesol.com/pub_abroad_vn",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 23,
+    "comment_line": true
+  },
+  {
+    "value": "http://gamevn.superhero.hi365.com/pub_abroad_vr",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 27,
+    "comment_line": false
+  },
+  {
+    "value": "http://gamevn.superhero.hi365.com/pub_abroad_vr",
+    "file": "work/decrypted/lua/game_version_config.lua",
+    "line": 28,
+    "comment_line": false
+  },
+  {
+    "value": "http://127.0.0.1/updater/update.zip",
+    "file": "work/decrypted/lua/game_download/game_resources_download2.lua",
+    "line": 696,
+    "comment_line": true
+  },
+  {
+    "value": "http://127.0.0.1",
+    "file": "work/decrypted/lua/game_download/game_resources_download2.lua",
+    "line": 697,
+    "comment_line": true
+  },
+  {
+    "value": "http://down.joygame.cn/cjyx/temp/updater0.2.98.zip",
+    "file": "work/decrypted/lua/game_download/game_resources_download2.lua",
+    "line": 699,
+    "comment_line": true
+  },
+  {
+    "value": "http://down.joygame.cn/cjyx",
+    "file": "work/decrypted/lua/game_download/game_resources_download2.lua",
+    "line": 700,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesisandroidios/crash/?upZipErrorCode=",
+    "file": "work/decrypted/lua/game_download/game_resources_download2.lua",
+    "line": 772,
+    "comment_line": false
+  },
+  {
+    "value": "https://app-t.cn.hi365.com/",
+    "file": "work/decrypted/lua/game_pop/game_login_sdk_pop.lua",
+    "line": 4,
+    "comment_line": true
+  },
+  {
+    "value": "http://app.vn.hi365.com/",
+    "file": "work/decrypted/lua/game_pop/game_login_sdk_pop.lua",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "https://goo.gl/DvKP1J",
+    "file": "work/decrypted/lua/game_pop/game_survey_pop.lua",
+    "line": 118,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_pop/game_url_config.lua",
+    "line": 3,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_pop/game_url_config.lua",
+    "line": 4,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_pop/game_url_config.lua",
+    "line": 6,
+    "comment_line": true
+  },
+  {
+    "value": "http://localhost:8888/api",
+    "file": "work/decrypted/lua/game_pop/game_url_config.lua",
+    "line": 12,
+    "comment_line": true
+  },
+  {
+    "value": "http://pub.kaiqigu.net/genesis",
+    "file": "work/decrypted/lua/game_pop/game_url_config.lua",
+    "line": 19,
+    "comment_line": true
+  },
+  {
+    "value": "http://cjyx-login-sg.pocketgamesol.com/pub_abroad_vn/follow_stat/?login_result=",
+    "file": "work/decrypted/lua/game_pop/game_util.lua",
+    "line": 7207,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.baidu.com",
+    "file": "work/decrypted/lua/game_pop/ui_chat.lua",
+    "line": 226,
+    "comment_line": true
+  },
+  {
+    "value": "http://pay.upay365.com/api/onlineBank/megabankDeposite?type_id=11&cpOrderId=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 69,
+    "comment_line": false
+  },
+  {
+    "value": "http://pay.upay365.com/api/onlineBank/megabankDeposite?type_id=12&cpOrderId=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 115,
+    "comment_line": false
+  },
+  {
+    "value": "http://pay.upay365.com/api/onlineBank/megabankDeposite?type_id=10&cpOrderId=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 160,
+    "comment_line": false
+  },
+  {
+    "value": "http://pay.upay365.com/api/onlineBank/megabankDeposite?type_id=15&cpOrderId=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 205,
+    "comment_line": false
+  },
+  {
+    "value": "https://vn.superhero.hi365.com/feedback/",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 231,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.upay365.com/toDiffCountry/webCashCard?appKey=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 239,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.upay365.com/toDiffCountry/webCashCard?appKey=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 248,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.upay365.com/toDiffCountry/webCashCard?appKey=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 257,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.upay365.com/toDiffCountry/webCashCard?appKey=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 266,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.upay365.com/toDiffCountry/webCashCard?appKey=",
+    "file": "work/decrypted/lua/game_pop/vnpay_pop.lua",
+    "line": 275,
+    "comment_line": false
+  },
+  {
+    "value": "http://baidu.com",
+    "file": "work/decrypted/lua/game_ui/game_main_scene.lua",
+    "line": 1013,
+    "comment_line": true
+  },
+  {
+    "value": "http://bbs.996.com/forum-cjyx-1.html",
+    "file": "work/decrypted/lua/game_ui/game_main_scene.lua",
+    "line": 1193,
+    "comment_line": false
+  },
+  {
+    "value": "https://discord.gg/wabQhDQEfM",
+    "file": "work/decrypted/lua/game_ui/game_main_scene.lua",
+    "line": 1213,
+    "comment_line": false
+  },
+  {
+    "value": "http://203.86.67.226/genesis/api/?method=team_fight.invit_friend_index&user_token=h16505562",
+    "file": "work/decrypted/lua/game_ui/ui_teamTask_readyScene.lua",
+    "line": 256,
+    "comment_line": true
+  },
+  {
+    "value": "https://github.com/kikito/md5.lua",
+    "file": "work/decrypted/lua/shared/md5.lua",
+    "line": 4,
+    "comment_line": false
+  },
+  {
+    "value": "http://schemas.android.com/apk/res/android",
+    "file": "work/jadx/sources/androidx/core/content/res/TypedArrayUtils.java",
+    "line": 14,
+    "comment_line": false
+  },
+  {
+    "value": "http://mobile.unionpay.com/getclient?platform=android&type=securepayplugin",
+    "file": "work/jadx/sources/com/unionpay/UPPayAssistEx.java",
+    "line": 47,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobile.unionpay.com/getclient?platform=android&type=securepayplugin\\",
+    "file": "work/jadx/sources/com/unionpay/UPPayAssistEx.java",
+    "line": 48,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobilegwpre.alipay.com/mgw.htm",
+    "file": "work/jadx/sources/com/alipay/apmobilesecuritysdk/b/a.java",
+    "line": 37,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobilegw.alipay.com/mgw.htm",
+    "file": "work/jadx/sources/com/alipay/apmobilesecuritysdk/b/a.java",
+    "line": 43,
+    "comment_line": false
+  },
+  {
+    "value": "https://render.alipay.com/p/s/i?scheme=%s",
+    "file": "work/jadx/sources/com/alipay/sdk/app/OpenAuthTask.java",
+    "line": 144,
+    "comment_line": false
+  },
+  {
+    "value": "https://wappaygw.alipay.com/service/rest.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 171,
+    "comment_line": false
+  },
+  {
+    "value": "http://wappaygw.alipay.com/service/rest.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 171,
+    "comment_line": false
+  },
+  {
+    "value": "https://mclient.alipay.com/service/rest.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 177,
+    "comment_line": false
+  },
+  {
+    "value": "http://mclient.alipay.com/service/rest.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 177,
+    "comment_line": false
+  },
+  {
+    "value": "https://mclient.alipay.com/home/exterfaceAssign.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 183,
+    "comment_line": false
+  },
+  {
+    "value": "http://mclient.alipay.com/home/exterfaceAssign.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 183,
+    "comment_line": false
+  },
+  {
+    "value": "https://mclient.alipay.com/cashier/mobilepay.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 222,
+    "comment_line": false
+  },
+  {
+    "value": "http://mclient.alipay.com/cashier/mobilepay.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/app/PayTask.java",
+    "line": 222,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobilegw.alipay.com/mgw.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 7,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobilegw.alipaydev.com/mgw.htm",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 8,
+    "comment_line": false
+  },
+  {
+    "value": "https://mcgw.alipay.com/sdklog.do",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 9,
+    "comment_line": false
+  },
+  {
+    "value": "https://loggw-exsdk.alipay.com/loggw/logUpload.do",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 10,
+    "comment_line": false
+  },
+  {
+    "value": "https://wappaygw.alipay.com/home/exterfaceAssign.htm?",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 32,
+    "comment_line": false
+  },
+  {
+    "value": "https://mclient.alipay.com/home/exterfaceAssign.htm?",
+    "file": "work/jadx/sources/com/alipay/sdk/m/h/a.java",
+    "line": 33,
+    "comment_line": false
+  },
+  {
+    "value": "https://h5.m.taobao.com/mlapp/olist.html",
+    "file": "work/jadx/sources/com/alipay/sdk/m/i/a.java",
+    "line": 18,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.w3.org/2001/XMLSchema-instance",
+    "file": "work/jadx/sources/com/android/pc/ioc/internet/FastHttp.java",
+    "line": 807,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.w3.org/2001/XMLSchema",
+    "file": "work/jadx/sources/com/android/pc/ioc/internet/FastHttp.java",
+    "line": 808,
+    "comment_line": false
+  },
+  {
+    "value": "http://schemas.xmlsoap.org/soap/envelope/",
+    "file": "work/jadx/sources/com/android/pc/ioc/internet/FastHttp.java",
+    "line": 809,
+    "comment_line": false
+  },
+  {
+    "value": "http://tempuri.org/",
+    "file": "work/jadx/sources/com/android/pc/ioc/internet/InternetConfig.java",
+    "line": 37,
+    "comment_line": false
+  },
+  {
+    "value": "http://open.voicecloud.cn/s?",
+    "file": "work/jadx/sources/com/iflytek/speech/UtilityConfig.java",
+    "line": 20,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html\\",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/a.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/a.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html\\",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/b.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/b.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html\\",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/c.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://dev.voicecloud.cn/msc/help.html",
+    "file": "work/jadx/sources/com/iflytek/cloud/resource/c.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://hxqd.openspeech.cn/launchconfig",
+    "file": "work/jadx/sources/com/iflytek/common/a/d.java",
+    "line": 137,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.ipaynow.cn/sdk/syncException",
+    "file": "work/jadx/sources/com/ipaynow/wechatpay/plugin/c/g.java",
+    "line": 52,
+    "comment_line": false
+  },
+  {
+    "value": "https://dby.ipaynow.cn/api/payment/sdk/syncException",
+    "file": "work/jadx/sources/com/ipaynow/wechatpay/plugin/c/g.java",
+    "line": 52,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.ipaynow.cn/api_release/sdk/syncException",
+    "file": "work/jadx/sources/com/ipaynow/wechatpay/plugin/c/g.java",
+    "line": 54,
+    "comment_line": false
+  },
+  {
+    "value": "https://pay.ipaynow.cn",
+    "file": "work/jadx/sources/com/ipaynow/wechatpay/plugin/inner_plugin/wechat_plugin/activity/k.java",
+    "line": 41,
+    "comment_line": false
+  },
+  {
+    "value": "http://app.vn.hi365.com/",
+    "file": "work/jadx/sources/com/kqg/main/base/KaiQiGuSdk.java",
+    "line": 85,
+    "comment_line": false
+  },
+  {
+    "value": "http://app-t.cn.hi365.com/",
+    "file": "work/jadx/sources/com/kqg/main/base/KaiQiGuSdk.java",
+    "line": 138,
+    "comment_line": false
+  },
+  {
+    "value": "http://app.vn.hi365.com/",
+    "file": "work/jadx/sources/com/kqg/main/base/KaiQiGuSdk.java",
+    "line": 140,
+    "comment_line": false
+  },
+  {
+    "value": "https://abt-online.netease.im/v1/api/abt/client/getExperimentInfo",
+    "file": "work/jadx/sources/com/netease/nimlib/abtest/c.java",
+    "line": 42,
+    "comment_line": false
+  },
+  {
+    "value": "https://statistic.live.126.net/dispatcher/req",
+    "file": "work/jadx/sources/com/netease/nimlib/apm/b.java",
+    "line": 40,
+    "comment_line": false
+  },
+  {
+    "value": "https://lbs.netease.im/lbs/conf.jsp",
+    "file": "work/jadx/sources/com/netease/nimlib/d/e.java",
+    "line": 15,
+    "comment_line": false
+  },
+  {
+    "value": "https://check-ipv4.netease.im/",
+    "file": "work/jadx/sources/com/netease/nimlib/d/e.java",
+    "line": 15,
+    "comment_line": false
+  },
+  {
+    "value": "https://check-ipv6.netease.im/",
+    "file": "work/jadx/sources/com/netease/nimlib/d/e.java",
+    "line": 15,
+    "comment_line": false
+  },
+  {
+    "value": "https://wannos.127.net/lbs",
+    "file": "work/jadx/sources/com/netease/nimlib/d/g.java",
+    "line": 53,
+    "comment_line": false
+  },
+  {
+    "value": "https://nosup-hz1.127.net",
+    "file": "work/jadx/sources/com/netease/nimlib/d/g.java",
+    "line": 58,
+    "comment_line": false
+  },
+  {
+    "value": "https://s3-us-west-1.amazonaws.com",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/AmazonS3Client.java",
+    "line": 2845,
+    "comment_line": false
+  },
+  {
+    "value": "http://10.0.2.2:20005",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/internal/Constants.java",
+    "line": 19,
+    "comment_line": false
+  },
+  {
+    "value": "http://s3.amazonaws.com/doc/2006-03-01/",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/internal/Constants.java",
+    "line": 35,
+    "comment_line": false
+  },
+  {
+    "value": "http://acs.amazonaws.com/groups/global/AllUsers",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/GroupGrantee.java",
+    "line": 5,
+    "comment_line": false
+  },
+  {
+    "value": "http://acs.amazonaws.com/groups/global/AuthenticatedUsers",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/GroupGrantee.java",
+    "line": 6,
+    "comment_line": false
+  },
+  {
+    "value": "http://acs.amazonaws.com/groups/s3/LogDelivery",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/GroupGrantee.java",
+    "line": 7,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.ngs.ac.uk/tools/jcepolicyfiles",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/internal/crypto/EncryptionUtils.java",
+    "line": 237,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.w3.org/2001/XMLSchema-instance",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/transform/AclXmlFactory.java",
+    "line": 57,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.w3.org/2001/XMLSchema-instance",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/transform/AclXmlFactory.java",
+    "line": 64,
+    "comment_line": false
+  },
+  {
+    "value": "http://www.w3.org/2001/XMLSchema-instance",
+    "file": "work/jadx/sources/com/netease/nimlib/amazonaws/services/s3/model/transform/AclXmlFactory.java",
+    "line": 71,
+    "comment_line": false
+  },
+  {
+    "value": "https://statistic.live.126.net/",
+    "file": "work/jadx/sources/com/netease/nimlib/apm/event/c/b.java",
+    "line": 8,
+    "comment_line": false
+  },
+  {
+    "value": "https://statistic.live.126.net/",
+    "file": "work/jadx/sources/com/netease/nimlib/net/a/d/a.java",
+    "line": 114,
+    "comment_line": false
+  },
+  {
+    "value": "https://change-api.netease.im/change-api/sdk/task/action/batch",
+    "file": "work/jadx/sources/com/netease/yunxin/artemis/ArtemisTask/YXArtemisPullTask.java",
+    "line": 201,
+    "comment_line": false
+  },
+  {
+    "value": "https://adt.xdrig.com",
+    "file": "work/jadx/sources/com/talkingdata/sdk/b.java",
+    "line": 18,
+    "comment_line": false
+  },
+  {
+    "value": "https://me.xdrig.com",
+    "file": "work/jadx/sources/com/talkingdata/sdk/c.java",
+    "line": 18,
+    "comment_line": false
+  },
+  {
+    "value": "https://i.tddmp.com/a/",
+    "file": "work/jadx/sources/com/talkingdata/sdk/cp.java",
+    "line": 15,
+    "comment_line": false
+  },
+  {
+    "value": "https://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s",
+    "file": "work/jadx/sources/com/tencent/mm/opensdk/diffdev/a/b.java",
+    "line": 103,
+    "comment_line": false
+  },
+  {
+    "value": "https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s",
+    "file": "work/jadx/sources/com/tencent/mm/opensdk/diffdev/a/c.java",
+    "line": 29,
+    "comment_line": false
+  },
+  {
+    "value": "http://alog.umeng.com/app_logs",
+    "file": "work/jadx/sources/com/umeng/analytics/a.java",
+    "line": 12,
+    "comment_line": false
+  },
+  {
+    "value": "http://alog.umeng.co/app_logs",
+    "file": "work/jadx/sources/com/umeng/analytics/a.java",
+    "line": 12,
+    "comment_line": false
+  },
+  {
+    "value": "http://log.umsns.com/",
+    "file": "work/jadx/sources/com/umeng/analytics/social/e.java",
+    "line": 6,
+    "comment_line": false
+  },
+  {
+    "value": "http://log.umsns.com/share/api/",
+    "file": "work/jadx/sources/com/umeng/analytics/social/e.java",
+    "line": 7,
+    "comment_line": false
+  },
+  {
+    "value": "http://log.umsns.com/share/api/",
+    "file": "work/jadx/sources/com/umeng/analytics/social/f.java",
+    "line": 32,
+    "comment_line": false
+  },
+  {
+    "value": "http://140.207.168.45/g/d",
+    "file": "work/jadx/sources/com/unionpay/sdk/d.java",
+    "line": 12,
+    "comment_line": false
+  },
+  {
+    "value": "http://140.207.168.45/g/d",
+    "file": "work/jadx/sources/com/unionpay/sdk/d.java",
+    "line": 13,
+    "comment_line": false
+  },
+  {
+    "value": "https://mobile.unionpay.com/getclient?platform=android&type=securepayplugin\\",
+    "file": "work/jadx/sources/com/unionpay/mobile/android/utils/c.java",
+    "line": 25,
+    "comment_line": false
+  }
+]

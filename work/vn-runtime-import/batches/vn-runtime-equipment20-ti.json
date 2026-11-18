@@ -1,0 +1,1685 @@
+{
+  "baseConfigHashes": {
+    "box": "0656d11cb416cdd3b42a258b096c1da7d6080f93d6a3f89c9059ab360176c0bf",
+    "equip": "174ebaaae101ee0ec6699043277ba8d9485a7f8e67ef9c729f7a93e3393e19eb",
+    "item": "25adbcaa7a45a04a0e8f00740af2f9a6d86c35ee36a9e36897070d77d213df7b",
+    "suit": "9853a33da0c2a2310ec5bcba372e001114198c07d3acf960beaaff0080d06692"
+  },
+  "batch": "vn-runtime-equipment20-ti",
+  "configs": {
+    "box": {
+      "9101512": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              6,
+              9101513,
+              1
+            ],
+            [
+              6,
+              9101514,
+              1
+            ],
+            [
+              6,
+              9101515,
+              1
+            ],
+            [
+              6,
+              9101516,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9101513": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              7,
+              109405,
+              1
+            ],
+            [
+              7,
+              110405,
+              1
+            ],
+            [
+              7,
+              111405,
+              1
+            ],
+            [
+              7,
+              112405,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9101514": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              7,
+              109605,
+              1
+            ],
+            [
+              7,
+              110605,
+              1
+            ],
+            [
+              7,
+              111605,
+              1
+            ],
+            [
+              7,
+              112605,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9101515": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              7,
+              109505,
+              1
+            ],
+            [
+              7,
+              110505,
+              1
+            ],
+            [
+              7,
+              111505,
+              1
+            ],
+            [
+              7,
+              112505,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ],
+      "9101516": [
+        {
+          "num": 1,
+          "reward": [
+            [
+              7,
+              109705,
+              1
+            ],
+            [
+              7,
+              110705,
+              1
+            ],
+            [
+              7,
+              111705,
+              1
+            ],
+            [
+              7,
+              112705,
+              1
+            ]
+          ]
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        },
+        {
+          "num": 0,
+          "reward": []
+        }
+      ]
+    },
+    "equip": {
+      "109405": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 1,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tấn công toàn thuộc tính",
+        "effect": 80,
+        "equip_add1": [],
+        "equip_id": 109402,
+        "evolution": 109406,
+        "evolution_id": 109405,
+        "exchange_id": 27,
+        "image": "e_25attrJian_di",
+        "is_resolve": 1,
+        "level_add1": 369,
+        "level_add2": 252,
+        "name": "Hung Thú - Địa - Tương Dao Kiếm",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 13,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 1,
+        "sprite_py": "equip_add_25_1",
+        "suit": 1370,
+        "value1": 1478,
+        "value2": 2016
+      },
+      "109505": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 1,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tấn công toàn thuộc tính",
+        "effect": 80,
+        "equip_add1": [],
+        "equip_id": 109502,
+        "evolution": 109506,
+        "evolution_id": 109505,
+        "exchange_id": 27,
+        "image": "e_25attrJian_huo",
+        "is_resolve": 1,
+        "level_add1": 369,
+        "level_add2": 252,
+        "name": "Hung Thú - Hỏa - Tương Dao Kiếm",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 13,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 1,
+        "sprite_py": "equip_add_25_1",
+        "suit": 1371,
+        "value1": 1478,
+        "value2": 2016
+      },
+      "109605": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 1,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tấn công toàn thuộc tính",
+        "effect": 80,
+        "equip_add1": [],
+        "equip_id": 109602,
+        "evolution": 109606,
+        "evolution_id": 109605,
+        "exchange_id": 27,
+        "image": "e_25attrJian_shui",
+        "is_resolve": 1,
+        "level_add1": 369,
+        "level_add2": 252,
+        "name": "Hung Thú - Thủy - Tương Dao Kiếm",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 13,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 1,
+        "sprite_py": "equip_add_25_1",
+        "suit": 1372,
+        "value1": 1478,
+        "value2": 2016
+      },
+      "109705": {
+        "ability1": 1,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 1,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tấn công toàn thuộc tính",
+        "effect": 80,
+        "equip_add1": [],
+        "equip_id": 109702,
+        "evolution": 109706,
+        "evolution_id": 109705,
+        "exchange_id": 27,
+        "image": "e_25attrJian_feng",
+        "is_resolve": 1,
+        "level_add1": 369,
+        "level_add2": 252,
+        "name": "Hung Thú - Phong - Tương Dao Kiếm",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 13,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 1,
+        "sprite_py": "equip_add_25_1",
+        "suit": 1373,
+        "value1": 1478,
+        "value2": 2016
+      },
+      "110405": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 3,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm: tăng tấn công toàn thuộc tính, giá trị tăng thêm là 10 lần tốc độ hiện tại + tốc độ cơ sở",
+        "effect": 5,
+        "equip_add1": [],
+        "equip_id": 110402,
+        "evolution": 110406,
+        "evolution_id": 110405,
+        "exchange_id": 27,
+        "image": "e_25attrJia_di",
+        "is_resolve": 1,
+        "level_add1": 221,
+        "level_add2": 252,
+        "name": "Hung Thú - Địa - Chúc Âm Giáp",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 15,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 3,
+        "sprite_py": "equip_add_25_2",
+        "suit": 1370,
+        "value1": 887,
+        "value2": 2016
+      },
+      "110505": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 3,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm: tăng tấn công toàn thuộc tính, giá trị tăng thêm là 10 lần tốc độ hiện tại + tốc độ cơ sở",
+        "effect": 5,
+        "equip_add1": [],
+        "equip_id": 110502,
+        "evolution": 110506,
+        "evolution_id": 110505,
+        "exchange_id": 27,
+        "image": "e_25attrJia_huo",
+        "is_resolve": 1,
+        "level_add1": 221,
+        "level_add2": 252,
+        "name": "Hung Thú - Hỏa - Chúc Âm Giáp",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 15,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 3,
+        "sprite_py": "equip_add_25_2",
+        "suit": 1371,
+        "value1": 887,
+        "value2": 2016
+      },
+      "110605": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 3,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm: tăng tấn công toàn thuộc tính, giá trị tăng thêm là 10 lần tốc độ hiện tại + tốc độ cơ sở",
+        "effect": 5,
+        "equip_add1": [],
+        "equip_id": 110602,
+        "evolution": 110606,
+        "evolution_id": 110605,
+        "exchange_id": 27,
+        "image": "e_25attrJia_shui",
+        "is_resolve": 1,
+        "level_add1": 221,
+        "level_add2": 252,
+        "name": "Hung Thú - Thủy - Chúc Âm Giáp",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 15,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 3,
+        "sprite_py": "equip_add_25_2",
+        "suit": 1372,
+        "value1": 887,
+        "value2": 2016
+      },
+      "110705": {
+        "ability1": 3,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 3,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm: tăng tấn công toàn thuộc tính, giá trị tăng thêm là 10 lần tốc độ hiện tại + tốc độ cơ sở",
+        "effect": 5,
+        "equip_add1": [],
+        "equip_id": 110702,
+        "evolution": 110706,
+        "evolution_id": 110705,
+        "exchange_id": 27,
+        "image": "e_25attrJia_feng",
+        "is_resolve": 1,
+        "level_add1": 221,
+        "level_add2": 252,
+        "name": "Hung Thú - Phong - Chúc Âm Giáp",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 15,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 3,
+        "sprite_py": "equip_add_25_2",
+        "suit": 1373,
+        "value1": 887,
+        "value2": 2016
+      },
+      "111405": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 2,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tốc độ",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 111402,
+        "evolution": 111406,
+        "evolution_id": 111405,
+        "exchange_id": 27,
+        "image": "e_25attrTou_di",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Địa - Cửu Anh Nhẫn",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 14,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 2,
+        "sprite_py": "equip_add_25_3",
+        "suit": 1370,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "111505": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 2,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tốc độ",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 111502,
+        "evolution": 111506,
+        "evolution_id": 111505,
+        "exchange_id": 27,
+        "image": "e_25attrTou_huo",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Hỏa - Cửu Anh Nhẫn",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 14,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 2,
+        "sprite_py": "equip_add_25_3",
+        "suit": 1371,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "111605": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 2,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tốc độ",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 111602,
+        "evolution": 111606,
+        "evolution_id": 111605,
+        "exchange_id": 27,
+        "image": "e_25attrTou_shui",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Thủy - Cửu Anh Nhẫn",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 14,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 2,
+        "sprite_py": "equip_add_25_3",
+        "suit": 1372,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "111705": {
+        "ability1": 2,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 2,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% tốc độ",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 111702,
+        "evolution": 111706,
+        "evolution_id": 111705,
+        "exchange_id": 27,
+        "image": "e_25attrTou_feng",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Phong - Cửu Anh Nhẫn",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 14,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 2,
+        "sprite_py": "equip_add_25_3",
+        "suit": 1373,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "112405": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 4,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% né tránh",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 112402,
+        "evolution": 112406,
+        "evolution_id": 112405,
+        "exchange_id": 27,
+        "image": "e_25attrXie_di",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Địa - Đằng Vũ Ủng",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 16,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 4,
+        "sprite_py": "equip_add_25_4",
+        "suit": 1370,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "112505": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 4,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% né tránh",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 112502,
+        "evolution": 112506,
+        "evolution_id": 112505,
+        "exchange_id": 27,
+        "image": "e_25attrXie_huo",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Hỏa - Đằng Vũ Ủng",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 16,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 4,
+        "sprite_py": "equip_add_25_4",
+        "suit": 1371,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "112605": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 4,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% né tránh",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 112602,
+        "evolution": 112606,
+        "evolution_id": 112605,
+        "exchange_id": 27,
+        "image": "e_25attrXie_shui",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Thủy - Đằng Vũ Ủng",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 16,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 4,
+        "sprite_py": "equip_add_25_4",
+        "suit": 1372,
+        "value1": 1330,
+        "value2": 2016
+      },
+      "112705": {
+        "ability1": 4,
+        "ability2": 5,
+        "activation": "",
+        "activation_level": 0,
+        "afterlife": 2800,
+        "cd": 1,
+        "chain_id": 4,
+        "des": "Hero loại occupation đeo, khi chiến đấu sẽ nhận thêm effect% né tránh",
+        "effect": 50,
+        "equip_add1": [],
+        "equip_id": 112702,
+        "evolution": 112706,
+        "evolution_id": 112705,
+        "exchange_id": 27,
+        "image": "e_25attrXie_feng",
+        "is_resolve": 1,
+        "level_add1": 332,
+        "level_add2": 252,
+        "name": "Hung Thú - Phong - Đằng Vũ Ủng",
+        "occupation1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "quality": 7,
+        "refine_id": 16,
+        "sell_metal": 2000,
+        "skill_type": "BEFOREKBEFOREBATTLE",
+        "sort": 4,
+        "sprite_py": "equip_add_25_4",
+        "suit": 1373,
+        "value1": 1330,
+        "value2": 2016
+      }
+    },
+    "item": {
+      "9101512": {
+        "daily_use": 0,
+        "icon": "icon_box8",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Vé Bộ Năm Tị",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Vé Bộ Năm Tị\nKhi mở có thể chọn vé một trong các bộ Năm Tị thuộc tính Hỏa, Thủy, Thổ, Phong",
+        "use_effect": [
+          9101512
+        ],
+        "use_num": 1
+      },
+      "9101513": {
+        "daily_use": 0,
+        "icon": "e_25attrJian_di",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Vé trang bị Năm Tị thuộc tính Thổ giới hạn",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Vé trang bị Năm Tị thuộc tính Thổ giới hạn, khi mở có thể nhận 1 kiện trang bị thuộc bộ Năm Tị thuộc tính Thổ",
+        "use_effect": [
+          9101513
+        ],
+        "use_num": 1
+      },
+      "9101514": {
+        "daily_use": 0,
+        "icon": "e_25attrJian_shui",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Vé trang bị Năm Tị thuộc tính Thủy giới hạn",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Vé trang bị Năm Tị thuộc tính Thủy giới hạn, khi mở có thể nhận 1 kiện trang bị thuộc bộ Năm Tị thuộc tính Thủy",
+        "use_effect": [
+          9101514
+        ],
+        "use_num": 1
+      },
+      "9101515": {
+        "daily_use": 0,
+        "icon": "e_25attrJian_huo",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Vé trang bị Năm Tị thuộc tính Hỏa giới hạn",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Vé trang bị Năm Tị thuộc tính Hỏa giới hạn, khi mở có thể nhận 1 kiện trang bị thuộc bộ Năm Tị thuộc tính Hỏa",
+        "use_effect": [
+          9101515
+        ],
+        "use_num": 1
+      },
+      "9101516": {
+        "daily_use": 0,
+        "icon": "e_25attrJian_feng",
+        "is_sell": -1,
+        "is_show": 1,
+        "is_use": 15,
+        "name": "Vé trang bị Năm Tị thuộc tính Phong giới hạn",
+        "quality": 5,
+        "shade": "",
+        "sort": 0,
+        "stack": 9999,
+        "story": "Vé trang bị Năm Tị thuộc tính Phong giới hạn, khi mở có thể nhận 1 kiện trang bị thuộc bộ Năm Tị thuộc tính Phong",
+        "use_effect": [
+          9101516
+        ],
+        "use_num": 1
+      }
+    },
+    "suit": {
+      "1370": {
+        "effect_2": [
+          [
+            5,
+            90000
+          ],
+          [
+            301,
+            54000
+          ],
+          [
+            302,
+            54000
+          ]
+        ],
+        "effect_3": [
+          [
+            5,
+            90000
+          ],
+          [
+            303,
+            54000
+          ],
+          [
+            304,
+            54000
+          ]
+        ],
+        "effect_4": [
+          [
+            204,
+            270000
+          ],
+          [
+            2,
+            90000
+          ],
+          [
+            5,
+            315000
+          ]
+        ],
+        "name": "凶兽の地",
+        "part": [
+          109405,
+          110405,
+          111405,
+          112405
+        ]
+      },
+      "1371": {
+        "effect_2": [
+          [
+            5,
+            90000
+          ],
+          [
+            301,
+            54000
+          ],
+          [
+            302,
+            54000
+          ]
+        ],
+        "effect_3": [
+          [
+            5,
+            90000
+          ],
+          [
+            303,
+            54000
+          ],
+          [
+            304,
+            54000
+          ]
+        ],
+        "effect_4": [
+          [
+            201,
+            270000
+          ],
+          [
+            2,
+            90000
+          ],
+          [
+            5,
+            315000
+          ]
+        ],
+        "name": "凶兽の火",
+        "part": [
+          109505,
+          110505,
+          111505,
+          112505
+        ]
+      },
+      "1372": {
+        "effect_2": [
+          [
+            5,
+            90000
+          ],
+          [
+            301,
+            54000
+          ],
+          [
+            302,
+            54000
+          ]
+        ],
+        "effect_3": [
+          [
+            5,
+            90000
+          ],
+          [
+            303,
+            54000
+          ],
+          [
+            304,
+            54000
+          ]
+        ],
+        "effect_4": [
+          [
+            202,
+            270000
+          ],
+          [
+            2,
+            90000
+          ],
+          [
+            5,
+            315000
+          ]
+        ],
+        "name": "凶兽の水",
+        "part": [
+          109605,
+          110605,
+          111605,
+          112605
+        ]
+      },
+      "1373": {
+        "effect_2": [
+          [
+            5,
+            90000
+          ],
+          [
+            301,
+            54000
+          ],
+          [
+            302,
+            54000
+          ]
+        ],
+        "effect_3": [
+          [
+            5,
+            90000
+          ],
+          [
+            303,
+            54000
+          ],
+          [
+            304,
+            54000
+          ]
+        ],
+        "effect_4": [
+          [
+            203,
+            270000
+          ],
+          [
+            2,
+            90000
+          ],
+          [
+            5,
+            315000
+          ]
+        ],
+        "name": "凶兽の风",
+        "part": [
+          109705,
+          110705,
+          111705,
+          112705
+        ]
+      }
+    }
+  },
+  "createdAt": "2026-10-26T11:54:50.931167+00:00",
+  "definitions": [],
+  "dependencies": [
+    {
+      "id": "9101512",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101512",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "9101513",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101513",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101513",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "109405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1370",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1370",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1370",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1370",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112405",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "9101514",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101514",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101514",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "109605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1372",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1372",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1372",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1372",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112605",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "9101515",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101515",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101515",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "109505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1371",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1371",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1371",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1371",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112505",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "9101516",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101516",
+      "status": "ADD",
+      "table": "item"
+    },
+    {
+      "id": "9101516",
+      "status": "ADD",
+      "table": "box"
+    },
+    {
+      "id": "109705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1373",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1373",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1373",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "1373",
+      "status": "ADD",
+      "table": "suit"
+    },
+    {
+      "id": "109705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "110705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "111705",
+      "status": "ADD",
+      "table": "equip"
+    },
+    {
+      "id": "112705",
+      "status": "ADD",
+      "table": "equip"
+    }
+  ],
+  "evidence": "CONFIG VERIFIED / RESOURCE VERIFIED; chưa Android",
+  "files": {},
+  "heroCatalog": [],
+  "resources": [],
+  "revision": "vn-runtime-batch-v1",
+  "skillIndex": {
+    "heroByConfigId": {},
+    "skillById": {}
+  },
+  "sourceFingerprint": "00d83b786d933a14a7de9e5bacf9c555a62ae722a19fe57ca51446ef1d26194f",
+  "sourceKey": "vn-runtime-00d83b786d933a14",
+  "sourcePackage": "com.kaiqigu.cjyxyn.kvsdk"
+}

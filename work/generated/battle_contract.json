@@ -1,0 +1,77 @@
+{
+  "validHistoricalShape": true,
+  "errors": [],
+  "frameCount": 16,
+  "flags": {
+    "sort": 2,
+    "attack": 4,
+    "cur_data": 4,
+    "attack_over": 4,
+    "death": 1,
+    "winer": 1
+  },
+  "observedInitTypes": {
+    "atk": "list",
+    "dfd": "list",
+    "card_att": "dict",
+    "card_def": "dict",
+    "atk_skill": "list",
+    "dfd_skill": "list",
+    "atk_name": "str",
+    "dfd_name": "str",
+    "atk_lv": "int",
+    "dfd_lv": "int",
+    "atk_role": "int",
+    "dfd_role": "int",
+    "aform": "int",
+    "dform": "int",
+    "equip_att": "dict",
+    "equip_def": "dict",
+    "equip_pos_att": "dict",
+    "equip_pos_def": "dict",
+    "sort_array": "list"
+  },
+  "observedEventFields": {
+    "attack": [
+      "des",
+      "hurt",
+      "spc",
+      "src"
+    ],
+    "cur_data": [
+      "0",
+      "100"
+    ],
+    "attack_over": [
+      "src"
+    ]
+  },
+  "notice": "Kiểm shape đã thấy, không chứng minh damage/AI/formula, không cho phép tạo winner giả.",
+  "source": "work\\phase17\\server-battle-probe.json",
+  "sha256": "5d9f1830f04aa79c346e040529a30da8fdf06d467f29ccf7afcb776c751b6b87",
+  "evidence": "STATIC VERIFIED",
+  "consumerFlags": [
+    "add_buff",
+    "anger",
+    "attack",
+    "attack_over",
+    "buff_skill",
+    "cur_data",
+    "cur_hp",
+    "death",
+    "next",
+    "pre_battle",
+    "reenter",
+    "remove_buff",
+    "sbt",
+    "skill",
+    "skill_combiner",
+    "skill_hero",
+    "skill_pet",
+    "sort",
+    "special_skill",
+    "winer"
+  ],
+  "consumer": "game_battle_scene.init:1280; start:3842; tick:3852–3865",
+  "architecture": "CONFIRMED: client phát transcript đã nhận; nơi tạo damage/AI/RNG gốc UNKNOWN"
+}
