@@ -46,6 +46,10 @@ export function openDatabase(path) {
             return origPrepare(sql);
         };
         let txDepth = 0;
+        Object.defineProperty(db, 'isTransaction', {
+            get: () => txDepth > 0 || Boolean(db.inTransaction),
+            configurable: true
+        });
         db.exec = (sql) => {
             if (typeof sql === 'string') {
                 const trimmed = sql.trim().replace(/;+$/, '');
