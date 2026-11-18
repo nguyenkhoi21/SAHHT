@@ -58,8 +58,9 @@ import { GiftcodeService } from '../player/giftcode.service.js';
 import { NewstarService } from '../player/newstar.service.js';
 import { battlePreflight } from '../player/battle-preflight.js';
 export function registerAdmin(app, db, options) {
+    const remoteAdmin = process.env.ALLOW_REMOTE_ADMIN === '1';
     const origin = new URL(options.origin ?? `http://127.0.0.1:${options.port}`);
-    if ((options.online ? origin.protocol !== 'https:' : !['127.0.0.1', 'localhost'].includes(origin.hostname)) || !['http:', 'https:'].includes(origin.protocol) || origin.username || origin.password || origin.pathname !== '/' || origin.search || origin.hash)
+    if (((options.online || remoteAdmin) ? origin.protocol !== 'https:' : !['127.0.0.1', 'localhost'].includes(origin.hostname)) || !['http:', 'https:'].includes(origin.protocol) || origin.username || origin.password || origin.pathname !== '/' || origin.search || origin.hash)
         throw new Error('ADMIN_ORIGIN cần origin hợp lệ; ONLINE bắt buộc HTTPS.');
     const origins = new Set([origin.origin, `http://localhost:${options.port}`, ...(options.dev ? ['http://127.0.0.1:5173', 'http://localhost:5173'] : [])]);
     const hosts = new Set([origin.host, `127.0.0.1:${options.port}`, `localhost:${options.port}`]);
@@ -80,7 +81,7 @@ export function registerAdmin(app, db, options) {
             reply.header('Cache-Control', 'no-store').header('X-Content-Type-Options', 'nosniff').header('Referrer-Policy', 'same-origin').header('X-Frame-Options', 'DENY')
                 .header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'none'; form-action 'self'");
             const peer = options.online ? request.raw.socket.remoteAddress : request.ip;
-            if (!['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(peer ?? '') || !hosts.has((request.headers.host ?? '').toLowerCase()))
+            if ((!remoteAdmin && !['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(peer ?? '')) || !hosts.has((request.headers.host ?? '').toLowerCase()))
                 adminError('Nguồn truy cập quản trị không hợp lệ.', 403);
             const unsafe = !['GET', 'HEAD'].includes(request.method);
             if (unsafe && (!origins.has(String(request.headers.origin)) || String(request.headers['sec-fetch-site'] ?? '') === 'cross-site'))
