@@ -2,15 +2,21 @@ import { buildApp } from './dist/app.js';
 import { runtimeConfig } from './dist/system/runtime.js';
 import { AdminAuth } from './dist/admin/admin.auth.js';
 import { openDatabase } from './dist/db/database.js';
+import { installRegistrationRateLimit } from './dist/auth/registration-rate-limit.js';
+import { installRegistrationAccountCapacity } from './dist/auth/registration-account-capacity.js';
 
 process.env.ALLOW_REMOTE_ADMIN ??= '1';
 
 const runtime = runtimeConfig();
 
-// Tự tạo tài khoản GM đầu tiên nếu bảng admin_users đang trống
+// Tự tạo tài khoản GM đầu tiên và mở khóa đăng ký tài khoản
 {
   const db = openDatabase(runtime.database);
   try {
+    installRegistrationRateLimit(db);
+    installRegistrationAccountCapacity(db);
+    db.prepare("UPDATE local_registration_rules SET enabled=1, per_hour=100, per_day=500, reason='Mo dang ky cho server online' WHERE ip='*' AND enabled=0").run();
+
     const count = Number(db.prepare('SELECT count(*) AS c FROM admin_users').get()?.c ?? 0);
     if (count === 0) {
       const gmUser = process.env.GM_USER || 'admin';
@@ -18,8 +24,9 @@ const runtime = runtimeConfig();
       await new AdminAuth(db).create(gmUser, gmPass, 'OWNER');
       console.log(`Đã khởi tạo tài khoản GM mặc định: ${gmUser}`);
     }
+    db.sync?.();
   } catch (err) {
-    console.error('Khởi tạo GM user thất bại:', err);
+    console.error('Khởi tạo DB/GM thất bại:', err);
   } finally {
     db.close();
   }

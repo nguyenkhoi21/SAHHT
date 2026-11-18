@@ -28,6 +28,23 @@ export function openDatabase(path) {
             db.prepare('INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, ?)').run(version);
         }
         const origExec = db.exec.bind(db);
+        const origPrepare = db.prepare.bind(db);
+        db.prepare = (sql) => {
+            if (typeof sql === 'string' && /^\s*PRAGMA\s+user_version\s*;?\s*$/i.test(sql)) {
+                return {
+                    get: () => {
+                        const row = origPrepare('SELECT version FROM _schema_meta WHERE id=1').get();
+                        return { user_version: row ? Number(row.version) : 0 };
+                    },
+                    all: () => {
+                        const row = origPrepare('SELECT version FROM _schema_meta WHERE id=1').get();
+                        return [{ user_version: row ? Number(row.version) : 0 }];
+                    },
+                    run: () => ({ changes: 0, lastInsertRowid: 0 })
+                };
+            }
+            return origPrepare(sql);
+        };
         let txDepth = 0;
         db.exec = (sql) => {
             if (typeof sql === 'string') {
