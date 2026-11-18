@@ -11,7 +11,7 @@ const app = await buildApp({
   logger: true,
   port,
   online: false,
-  publicOrigin: runtime.origin,
+  publicOrigin: 'http://127.0.0.1:18787',
   adminOrigin: runtime.origin,
   localAuth: true,
   accountDb: runtime.database,
