@@ -1,83 +1,140 @@
-import Database from 'libsql';
+import { DatabaseSync } from 'node:sqlite';
+import LibsqlDb from 'libsql';
+import { createClient } from '@libsql/client';
 import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 export const databaseSchemaVersion = 39;
+
+const syncedPaths = new Set();
+const pendingWrites = [];
+let tursoClient = null;
+let flushInFlight = null;
+let flushTimer = null;
+
+function getTursoClient() {
+    if (!tursoClient && process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN) {
+        tursoClient = createClient({
+            url: process.env.TURSO_DATABASE_URL,
+            authToken: process.env.TURSO_AUTH_TOKEN
+        });
+    }
+    return tursoClient;
+}
+
+export async function flushTursoWrites() {
+    const client = getTursoClient();
+    if (!client || !pendingWrites.length)
+        return;
+    if (flushInFlight) {
+        await flushInFlight;
+        if (!pendingWrites.length)
+            return;
+    }
+    flushInFlight = (async () => {
+        while (pendingWrites.length) {
+            const batch = pendingWrites.splice(0, 50);
+            try {
+                await client.batch(batch, 'write');
+            }
+            catch (err) {
+                console.error('Turso async batch sync error:', err?.message ?? err);
+                pendingWrites.unshift(...batch);
+                break;
+            }
+        }
+    })();
+    try {
+        await flushInFlight;
+    }
+    finally {
+        flushInFlight = null;
+    }
+}
+
+function isMutatingSql(sql) {
+    return /^\s*(INSERT|UPDATE|DELETE|REPLACE|CREATE|ALTER|DROP)\b/i.test(sql);
+}
+
 export function openDatabase(path) {
     if (path !== ':memory:')
         mkdirSync(dirname(path), { recursive: true });
     const useTurso = path !== ':memory:' && Boolean(process.env.TURSO_DATABASE_URL && process.env.TURSO_AUTH_TOKEN);
-    const db = useTurso
-        ? new Database(path, {
+    if (useTurso && !syncedPaths.has(path)) {
+        const syncDb = new LibsqlDb(path, {
             syncUrl: process.env.TURSO_DATABASE_URL,
             authToken: process.env.TURSO_AUTH_TOKEN
-        })
-        : new Database(path);
-    if (useTurso)
-        db.sync();
+        });
+        syncDb.sync();
+        syncDb.close();
+        syncedPaths.add(path);
+        if (!flushTimer) {
+            flushTimer = setInterval(() => { void flushTursoWrites(); }, 2000);
+            flushTimer.unref?.();
+        }
+    }
+    const db = new DatabaseSync(path);
     db.exec('PRAGMA foreign_keys=ON; PRAGMA busy_timeout=3000;');
-    if (path !== ':memory:' && !useTurso)
+    if (path !== ':memory:')
         db.exec('PRAGMA journal_mode=WAL;');
     let version = db.prepare('PRAGMA user_version').get().user_version;
+    if (useTurso && version === 0) {
+        const hasMeta = db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='_schema_meta'").get();
+        if (hasMeta) {
+            const meta = db.prepare('SELECT version FROM _schema_meta WHERE id=1').get();
+            if (meta?.version) {
+                version = Number(meta.version);
+                db.exec(`PRAGMA user_version=${version};`);
+            }
+        }
+    }
     if (useTurso) {
-        db.exec('CREATE TABLE IF NOT EXISTS _schema_meta (id INTEGER PRIMARY KEY CHECK(id=1), version INTEGER NOT NULL);');
-        const meta = db.prepare('SELECT version FROM _schema_meta WHERE id=1').get();
-        if (meta) {
-            version = meta.version;
-        }
-        else if (version > 0) {
-            db.prepare('INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, ?)').run(version);
-        }
-        const origExec = db.exec.bind(db);
+        let txBuffer = null;
+        let wasInTx = false;
+        const enqueue = (sql, args = []) => {
+            if (!isMutatingSql(sql))
+                return;
+            if (db.isTransaction) {
+                txBuffer ??= [];
+                txBuffer.push({ sql, args });
+            }
+            else {
+                pendingWrites.push({ sql, args });
+            }
+        };
         const origPrepare = db.prepare.bind(db);
         db.prepare = (sql) => {
-            if (typeof sql === 'string' && /^\s*PRAGMA\s+user_version\s*;?\s*$/i.test(sql)) {
-                return {
-                    get: () => {
-                        const row = origPrepare('SELECT version FROM _schema_meta WHERE id=1').get();
-                        return { user_version: row ? Number(row.version) : 0 };
-                    },
-                    all: () => {
-                        const row = origPrepare('SELECT version FROM _schema_meta WHERE id=1').get();
-                        return [{ user_version: row ? Number(row.version) : 0 }];
-                    },
-                    run: () => ({ changes: 0, lastInsertRowid: 0 })
+            const stmt = origPrepare(sql);
+            if (typeof sql === 'string' && isMutatingSql(sql)) {
+                const origRun = stmt.run.bind(stmt);
+                stmt.run = (...args) => {
+                    const res = origRun(...args);
+                    enqueue(sql, args);
+                    return res;
                 };
             }
-            return origPrepare(sql);
+            return stmt;
         };
-        let txDepth = 0;
-        Object.defineProperty(db, 'isTransaction', {
-            get: () => txDepth > 0 || Boolean(db.inTransaction),
-            configurable: true
-        });
+        const origExec = db.exec.bind(db);
         db.exec = (sql) => {
+            const beforeTx = db.isTransaction;
+            const res = origExec(sql);
+            const afterTx = db.isTransaction;
             if (typeof sql === 'string') {
-                const trimmed = sql.trim().replace(/;+$/, '');
-                if (/^BEGIN(\s+IMMEDIATE|\s+DEFERRED|\s+EXCLUSIVE)?$/i.test(trimmed) || /^SAVEPOINT\s+/i.test(trimmed)) {
-                    if (txDepth === 0)
-                        origExec('BEGIN IMMEDIATE');
-                    txDepth++;
-                    return;
+                if (beforeTx && !afterTx) {
+                    if (/ROLLBACK/i.test(sql) && !/ROLLBACK\s+TO/i.test(sql)) {
+                        txBuffer = null;
+                    }
+                    else if (txBuffer?.length) {
+                        pendingWrites.push(...txBuffer);
+                        txBuffer = null;
+                    }
                 }
-                if (/^(COMMIT|END(\s+TRANSACTION)?|RELEASE(\s+SAVEPOINT)?\s+.+)$/i.test(trimmed)) {
-                    if (txDepth > 0)
-                        txDepth--;
-                    if (txDepth === 0)
-                        return origExec('COMMIT');
-                    return;
-                }
-                if (/^ROLLBACK(\s+TRANSACTION)?(\s+TO(\s+SAVEPOINT)?\s+.+)?$/i.test(trimmed)) {
-                    if (txDepth > 0)
-                        txDepth--;
-                    if (txDepth === 0)
-                        return origExec('ROLLBACK');
-                    return;
-                }
-                if (/PRAGMA\s+user_version\s*=/i.test(sql)) {
-                    sql = sql.replace(/PRAGMA\s+user_version\s*=\s*(\d+)\s*;/gi, 'INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, $1);');
+                else if (isMutatingSql(sql) && !/PRAGMA\s+user_version/i.test(sql)) {
+                    enqueue(sql, []);
                 }
             }
-            return origExec(sql);
+            wasInTx = afterTx;
+            return res;
         };
     }
     if (version > databaseSchemaVersion) {

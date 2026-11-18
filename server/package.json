@@ -14,6 +14,7 @@
     "assets:index": "npm run build && node ../tools/admin/build_catalog.mjs"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
     "fastify": "^5.0.0",
     "libsql": "^0.5.29"
   },
