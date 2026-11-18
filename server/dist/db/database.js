@@ -28,9 +28,33 @@ export function openDatabase(path) {
             db.prepare('INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, ?)').run(version);
         }
         const origExec = db.exec.bind(db);
+        let txDepth = 0;
         db.exec = (sql) => {
-            if (typeof sql === 'string' && /PRAGMA\s+user_version\s*=/i.test(sql)) {
-                sql = sql.replace(/PRAGMA\s+user_version\s*=\s*(\d+)\s*;/gi, 'INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, $1);');
+            if (typeof sql === 'string') {
+                const trimmed = sql.trim().replace(/;+$/, '');
+                if (/^BEGIN(\s+IMMEDIATE|\s+DEFERRED|\s+EXCLUSIVE)?$/i.test(trimmed) || /^SAVEPOINT\s+/i.test(trimmed)) {
+                    if (txDepth === 0)
+                        origExec('BEGIN IMMEDIATE');
+                    txDepth++;
+                    return;
+                }
+                if (/^(COMMIT|END(\s+TRANSACTION)?|RELEASE(\s+SAVEPOINT)?\s+.+)$/i.test(trimmed)) {
+                    if (txDepth > 0)
+                        txDepth--;
+                    if (txDepth === 0)
+                        return origExec('COMMIT');
+                    return;
+                }
+                if (/^ROLLBACK(\s+TRANSACTION)?(\s+TO(\s+SAVEPOINT)?\s+.+)?$/i.test(trimmed)) {
+                    if (txDepth > 0)
+                        txDepth--;
+                    if (txDepth === 0)
+                        return origExec('ROLLBACK');
+                    return;
+                }
+                if (/PRAGMA\s+user_version\s*=/i.test(sql)) {
+                    sql = sql.replace(/PRAGMA\s+user_version\s*=\s*(\d+)\s*;/gi, 'INSERT OR REPLACE INTO _schema_meta(id, version) VALUES(1, $1);');
+                }
             }
             return origExec(sql);
         };
